@@ -1,0 +1,21 @@
+/** Import Bootstrap functions */
+@import "bootstrap/scss/functions";
+
+/** Import theme variables */
+@import "common/variables";
+
+/** Import Bootstrap */
+@import "bootstrap/scss/bootstrap";
+// @import "bootstrap";
+
+/** Import theme styles */
+// common
+@import "common";
+// blocks
+@import "blocks";
+// bootstrap 5 component overrides
+// https://getbootstrap.com/docs/5.0/customize/components/
+@import "components";
+// page components
+@import "layouts";
+@import "svg-font.scss";

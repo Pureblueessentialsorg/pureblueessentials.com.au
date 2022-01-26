@@ -1,0 +1,4 @@
+label: Draft
+name: draft
+widget: boolean
+required: false

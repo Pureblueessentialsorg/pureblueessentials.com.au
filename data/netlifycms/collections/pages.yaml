@@ -1,0 +1,35 @@
+name: "pages"
+label: "Pages"
+create: false
+files:
+- label: "Home"
+  name: "home"
+  file: "content/_index.md"
+  fields:
+    - import field title 
+    - import field imageMulti 
+    - import field body
+- label: "About"
+  name: "about"
+  file: "content/about/index.md"
+  fields:
+    - import field title 
+    - import field draft
+    - import field imageMulti 
+    - import field body
+- label: "Resources"
+  name: "resources"
+  file: "content/resources/index.md"
+  fields:
+    - import field title 
+    - import field draft
+    - import field imageMulti 
+    - import field body
+- label: "Contact Us"
+  name: "contact"
+  file: "content/about/contact.md"
+  fields:
+    - import field title 
+    - import field draft
+    - import field imageMulti 
+    - import field body

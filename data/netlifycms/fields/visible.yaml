@@ -1,0 +1,4 @@
+label: "Visible"
+name: "visible"
+widget: hidden
+default: true

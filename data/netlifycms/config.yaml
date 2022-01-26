@@ -1,0 +1,15 @@
+backend:
+  name: git-gateway
+  # branch: master
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+# site_url: https://majesticskinclinic.netlify.app/
+# logo_url: https://majesticskinclinic.netlify.app/logo/wide-small.png
+
+collections:
+- import collection pages
+- import collection products
+#   extend:
+#     name: updates
+#     label: News Updates
+#     folder: content/updates

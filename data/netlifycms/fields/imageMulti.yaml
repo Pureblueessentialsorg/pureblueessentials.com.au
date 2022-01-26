@@ -1,0 +1,6 @@
+label: "Images"
+name: "images"
+widget: "image"
+media_folder: ""
+required: false
+allow_multiple: true

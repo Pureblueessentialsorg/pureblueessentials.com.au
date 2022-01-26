@@ -1,0 +1,45 @@
+name: "products"
+label: "Products"
+label_singular: "Product"
+folder: "content/shop"
+filter: {field: "visible", value: true}
+delete: false
+path: "{{slug}}/index.md"
+media_folder: ''
+public_folder: ''
+create: true
+fields:
+- import field visible
+- import field title 
+- import field draft
+- label: Price
+  name: price
+  widget: number
+  value_type: float
+  hint: Don't use a dollar sign
+- label: PLU
+  name: id
+  widget: string
+  required: true
+  hint: No spaces and must be unique to each product (no duplicates)
+- label: Weight
+  name: weight
+  widget: number
+  value_type: int
+  hint: Input weight in grams
+# height, width, depth??? for australia post
+- import field imageMulti
+- import field body 
+
+  # - {
+  #     label: "Tags",
+  #     name: "tags",
+  #     widget: "list",
+  #     field:
+  #       {
+  #         label: "Tag",
+  #         widget: "string",
+  #       },
+  #   }
+
+
