@@ -1,4 +1,5 @@
 label: Draft
 name: draft
 widget: boolean
-required: false
+required: true
+default: false

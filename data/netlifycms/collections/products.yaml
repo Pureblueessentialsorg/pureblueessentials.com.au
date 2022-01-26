@@ -11,24 +11,45 @@ create: true
 fields:
 - import field visible
 - import field title 
-- import field draft
-- label: Price
-  name: price
-  widget: number
-  value_type: float
-  hint: Don't use a dollar sign
-- label: PLU
+- label: ID
   name: id
   widget: string
   required: true
   hint: No spaces and must be unique to each product (no duplicates)
+- import field summary
+- import field draft
+- import field imageMulti
+- label: Price
+  required: true
+  name: price
+  widget: number
+  value_type: float
+  hint: Don't use a dollar sign
+- label: Brand
+  required: true
+  name: Brand
+  widget: string
+  default: Pure Blue Essentials
 - label: Weight
   name: weight
   widget: number
   value_type: int
   hint: Input weight in grams
-# height, width, depth??? for australia post
-- import field imageMulti
+- label: Length
+  name: length
+  widget: number
+  value_type: int
+  hint: Input length in whole cm
+- label: Height
+  name: height
+  widget: number
+  value_type: int
+  hint: Input height in whole cm
+- label: Width
+  name: width
+  widget: number
+  value_type: int
+  hint: Input width in whole cm
 - import field body 
 
   # - {
