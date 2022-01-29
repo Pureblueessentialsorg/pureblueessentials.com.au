@@ -78,10 +78,10 @@ contact:
   # first record is for schema
   - name: Address
     streetAddress: 
-    - 48 Pirrama Rd
-    addressLocality: Pyrmont
+    - New Buildings Road
+    addressLocality: Wyndham
     addressRegion: NSW
-    postalCode: 2009
+    postalCode: 2550
     addressCountry: Australia
     # hasMap
     url: https://goo.gl/maps/2bHxJ3bfhtHtnx2b9

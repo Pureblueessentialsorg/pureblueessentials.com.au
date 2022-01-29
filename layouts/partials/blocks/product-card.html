@@ -1,0 +1,14 @@
+<div class="card">
+  {{ with .Params.images }}
+  <a href="{{ $.Permalink }}">
+    {{ $img := $.Resources.GetMatch (index . 0) }}
+    {{ partial "image" (dict "src" $img "page" $ "title" $.Title "class" "card-img-top")}}
+  </a>
+  {{ end }}
+  <div class="card-body text-center">
+    <a href="{{ .Permalink }}">
+      <h5 class="card-title">{{ .Title  }}</h5>
+    </a>
+    <p class="card-text">{{ .Summary }}</p>
+  </div>
+</div>

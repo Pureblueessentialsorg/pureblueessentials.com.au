@@ -28,7 +28,39 @@ files:
     - import field body
 - label: "Contact Us"
   name: "contact"
-  file: "content/about/contact.md"
+  file: "content/about/index.md"
+  fields:
+    - import field title 
+    - import field draft
+    - import field images
+    - import field body
+- label: "Specials"
+  name: "Specials"
+  file: "content/specials/index.md"
+  fields:
+    - import field title 
+    - import field draft
+    - import field images
+    - import field body
+- label: "Payments"
+  name: "payments"
+  file: "content/payments/index.md"
+  fields:
+    - import field title 
+    - import field draft
+    - import field images
+    - import field body
+- label: "Shipping"
+  name: "shipping"
+  file: "content/shipping/index.md"
+  fields:
+    - import field title 
+    - import field draft
+    - import field images
+    - import field body
+- label: "Acknowledgement of Country"
+  name: "country"
+  file: "content/country/index.md"
   fields:
     - import field title 
     - import field draft
