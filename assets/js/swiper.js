@@ -7,6 +7,7 @@ var swiperShopThumbs = new Swiper('#js-swiperShopThumbs', {
   watchSlidesProgress: true,
 });
 
+/*eslint no-unused-vars: ["error", { "varsIgnorePattern": "swiperShop" }]*/
 var swiperShop = new Swiper('#js-swiperShop', {
   // configure Swiper to use modules
   modules: [Navigation, Pagination, Thumbs],
