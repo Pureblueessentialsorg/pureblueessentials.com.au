@@ -1,6 +1,0 @@
-label: "Images"
-name: "images"
-widget: "image"
-media_folder: ""
-required: true
-allow_multiple: false

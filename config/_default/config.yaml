@@ -4,7 +4,7 @@ baseurl: "https://pureblueessentials.netlify.app"
 canonifyURLs: false
 disableAliases: true
 # disableHugoGeneratorInject: true
-disableKinds: ["taxonomy", "taxonomyTerm"]
+# disableKinds: ["taxonomy", "taxonomyTerm"]
 enableEmoji: true
 enableGitInfo: false
 enableRobotsTXT: true

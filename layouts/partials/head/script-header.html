@@ -1,9 +1,7 @@
-{{/* partial "esbuild" (dict "src" "js/bootstrap.js") */ -}}
-{{ partial "esbuild" (dict "src" "js/assets.js") -}}
-{{ partial "esbuild" (dict "src" "js/vendor.js" "transpile" "differential") -}}
-<script>
-  alert('working!');
-</script>
+{{ partial "build" (dict "src" "js/bootstrap.js") -}}
+{{ partial "build" (dict "src" "js/swiper.js") -}}
+{{ partial "build" (dict "src" "js/assets.js") -}}
+{{ partial "build" (dict "src" "js/vendor.js") -}}
 {{/* partial "image/lazysizes" . */ -}}
 {{- /* EXAMPLE - only load script for production
 {{ if eq (hugo.Environment) "production" -}}
@@ -16,3 +14,5 @@
 {{ end }}
 */ -}}
 {{ partialCached "snipcart/js" . }}
+
+{{ partial "image/js"}}

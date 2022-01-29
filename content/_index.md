@@ -9,5 +9,8 @@ menu:
   main:
     name: Home
     weight: 10
+  footer:
+    name: Home
+    weight: 10
 images: []
 ---

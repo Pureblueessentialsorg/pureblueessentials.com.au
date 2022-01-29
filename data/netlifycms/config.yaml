@@ -14,5 +14,11 @@ collections:
 #     label: News Updates
 #     folder: content/updates
 
-
-# snipcart side/full and key
+# params
+# titleAddition
+# default page description:
+# description
+# snipcart side only (not full screen:
+# snipcart.side 
+# snipcart public key:
+# snipcart.key

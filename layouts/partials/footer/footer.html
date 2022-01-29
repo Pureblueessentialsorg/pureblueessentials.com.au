@@ -1,4 +1,50 @@
-<div class="container-fluid bg-dark py-2">
+<div class="container-fluid bg-dark py-2 mt-3">
+  <div class="row">
+    <div class="col-lg-3 col-sm-6 footer-links">
+      <ul class="list-unstyled">
+        {{ range .Site.Menus.footer }}
+        <li class="pb-2">{{ partial "svg-font" (dict "src" "icons/box/bx-chevron-right" )}} <a href="{{ .URL }}"
+            class="text-decoration-none">{{ .Name }}</a></li>
+        {{ end -}}
+      </ul>
+    </div>
+    <div class="col-lg-3 col-sm-6 footer-links">
+      <ul class="list-unstyled">
+        {{ range .Site.Menus.footer2 }}
+        <li class="pb-2">{{ partial "svg-font" (dict "src" "icons/box/bx-chevron-right" )}} <a href="{{ .URL }}"
+            class="text-decoration-none">{{ .Name }}</a></li>
+        {{ end -}}
+      </ul>
+    </div>
+    {{/*  <div class="col-lg-3 col-sm-6 footer-links">
+      <ul class="list-unstyled">
+        {{ range last 4 .Site.Menus.footer }}
+        <li class="pb-2">{{ partial "svg-font" (dict "src" "icons/box/bx-chevron-right" )}} <a href="{{ .URL }}"
+            class="text-decoration-none">{{ .Name }}</a></li>
+        {{ end -}}
+      </ul>
+    </div>  */}}
+    {{/*  <div class="col-sm-6">
+      {{ $footerMenu := .Site.Menu.footer }}
+      {{ $length := len $footerMenu }}
+      {{ $half := div $length 2 }}
+      <ul class="list-unstyled mb-0">
+        {{ range first $half $footerMenu -}}
+        <li class="pb-2">{{ partial "svg-font" (dict "src" "icons/box/bx-chevron-right" )}} <a
+            href="{{ .Permalink }}" class="text-decoration-none">{{ .Name }}</a></li>
+        {{ end -}}
+      </ul>
+    </div>
+    <div class="col-sm-6">
+      <ul class="list-unstyled">
+        {{ $lastHalf := math.Floor (div ($length | float) (2 | float))}}
+        {{ range last $lastHalf $footerMenu -}}
+        <li class="pb-2">{{ partial "svg-font" (dict "src" "icons/box/bx-chevron-right" )}} <a
+            href="{{ .Permalink }}" class="text-decoration-none">{{ .Name }}</a></li>
+        {{ end -}}
+      </ul>
+    </div>  */}}
+  </div>
   <div class="row">
     <div class="col d-flex">
       <span class="text-light mb-0">

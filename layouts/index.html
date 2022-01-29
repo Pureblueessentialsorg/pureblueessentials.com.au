@@ -2,9 +2,17 @@
 <div class="container-xxl">
   <div class="row justify-content-center">
     <div class="col-lg-7 pb-5 text-center">
-      <h1>{{ .Title }}</h1>
+      <div class="container-video">
+        <video autoplay loop muted>
+          {{ $video := resources.Get "videos/WaterCaustics.mp4" }}
+          <source src="{{ $video.RelPermalink }}" type="{{ $video.MediaType }}">
+        </video>
+        <div class="text-box">
+          <h1 class="h-text">{{ .Title }}</h1>
+        </div>
+      </div>
       {{ with .Params.lead }}
-      <p class="lead">{{ . | safeHTML }}</p>
+      <p class="lead fs-3">{{ . | safeHTML }}</p>
       {{ end }}
       <a class="btn btn-dark px-3" href="{{ "shop/" | absURL }}" role="button">Button 1</a>
       <a class="btn btn-outline-dark px-3" href="#" role="button">Button 2</a>

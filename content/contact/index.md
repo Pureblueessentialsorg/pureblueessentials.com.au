@@ -4,6 +4,8 @@ draft: false
 menu: 
   main:
     weight: 50
+  footer:
+    weight: 50
 type: contact
 form:
   title: Send us a Message
@@ -17,8 +19,7 @@ form:
     minlength: 2
     required: true
     invalidFeedback: Please enter name
-    readonly: true
-    value: John
+    value: Name
     # description: Your full name
   - id: contact-email
     col: col-md-6

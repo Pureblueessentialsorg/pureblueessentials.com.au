@@ -2,6 +2,15 @@
 <html lang="{{ .Lang }}" class="min-vh-100">
   <head>
     {{ partial "head/index" . }}
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{- block "head/resource-hints" . -}}{{- partial "head/resource-hints" .  -}}{{ end -}}
+    {{- block "head/stylesheet" . -}}{{- partial "head/stylesheet" . -}}{{ end -}}
+    {{- block "head/seo" . -}}{{- partial "head/seo" . -}}{{ end -}}
+    {{- block "head/favicons" . -}}{{- partial "head/favicons" . -}}{{ end -}}
+    {{- block "head/script-header" . -}}{{- partial "head/script-header" . -}}{{ end -}}
+    {{ block "head/json-ld" . }}{{ end }}
   </head>
   {{- partial "head/body-class" . -}}
   {{- $bodyClass := delimit (.Scratch.Get "class") " " -}}

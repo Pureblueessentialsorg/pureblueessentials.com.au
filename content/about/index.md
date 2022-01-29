@@ -1,7 +1,9 @@
 ---
-title: Resources
+title: About
 draft: false
 menu: 
   main:
-    weight: 40
+    weight: 30
+  footer:
+    weight: 30
 ---

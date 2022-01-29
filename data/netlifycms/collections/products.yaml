@@ -4,7 +4,7 @@ label_singular: "Product"
 folder: "content/shop"
 filter: {field: "visible", value: true}
 delete: false
-path: "{{slug}}/index.md"
+path: "{{id}}/index.md"
 media_folder: ''
 public_folder: ''
 create: true
@@ -18,7 +18,8 @@ fields:
   hint: No spaces and must be unique to each product (no duplicates)
 - import field summary
 - import field draft
-- import field imageMulti
+- import field images
+- import field categories
 - label: Price
   required: true
   name: price
@@ -30,6 +31,11 @@ fields:
   name: Brand
   widget: string
   default: Pure Blue Essentials
+- label: Contents
+  required: true
+  name: contents
+  widget: string
+  hint: you must specify the unit of measurement e.g. 30ml
 - label: Weight
   name: weight
   widget: number
@@ -51,16 +57,3 @@ fields:
   value_type: int
   hint: Input width in whole cm
 - import field body 
-
-  # - {
-  #     label: "Tags",
-  #     name: "tags",
-  #     widget: "list",
-  #     field:
-  #       {
-  #         label: "Tag",
-  #         widget: "string",
-  #       },
-  #   }
-
-

@@ -2,26 +2,18 @@
 // to reduce http requests of small files
 'use strict';
 
-
-
 // import es6 and es5 code here, and it will output as both es6 module and es5 iife
 
 
 
 // lazy sizes for image loading
-import 'lazysizes';
-
+// import 'lazysizes';
+// lazySizes.init();
 // Prefetch in-viewport links during idle time
 // import { listen } from 'quicklink/dist/quicklink.mjs';
 // listen();
 
-// bootstrap js - import the whole library
-import 'bootstrap';
 
-// example initialization from this import 
-// var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-//   target: '#navbar-example'
-// })
 
 
 // alternatively only import the modules that you need from the library

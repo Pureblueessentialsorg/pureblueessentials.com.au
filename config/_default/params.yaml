@@ -3,9 +3,9 @@
 ## Page Title
 titleSeparator: "-"
 # only used on home page
-titleAddition: "Modern Hugo Starter"
-# fall back description if a page does not have a description. Good to use for home page
-description: "Hyas is a Hugo starter helping you build modern websites that are secure, fast, and SEO-ready — by default."
+titleAddition: "hand made from pure ingredients found in nature."
+# fall back description if a page does not have a description.
+description: "Providing the essentials to optimise your health, hand made from pure ingredients found in nature."
 
 ## Open Graph
 images: ["hyas.png"]

@@ -1,0 +1,13 @@
+{{ with site.Taxonomies.categories }}
+<div class="border p-3">
+    <p class="h4">Categories</p>
+    <ul class="list-unstyled">
+      {{ range $key, $value := . }}
+      <li>
+        <a class="text-decoration-none"
+          href="{{ .Page.RelPermalink }}">{{ .Page.Title | humanize | title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+</div>
+{{ end }}

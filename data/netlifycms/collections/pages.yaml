@@ -8,7 +8,7 @@ files:
   fields:
     - import field title 
     - import field description
-    - import field imageMulti 
+    - import field images
     - import field body
 - label: "About"
   name: "about"
@@ -16,7 +16,7 @@ files:
   fields:
     - import field title 
     - import field draft
-    - import field imageMulti 
+    - import field images
     - import field body
 - label: "Resources"
   name: "resources"
@@ -24,7 +24,7 @@ files:
   fields:
     - import field title 
     - import field draft
-    - import field imageMulti 
+    - import field images
     - import field body
 - label: "Contact Us"
   name: "contact"
@@ -32,5 +32,5 @@ files:
   fields:
     - import field title 
     - import field draft
-    - import field imageMulti 
+    - import field images
     - import field body
