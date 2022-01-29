@@ -8,6 +8,12 @@ github.com/future-wd/hugo-image/v2 v2.0.0-alpha.5 h1:WWMoH7gUUw+C1udKlgrle6IqDYy
 github.com/future-wd/hugo-image/v2 v2.0.0-alpha.5/go.mod h1:pgmI8Lr5TeXkl418o42OQpbz+N2ibfSE227o4tmq7JY=
 github.com/future-wd/hugo-image/v2 v2.0.0-alpha.6 h1:ynxLfBsGgCbbErwaTPYwNwVRpMZplQoTGYqoWhA1Xws=
 github.com/future-wd/hugo-image/v2 v2.0.0-alpha.6/go.mod h1:pgmI8Lr5TeXkl418o42OQpbz+N2ibfSE227o4tmq7JY=
+github.com/future-wd/hugo-image/v2 v2.0.0-alpha.9 h1:GzGfClpRUzsxQ+1VtC2zGaKqW6lrcrtifuMhsXlMvCE=
+github.com/future-wd/hugo-image/v2 v2.0.0-alpha.9/go.mod h1:pgmI8Lr5TeXkl418o42OQpbz+N2ibfSE227o4tmq7JY=
+github.com/future-wd/hugo-snipcart/v3 v3.1.2 h1:Fw5HJERwgqG3LY3vRJCzKml1aUxJSD5ZkxCmv6NbVCI=
+github.com/future-wd/hugo-snipcart/v3 v3.1.2/go.mod h1:ZGcdXCpUHf7QUkEgKhwGonStqIaxzUZ13WQd5lDVtCw=
+github.com/future-wd/hugo-snipcart/v3 v3.3.0 h1:EWysXWsniJiRIcE6lHvZ3vMve9NPt7Fb55YGbCwVKdE=
+github.com/future-wd/hugo-snipcart/v3 v3.3.0/go.mod h1:ZGcdXCpUHf7QUkEgKhwGonStqIaxzUZ13WQd5lDVtCw=
 github.com/future-wd/hugo-snipcart/v3 v3.3.1 h1:sGdBfYperAd7uZYCpxnuigSzyhhER/iSzwGW/X4Cq68=
 github.com/future-wd/hugo-snipcart/v3 v3.3.1/go.mod h1:ZGcdXCpUHf7QUkEgKhwGonStqIaxzUZ13WQd5lDVtCw=
 github.com/future-wd/hugo-svg-font v0.9.1 h1:QNe/sgCthA5albq5xwvQAjkXZq7yTJs9RGIX78zK5/w=
