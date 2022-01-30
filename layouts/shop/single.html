@@ -1,41 +1,41 @@
+{{ define "title" }}&nbsp;{{ end }}
 {{ define "main" }}
-<div class="container-xxl">
-  <div class="row justify-content-center">
-    <div class="col-md-4">
-      <!-- Slider main container -->
-      <div id="js-swiperShop" class="swiper swiper-shop">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          {{ range .Params.images }}
-          <div class="swiper-slide d-flex">
-          {{/*  {{ partial "image" (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2))}}  */}}
-          {{ $img := $.Resources.GetMatch . }}
-          <img src="{{ $img.Permalink }}" alt="" class="img-fluid lazyload">  
-        </div>
-          {{ end }}
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-      <div swiperShopThumbs="" id="js-swiperShopThumbs" class="swiper swiper-shop-thumbs">
-        <div class="swiper-wrapper">
-          {{ range .Params.images }}
-          <div class="swiper-slide">
+  <div class="row">
+    <div class="col-md-5">
+      <div class="swiper-container">
+        <!-- Slider main container -->
+        <div id="js-swiperShop" class="swiper swiper-shop">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            {{ range .Params.images }}
+            <div class="swiper-slide d-flex">
             {{/*  {{ partial "image" (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2))}}  */}}
             {{ $img := $.Resources.GetMatch . }}
-            <img src="{{ $img.Permalink }}" alt="" class="img-fluid lazyloaded">  
+            <img src="{{ $img.Permalink }}" alt="" class="img-fluid lazyload">  
           </div>
-          {{ end }}
+            {{ end }}
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <!-- thumbnail swiper -->
+        <div swiperShopThumbs="" id="js-swiperShopThumbs" class="swiper swiper-shop-thumbs">
+          <div class="swiper-wrapper">
+            {{ range .Params.images }}
+            <div class="swiper-slide">
+              {{/*  {{ partial "image" (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2))}}  */}}
+              {{ $img := $.Resources.GetMatch . }}
+              <img src="{{ $img.Permalink }}" alt="" class="img-fluid lazyloaded">  
+            </div>
+            {{ end }}
+          </div>
         </div>
       </div>
-      
     </div>
-    <div class="col-md-5">
+    <div class="col-md-7">
       <h1 class="h3">{{ .Title }}</h1>
       <div>
         {{ with .Params.Price}}
@@ -129,18 +129,7 @@
       </div>
 
     </div>
-    <div class="col-md-3">
-      {{ partial "blocks/categories" . }}
-      {{ partial "blocks/related" . }}
-    </div>
   </div>
-  <div class="row">
-    <div class="col">
-      
-
-    </div>
-  </div>
-</div>
 {{ end }}
 
 {{ define "head/json-ld" }}

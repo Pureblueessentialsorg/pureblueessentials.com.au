@@ -1,6 +1,8 @@
+{{ if ne .Kind "taxonomy" }}
 {{ with site.Taxonomies.categories }}
+{{- /* displays categories, but not on categories page */ -}}
 <div class="border p-3">
-    <p class="h4">Categories</p>
+    <p class="h4">Shop Categories</p>
     <ul class="list-unstyled">
       {{ range . }}
       <li>
@@ -10,4 +12,5 @@
       {{ end }}
     </ul>
 </div>
+{{ end }}
 {{ end }}

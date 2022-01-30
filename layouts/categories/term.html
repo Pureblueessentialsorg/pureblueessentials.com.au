@@ -1,17 +1,12 @@
 {{ define "main" }}
-{{- /* shows a list of all the taxonomies in a term e.g. categories > cat1, cat2 */ -}}
-<div class="container-xxl">
-  <div class="row justify-content-center">
-    <div class="col-lg-7">
-      <h1>{{ .Title | title | humanize }}</h1>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        {{ range .Paginator.Pages }}
-        <div class="col">
-          {{ partial "blocks/product-card.html" . }}
-        </div>
-        {{ end }}
-      </div>
-    </div>
+{{- /* shows a list of all the taxonomies (products) in a term e.g. categories > product1, product2 */ -}}
+{{- /* .Kind is term */ -}}
+<div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
+  {{ range .Paginator.Pages }}
+  <div class="col">
+    {{ partial "blocks/product-card.html" . }}
+    
   </div>
+  {{ end }}
 </div>
 {{ end }}

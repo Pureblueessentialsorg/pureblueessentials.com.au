@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{- /* shows a list news items */ -}}
+<div class="row g-4">
+  {{ range .Paginator.Pages }}
+  <div class="col">
+    {{ partial "blocks/news-card.html" . }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

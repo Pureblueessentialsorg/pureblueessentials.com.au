@@ -16,12 +16,43 @@
   {{- $bodyClass := delimit (.Scratch.Get "class") " " -}}
   <body class="{{ $bodyClass }} d-flex flex-column min-vh-100">
     <header>
-    {{ partial "header/index" . }}
+      {{ partial "header/index" . }}
     </header>
-    <main class="mb-auto mt-5 pt-3">
-      {{ block "main" . }}{{ end }}
-    </main>
-    {{ block "sidebar-footer" . }}{{ end }}
+    <div class="container">
+      {{ if not .IsHome }}
+      <div class="row">
+        <div class="col">
+          {{ block "title" . }}<h1 class="h2">{{ .Title | humanize | title }}</h1>{{ end }}
+        </div>
+      </div>
+      <div class="row">
+        {{ if or (eq .Section "shop") (eq .Section "categories") }}
+        {{- /* displays for shop or categories pages */ -}}
+        <div class="col-md-9">
+          <main class="mb-auto">
+            {{ block "main" . }}{{ end }}
+          </main>
+        </div>
+        <div class="col-md-3">
+          <aside>
+            {{ block "sidebar" . }}{{ partial "sidebar/index" . }}{{ end }}
+          </aside>
+        </div>
+        {{ else }}
+        {{- /* displays for generic pages except home */ -}}
+        <div class="col">
+          <main class="mb-auto">
+            {{ block "main" . }}{{ end }}
+          </main>
+        </div>
+        {{ end }}
+        {{ else }}
+        {{- /* home display */ -}}
+          {{ block "main" . }}{{ end }}
+        {{ end }}
+      </div>
+    </div>
+  
     <footer>
       {{ partial "footer/footer" . }}
     </footer>

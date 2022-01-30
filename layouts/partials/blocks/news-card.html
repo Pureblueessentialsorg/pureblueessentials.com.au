@@ -1,0 +1,17 @@
+<div class="border p-3">
+  {{ with .Params.images }}
+  <!-- <a href="{{ $.Permalink }}">
+    {{ $img := $.Resources.GetMatch (index . 0) }}
+    {{ partial "image" (dict "src" $img "page" $ "title" $.Title "class" "card-img-top")}}
+  </a> -->
+  {{ end }}
+  <div class="">
+    <a href="{{ .Permalink }}">
+      <h2 class="card-title h5">{{ .Title  }}</h5>
+    </a>
+    <div>
+      {{ time.Format "Monday, Jan 2, 2006" .Lastmod}}
+    </div>
+    <p class="">{{ .Content }}</p>
+  </div>
+</div>

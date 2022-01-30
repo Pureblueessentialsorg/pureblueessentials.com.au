@@ -8,6 +8,7 @@ public_folder: "/images/uploads"
 
 collections:
 - import collection pages
+- import collection news
 - import collection products
 #   extend:
 #     name: updates

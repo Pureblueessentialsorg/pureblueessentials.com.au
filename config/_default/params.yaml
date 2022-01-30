@@ -101,19 +101,12 @@ contact:
     icon: icons/bootstrap/clock
     hours:
     - dayOfWeek: Monday
-      opens: 
-        data: "09:00:00"
-        text: 9:00 AM
-      closes: 
-        data: "17:00:00"
-        text: 5:00 PM
+      open: 2016-05-28T9:00:00Z
+      close: 2016-05-28T17:00:00Z
     - dayOfWeek: Tuesday
-      opens: 
-        data: "09:00:00"
-        text: 9:00 AM
-      closes: 
-        data: "17:00:00"
-        text: 5:00 PM
+      open: 2016-05-28T9:00:00Z
+      close: 2016-05-28T17:00:00Z
+ 
     - dayOfWeek: Saturday
       custom: By Appointment
     - dayOfWeek: Sunday

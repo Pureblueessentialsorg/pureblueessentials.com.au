@@ -1,0 +1,6 @@
+label: Popular product?
+hint: Turn on to list product in popular products widget
+name: popular
+widget: boolean
+required: true
+default: false

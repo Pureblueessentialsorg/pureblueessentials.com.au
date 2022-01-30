@@ -1,26 +1,30 @@
 {{ define "main" }}
-<div class="container-xxl">
-  <div class="row justify-content-center">
-    <div class="col-lg-7">
-      <h1>{{ .Title }}</h1>
-      {{ $paginator := .Paginate (.Data.Pages) -}}
-      {{ range $paginator.Pages -}}
-      <div class="row my-2">
-        <div class="col-md-4">
-          {{ $img := .Resources.GetMatch (index .Params.images 0) }}
-          <img src="{{ $img.Permalink }}" alt="" class="img-fluid lazyloaded">  
-        </div>
-        <div class="col-md-8">
-          <h2 class="h4"><a href="{{ .Permalink }}" class="text-decoration-none">{{ .Title }}</a></h2>
-        {{ .Summary }}
-        </div>
-      </div>
-        
-  
-      {{ end -}}
-      {{ template "_internal/pagination.html" . -}}
-    </div>
+
+<!-- {{ $paginator := .Paginate (.Data.Pages) -}}
+{{ range $paginator.Pages -}}
+
+<div class="row my-2">
+  <div class="col-md-4">
+    {{ $img := .Resources.GetMatch (index .Params.images 0) }}
+    <img src="{{ $img.Permalink }}" alt="" class="img-fluid lazyloaded">  
   </div>
+  <div class="col-md-8">
+    <h2 class="h4"><a href="{{ .Permalink }}" class="text-decoration-none">{{ .Title }}</a></h2>
+  {{ .Summary }}
+  </div>
+</div>
+{{ end -}}
+{{ template "_internal/pagination.html" . -}} -->
+
+{{- /* shows a list of all the products since there isnt many in the store yet */ -}}
+<div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
+  {{ $paginator := .Paginate (.Data.Pages) -}}
+  {{ range $paginator.Pages -}}
+  <div class="col">
+    {{ partial "blocks/product-card.html" . }}
+  </div>
+  {{ end -}}
+  {{ template "_internal/pagination.html" . -}}
 </div>
 
 {{ end }}

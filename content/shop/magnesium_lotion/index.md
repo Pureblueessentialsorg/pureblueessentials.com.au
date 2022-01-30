@@ -13,5 +13,6 @@ contents: 100ml
 brand: Pure Blue Essentials
 categories: ["magnesium"]
 images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
+popular: true
 ---
 Product full description

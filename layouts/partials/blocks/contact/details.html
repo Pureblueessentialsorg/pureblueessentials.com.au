@@ -8,7 +8,9 @@
         {{ if .custom }}
           {{ $text = printf "%s <tr><td>%s:  </td><td>%s</td></tr>" $text .dayOfWeek .custom | safeHTML }}
         {{ else }}
-          {{ $text = printf "%s <tr><td>%s:  </td><td>%s - %s</td></tr>" $text .dayOfWeek .opens.text .closes.text | safeHTML }}
+          {{ $open := (.open | time.Format ":time_short" ) }}
+          {{ $close := (.close | time.Format ":time_short" ) }}
+          {{ $text = printf "%s <tr><td>%s:  </td><td>%s - %s</td></tr>" $text .dayOfWeek $open $close | safeHTML }}
         {{ end }}
       {{ end }}
       {{ $text = print $text "</tbody></table>"}}

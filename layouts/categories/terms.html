@@ -1,31 +1,11 @@
 {{ define "main" }}
-{{- /* shows a list of all the terms e.g. categories */ -}}
-<div class="container-xxl">
-  <div class="row justify-content-center">
-    <div class="col-lg-7">
-      <h1>{{ .Title | title | humanize }}</h1>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        {{ range .Data.Pages.ByTitle }}
-        <div class="col">
-          <div class="card">
-            {{ $ctx := . }}
-            {{ $firstChild := index .Pages 0 }}
-            {{ with $firstChild.Params.images }}
-            {{ $img := $firstChild.Resources.GetMatch (index . 0) }}
-            {{ partial "image" (dict "src" $img "page" $firstChild "title" $ctx.Title "class" "card-img-top")}}
-            {{ end }}
-            <div class="card-body text-center">
-              <a href="{{ .Permalink }}">
-                <h5 class="card-title">{{ .Title | humanize | title }}</h5>
-              </a>
-              {{ $pageCount := len .Pages }}
-              <p class="card-text">{{ $pageCount }} post{{ if ne $pageCount 1 }}s{{ end }}</p>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
+{{- /* shows a list of all the categories e.g. cat1, cat2 */ -}}
+{{- /* .Kind is taxonomy */ -}}
+
+<div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
+  {{ range .Data.Pages.ByTitle }}
+  <div class="col">
+    {{ partial "blocks/category-card.html" . }}
   </div>
-</div>
+  {{ end }} 
 {{ end }}

@@ -54,6 +54,7 @@ taxonomies:
 
 permalinks:
   blog: "/:title/"
+  categories: "/shop/:section/:title"
 
 # remove white space from minified HTML
 minify:

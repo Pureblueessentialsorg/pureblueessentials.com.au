@@ -3,11 +3,11 @@ label: "Products"
 label_singular: "Product"
 folder: "content/shop"
 filter: {field: "visible", value: true}
-delete: false
 path: "{{id}}/index.md"
 media_folder: ''
 public_folder: ''
 create: true
+delete: true
 fields:
 - import field visible
 - import field title 
@@ -18,6 +18,7 @@ fields:
   hint: No spaces and must be unique to each product (no duplicates)
 - import field summary
 - import field draft
+- import field popular
 - import field images
 - import field categories
 - label: Price

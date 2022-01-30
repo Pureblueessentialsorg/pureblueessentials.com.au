@@ -1,0 +1,23 @@
+name: "news"
+label: "News"
+# label_singular: "Product"
+folder: "content/news"
+filter: {field: "visible", value: true}
+delete: false
+path: "{{date}}/index.md"
+media_folder: ''
+public_folder: ''
+create: true
+fields:
+- import field visible
+- import field title 
+# CHECK THIS  
+- label: Date
+  name: date
+  widget: date
+  required: true
+  hidden: true
+- import field summary
+- import field draft
+- import field images
+- import field body 
