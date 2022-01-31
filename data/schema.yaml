@@ -1,0 +1,110 @@
+# https://schema.org/Organization
+## JSON-LD
+
+type: "HealthAndBeautyBusiness"
+images: ["image.png"]
+logo: "logo.png"
+social:
+  twitter:
+    # account is for twitter cards, include @
+    account: "@handle"
+    url: http://www.twitter.com/user
+    icon: icons/bootstrap/twitter
+  facebook:
+    url: http://www.facebook.com/user
+    icon: icons/bootstrap/facebook
+  google: 
+    url: google.com
+    icon: icons/bootstrap/google
+# https://schema.org/PostalAddress
+postalAddress:
+# first record is for schema
+  name: Address
+  streetAddress: 
+  - New Buildings Road
+  addressLocality: Wyndham
+  addressRegion: NSW
+  postalCode: 2550
+  addressCountry: Australia
+  icon: icons/bootstrap/geo-alt
+  disable: false
+  weight: 30
+geo:
+  latitude: 36.923940
+  longitude: 149.585617
+  gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3189.595278902036!2d149.5834283147259!3d-36.923939979923254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b3c11a40a5be799%3A0x290d3431484ee460!2sNew%20Buildings%20Rd%2C%20New%20South%20Wales%202550%2C%20Australia!5e0!3m2!1sen!2spa!4v1643603547085!5m2!1sen!2spa"
+
+# postal address is just for contact details display
+# servicePostalAddress:
+#   postOfficeBoxNumber:
+#   addressLocality: Pyrmont
+#   addressRegion: NSW
+#   postalCode: 2009
+#   addressCountry: Australia
+telephone:
+  # first record appears in schema data
+  - name: Phone
+    text: (02) 8004 3293
+    url: "+61280043293"
+    icon: icons/bootstrap/phone
+    desc: Land line phone number
+    disable: false
+    weight: 10
+  # mobile
+  # - text:
+  #   url:
+  #   icon: icons/bootstrap/telephone
+  #   disable: false
+email: 
+  name: Email
+  text: test@domain.com
+  url: "test@domain.com"
+  icon: icons/bootstrap/envelope
+  disable: false
+  desc: Email Address
+  weight: 20
+
+## 1/2/3 $ for price range
+priceRange: "$$"
+
+openingHoursSpecification:
+  name: Opening Hours
+  icon: icons/bootstrap/clock
+  weight: 40
+  days:
+  - dayOfWeek: Monday
+    # a time stamp string has to be used, the date is ignored
+    # setting custom will override open & close time. Custom is not inserted into JSON-LD
+    opens: 2016-05-28T9:00:00Z
+    closes: 2016-05-28T17:00:00Z
+  - dayOfWeek: Tuesday
+    opens: 2016-05-28T9:00:00Z
+    closes: 2016-05-28T17:00:00Z
+  - dayOfWeek: Wednesday
+    opens: 2016-05-28T9:00:00Z
+    closes: 2016-05-28T17:00:00Z
+  - dayOfWeek: Thursday
+    opens: 2016-05-28T9:00:00Z
+    closes: 2016-05-28T17:00:00Z
+  - dayOfWeek: Friday
+    opens: 2016-05-28T9:00:00Z
+    closes: 2016-05-28T17:00:00Z
+  - dayOfWeek: Saturday
+    custom: By Appointment
+  - dayOfWeek: Sunday
+    custom: Closed
+
+
+# only for contact details display
+extraItem:
+- name: Help Desk
+  text: Help Desk
+  url: helpdesk.com
+  icon: 
+  disable: true
+
+
+# founder:
+# foundingDate:
+# foundingLocation:
+# logo

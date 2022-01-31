@@ -11,6 +11,11 @@ form:
   title: Send us a Message
   id: js-contactForm
   inputs:
+  - id:   account
+    name: account
+    hidden: true
+    type: hidden
+    value: pbe
   - id: contact-name
     col: col-md-6
     name: name
@@ -19,7 +24,6 @@ form:
     minlength: 2
     required: true
     invalidFeedback: Please enter name
-    value: Name
     # description: Your full name
   - id: contact-email
     col: col-md-6

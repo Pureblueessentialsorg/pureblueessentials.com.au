@@ -1,7 +1,6 @@
-{{ partial "build" (dict "src" "js/bootstrap.js") -}}
-{{ partial "build" (dict "src" "js/swiper.js") -}}
-{{ partial "build" (dict "src" "js/assets.js") -}}
-{{ partial "build" (dict "src" "js/vendor.js") -}}
+{{ partial "esbuild" (dict "src" "js/vendor-differential.js" "output" "diff") -}}
+{{ partial "esbuild" (dict "src" "js/assets-diff.js" "output" "diff") -}}
+
 {{/* partial "image/lazysizes" . */ -}}
 {{- /* EXAMPLE - only load script for production
 {{ if eq (hugo.Environment) "production" -}}
@@ -12,7 +11,11 @@
 {{ if eq .Type "gallery" }}
   {{ partial "esbuild" (dict "src" "js/gallery.js" "transpile" true) -}}
 {{ end }}
+
 */ -}}
-{{ partialCached "snipcart/js" . }}
+{{ if eq .Type "contact" }}
+  {{ partial "esbuild" (dict "src" "js/contact.js" "output" "diff") -}}
+{{ end }}
+
 
 {{ partial "image/js"}}

@@ -1,22 +1,16 @@
 <div class="contact-details m-3">
-{{ range $key, $value := .Site.Params.contact }}
-  {{ range $value }}
-    {{ $text := .text }}
-    {{ if eq $key "openinghours" }}
-      {{ $text = "<table><tbody>" }}
-      {{ range .hours }}
-        {{ if .custom }}
-          {{ $text = printf "%s <tr><td>%s:  </td><td>%s</td></tr>" $text .dayOfWeek .custom | safeHTML }}
-        {{ else }}
-          {{ $open := (.open | time.Format ":time_short" ) }}
-          {{ $close := (.close | time.Format ":time_short" ) }}
-          {{ $text = printf "%s <tr><td>%s:  </td><td>%s - %s</td></tr>" $text .dayOfWeek $open $close | safeHTML }}
-        {{ end }}
-      {{ end }}
-      {{ $text = print $text "</tbody></table>"}}
+{{ $data := dict }}
+{{ range $key, $value := .Site.Data.schema }}
+  {{- /* keys with arrays */ -}}
+  {{ if or (eq $key "telephone") (eq $key "extraItem") }}
+    {{ range $value }}
+      {{ $dict := (dict "name" .name "text" .text "url" .url "icon" .icon "desc" .desc "disable" .disable "weight" .weight )}}
+      {{ $data = merge $data (dict $key $dict) }}
     {{ end }}
-    {{ if eq $key "address" }}
-      {{ $text = "" }}
+  {{- /* keys without  arrays */ -}}
+  {{ else if or (eq $key "email") (or (eq $key "postalAddress") (eq $key "openingHoursSpecification")) }}
+    {{ $text := "" }}
+    {{ if eq $key "postalAddress"}}
       {{ range .streetAddress }}
         {{ $text = print $text . "<br>"}} 
       {{ end }}
@@ -29,23 +23,42 @@
       {{ with .postalCode }}
         {{ $text = print $text . }}
       {{ end }}
+    {{ else if eq $key "openingHoursSpecification" }}
+      {{ $text = "<table><tbody>" }}
+      {{ range .days }}
+        {{ if .custom }}
+          {{ $text = printf "%s <tr><td>%s:  </td><td>%s</td></tr>" $text .dayOfWeek .custom | safeHTML }}
+        {{ else if and .opens .closes }}
+          {{ $opens := (.opens | time.Format ":time_short" ) }}
+          {{ $closes := (.closes | time.Format ":time_short" ) }}
+          {{ $text = printf "%s <tr><td>%s:  </td><td>%s - %s</td></tr>" $text .dayOfWeek $opens $closes | safeHTML }}
+        {{ end }}
+      {{ end }}
+    {{ $text = print $text "</tbody></table>"}}
+    {{ else }}
+    {{ $text = .text }}
     {{ end }}
-    {{ if not .disable }}
-      <div class="d-flex flex-row align-middle">
-        <div class="d-flex align-items-center">
-          <div class="fs-4 text-primary me-2 my-2">
-          {{ partial "svg-font" (dict "src" .icon "block" true "title" .name "desc" .desc) }} 
-          </div>
-        </div>
-        <div class=" d-flex align-items-center">
-          {{ $ctx := . }}
-          {{- with .url -}}
-          <a class="text-break text-decoration-none" href="{{- . | safeURL -}}" 
-          {{- if ne $key "telephone" -}} target="_blank" rel="noopener"{{- end -}}>{{- end -}}
-          {{- $text | markdownify -}}{{- if .url -}}</a>{{- end -}}
-        </div>
-      </div>
-    {{ end }}
+    {{ $dict := (dict "name" .name "text" $text "url" .url "icon" .icon "desc" .desc "disable" .disable "weight" .weight )}}
+    {{ $data = merge $data (dict $key $dict) }}
   {{ end }}
+{{ end }}
+
+{{ range $key, $value := sort $data "weight" "asc" }}
+{{ if not .disable }}
+<div class="d-flex flex-row align-middle pb-2">
+  <div class="d-flex align-items-center">
+    <div class="fs-4 text-primary me-2 my-2">
+    {{ partial "svg-font" (dict "src" .icon "block" true "title" .name "desc" .desc) }} 
+    </div>
+  </div>
+  <div class=" d-flex align-items-center">
+    {{ $ctx := . }}
+    {{- with .url -}}
+    <a class="text-break text-decoration-none" href="{{- . | safeURL -}}" 
+    {{- if ne $ctx "telephone" -}} target="_blank" rel="noopener"{{- end -}}>{{- end -}}
+    {{- .text | markdownify -}}{{- if .url -}}</a>{{- end -}}
+  </div>
+</div>
+{{ end }}
 {{ end }}
 </div>
