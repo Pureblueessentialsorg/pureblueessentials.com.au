@@ -1,59 +1,63 @@
 {{- /* https://developers.google.com/search/docs/advanced/structured-data/local-business */ -}}
-{{ with .Site.Data.schema }}
+{{- with .Site.Data.schema -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "{{ .type }}",
+  {{ with .images -}}
   "image": [
-    {{ range $i, $e := .images }}
-      {{ if ne $i 0}}, {{ end }}
-      "{{ . | absURL }}"
-    {{ end }}
+    {{- range $i, $e := . -}}
+      {{- if ne $i 0 -}}, {{ end }}
+      {{ . | absURL }}
+    {{- end }}
     ],
-  "url": "{{ site.BaseURL }}",
-  "logo": "{{ .logo | absURL }}",
+  {{ end -}}
+  "url": {{ site.BaseURL }},
+  "logo": {{ .logo | absURL }},
   "name": "{{ site.Title }}",
-  {{ with .social }}
+  {{- $social := .social -}}
+  {{- $socialCount := 0 -}}
+  {{ with $social -}}
   "sameAs" : [
-    {{ range $i, $e := . }}
-      {{ if ne $i 0 }}, {{ end }}
-      "{{ .url }}",
-    {{ end }}
+    {{- range . -}}
+    {{- if ne $socialCount 0 -}}, {{ end }}
+    {{ .url }}
+    {{- $socialCount = add $socialCount 1 -}}
+    {{- end -}}
   ]
-  {{ end }}
+  {{ end -}}
   "address": {
-    {{ with .postalAddress }}
+    {{ with .postalAddress -}}
     "@type": "PostalAddress",
     "streetAddress": "{{ delimit .streetAddress ", " }}",
     "addressLocality": "{{ .addressLocality }}",
     "addressRegion": "{{ .addressRegion }}",
     "postalCode": "{{ .postalCode }}",
     "addressCountry": "{{ .addressCountry | default "Australia" }}"
-    {{ end }}
+    {{ end -}}
   },
-  {{ with .geo }}
+  {{ with .geo -}}
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": {{ .latitude }},
     "longitude": {{ .longitude }}
   },
-  {{ end }}
-  {{ with .telephone }}
-  {{ range first 1 .}}
+  {{ end -}}
+  {{- with .telephone -}}
+  {{ range first 1 . -}}
   "telephone": "{{ .url }}",
-  {{ end }}
-  {{ end }}
-  {{ with .email }}
+  {{- end -}}
+  {{ end -}}
+  {{ with .email -}}
   "email": "{{ .url }}",
-  {{ end }}
-  {{ with .priceRange }}
+  {{ end -}}
+  {{ with .priceRange -}}
   "priceRange": "{{ . }}",
-  {{ end }}
-  
-  {{ with .openingHoursSpecification.days }}
+  {{ end -}}
+  {{ with .openingHoursSpecification.days -}}
   "openingHoursSpecification": [
-    {{ range . }}
-    {{ if and (not .custom) (and .opens .closes) }}
+    {{ range . -}}
+    {{- if and (not .custom) (and .opens .closes) -}}
     {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": [
@@ -62,48 +66,49 @@
       "opens": "{{ time.Format "15:04" .opens }}",
       "closes": "{{ time.Format "15:04" .closes }}"
     },
-    {{ end }}
-    {{ end }}
+    {{- end -}}
+    {{ end -}}
   ],
-  {{ end }}
+  {{ end -}}
 } 
 </script>
-{{ end }}
-
-{{ $dot := . -}}
-{{ $dot.Scratch.Set "path" "" -}}
-{{ $dot.Scratch.Set "breadcrumb" slice -}}
-
-{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" -}}
-{{ $.Scratch.Add "path" .Site.BaseURL -}}
-
-{{ $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) -}}
-{{ range $index, $element := split $url "/" -}}
-  {{ $dot.Scratch.Add "path" $element -}}
-  {{ $.Scratch.Add "path" "/" -}}
-    {{ if ne $element "" -}}
-    {{ $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}}
-  {{ end -}}
 {{ end -}}
+{{- /* create breadcrumb scratch */ -}}
+{{- $dot := . -}}
+{{- $dot.Scratch.Set "path" "" -}}
+{{- $dot.Scratch.Set "breadcrumb" slice -}}
+{{- $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" -}}
+{{- $.Scratch.Add "path" .Site.BaseURL -}}
+{{- $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) -}}
+{{- range $index, $element := split $url "/" -}}
+  {{- $dot.Scratch.Add "path" $element -}}
+  {{- $.Scratch.Add "path" "/" -}}
+    {{- if ne $element "" -}}
+    {{- $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}}
+  {{- end -}}
+{{- end -}}
 {{- /* https://developers.google.com/search/docs/advanced/structured-data/breadcrumb#json-ld_1 */ -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {{ $list := $.Scratch.Get "breadcrumb" }}
-    {{ $len := (len $list) }}
-    {{ range $index, $element := $list }}
-    {{ if ne .position 1 }}, {{ end }}
+    {{ $list := $.Scratch.Get "breadcrumb" -}}
+    {{ $len := (len $list) -}}
+    {{ range $index, $element := $list -}}
+    {{ if ne .position 1 -}}, {{ end -}}
     {
     "@type": "ListItem",
     "position": {{ .position }},
-    "name": "{{ .name | humanize | title }}"
-    {{ if ne (add $index 1) $len -}}
-    , "item": {{ .url }},
-    {{ end }}
+    {{- if ne (add $index 1) $len }}
+    "name": "{{ .name | humanize | title }}",
+    "item": {{ .url }}
+    {{- else -}}
+    {{- /* last item (the page) */ -}}
+    "name": "{{ $.Title | humanize | title }}"
+    {{- end }}
   }
-    {{ end }}
+    {{- end -}}
   ]
 }
 </script>

@@ -10,7 +10,7 @@ enableGitInfo: false
 enableRobotsTXT: true
 # googleAnalytics: 
 languageCode: "en-AU"
-paginate: 7
+paginate: 6
 rssLimit: 10
 title: "Pure Blue Essentials"
 

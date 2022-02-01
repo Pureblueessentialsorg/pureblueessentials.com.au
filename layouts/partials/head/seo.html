@@ -11,38 +11,36 @@
 {{ end -}}
 
 {{ if .IsHome -}}
-  <title>{{ .Site.Title }} {{ .Site.Params.titleSeparator }} {{ .Site.Params.titleAddition }}</title>
+<title>{{ .Site.Title }} {{ .Site.Params.titleSeparator }} {{ .Site.Params.titleAddition }}</title>
 {{ else -}}
-  <title>{{ .Site.Title }}  {{ .Site.Params.titleSeparator }} {{ .Title }} </title>
+<title>{{ .Site.Title }}  {{ .Site.Params.titleSeparator }} {{ .Title }} </title>
 {{ end -}}
 
 {{ with .Description -}}
-  <meta name="description" content="{{ . }}">
+<meta name="description" content="{{ . }}">
 {{ else -}}
-  {{ with .Summary }}
-    <meta name="description" content="{{ . }}">
-  {{ else }}
-  <meta name="description" content="{{ .Site.Params.description }}">
-  {{ end }}
+<meta name="description" content="{{ .Summary }}">
 {{ end -}}
-{{ if $.Scratch.Get "paginator" }}
-  <link rel="canonical" href="{{ .Paginator.URL | absURL }}">
-  {{ if .Paginator.HasPrev -}}
-    <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}">
-  {{ end -}}
-  {{ if .Paginator.HasNext -}}
-    <link rel="next" href="{{ .Paginator.Next.URL | absURL }}">
-  {{ end -}}
+{{ if .IsNode }}
+{{- /* if pagination exists, display the current page as URL */ -}}
+<link rel="canonical" href="{{ .Paginator.URL | absURL }}">
+{{ if .Paginator.HasPrev -}}
+<link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}">
+{{ end -}}
+{{ if .Paginator.HasNext -}}
+<link rel="next" href="{{ .Paginator.Next.URL | absURL }}">
+{{ end -}}
 {{ else  -}}
-  <link rel="canonical" href="{{ .Permalink }}">
+{{- /* non paginator page */ -}}
+<link rel="canonical" href="{{ .Permalink }}">
 {{ end -}}
 {{ template "_internal/twitter_cards.html" . -}}
-{{ with .Site.Params.social.twitter.account -}}
+{{ with .Site.Data.social.twitter.account -}}
 <meta name="twitter:site" content="{{ . }}"/>
 {{ end -}}
 {{ template "_internal/opengraph.html" . -}}
 {{ range .AlternativeOutputFormats -}}
-  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
 {{ end -}}
 {{- with .Site.GoogleAnalytics -}}
 {{ template "_internal/google_analytics_async.html" . -}}

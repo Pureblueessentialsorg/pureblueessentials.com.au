@@ -3,6 +3,7 @@
 
   <div class="row">
     <div class="col-md-5">
+      {{ if gt (len .Params.images) 1 }}
       <div class="swiper-container">
         <!-- Slider main container -->
         <div id="js-swiperShop" class="swiper swiper-shop">
@@ -11,10 +12,9 @@
             <!-- Slides -->
             {{ range .Params.images }}
             <div class="swiper-slide d-flex">
-            {{/*  {{ partial "image" (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2))}}  */}}
-            {{ $img := $.Resources.GetMatch . }}
-            <img src="{{ $img.Permalink }}" alt="" class="img-fluid lazyload">  
-          </div>
+              {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2)) }}
+              {{ partial "image" $dict }}
+            </div>
             {{ end }}
           </div>
           <!-- If we need navigation buttons -->
@@ -26,14 +26,19 @@
           <div class="swiper-wrapper">
             {{ range .Params.images }}
             <div class="swiper-slide">
-              {{/*  {{ partial "image" (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2))}}  */}}
-              {{ $img := $.Resources.GetMatch . }}
-              <img src="{{ $img.Permalink }}" alt="" class="img-fluid lazyloaded">  
+              {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2)) }}
+              {{ partial "image" $dict }}
             </div>
             {{ end }}
           </div>
         </div>
       </div>
+      {{ else }}
+      {{- /* if only one image is present dont load swiper */ -}}
+      {{ $img := index .Params.images 0 }}
+      {{ $dict := (dict "src" $img "page" . "title" .Title "fillRatio" (slice 3 2)) }}
+      {{ partial "image" $dict }}
+      {{ end }}
     </div>
     <div class="col-md-7">
       <h1 class="h3">{{ .Title }}</h1>
@@ -138,28 +143,28 @@
   "@context": "https://schema.org",
   "@type": "product",
   "name": "{{ .Title }}",
-  {{ with .Params.images }}
+  {{ with .Params.images -}}
   "image": [
-    {{ range $i, $e := . }}
-    {{ if ne $i 0 }}, {{ end }}
-    "{{ $.Permalink }}"
-    {{ end}}
+    {{- range $i, $e := . -}}
+    {{- if ne $i 0 -}}, {{ end }}
+    {{ $.Permalink }}
+    {{- end -}}
   ],
-  {{ end }}
+  {{ end -}}
   "description": "{{ .Summary }}", 
-  {{ with .Params.brand }}
+  {{ with .Params.brand -}}
   "brand": {
     "@type": "brand",
     "name": "{{ . }}"
   },
-  {{ end }}
+  {{ end -}}
   "offers": {
     "@type": "Offer",
     "price": "{{ .Params.Price }}",
     "availability": "https://schema.org/InStock",
     "priceCurrency": "AUD",
     "itemCondition": "https://schema.org/NewCondition",
-    "url": "{{ .Permalink }}"
+    "url": {{ .Permalink }}
   }
 }
 </script>

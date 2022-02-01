@@ -5,19 +5,17 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {{- block "head/resource-hints" . -}}{{- partial "head/resource-hints" .  -}}{{ end -}}
-    {{- block "head/stylesheet" . -}}{{- partial "head/stylesheet" . -}}{{ end -}}
-    {{- block "head/favicons" . -}}{{- partial "head/favicons" . -}}{{ end -}}
-    {{- block "head/script-header" . -}}{{- partial "head/script-header" . -}}{{ end -}}
-    {{- block "head/seo" . -}}{{- partial "head/seo" . -}}{{ end -}}
+    {{ partial "head/index" . }}
     {{ block "head/json-ld" . }}{{ end }}
   </head>
   {{- partial "head/body-class" . -}}
   {{- $bodyClass := delimit (.Scratch.Get "class") " " -}}
   <body class="{{ $bodyClass }} d-flex flex-column min-vh-100">
-    <header>
-      {{ partial "header/index" . }}
-    </header>
+    {{- if and .IsHome .Site.Params.alert -}}
+    {{ partial "header/alert" . -}}
+    {{- end -}}
+    <header class="">
+      {{ partial "header/index" . }}</header>
     <div class="container">
       {{ if not .IsHome }}
       <div class="row">
