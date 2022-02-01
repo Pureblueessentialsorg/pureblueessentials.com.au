@@ -63,6 +63,6 @@
     "quicklink": "^2.2.0",
     "regenerator-runtime": "^0.13.9",
     "shx": "^0.3.4",
-    "swiper": "^7.4.1"
+    "swiper": "^8.0.0"
   }
 }
