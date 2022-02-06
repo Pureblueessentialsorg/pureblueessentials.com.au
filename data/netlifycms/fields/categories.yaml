@@ -4,7 +4,7 @@ widget: "list"
 hint: Use lowercase only, use dash instead of space
 required: true
 min: 1
-field:
-  label: Category
-  name: category
-  widget: string
+# field:
+#   label: Category
+#   name: category
+#   widget: string

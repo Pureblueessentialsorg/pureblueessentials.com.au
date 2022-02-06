@@ -9,6 +9,9 @@ files:
     - import field title 
     - import field description
     - import field images
+    - name: lead
+      label: lead text
+      widget: markdown
     - import field body
 - name: "about"
   label: "About"
@@ -16,6 +19,7 @@ files:
   fields:
     - import field title 
     - import field draft
+    - import field description
     - import field images
     - import field body
 - name: "resources"
@@ -24,6 +28,7 @@ files:
   fields:
     - import field title 
     - import field draft
+    - import field description
     - import field images
     - import field body
 - name: "contact"
@@ -32,6 +37,7 @@ files:
   fields:
     - import field title 
     - import field draft
+    - import field description
     - import field images
     - import field body
 - name: "Specials" 
@@ -40,6 +46,7 @@ files:
   fields:
     - import field title 
     - import field draft
+    - import field description
     - import field images
     - import field body
 - name: "payments"
@@ -48,6 +55,7 @@ files:
   fields:
     - import field title 
     - import field draft
+    - import field description
     - import field images
     - import field body
 - name: "shipping" 
@@ -56,6 +64,7 @@ files:
   fields:
     - import field title 
     - import field draft
+    - import field description
     - import field images
     - import field body
 - name: "country"
@@ -64,5 +73,6 @@ files:
   fields:
     - import field title 
     - import field draft
+    - import field description
     - import field images
     - import field body

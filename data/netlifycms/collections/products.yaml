@@ -27,7 +27,7 @@ fields:
   widget: number
   value_type: float
   hint: Don't use a dollar sign
-- name: Brand
+- name: brand
   label: Brand
   required: true
   widget: string
