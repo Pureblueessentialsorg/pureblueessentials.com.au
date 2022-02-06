@@ -6,4 +6,5 @@ required: true
 min: 1
 field:
   label: Category
+  name: category
   widget: string
