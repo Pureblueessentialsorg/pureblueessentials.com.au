@@ -8,9 +8,9 @@
   Content-Security-Policy: connect-src 'self'; 
   Content-Security-Policy: font-src 'self'; 
   Content-Security-Policy: img-src 'self'; 
-  Content-Security-Policy: script-src 'self' https://identity.netlify.com https://unpkg.com ; 
+  Content-Security-Policy: script-src 'self' https://identity.netlify.com https://unpkg.com https://cdn.snipcart.com; 
   Content-Security-Policy: script-src-elem 'self' https://identity.netlify.com https://unpkg.com ; 
-  Content-Security-Policy: style-src 'self';
+  Content-Security-Policy: style-src 'self' https://cdn.snipcart.com;
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin
   Feature-Policy: geolocation 'self'
