@@ -1,5 +1,5 @@
-label: "Images"
 name: "images"
+label: "Images"
 widget: "image"
 # media_folder: ""
 required: false

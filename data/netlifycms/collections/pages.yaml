@@ -2,64 +2,64 @@ name: "pages"
 label: "Pages"
 create: false
 files:
-- label: "Home"
-  name: "home"
+- name: "home"
+  label: "Home"
   file: "content/_index.md"
   fields:
     - import field title 
     - import field description
     - import field images
     - import field body
-- label: "About"
-  name: "about"
+- name: "about"
+  label: "About"
   file: "content/about/index.md"
   fields:
     - import field title 
     - import field draft
     - import field images
     - import field body
-- label: "Resources"
-  name: "resources"
+- name: "resources"
+  label: "Resources"
   file: "content/resources/index.md"
   fields:
     - import field title 
     - import field draft
     - import field images
     - import field body
-- label: "Contact Us"
-  name: "contact"
+- name: "contact"
+  label: "Contact Us"
   file: "content/about/index.md"
   fields:
     - import field title 
     - import field draft
     - import field images
     - import field body
-- label: "Specials"
-  name: "Specials"
+- name: "Specials" 
+  label: "Specials"
   file: "content/specials/index.md"
   fields:
     - import field title 
     - import field draft
     - import field images
     - import field body
-- label: "Payments"
-  name: "payments"
+- name: "payments"
+  label: "Payments"
   file: "content/payments/index.md"
   fields:
     - import field title 
     - import field draft
     - import field images
     - import field body
-- label: "Shipping"
-  name: "shipping"
+- name: "shipping" 
+  label: "Shipping"
   file: "content/shipping/index.md"
   fields:
     - import field title 
     - import field draft
     - import field images
     - import field body
-- label: "Acknowledgement of Country"
-  name: "country"
+- name: "country"
+  label: "Acknowledgement of Country"
   file: "content/country/index.md"
   fields:
     - import field title 

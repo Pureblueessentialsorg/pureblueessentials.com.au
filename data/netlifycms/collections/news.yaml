@@ -12,8 +12,8 @@ fields:
 - import field visible
 - import field title 
 # CHECK THIS  
-- label: Date
-  name: date
+- name: date
+  label: Date
   widget: date
   required: true
   hidden: true

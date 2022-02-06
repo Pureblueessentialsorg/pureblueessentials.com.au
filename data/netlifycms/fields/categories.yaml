@@ -1,5 +1,5 @@
-label: "Categories"
 name: "categories"
+label: "Categories"
 widget: "list"
 hint: Use lowercase only, use dash instead of space
 required: true
