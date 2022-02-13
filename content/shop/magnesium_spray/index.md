@@ -1,18 +1,27 @@
 ---
-title: 200ml magnesium spray (x2)
 visible: true
-draft: false
-summary: Product summary
-price: 19.99
-id: magnesium_spray
-weight: 400
+title: 100ml magnesium rub
+id: magru100
+summary: Magnesium rub unscented in a pump pack bottle
+draft: true
+popular: false
+images: ""
+categories:
+  - magnesium
+price: 22
+brand: pure blue essentials
+contents: 100ml liquid magnesium rub
+weight: 160
+length: 2
 height: 3
 width: 2
-length: 2
-contents: 200ml x 2 bottles
-brand: Pure Blue Essentials
-categories: ["magnesium"]
-images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
-popular: true
 ---
-Product full description
+Magnesium rub can be used on muscles that are sore, aching or prone to cramping.
+
+One or two squirts, rub into the skin.
+
+Absorbed into the skin.
+
+
+
+Ready to use, take anywhere.
