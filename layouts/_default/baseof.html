@@ -1,5 +1,11 @@
 <!doctype html>
-<html lang="{{ .Lang }}" class="min-vh-100">
+{{- /* extract language variant if present */ -}}
+{{- $lang := .Lang -}}
+{{- $variant := index (findRE `-([a-z]*)` .Lang 1) 0 -}}
+{{- if $variant -}}
+  {{- $lang = replaceRE "-([a-z]*)" (upper $variant) .Lang 1 -}}
+{{- end -}}
+<html lang="{{ $lang }}" class="min-vh-100">
   <head>
     {{ partial "head/index" . }}
     <meta charset="utf-8">
