@@ -11,11 +11,6 @@ form:
   title: Send us a Message
   id: js-contactForm
   inputs:
-  - id:   account
-    name: account
-    hidden: true
-    type: hidden
-    value: pbe
   - id: contact-name
     col: col-md-6
     name: name
@@ -57,4 +52,9 @@ form:
     rows: 6
     required: true
     invalidFeedback: Please enter message.
+  - id:   account
+    name: account
+    hidden: true
+    type: hidden
+    value: pbe
 ---
