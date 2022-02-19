@@ -24,7 +24,7 @@
     {{ .url }}
     {{- $socialCount = add $socialCount 1 -}}
     {{- end -}}
-  ]
+  ],
   {{ end -}}
   "address": {
     {{ with .postalAddress -}}
@@ -77,7 +77,7 @@
 {{- $dot := . -}}
 {{- $dot.Scratch.Set "path" "" -}}
 {{- $dot.Scratch.Set "breadcrumb" slice -}}
-{{- $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" -}}
+{{- $url := replace .Permalink .Site.BaseURL "" -}}
 {{- $.Scratch.Add "path" .Site.BaseURL -}}
 {{- $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) -}}
 {{- range $index, $element := split $url "/" -}}
