@@ -3,8 +3,13 @@ module.exports = {
     [
       '@babel/preset-env',
       {
+        targets: {
+          browsers: [
+            'ie10',
+            'ios7'
+          ],
         bugfixes: true,
-        // useBuiltIns: 'entry',
+        useBuiltIns: 'usage',
         // corejs: 3,
       },
     ],
