@@ -5,7 +5,7 @@ module.exports = {
       {
         bugfixes: true,
         // useBuiltIns: 'entry',
-        // corejs: 3.18,
+        corejs: 3.21,
         targets: {
           esmodules: true,
         },
