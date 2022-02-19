@@ -52,9 +52,4 @@ form:
     rows: 6
     required: true
     invalidFeedback: Please enter message.
-  - id:   account
-    name: account
-    hidden: true
-    type: hidden
-    value: pbe
 ---
