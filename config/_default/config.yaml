@@ -9,7 +9,14 @@ enableEmoji: true
 enableGitInfo: false
 enableRobotsTXT: true
 # googleAnalytics: 
-languageCode: "en-AU"
+# for xml output
+languageCode: "en-au"
+# for website
+defaultContentLanguage: "en-au"
+languages:
+  en-au:
+    weight: 1
+#pagination 
 paginate: 6
 rssLimit: 10
 title: "Pure Blue Essentials"
