@@ -1,7 +1,7 @@
 {
-  "description": "Hugo starter theme for building modern websites with bootstrap that are secure, fast, and SEO-ready — by default.",
+  "description": "Company website",
   "version": "1.6.0",
-  "repository": "https://github.com/future-wd/hugo-shoelaces",
+  "repository": "https://github.com/pureblueessentialsorg/pureblueessentials.com.au",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -21,8 +21,8 @@
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --gc",
     "dev:preview": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --gc --buildDrafts --buildFuture",
     "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify --cleanDestinationDir",
-    "start": "hugo server --disableFastRender --renderToDisk --cleanDestinationDir",
-    "start:preview": "hugo server --renderToDisk --cleanDestinationDir --disableFastRender --buildDrafts --buildFuture ",
+    "start": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --renderToDisk --cleanDestinationDir",
+    "start:preview": "exec-bin node_modules/.bin/hugo/hugo server --renderToDisk --cleanDestinationDir --disableFastRender --buildDrafts --buildFuture ",
     "start:production": "exec-bin node_modules/.bin/hugo/hugo server --renderToDisk --cleanDestinationDir --disableFastRender --gc --minify --environment production",
     "lint": "npm run -s lint:scripts && npm run -s lint:styles && npm run -s lint:markdown",
     "lint:scripts": "eslint assets/js config functions",

@@ -1,5 +1,5 @@
-label: "description"
-name: "Description"
+name: "description"
+label: "Description"
 widget: "string"
 hint: Max 120-150 characters
 required: false

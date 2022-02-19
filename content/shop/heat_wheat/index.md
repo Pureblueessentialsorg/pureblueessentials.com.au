@@ -1,17 +1,23 @@
 ---
-title: 750g heat pack - wheat filled
 visible: true
-draft: false
-summary: Product summary
-price: 9.99
-id: heat_wheat
-weight: 800
+title: heat pack - wheat filled
+id: heatwhea
+summary: ""
+draft: true
+popular: true
+images: ""
+categories:
+  - heat-packs
+price: 32
+brand: pure blue essentials
+contents: wheat
+weight: 1000
+length: 2
 height: 2
 width: 2
-length: 2
-contents: 750g
-brand: Pure Blue Essentials
-categories: ["heat-packs"]
-images: ["1.jpg"]
 ---
-Product full description
+Both the inner and outer covers are made from all natural fabrics. The outer cover is removable so it can be washed. 
+
+Choose from blue, blue, or blue! Just kidding, lots of appealing designs and some plush and cuddly options too. 
+
+The heat pack is a generous size for soothing aches and pains in large areas of the body such as the abdomen, lower back and thigh, as well as smaller areas such as arm, neck, foot.  Look out BFFs, your heat pack will become your best friend!

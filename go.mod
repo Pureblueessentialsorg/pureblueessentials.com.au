@@ -1,4 +1,4 @@
-module github.com/powerfulweb-sites/pureblueessentials.com.au
+module github.com/pureblueessentialsorg/pureblueessentials.com.au
 
 go 1.17
 
