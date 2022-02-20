@@ -1,4 +1,0 @@
-{{ $src := resources.Get .src | js.Build (dict "sourceMap" "inline" "target" "es2015") | fingerprint "sha512"
--}}
-<script {{ print "defer" | safeHTMLAttr }} src="{{- $src.RelPermalink -}}" integrity="{{- $src.Data.Integrity -}}">
-</script>

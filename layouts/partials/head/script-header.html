@@ -1,7 +1,13 @@
 {{ partial "esbuild" (dict "src" "js/vendor-diff.js" "output" "diff") -}}
 {{ partial "esbuild" (dict "src" "js/assets-diff.js" "output" "diff") -}}
 
-{{/* partial "image/lazysizes" . */ -}}
+{{ if eq .Type "contact" }}
+  {{ partial "esbuild" (dict "src" "js/contact.js" "output" "diff") -}}
+{{ end }}
+
+{{ partial "image/js"}}
+
+
 {{- /* EXAMPLE - only load script for production
 {{ if eq (hugo.Environment) "production" -}}
   {{ partial "esbuild" (dict "src" "js/instantpage.js") -}}
@@ -13,9 +19,3 @@
 {{ end }}
 
 */ -}}
-{{ if eq .Type "contact" }}
-  {{ partial "esbuild" (dict "src" "js/contact.js" "output" "diff") -}}
-{{ end }}
-
-
-{{ partial "image/js"}}
