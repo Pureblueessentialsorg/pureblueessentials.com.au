@@ -1,11 +1,11 @@
 <!doctype html>
-{{- /* extract language variant if present */ -}}
+{{- /* uppercase country code in language code */ -}}
 {{- $lang := .Lang -}}
-{{- $variant := index (findRE `-([a-z]*)` .Lang 1) 0 -}}
-{{- if $variant -}}
-  {{- $lang = replaceRE "-([a-z]*)" (upper $variant) .Lang 1 -}}
+{{- $country := index (findRE `-([a-z]*)` .Lang 1) 0 -}}
+{{- if $country -}}
+  {{- $lang = replaceRE "-([a-z]*)" (upper $country) .Lang 1 -}}
 {{- end -}}
-<html lang="{{ $lang }}" class="min-vh-100">
+<html lang="{{ $lang }}" class="min-vh-100"> 
   <head>
     {{ partial "head/index" . }}
     <meta charset="utf-8">
