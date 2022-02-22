@@ -7,7 +7,6 @@
 {{- end -}}
 <html lang="{{ $lang }}" class="min-vh-100"> 
   <head>
-    {{ partial "head/index" . }}
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,12 +31,12 @@
       <div class="row">
         {{ if or (eq .Section "shop") (eq .Section "categories") }}
         {{- /* displays for shop or categories pages */ -}}
-        <div class="col-md-9">
-          <main class="mb-auto">
+        <div class="col-lg-9">
+          <main class="mb-auto pb-3">
             {{ block "main" . }}{{ end }}
           </main>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <aside>
             {{ block "sidebar" . }}{{ partial "sidebar/index" . }}{{ end }}
           </aside>

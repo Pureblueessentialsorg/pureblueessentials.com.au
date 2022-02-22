@@ -8,7 +8,7 @@ var swiperShopThumbs = new Swiper('#js-swiperShopThumbs', {
 });
 
 /*eslint no-unused-vars: ["error", { "varsIgnorePattern": "swiperShop" }]*/
-var swiperShop = new Swiper('#js-swiperShop', {
+var swiperShopMain = new Swiper('#js-swiperShopMain', {
   // configure Swiper to use modules
   modules: [Navigation, Pagination, Thumbs],
   spaceBetween: 10,
@@ -19,6 +19,11 @@ var swiperShop = new Swiper('#js-swiperShop', {
   thumbs: {
     swiper: swiperShopThumbs,
   },
+  // on: {
+  //   afterInit: function() {
+  //     lazySizes.autoSizer.checkElems();
+  //   }
+  // }
 });
 
 // bootstrap js - import the whole library

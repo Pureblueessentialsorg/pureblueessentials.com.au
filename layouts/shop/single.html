@@ -1,140 +1,140 @@
 {{ define "title" }}&nbsp;{{ end }}
 {{ define "main" }}
 
-  <div class="row">
-    <div class="col-md-5">
-      {{ if gt (len .Params.images) 1 }}
-      <div class="swiper-container">
-        <!-- Slider main container -->
-        <div id="js-swiperShop" class="swiper swiper-shop">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            {{ range .Params.images }}
-            <div class="swiper-slide d-flex">
-              {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 340 560)) }}
-              {{ partial "image" $dict }}
-            </div>
-            {{ end }}
+<div class="row">
+  <div class="col-md-5">
+    {{ if gt (len .Params.images) 1 }}
+    <div class="swiper-container">
+      <!-- Slider main container -->
+      <div id="js-swiperShopMain" class="swiper swiper-shop-main">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          {{ range .Params.images }}
+          <div class="swiper-slide d-flex">
+            {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 340 560) "sizes" "(min-width: 768px) 50vw, 100vw") }}
+            {{ partial "image" $dict }}
           </div>
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          {{ end }}
         </div>
-        <!-- thumbnail swiper -->
-        <div swiperShopThumbs="" id="js-swiperShopThumbs" class="swiper swiper-shop-thumbs">
-          <div class="swiper-wrapper">
-            {{ range .Params.images }}
-            <div class="swiper-slide">
-              {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 76 122) ) }}
-              {{ partial "image" $dict }}
-            </div>
-            {{ end }}
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <!-- thumbnail swiper -->
+      <div swiperShopThumbs="" id="js-swiperShopThumbs" class="swiper swiper-shop-thumbs">
+        <div class="swiper-wrapper">
+          {{ range .Params.images }}
+          <div class="swiper-slide">
+            {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 76 122) ) }}
+            {{ partial "image" $dict }}
           </div>
+          {{ end }}
         </div>
       </div>
-      {{ else }}
-      {{- /* if only one image is present dont load swiper */ -}}
-      {{ $img := index .Params.images 0 }}
-      {{ $dict := (dict "src" $img "page" . "title" .Title "fillRatio" (slice 3 2)) }}
-      {{ partial "image" $dict }}
+    </div>
+    {{ else }}
+    {{- /* if only one image is present dont load swiper */ -}}
+    {{ $img := index .Params.images 0 }}
+    {{ $dict := (dict "src" $img "page" . "title" .Title "fillRatio" (slice 3 2)) }}
+    {{ partial "image" $dict }}
+    {{ end }}
+  </div>
+  <div class="col-md-7">
+    <h1 class="h3">{{ .Title }}</h1>
+    <div>
+      {{ with .Params.Price}}
+      Price: {{ . }}
       {{ end }}
     </div>
-    <div class="col-md-7">
-      <h1 class="h3">{{ .Title }}</h1>
-      <div>
-        {{ with .Params.Price}}
-        Price: {{ . }}
-        {{ end }}
-      </div>
-      <div>
-        {{ with .Params.Summary}}
-        Summary: {{ . }}
-        {{ end }}
-      </div>
-      <div>
-        <button class="btn btn-primary snipcart-add-item my-3" href="#" 
-          data-item-id="{{ .Params.id }}"
-          data-item-price="{{ .Params.price }}" 
-          data-item-url="{{ .Permalink }}" 
-          {{ with .Params.images }}
-          {{ $image := $.Resources.GetMatch (index . 0) }}
-          {{ $image = $image.Resize "120x" }}
-          data-item-image="{{ $image.RelPermalink }}"
-          {{ end }}
-          data-item-name="{{ .Params.title }}"
-          data-item-id="{{ .Params.id }}" 
-          data-item-categories="{{ delimit .Params.categories ", " }}" 
-          {{ with .Params.weight }}
-          data-item-weight="{{ . }}"
-          {{ end }}
-          {{ with .Params.height }}
-          data-item-height="{{ . }}"
-          {{ end }}
-          {{ with .Params.width }}
-          data-item-width="{{ . }}"
-          {{ end }}
-          {{ with .Params.length }}
-          data-item-length="{{ . }}"
-          {{ end }}>Add to cart
-        </button>
-      </div>
-
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="desc-tab" data-bs-toggle="tab" data-bs-target="#desc" type="button"
-            role="tab" aria-controls="desc" aria-selected="true">Description</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs" type="button" role="tab"
-            aria-controls="profile" aria-selected="false">Specs</button>
-        </li>
-      </ul>
-
-      <div class="tab-content border border-top-0 p-2" id="myTabContent">
-        <div class="tab-pane fade show active" id="desc" role="tabpanel" aria-labelledby="desc-tab">
-          {{ .Content }}
-        </div>
-        <div class="tab-pane fade" id="specs" role="tabpanel" aria-labelledby="specs-tab">
-          {{ with .Params.contents }}
-          <div>
-            Contents: {{ . }}
-          </div>
-          {{ end }}
-          {{ with .Params.brand }}
-          <div>
-            Brand: {{ . }}
-          </div>
-          {{ end }}
-          <div>
-            Category: {{ delimit .Params.categories ", " | humanize }}
-          </div>
-          {{ with .Params.weight }}
-          <div>
-            Weight: {{ . }} grams
-          </div>
-          {{ end }}
-          {{ with .Params.height }}
-          <div>
-            Height: {{ . }} cm
-          </div>
-          {{ end }}
-
-          <div>
-            {{ with .Params.Width }}
-            Width: {{ . }} cm
-            {{ end }}
-          </div>
-          <div>
-            {{ with .Params.Length }}
-            Length: {{ . }} cm
-            {{ end }}
-          </div>
-        </div>
-      </div>
-
+    <div>
+      {{ with .Params.Summary}}
+      Summary: {{ . }}
+      {{ end }}
     </div>
+    <div>
+      <button class="btn btn-primary snipcart-add-item my-3" href="#" 
+        data-item-id="{{ .Params.id }}"
+        data-item-price="{{ .Params.price }}" 
+        data-item-url="{{ .Permalink }}" 
+        {{ with .Params.images }}
+        {{ $image := $.Resources.GetMatch (index . 0) }}
+        {{ $image = $image.Resize "120x" }}
+        data-item-image="{{ $image.RelPermalink }}"
+        {{ end }}
+        data-item-name="{{ .Params.title }}"
+        data-item-id="{{ .Params.id }}" 
+        data-item-categories="{{ delimit .Params.categories ", " }}" 
+        {{ with .Params.weight }}
+        data-item-weight="{{ . }}"
+        {{ end }}
+        {{ with .Params.height }}
+        data-item-height="{{ . }}"
+        {{ end }}
+        {{ with .Params.width }}
+        data-item-width="{{ . }}"
+        {{ end }}
+        {{ with .Params.length }}
+        data-item-length="{{ . }}"
+        {{ end }}>Add to cart
+      </button>
+    </div>
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="desc-tab" data-bs-toggle="tab" data-bs-target="#desc" type="button"
+          role="tab" aria-controls="desc" aria-selected="true">Description</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs" type="button" role="tab"
+          aria-controls="profile" aria-selected="false">Specs</button>
+      </li>
+    </ul>
+
+    <div class="tab-content border border-top-0 p-2" id="myTabContent">
+      <div class="tab-pane fade show active" id="desc" role="tabpanel" aria-labelledby="desc-tab">
+        {{ .Content }}
+      </div>
+      <div class="tab-pane fade" id="specs" role="tabpanel" aria-labelledby="specs-tab">
+        {{ with .Params.contents }}
+        <div>
+          Contents: {{ . }}
+        </div>
+        {{ end }}
+        {{ with .Params.brand }}
+        <div>
+          Brand: {{ . }}
+        </div>
+        {{ end }}
+        <div>
+          Category: {{ delimit .Params.categories ", " | humanize }}
+        </div>
+        {{ with .Params.weight }}
+        <div>
+          Weight: {{ . }} grams
+        </div>
+        {{ end }}
+        {{ with .Params.height }}
+        <div>
+          Height: {{ . }} cm
+        </div>
+        {{ end }}
+
+        <div>
+          {{ with .Params.Width }}
+          Width: {{ . }} cm
+          {{ end }}
+        </div>
+        <div>
+          {{ with .Params.Length }}
+          Length: {{ . }} cm
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
   </div>
+</div>
 {{ end }}
 
 {{ define "head/json-ld" }}
