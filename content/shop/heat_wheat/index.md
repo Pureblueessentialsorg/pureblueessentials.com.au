@@ -3,9 +3,9 @@ visible: true
 title: heat pack - wheat filled
 id: heatwhea
 summary: ""
-draft: true
+draft: false
 popular: true
-images: ""
+images: placeholder4.jpg
 categories:
   - heat-packs
 price: 32
