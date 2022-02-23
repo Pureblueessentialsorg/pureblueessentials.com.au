@@ -1,10 +1,14 @@
 name: "images"
 label: "Images"
-widget: "image"
-media_folder: ""
-required: false
-allow_multiple: true
-choose_url: false
-media_library:
-  config:
-    multiple: true
+widget: "list"
+label_singular: "image"
+min: 1
+field:
+- widget: "image"
+  media_folder: ""
+  required: false
+  allow_multiple: true
+  choose_url: false
+  media_library:
+    config:
+      multiple: true
