@@ -22,6 +22,7 @@ fields:
 - import: field images
   extend: 
     required: true
+    min: 1
 - import field categories
 - name: price
   label: Price

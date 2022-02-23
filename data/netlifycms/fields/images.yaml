@@ -2,13 +2,12 @@ name: "images"
 label: "Images"
 widget: "list"
 label_singular: "image"
-min: 1
+required: false
 field:
-- widget: "image"
-  media_folder: ""
-  required: false
-  allow_multiple: true
-  choose_url: false
-  media_library:
-    config:
-      multiple: true
+  - widget: "image"
+    media_folder: ""
+    allow_multiple: true
+    choose_url: false
+    media_library:
+      config:
+        multiple: true
