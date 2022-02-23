@@ -3,7 +3,7 @@ label: "Images"
 widget: "list"
 label_singular: "image"
 required: false
-field:
+fields:
   - widget: "image"
     media_folder: ""
     allow_multiple: true
