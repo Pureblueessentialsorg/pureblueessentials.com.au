@@ -5,7 +5,7 @@ id: heatwhea
 summary: ""
 draft: false
 popular: true
-images: placeholder4.jpg
+images: [placeholder4.jpg]
 categories:
   - heat-packs
 price: 32

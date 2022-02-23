@@ -19,7 +19,7 @@ fields:
 - import field summary
 - import field draft
 - import field popular
-- import field images
+- import: field images
   extend: 
     required: true
 - import field categories
