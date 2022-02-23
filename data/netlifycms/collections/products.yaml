@@ -23,6 +23,7 @@ fields:
   extend: 
     required: true
     min: 1
+    hint: Minimum 1 image
 - import field categories
 - name: price
   label: Price
