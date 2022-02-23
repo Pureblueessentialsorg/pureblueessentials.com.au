@@ -38,9 +38,9 @@ fields:
   default: Pure Blue Essentials
 - name: contents
   label: Contents
-  required: true
+  required: false
   widget: string
-  hint: you must specify the unit of measurement e.g. 30ml
+  hint: you must specify the unit of measurement e.g. 30ml. You can leave this blank if there is no unit of measurement
 - name: weight
   label: Weight
   widget: number
