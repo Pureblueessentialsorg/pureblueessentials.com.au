@@ -4,3 +4,4 @@ widget: "image"
 media_folder: ""
 required: false
 allow_multiple: true
+choose_url: false
