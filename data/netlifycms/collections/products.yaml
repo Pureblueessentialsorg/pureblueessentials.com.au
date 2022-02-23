@@ -21,8 +21,8 @@ fields:
 - import field popular
 - import: field images
   extend: 
-    required: true
-    min: 1
+    # required: true
+    # min: 1
     hint: Minimum 1 image
 - import field categories
 - name: price
