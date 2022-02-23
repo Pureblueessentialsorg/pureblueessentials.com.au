@@ -14,23 +14,15 @@ menu:
   footer:
     weight: 10
 ---
-
-
 (text in white or blue over square image) (font Source Sans Pro Light)
 
 **Remedial Essential                                                                 Heat Packs**
 
 **Oil Blends**
 
-
-
 **Magnesium rub                                                                   Bath soak**
 
-
-
 **Jojoba oil (carrier oil)                                                          Fisiocrem**
-
-
 
 (icon)  purebluenews blog
 
@@ -42,10 +34,12 @@ menu:
 
 (icon)   acknowledgement of country
 
-
-
 \    \[payment protections]                                                                 \[payment methods]
 
 \    \[social media]
 
 \    \[website designed by ....]
+
+
+
+test
