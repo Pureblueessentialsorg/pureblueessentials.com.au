@@ -5,5 +5,7 @@ label_singular: "image"
 required: false
 fields:
   - widget: "image"
+    name: "uploaded_image"
+    label: "Image Upload"
     media_folder: ""
     choose_url: false
