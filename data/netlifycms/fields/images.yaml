@@ -6,8 +6,4 @@ required: false
 fields:
   - widget: "image"
     media_folder: ""
-    allow_multiple: true
     choose_url: false
-    media_library:
-      config:
-        multiple: true
