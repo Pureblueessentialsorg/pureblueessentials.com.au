@@ -12,6 +12,6 @@ length: 2
 contents: 30ml x 8 bottles
 brand: Pure Blue Essentials
 categories: ["essential-oils"]
-images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
+images: ["1.jpg"]
 ---
 Product full description

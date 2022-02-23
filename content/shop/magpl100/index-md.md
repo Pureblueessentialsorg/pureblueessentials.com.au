@@ -6,6 +6,7 @@ summary: Liquid magnesium rub with lavender and lemongrass essential oils
 draft: true
 popular: true
 price: 29.5
+images: ["1.jpg"]
 brand: pure blue essentials
 contents: 100ml
 weight: 100

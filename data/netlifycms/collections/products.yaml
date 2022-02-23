@@ -20,6 +20,8 @@ fields:
 - import field draft
 - import field popular
 - import field images
+  extend: 
+    required: true
 - import field categories
 - name: price
   label: Price

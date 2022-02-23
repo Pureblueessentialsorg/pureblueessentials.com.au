@@ -3,9 +3,9 @@ visible: true
 title: 100ml magnesium rub
 id: magru100
 summary: Magnesium rub unscented in a pump pack bottle
-draft: true
+draft: false
 popular: false
-images: ""
+images: ["1.jpg"]
 categories:
   - magnesium
 price: 22
