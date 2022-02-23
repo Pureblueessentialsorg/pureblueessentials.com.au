@@ -1,6 +1,6 @@
 name: "image"
 label: "Image"
 widget: "image"
-# media_folder: ""
+media_folder: ""
 required: false
 allow_multiple: false
