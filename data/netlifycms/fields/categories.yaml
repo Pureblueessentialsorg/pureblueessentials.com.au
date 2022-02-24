@@ -2,7 +2,7 @@ name: "categories"
 label: "Categories"
 widget: relation
 collection: "categories_data"
-file: "categories"
+file: "list"
 value_field: list.categories.name
 search_fields: [list.categories.name]
 display_fields: [list.categories.name]
