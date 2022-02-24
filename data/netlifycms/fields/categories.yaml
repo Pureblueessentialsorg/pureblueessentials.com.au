@@ -1,9 +1,10 @@
 name: "categories"
 label: "Categories"
 widget: relation
-collection: "categories"
+collection: "categories_data"
 file: "categories"
-value_field: categories
-search_fields: [categories]
+value_field: list.categories.name
+search_fields: [list.categories.name]
+display_fields: [list.categories.name]
 min: 1
 multiple: true

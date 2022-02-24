@@ -1,9 +1,9 @@
-name: "categories"
+name: "categories_data"
 label: "Product categories"
 create: false
 files: 
-  - label: Categories
-    name: categories
+  - label: List
+    name: list
     file: data/categories.yaml
     fields:
       - name: categories

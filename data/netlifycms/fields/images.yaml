@@ -3,5 +3,6 @@ label: "Images"
 widget: "list"
 label_singular: "image"
 required: false
+summary: '{{fields.image}}'
 fields:
   - import field image
