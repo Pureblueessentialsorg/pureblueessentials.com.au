@@ -1,5 +1,5 @@
 name: "categories"
-label: "categories"
+label: "Product categories"
 label_singular: "category"
 folder: "content/categories"
 filter: {field: "visible", value: true}
