@@ -15,7 +15,16 @@ files:
     file: data/categories.yaml
     fields:
       - name: categories
+        name_singular: category
         label: Categories
         widget: list
-        label_singular: category
+        summary: fields.name
+        fields:
+          - name: id 
+            label: id
+            widget: string
+            hint: DO NOT MODIFY!
+          - name: name
+            label: Name
+            widget: string
 # comment
