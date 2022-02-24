@@ -1,10 +1,9 @@
 name: "categories"
 label: "Categories"
-hint: Use lowercase only, use dash instead of space
 widget: relation
 collection: "categories"
 file: "categories"
-value_field: category
-search_fields: [category]
+value_field: id
+search_fields: [name]
 min: 1
 multiple: true
