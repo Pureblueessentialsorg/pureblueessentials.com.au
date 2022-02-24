@@ -4,6 +4,6 @@ hint: Use lowercase only, use dash instead of space
 widget: relation
 collection: "categories"
 value_field: title
-search_fields: title
+search_fields: [title]
 min: 1
 multiple: true

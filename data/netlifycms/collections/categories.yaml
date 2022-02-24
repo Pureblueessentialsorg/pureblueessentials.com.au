@@ -7,9 +7,7 @@ path: "{{id}}/index.md"
 # media_folder: ''
 # public_folder: ''
 create: true
-delete: true
+# delete: true
 fields:
-- import: field title 
-  extend:
-    hint: no spaces or capitals, use - for a space.
+- import field category
 # comment

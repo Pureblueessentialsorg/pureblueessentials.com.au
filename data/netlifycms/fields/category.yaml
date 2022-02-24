@@ -1,0 +1,5 @@
+name: "category"
+label: "Category"
+widget: "string"
+required: true
+hint: no spaces or capitals. Use - for spaces
