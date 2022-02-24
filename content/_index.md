@@ -16,13 +16,29 @@ menu:
 ---
 (text in white or blue over square image) (font Source Sans Pro Light)
 
-**Remedial Essential                                                                 Heat Packs**
+**Remedial Essential Oil Blends                                                                 Heat Packs**
 
-**Oil Blends**
+ **\    (pic)                                                                                                 (pic)**
 
-**Magnesium rub                                                                   Bath soak**
 
-**Jojoba oil (carrier oil)                                                          Fisiocrem**
+
+**Magnesium rub                                                                                        Bath soak**
+
+ **\    (pic)                                                                                                          (pic)**
+
+
+
+
+
+**Jojoba oil (carrier oil)                                                                               Fisiocrem**
+
+\    (pic)                                                                                                          (pic)
+
+
+
+
+
+
 
 (icon)  purebluenews blog
 
@@ -34,12 +50,12 @@ menu:
 
 (icon)   acknowledgement of country
 
+
+
 \    \[payment protections]                                                                 \[payment methods]
 
 \    \[social media]
 
 \    \[website designed by ....]
-
-
 
 test
