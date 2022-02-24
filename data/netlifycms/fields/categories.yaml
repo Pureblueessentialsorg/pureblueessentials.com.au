@@ -2,8 +2,8 @@ name: "categories"
 label: "Categories"
 widget: "list"
 hint: Use lowercase only, use dash instead of space
-required: true
-min: 1
+# required: true
+# min: 1
 field:
   label: Category
   name: category
