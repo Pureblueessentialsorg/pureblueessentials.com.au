@@ -1,0 +1,9 @@
+name: "sizes"
+label: "Additional sizes"
+widget: "list"
+label_singular: "sizes"
+required: false
+fields:
+  - import field contents
+  - import field price
+

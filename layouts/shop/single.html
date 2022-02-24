@@ -60,7 +60,7 @@
         {{- $ctx := . -}} 
         {{- $sizes := slice -}}
         {{ range := .Params.sizes }}
-        {{ $sizes = $sizes append (printf "%s[+%v]" .size (sub .price $ctx.Params.price) ) }}
+        {{ $sizes = $sizes append (printf "%s[+%v]" .contents (sub .price $ctx.Params.price) ) }}
         {{ end }}
         {{ with $sizes }}
         data-item-custom1-name="Size"

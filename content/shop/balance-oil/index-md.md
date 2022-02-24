@@ -16,9 +16,9 @@ length: 2
 height: 2
 width: 2
 sizes:
-- size: 30ml
+- contents: 30ml
   price: 20
-- size: 100ml
+- contents: 100ml
   price: 40
 
 ---

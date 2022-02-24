@@ -1,0 +1,6 @@
+name: price
+label: Price
+required: true
+widget: number
+value_type: float
+hint: Don't use a dollar sign

@@ -23,22 +23,14 @@ fields:
   extend: 
     # hint: Minimum 1 image
 - import field categories
-- name: price
-  label: Price
-  required: true
-  widget: number
-  value_type: float
-  hint: Don't use a dollar sign
+- import field price
+- import field contents
+- import field sizes
 - name: brand
   label: Brand
   required: true
   widget: string
   default: Pure Blue Essentials
-- name: contents
-  label: Contents
-  required: false
-  widget: string
-  hint: you must specify the unit of measurement e.g. 30ml. You can leave this blank if there is no unit of measurement
 - name: weight
   label: Weight
   widget: number
