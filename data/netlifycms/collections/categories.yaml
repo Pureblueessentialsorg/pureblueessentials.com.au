@@ -10,6 +10,7 @@ files:
         name_singular: category
         label: Categories
         widget: list
-        summary: fields.name
+        summary: '{{fields.name}}'
         field: { name: name, label: Name, widget: string }
+        collapsed: true
 # comment
