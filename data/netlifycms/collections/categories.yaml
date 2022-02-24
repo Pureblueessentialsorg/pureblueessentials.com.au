@@ -19,11 +19,7 @@ files:
         label: Categories
         widget: list
         summary: fields.name
-        fields:
-          - name: id 
-            label: id
-            widget: string
-            hint: DO NOT MODIFY!
+        field:
           - name: name
             label: Name
             widget: string

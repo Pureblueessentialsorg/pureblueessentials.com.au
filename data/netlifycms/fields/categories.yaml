@@ -3,7 +3,7 @@ label: "Categories"
 widget: relation
 collection: "categories"
 file: "categories"
-value_field: id
+value_field: name
 search_fields: [name]
 min: 1
 multiple: true
