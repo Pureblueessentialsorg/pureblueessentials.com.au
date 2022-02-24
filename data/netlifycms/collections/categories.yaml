@@ -1,6 +1,6 @@
 name: "categories"
 label: "Product categories"
-create: true
+create: false
 files: 
   - label: Categories
     name: categories
