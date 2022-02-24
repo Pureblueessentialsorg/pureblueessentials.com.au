@@ -1,0 +1,5 @@
+name: "size"
+label: "Size"
+widget: "string"
+hint: Include the unit of measurement e.g. 15ml, 200g, 15cm x 30cm
+required: true

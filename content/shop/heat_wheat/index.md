@@ -1,8 +1,8 @@
 ---
 visible: true
-title: heat pack - wheat filled
+title: Heat Pack - Wheat Filled
 id: heatwhea
-summary: ""
+summary: "Choose from blue, blue, or blue! Just kidding, lots of appealing designs and some plush and cuddly options too."
 draft: false
 popular: true
 images: [placeholder4.jpg]

@@ -4,8 +4,4 @@ widget: "list"
 label_singular: "image"
 required: false
 fields:
-  - widget: "image"
-    name: "image"
-    label: "Image Upload"
-    media_folder: ""
-    choose_url: false
+  - import field image

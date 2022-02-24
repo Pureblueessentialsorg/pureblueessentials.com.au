@@ -3,7 +3,8 @@
 
 <div class="row">
   <div class="col-md-5">
-    {{ if gt (len .Params.images) 1 }}
+    {{ with .Params.images }}
+    {{ if gt . 1 }}
     <div class="swiper-container">
       <!-- Slider main container -->
       <div id="js-swiperShopMain" class="swiper swiper-shop-main">
@@ -33,11 +34,12 @@
         </div>
       </div>
     </div>
-    {{ else }}
+    {{ else if eq (len .) 1 }}
     {{- /* if only one image is present dont load swiper */ -}}
-    {{ $img := index .Params.images 0 }}
+    {{/* {{ $img := index .Params.images 0 }}
     {{ $dict := (dict "src" $img "page" . "title" .Title "fillRatio" (slice 3 2)) }}
-    {{ partial "image" $dict }}
+    {{ partial "image" $dict }} */}}
+    {{ end }}
     {{ end }}
   </div>
   <div class="col-md-7">
@@ -60,12 +62,12 @@
         data-item-description="{{ .Summary }}"
         {{- $ctx := . -}} 
         {{- $sizes := slice -}}
-        {{ range := .Params.sizes }}
-        {{ $sizes = $sizes append (printf "%s[+%v]" .size (sub .price $ctx.Params.price) ) }}
+        {{ range .Params.sizes }}
+        {{ $sizes = $sizes | append (printf "%s[+%v]" .size (sub .price $ctx.Params.price) ) }}
         {{ end }}
         {{ with $sizes }}
         data-item-custom1-name="Size"
-        data-item-custom1-options="{{ .Params.size }}|{{ delimit $sizes "|"}}
+        data-item-custom1-options="{{ $.Params.size }}|{{ delimit . "|"}}"
         {{ end }}
         {{ with .Params.images }}
         {{ $image := $.Resources.GetMatch (index . 0) }}

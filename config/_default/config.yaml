@@ -21,6 +21,9 @@ paginate: 6
 rssLimit: 10
 title: "Pure Blue Essentials"
 
+#summary length
+summaryLength: 15
+
 # add redirects/headers (netlify)
 outputs:
   home: ["HTML", "RSS", "REDIRECTS", "HEADERS"]
