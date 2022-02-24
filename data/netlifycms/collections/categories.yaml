@@ -3,7 +3,7 @@ label: "Product categories"
 label_singular: "category"
 folder: "content/categories"
 filter: {field: "visible", value: true}
-path: "{{id}}/index.md"
+path: "{{category}}/index.md"
 # media_folder: ''
 # public_folder: ''
 create: true
