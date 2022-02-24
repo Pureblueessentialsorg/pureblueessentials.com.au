@@ -64,7 +64,7 @@
         {{ end }}
         data-item-name="{{ .Params.title }}"
         data-item-id="{{ .Params.id }}" 
-        data-item-categories="{{ delimit .Params.categories ", " }}" 
+        data-item-categories="{{ delimit .Params.categories "|" }}" 
         {{ with .Params.weight }}
         data-item-weight="{{ . }}"
         {{ end }}
