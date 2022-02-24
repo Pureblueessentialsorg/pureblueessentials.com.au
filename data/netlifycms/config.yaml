@@ -3,6 +3,7 @@ backend:
   # branch: master
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
+show_preview_links: false
 
 editor:
   preview: false

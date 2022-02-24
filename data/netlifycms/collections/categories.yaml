@@ -1,14 +1,6 @@
 name: "categories"
 label: "Product categories"
 create: true
-# label_singular: "category"
-# folder: "content/categories"
-# filter: {field: "visible", value: true}
-# path: "{{category}}/index.md"
-# media_folder: ''
-# public_folder: ''
-
-# delete: true
 files: 
   - label: Categories
     name: categories
@@ -19,8 +11,5 @@ files:
         label: Categories
         widget: list
         summary: fields.name
-        field:
-          - name: name
-            label: Name
-            widget: string
+        field: { name: name, label: Name, widget: string }
 # comment
