@@ -9,5 +9,7 @@ path: "{{id}}/index.md"
 create: true
 delete: true
 fields:
-- import field title 
+- import: field title 
+  extend:
+    hint: no spaces or capitals, use - for a space.
 # comment

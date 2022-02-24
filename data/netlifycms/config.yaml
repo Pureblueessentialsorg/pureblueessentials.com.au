@@ -13,6 +13,7 @@ collections:
 - import collection pages
 - import collection news
 - import collection products
+- import collection categories
 #   extend:
 #     name: updates
 #     label: News Updates
