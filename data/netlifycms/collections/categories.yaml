@@ -1,14 +1,21 @@
 name: "categories"
 label: "Product categories"
-label_singular: "category"
-folder: "content/categories"
-filter: {field: "visible", value: true}
+create: true
+# label_singular: "category"
+# folder: "content/categories"
+# filter: {field: "visible", value: true}
 # path: "{{category}}/index.md"
 # media_folder: ''
 # public_folder: ''
-create: true
+
 # delete: true
-fields:
-- import field category
-- import field visible
+files: 
+  - label: Categories
+    name: categories
+    file: data/categories.yaml
+    fields:
+      - name: categories
+        label: Categories
+        widget: list
+        label_singular: category
 # comment

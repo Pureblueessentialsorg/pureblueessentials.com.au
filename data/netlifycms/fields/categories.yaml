@@ -3,6 +3,7 @@ label: "Categories"
 hint: Use lowercase only, use dash instead of space
 widget: relation
 collection: "categories"
+file: "categories"
 value_field: category
 search_fields: [category]
 min: 1
