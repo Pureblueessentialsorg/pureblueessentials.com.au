@@ -3,7 +3,7 @@ label: "Categories"
 hint: Use lowercase only, use dash instead of space
 widget: relation
 collection: "categories"
-value_field: title
-search_fields: [title]
+value_field: category
+search_fields: [category]
 min: 1
 multiple: true
