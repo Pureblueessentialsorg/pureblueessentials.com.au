@@ -1,10 +1,8 @@
 name: "categories"
 label: "Categories"
-widget: "list"
 hint: Use lowercase only, use dash instead of space
-# required: true
-# min: 1
-field:
-  label: Category
-  name: category
-  widget: string
+widget: relation
+collection: "categories"
+value_field: title
+min: 1
+multiple: true
