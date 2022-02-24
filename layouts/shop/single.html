@@ -56,7 +56,16 @@
       <button class="btn btn-primary snipcart-add-item my-3" href="#" 
         data-item-id="{{ .Params.id }}"
         data-item-price="{{ .Params.price }}" 
-        data-item-url="{{ .Permalink }}" 
+        data-item-url="{{ .Permalink }}"
+        {{- $ctx := . -}} 
+        {{- $sizes := slice -}}
+        {{ range := .Params.sizes }}
+        {{ $sizes = $sizes append (printf "%s[+%v]" .size (sub .price $ctx.Params.price) ) }}
+        {{ end }}
+        {{ with $sizes }}
+        data-item-custom1-name="Size"
+        data-item-custom1-options="{{ .Params.contents }}|{{ delimit $sizes "|"}}
+        {{ end }}
         {{ with .Params.images }}
         {{ $image := $.Resources.GetMatch (index . 0) }}
         {{ $image = $image.Resize "120x" }}
@@ -64,7 +73,9 @@
         {{ end }}
         data-item-name="{{ .Params.title }}"
         data-item-id="{{ .Params.id }}" 
-        data-item-categories="{{ delimit .Params.categories "|" }}" 
+        {{ with .Params.categories }}
+        data-item-categories="{{ delimit . "|" }}"
+        {{ end }}
         {{ with .Params.weight }}
         data-item-weight="{{ . }}"
         {{ end }}
