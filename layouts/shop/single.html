@@ -57,6 +57,7 @@
         data-item-id="{{ .Params.id }}"
         data-item-price="{{ .Params.price }}" 
         data-item-url="{{ .Permalink }}"
+        data-item-description="{{ .Summary }}"
         {{- $ctx := . -}} 
         {{- $sizes := slice -}}
         {{ range := .Params.sizes }}
