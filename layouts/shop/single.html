@@ -36,24 +36,35 @@
     </div>
     {{ else if eq (len .) 1 }}
     {{- /* if only one image is present dont load swiper */ -}}
-    {{/* {{ $img := index .Params.images 0 }}
-    {{ $dict := (dict "src" $img "page" . "title" .Title "fillRatio" (slice 3 2)) }}
-    {{ partial "image" $dict }} */}}
+    {{ $img := index $.Params.images 0 }}
+    {{ $dict := (dict "src" $img "page" $ "title" $.Title "fillRatio" (slice 3 2)) }}
+    {{ partial "image" $dict }}
     {{ end }}
     {{ end }}
   </div>
   <div class="col-md-7">
     <h1 class="h3">{{ .Title }}</h1>
     <div>
-      {{ with .Params.Price}}
-      Price: {{ . }}
+      {{ with .Params.Sizes }}
+      <strong>Sizes: </strong>
+      <ul class="list-unstyled">
+        <li>{{ $.Params.size }} - {{ printf "%.2f" (float $.Params.price) }}</li>
+        {{ range . }}
+        {{ $price := float .price }}
+        <li>{{ .size }} - ${{ printf "%.2f" (float .price) }}</li>
+        {{ end }}  
+      </ul>
+      {{ else }}
+        {{ with .Params.price}}
+        Price: ${{ printf "%.2f" (float .) }}
+        {{ end }}
       {{ end }}
     </div>
-    <div>
+    <!-- <div>
       {{ with .Params.Summary}}
       Summary: {{ . }}
       {{ end }}
-    </div>
+    </div> -->
     <div>
       <button class="btn btn-primary snipcart-add-item my-3" href="#" 
         data-item-id="{{ .Params.id }}"
@@ -63,7 +74,7 @@
         {{- $ctx := . -}} 
         {{- $sizes := slice -}}
         {{ range .Params.sizes }}
-        {{ $sizes = $sizes | append (printf "%s[+%v]" .size (sub .price $ctx.Params.price) ) }}
+        {{ $sizes = $sizes | append (printf "%s[+%d]" .size (sub .price $ctx.Params.price) ) }}
         {{ end }}
         {{ with $sizes }}
         data-item-custom1-name="Size"

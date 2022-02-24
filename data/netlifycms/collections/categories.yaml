@@ -1,0 +1,13 @@
+name: "categories"
+label: "categories"
+label_singular: "category"
+folder: "content/categories"
+filter: {field: "visible", value: true}
+path: "{{id}}/index.md"
+# media_folder: ''
+# public_folder: ''
+create: true
+delete: true
+fields:
+- import field title 
+# comment
