@@ -16,7 +16,9 @@ fields:
   widget: string
   required: true
   hint: No spaces and must be unique to each product (no duplicates)
-- import field summary
+- import: field summary
+  extend:
+    hint: Summary is for shopping cart, item overview, and search engines
 - import field draft
 - import field popular
 - import: field images
