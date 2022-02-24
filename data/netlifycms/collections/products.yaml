@@ -24,7 +24,7 @@ fields:
     # hint: Minimum 1 image
 - import field categories
 - import field price
-- import field contents
+- import field size
 - import field sizes
 - name: brand
   label: Brand

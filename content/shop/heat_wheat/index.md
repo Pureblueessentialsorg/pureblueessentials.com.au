@@ -10,7 +10,7 @@ categories:
   - heat-packs
 price: 32
 brand: pure blue essentials
-contents: wheat
+size: 40cm x 90cm
 weight: 1000
 length: 2
 height: 2

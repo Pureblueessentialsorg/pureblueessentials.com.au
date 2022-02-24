@@ -1,5 +1,5 @@
-name: contents
-label: Contents
+name: size
+label: Size
 required: true
 widget: string
 hint: you must specify the unit of measurement e.g. 30ml, 400g or 40cm x 90cm

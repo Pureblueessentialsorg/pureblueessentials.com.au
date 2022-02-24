@@ -10,7 +10,7 @@ categories:
   - magnesium
 price: 22
 brand: pure blue essentials
-contents: 100ml liquid magnesium rub
+size: 100ml
 weight: 160
 length: 2
 height: 3

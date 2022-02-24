@@ -3,7 +3,8 @@ label: "Additional sizes"
 widget: "list"
 label_singular: "sizes"
 required: false
+hint: Optionally define other available sizes. (in increasing order)
 fields:
-  - import field contents
+  - import field size
   - import field price
 

@@ -8,7 +8,7 @@ popular: true
 price: 29.5
 images: ["1.jpg"]
 brand: pure blue essentials
-contents: 100ml
+size: 100ml
 weight: 100
 length: 2
 height: 2

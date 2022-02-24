@@ -9,7 +9,7 @@ weight: 800
 height: 2
 width: 2
 length: 2
-contents: 30ml x 8 bottles
+size: 30ml x 8 bottles
 brand: Pure Blue Essentials
 categories: ["essential-oils"]
 images: ["1.jpg"]

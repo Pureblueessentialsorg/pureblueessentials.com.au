@@ -10,7 +10,7 @@ categories:
   - essential-oils
 price: 10
 brand: Pure Blue Essentials
-contents: 10ml
+size: 10ml
 weight: 100
 length: 2
 height: 2
