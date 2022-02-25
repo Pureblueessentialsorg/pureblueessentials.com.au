@@ -6,6 +6,8 @@ menu:
     weight: 40
   footer:
     weight: 40
+description: Wanting menu in Resources with multiple pages for individual
+  information pages for different things....
 ---
 
 
