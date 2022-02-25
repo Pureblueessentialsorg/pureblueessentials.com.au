@@ -6,7 +6,7 @@ menu:
     weight: 30
   footer:
     weight: 30
-description: ""
+description: (keep this "about us")
 images:
   - uploaded_image: placeholder1.jpg
   - uploaded_image: placeholder1.jpg
