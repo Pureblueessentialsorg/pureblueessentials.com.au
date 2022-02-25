@@ -1,46 +1,45 @@
 ---
-title: About Us
+title: Packaging and Recycling Policy
 draft: false
 menu:
   main:
     weight: 30
   footer:
     weight: 30
-description: (keep this "about us")
+description: ""
 images:
-  - uploaded_image: placeholder1.jpg
-  - uploaded_image: placeholder1.jpg
+  - image: redcycle-jpeg.jpg
 ---
-**pure blue essentials** is a small Australian company borne out of a need for natural products to supply our own clients.
+
+
+**Packaging and Recycling Policy**
 
 
 
-**pure blue essentials** is a small Australian company borne out of a need for natural products to supply our own clients.
+Packaging is unfortunately necessary. So through our packaging we aim to achieve 3 things:
 
-Jacinda Minahan, the founder of **pure blue essentials**, has a Diploma in Horticulture, a Diploma in Horticulture (Herbs, Medicinal Plants and Essential Oils) and a Diploma in Remedial Massage Therapy.
+\* To ensure your precious cargo arrives in perfect condition;
 
-These two things have combined with over 20 years’ experience in both industries to shape our high quality products.
+\* To have minimal impact on the environment while conducting an ongoing business and meaningful employment;
 
-Our aim is to bring you the best quality, pure, natural products for the essentials of healthy living, at home and on the move, at affordable prices.  Putting natural health care into your own hands.
+\* To support sustainable packaging companies; and
 
-The ingredients and packaging we use are sourced locally where possible, sustainably and ethically.
-
-We ensure that our products are free of palm oil, animal products, synthetic fragrances and artificial colours.
-
-As our business grows we will always keep your products pure, look for ways to support local business, and contribute greater percentages to charities.
+\* To save recyclable materials from ending up in landfill.
 
 
 
-**Why blue???**
+We use clean cardboard rolls and bubble wrap sourced from the construction industry and the textile industry. These are saved from going to landfill.
 
-The color blue represents both the sky and the sea and is associated with open spaces, freedom, intuition, imagination, inspiration, productivity and sensitivity.
+Brown paper and packaging peanuts are also used.
 
-Blue also represents meanings of depth, trust, loyalty, sincerity, confidence, stability, faith, and intelligence. *
+If you have packing peanuts (the squidgy white lumps) in your parcel, they can safely be placed in any composting system or placed on the garden and watered in straight away. If you can’t do either of those, it is safe to place them in the kitchen sink and wash them down the drain with ample water.
 
-And isn’t it also just a really great colour !?!
+![](file:///C:/Users/Jacinda/AppData/Local/Temp/lu20412c4h5g6.tmp/lu20412c4h5gk_tmp_6ef25ab923929cb6.jpg)We encourage you to recycle all our packaging the most effective way in your local area.
 
-Essential oils need to be protected from light. So when sourcing bottles we chose cobalt blue. A no brainer really. We hope you enjoy our beautiful blue bottles.
+If your packaging does include soft plastics they can easily recycled through the wonderful    <!--StartFragment-->
 
+![](blob:https://pureblueessentials.netlify.app/75cd8127-dc46-4c28-8db4-46ca72368e55)
 
+<!--EndFragment-->                          initiative at many, many participating stores.
 
-\**www. supercolor.com*
+For more information visit **redcycle.org.au**
