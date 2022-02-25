@@ -1,5 +1,5 @@
 ---
-title: About
+title: About Us
 draft: false
 menu:
   main:
