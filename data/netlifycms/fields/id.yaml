@@ -1,0 +1,5 @@
+name: id
+label: ID
+widget: string
+required: true
+hint: No spaces and must be unique to each product (no duplicates)

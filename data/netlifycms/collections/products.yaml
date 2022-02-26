@@ -11,11 +11,7 @@ delete: true
 fields:
 - import field visible
 - import field title 
-- name: id
-  label: ID
-  widget: string
-  required: true
-  hint: No spaces and must be unique to each product (no duplicates)
+- import field id
 - import: field summary
   extend:
     hint: Summary is for shopping cart, item overview, and search engines
