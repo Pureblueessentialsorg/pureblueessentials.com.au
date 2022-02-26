@@ -1,7 +1,7 @@
 ---
-title: 30ml remedial essential oil blends (x8)
+title: 30ml remedial essential oil blends 8 Pack
 visible: true
-draft: true
+draft: false
 summary: Product summary
 price: 9.99
 id: oil_blends

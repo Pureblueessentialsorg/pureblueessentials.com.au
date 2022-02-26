@@ -3,7 +3,7 @@ visible: true
 title: Temp oil
 id: tempoil
 summary: "Choose from blue, blue, or blue! Just kidding, lots of appealing designs and some plush and cuddly options too."
-draft: false
+draft: true
 popular: true
 images: [placeholder4.jpg]
 categories:

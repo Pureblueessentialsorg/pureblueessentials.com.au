@@ -5,10 +5,11 @@
     {{ partial "image" (dict "src" $img "page" $ "title" $.Title "class" "card-img-top" "widths" (slice 260 540))}}
   </a>
   {{ end }}
-  <div class="card-body text-center">
-    <a href="{{ .Permalink }}">
+  <div class="card-body">
+    <a href="{{ .Permalink }}" class="text-decoration-none">
       <h5 class="card-title">{{ .Title  }}</h5>
     </a>
-    <p class="card-text">{{ .Summary }}</p>
+    {{/*  <p class="card-text">{{ .Summary }}</p>  */}}
+    <p class="card-text fw-bold">${{ .Params.price }}</p>
   </div>
 </div>
