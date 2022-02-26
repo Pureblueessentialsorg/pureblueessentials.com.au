@@ -15,20 +15,6 @@ weight: 1000
 length: 2
 height: 2
 width: 2
-# sizes:
-#   - size: 20ml
-#     price: 20
-#     weight: 1000
-#     length: 2
-#     height: 2
-#     width: 2
-#   - size: 30ml x 3 (Longetivity Pack)
-#     price: 50
-#     weight: 1000
-#     length: 2
-#     height: 2
-#     width: 2
-
 ---
 Available in different sizes...
 
