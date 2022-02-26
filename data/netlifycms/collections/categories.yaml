@@ -1,6 +1,7 @@
 name: "categories_data"
 label: "Product categories"
-create: false
+create: false #redundant
+hide: true
 files: 
   - label: List
     name: list
