@@ -1,10 +1,14 @@
 name: "categories"
 label: "Categories"
-widget: relation
-collection: "categories_data"
-file: "list"
-value_field: name
-search_fields: [name]
-display_fields: [name]
+# widget: relation
+# collection: "categories_data"
+# file: "list"
+# value_field: name
+# search_fields: [name]
+# display_fields: [name]
+# min: 1
+# multiple: true
+widget: "list"
+hint: use a comma to separate multiple categories.
+label_singular: "Category"
 min: 1
-multiple: true

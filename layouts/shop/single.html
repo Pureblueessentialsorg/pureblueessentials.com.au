@@ -46,6 +46,13 @@
     <h1 class="h3">{{ .Title }}</h1>
     <div>
       {{ with .Params.Sizes }}
+      {{/*  <label for="js-sizes">Sizes</label>
+      <select id="js-sizes">
+        <option value="{{ $.Params.size }}">{{ $.Params.size }} - ${{ $.Params.price }}</option>
+        {{ range . }}
+        <option value="{{ .size }}">{{ .size }} - ${{ .price }}</option>
+        {{ end }}
+      </select>  */}}
       <strong>Sizes: </strong>
       <ul class="list-unstyled">
         <li>{{ $.Params.size }} - {{ printf "%.2f" (float $.Params.price) }}</li>
@@ -73,7 +80,7 @@
       {{ end }}
     </div> -->
     <div>
-      <button class="btn btn-primary snipcart-add-item my-3" href="#" 
+      <button class="btn btn-primary snipcart-add-item my-3" href="#" id="js-snip"
         data-item-id="{{ .Params.id }}"
         data-item-price="{{ .Params.price }}" 
         data-item-url="{{ .Permalink }}"
@@ -111,8 +118,50 @@
         {{ end }}>Add to cart
       </button>
     </div>
+    <div>
+      <h2 class="h4">Description:</h2>
+      {{- .Content -}}
+    </div>
+   
 
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
+  </div>
+</div>
+{{ end }}
+
+{{ define "head/json-ld" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "product",
+  "name": "{{ .Title }}",
+  {{ with .Params.images -}}
+  "image": [
+    {{- range $i, $e := . -}}
+    {{- if ne $i 0 -}}, {{ end }}
+    {{ $.Permalink }}
+    {{- end -}}
+  ],
+  {{ end -}}
+  "description": "{{ .Summary }}", 
+  {{ with .Params.brand -}}
+  "brand": {
+    "@type": "brand",
+    "name": "{{ . }}"
+  },
+  {{ end -}}
+  "offers": {
+    "@type": "Offer",
+    "price": "{{ .Params.Price }}",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "AUD",
+    "itemCondition": "https://schema.org/NewCondition",
+    "url": {{ .Permalink }}
+  }
+}
+</script>
+{{ end }}
+
+ {{/*  <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
         <button class="nav-link active" id="desc-tab" data-bs-toggle="tab" data-bs-target="#desc" type="button"
           role="tab" aria-controls="desc" aria-selected="true">Description</button>
@@ -163,41 +212,4 @@
         </div>
         {{ end }}
       </div>
-    </div>
-
-  </div>
-</div>
-{{ end }}
-
-{{ define "head/json-ld" }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "product",
-  "name": "{{ .Title }}",
-  {{ with .Params.images -}}
-  "image": [
-    {{- range $i, $e := . -}}
-    {{- if ne $i 0 -}}, {{ end }}
-    {{ $.Permalink }}
-    {{- end -}}
-  ],
-  {{ end -}}
-  "description": "{{ .Summary }}", 
-  {{ with .Params.brand -}}
-  "brand": {
-    "@type": "brand",
-    "name": "{{ . }}"
-  },
-  {{ end -}}
-  "offers": {
-    "@type": "Offer",
-    "price": "{{ .Params.Price }}",
-    "availability": "https://schema.org/InStock",
-    "priceCurrency": "AUD",
-    "itemCondition": "https://schema.org/NewCondition",
-    "url": {{ .Permalink }}
-  }
-}
-</script>
-{{ end }}
+    </div>  */}}
