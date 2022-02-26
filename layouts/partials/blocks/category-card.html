@@ -6,7 +6,7 @@
   {{ partial "image" (dict "src" $img "page" $firstChild "title" $ctx.Title "class" "card-img-top" "widths" (slice 260 540))}}
   {{ end }}
   <div class="card-body text-center">
-    <a href="{{ .Permalink }}">
+    <a href="{{ .Permalink }}" class="text-decoration-none stretched-link">
       <h5 class="card-title">{{ .Title | humanize | title }}</h5>
     </a>
     {{ $pageCount := len .Pages }}
