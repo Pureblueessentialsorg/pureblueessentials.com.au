@@ -21,9 +21,9 @@ fields:
     hint: Summary is for shopping cart, item overview, and search engines
 - import field draft
 - import field popular
-- import: field images
-  extend: 
-    # hint: Minimum 1 image
+# - import: field images
+#   extend: 
+#     # hint: Minimum 1 image
 - import field categories
 - import field price
 - import field size

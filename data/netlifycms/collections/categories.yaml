@@ -1,17 +1,25 @@
-name: "categories_data"
-label: "Product categories"
-create: false #redundant
-hide: true
-files: 
-  - label: List
-    name: list
-    file: data/categories.yaml
-    fields:
-      - name: categories
-        name_singular: category
-        label: Categories
-        widget: list
-        summary: '{{fields.name}}'
-        field: { name: name, label: Name, widget: string }
-        collapsed: true
+name: "shop_categories"
+label: "Shop categories"
+label_singular: "Shop category"
+folder: "content/categories"
+create: false
+delete: false
+filter: { field: visible, value: true }
+fields:
+  - import field title
+  - import field images
+#redundant
+#hide: true
+# files: 
+#   - label: List
+#     name: list
+#     file: data/categories.yaml
+#     fields:
+#       - name: categories
+#         name_singular: category
+#         label: Categories
+#         widget: list
+#         summary: '{{fields.name}}'
+#         field: { name: name, label: Name, widget: string }
+#         collapsed: true
 # comment
