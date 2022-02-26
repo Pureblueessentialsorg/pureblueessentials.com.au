@@ -27,7 +27,7 @@ fields:
 - import field categories
 - import field price
 - import field size
-- import field sizes
+# - import field sizes
 - name: brand
   label: Brand
   required: true
