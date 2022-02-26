@@ -1,5 +1,5 @@
 ---
-long: ""
+title: ""
 images: []
 weight: 40
 ---

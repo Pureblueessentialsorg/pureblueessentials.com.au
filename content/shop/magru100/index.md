@@ -7,7 +7,7 @@ draft: false
 popular: false
 images: ["1.jpg"]
 categories:
-  - magnesium
+  - rubs
 price: 22
 brand: Pure Blue Essentials
 size: 100ml

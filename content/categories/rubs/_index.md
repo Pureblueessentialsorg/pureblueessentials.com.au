@@ -1,5 +1,5 @@
 ---
-long: Magnesium rub and Fisiocrem
+title: Magnesium rub and Fisiocrem
 images: []
 weight: 30
 ---

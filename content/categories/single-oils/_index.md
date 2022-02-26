@@ -1,5 +1,5 @@
 ---
-long: Pure remedial essential oils
+title: Single (pure) essential oils
 images: []
 weight: 50
 ---

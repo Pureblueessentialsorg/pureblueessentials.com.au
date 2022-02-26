@@ -121,6 +121,18 @@
     <div>
       <h2 class="h4">Description:</h2>
       {{- .Content -}}
+      {{ if .Params.designs }}
+      <br>
+      <strong>Available Designs:</strong>
+      <br>
+      <ul class="list-unstyled">
+      {{ with .Site.Data.heatPacks }}
+      {{ range .designs }}
+        <li>{{ . | title }}</li>
+      {{ end }}
+      {{ end }}
+      </ul>
+      {{ end }}
     </div>
    
 
