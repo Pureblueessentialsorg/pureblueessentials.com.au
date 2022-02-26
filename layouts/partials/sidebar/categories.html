@@ -4,7 +4,7 @@
 <div class="border p-3">
     <p class="h4">Shop Categories</p>
     <ul class="list-unstyled mb-0 ">
-      {{ range . }}
+      {{ range sort . "Page.Params.weight"}}
       <li>
         <a class="text-decoration-none"
           href="{{ .Page.RelPermalink }}">{{ .Page.Title | humanize | title }}</a>

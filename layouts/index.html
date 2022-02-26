@@ -36,7 +36,7 @@
   </div>
   {{ end }} -->
   <div class="row row-cols-1 row-cols-md-3">
-    {{ range site.Taxonomies.categories }}
+    {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
     {{ with .Page }}
     <div class="col">
       <div class="card mb-3">

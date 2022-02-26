@@ -11,7 +11,7 @@ width: 2
 length: 2
 size: 30ml x 8 bottles
 brand: Pure Blue Essentials
-categories: ["essential-oils"]
+categories: ["remedial-oils"]
 images: ["1.jpg"]
 ---
 Product full description
