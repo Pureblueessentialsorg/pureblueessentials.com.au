@@ -56,7 +56,14 @@
       </ul>
       {{ else }}
         {{ with .Params.price}}
-        Price: ${{ printf "%.2f" (float .) }}
+        <div>
+          Price: ${{ printf "%.2f" (float .) }}
+        </div>
+        {{ end }}
+        {{ with .Params.size }}
+        <div>
+          Size: {{ . }}
+        </div>
         {{ end }}
       {{ end }}
     </div>
@@ -118,12 +125,12 @@
 
     <div class="tab-content border border-top-0 p-2" id="myTabContent">
       <div class="tab-pane fade show active" id="desc" role="tabpanel" aria-labelledby="desc-tab">
-        {{ .Content }}
+        {{- .Content -}}
       </div>
       <div class="tab-pane fade" id="specs" role="tabpanel" aria-labelledby="specs-tab">
-        {{ with .Params.contents }}
+        {{ with .Params.size }}
         <div>
-          Contents: {{ . }}
+          Size: {{ . }}
         </div>
         {{ end }}
         {{ with .Params.brand }}
@@ -132,7 +139,8 @@
         </div>
         {{ end }}
         <div>
-          Category: {{ delimit .Params.categories ", " | humanize }}
+          {{- if gt .Params.categories 1 }}Categories: {{ else }}Category: {{ end -}}
+          {{- delimit .Params.categories ", " | humanize -}}
         </div>
         {{ with .Params.weight }}
         <div>
@@ -144,17 +152,16 @@
           Height: {{ . }} cm
         </div>
         {{ end }}
-
+        {{ with .Params.Width }}
         <div>
-          {{ with .Params.Width }}
           Width: {{ . }} cm
-          {{ end }}
         </div>
+        {{ end }}
+        {{ with .Params.Length }}
         <div>
-          {{ with .Params.Length }}
           Length: {{ . }} cm
-          {{ end }}
         </div>
+        {{ end }}
       </div>
     </div>
 

@@ -6,7 +6,7 @@
 {{- /* displays 5 popular products */ -}}
 <div class="border p-3 mt-1">
     <p class="h4">Popular Products:</p>
-    <ul class="list-unstyled">
+    <ul class="list-unstyled mb-0">
       {{ range first 5 (where .Site.Pages "Params.popular" true) }}
       <li>
         <a class="text-decoration-none"
