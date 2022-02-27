@@ -2,6 +2,6 @@
 title: "Bottles"
 id: bottles
 images: []
-weight: 60
+weight: 40
 visible: true
 ---

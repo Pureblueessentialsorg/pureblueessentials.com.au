@@ -2,6 +2,6 @@
 title: "Gift Packs"
 id: gift-packs
 images: []
-weight: 40
+weight: 60
 visible: true
 ---

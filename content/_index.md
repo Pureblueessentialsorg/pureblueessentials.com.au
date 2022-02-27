@@ -6,8 +6,7 @@ title: Home
 description: Providing the essentials to optimise your health, hand made from
   pure ingredients found in nature.
 images: []
-lead: Providing the essentials to optimise your daily health, hand made from
-  pure ingredients found in nature.
+lead: All natural ingredients
 menu:
   main:
     weight: 10
@@ -15,29 +14,6 @@ menu:
     weight: 10
 ---
 (text in white or blue over square image) (font Source Sans Pro Light)
-
-**Remedial Essential Oil Blends                                                                 Heat Packs**
-
- **\    (pic)                                                                                                 (pic)**
-
-
-
-**Magnesium rub                                                                                        Bath soak**
-
- **\    (pic)                                                                                                          (pic)**
-
-
-
-
-
-**Jojoba oil (carrier oil)                                                                               Fisiocrem**
-
-\    (pic)                                                                                                          (pic)
-
-
-
-
-
 
 
 (icon)  purebluenews blog

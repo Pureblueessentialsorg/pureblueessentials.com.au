@@ -1,5 +1,5 @@
 ---
-title: Heat Packs (Wheat and Lupin)
+title: Heat Packs & Bath Soaks
 id: heat-packs
 images: []
 weight: 20

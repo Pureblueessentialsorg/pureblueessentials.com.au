@@ -1,74 +1,81 @@
 {{ define "main" }}
-
-<div class="container-xxl">
-  <div class="row justify-content-center">
-    <div class="col-lg-7 pb-5 text-center">
-      <div class="v-title">
-        <video autoplay loop muted class="v-title__video">
-          {{ $video := resources.Get "videos/WaterCaustics.mp4" }}
-          <source src="{{ $video.RelPermalink }}" type="{{ $video.MediaType }}">
-        </video>
-        <div class="v-title__text-box">
-          <h1 class="v-title__text">{{ .Site.Title }}</h1>
-        </div>
+<div class="row justify-content-center">
+  <div class="col-lg-6 pb-2 text-center">
+    <div class="v-title__container">
+      <video autoplay loop muted class="v-title__video">
+        {{ $video := resources.Get "videos/WaterCaustics.mp4" }}
+        <source src="{{ $video.RelPermalink }}" type="{{ $video.MediaType }}">
+      </video>
+      <div class="v-title__text-box">
+        <h1 class="v-title__text">{{ .Site.Title }}</h1>  
       </div>
-      {{ with .Params.lead }}
-      <p class="lead fs-3">{{ . | safeHTML }}</p>
-      {{ end }}
-      <a class="btn btn-dark px-3" href="{{ "shop/" | absURL }}" role="button">Button 1</a>
-      <a class="btn btn-outline-dark px-3" href="#" role="button">Button 2</a>
+      <p class="lead fs-1">{{ . | safeHTML }}</p>
     </div>
-  </div>
-  {{- .Content -}}
-
-  <!-- {{ with site.Taxonomies.categories }}
-  {{- /* displays categories, but not on categories page */ -}}
-  <div class="border p-3">
-      <p class="h4">Shop Categories</p>
-      <ul class="list-unstyled mb-0 ">
-        {{ range . }}
-        <li>
-          <a class="text-decoration-none"
-            href="{{ .Page.RelPermalink }}">{{ .Page.Title | humanize | title }}</a>
-        </li>
-        {{ end }}
-      </ul>
-  </div>
-  {{ end }} -->
-  <div class="row row-cols-1 row-cols-md-3">
-    {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
-    {{ with .Page }}
-    <div class="col">
-      <div class="card mb-3">
-        {{ $ctx := . }}
-        {{ $firstChild := index .Pages 0 }}
-        {{ $img := "" }}
-        {{ with .Params.images }}
-          {{ $img = index . 0 }}
-        {{ else }}
-          {{ with $firstChild.Params.images }}
-            {{ $img = $firstChild.Resources.GetMatch (index . 0) }}
-          {{ end }}
-        {{ end }}
-        {{ with $img }}
-        {{ partial "image" (dict "src" $img "page" $firstChild "title" $ctx.Title "class" "card-img-top" "widths" (slice 260 540))}}
-        {{ end }}
-        {{ with .Params.images }}
-        <img src="{{ index . 0 }}" class="card-img-top img-fluid" alt="...">
-        {{ end }}
-        <div class="card-body">
-          <h5 class="card-title">{{ .Title | humanize | title }}</h5>
-          {{ with .Params.hint }}
-          <p class="card-text">{{ . }}</p>
-          {{ end }}
-          <a href="{{ .Page.RelPermalink }}" class="btn btn-primary">View Products</a>
-        </div>
-      </div>
-    </div>
-    {{ end }}
-    {{ end }}
   </div>
 </div>
+{{ with .Params.lead }}
+<div class="row justify-content-center">
+  <div class="col-lg-10 text-center">
+    <p class="lead fs-1">{{ . | safeHTML }}</p>
+  </div>
+</div>
+{{ end }}
+<div class="row justify-content-center">
+  <div class="col-lg-10 text-center">
+    <a class="btn btn-dark px-3" href="{{ "shop/" | absURL }}" role="button">Button 1</a>
+    <a class="btn btn-outline-dark px-3" href="#" role="button">Button 2</a>
+  </div>
+</div>
+{{- .Content -}}
+
+<!-- {{ with site.Taxonomies.categories }}
+{{- /* displays categories, but not on categories page */ -}}
+<div class="border p-3">
+    <p class="h4">Shop Categories</p>
+    <ul class="list-unstyled mb-0 ">
+      {{ range . }}
+      <li>
+        <a class="text-decoration-none"
+          href="{{ .Page.RelPermalink }}">{{ .Page.Title | humanize | title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+</div>
+{{ end }} -->
+<div class="row row-cols-1 row-cols-md-3">
+  {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
+  {{ with .Page }}
+  <div class="col">
+    <div class="card mb-3">
+      {{ $ctx := . }}
+      {{ $firstChild := index .Pages 0 }}
+      {{ $img := "" }}
+      {{ with .Params.images }}
+        {{ $img = index . 0 }}
+      {{ else }}
+        {{ with $firstChild.Params.images }}
+          {{ $img = $firstChild.Resources.GetMatch (index . 0) }}
+        {{ end }}
+      {{ end }}
+      {{ with $img }}
+      {{ partial "image" (dict "src" $img "page" $firstChild "title" $ctx.Title "class" "card-img-top" "widths" (slice 260 540))}}
+      {{ end }}
+      {{ with .Params.images }}
+      <img src="{{ index . 0 }}" class="card-img-top img-fluid" alt="...">
+      {{ end }}
+      <div class="card-body">
+        <h5 class="card-title">{{ .Title | humanize | title }}</h5>
+        {{ with .Params.hint }}
+        <p class="card-text">{{ . }}</p>
+        {{ end }}
+        <a href="{{ .Page.RelPermalink }}" class="btn btn-primary">View Products</a>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+</div>
+
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
   if (window.netlifyIdentity) {

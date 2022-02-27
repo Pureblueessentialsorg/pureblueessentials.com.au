@@ -4,7 +4,7 @@ title: Balance 10ml
 id: reobal10
 summary: ""
 draft: false
-popular: true
+popular: false
 images: [placeholder4.jpg]
 categories:
   - remedial-oils

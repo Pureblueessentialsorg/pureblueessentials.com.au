@@ -1,0 +1,19 @@
+---
+visible: true
+title: Pure Australian Jojoba Oil 30ml
+id: eojojo30
+summary: "Pure Australian Jojoba Oil - an idea carrier oil"
+draft: false
+popular: true
+images: [placeholder4.jpg]
+categories:
+  - single-oils
+price: 10
+brand: Pure Blue Essentials
+size: 30ml
+weight: 100
+length: 2
+height: 2
+width: 2
+---
+Description

@@ -4,7 +4,7 @@ title: Lemongrass oil 30ml
 id: eolemo30
 summary: ""
 draft: false
-popular: true
+popular: false
 categories:
   - single-oils
 price: 10
@@ -17,6 +17,4 @@ width: 2
 images:
   - placeholder4.jpg
 ---
-Available in different sizes...
-
-Both the inner and outer covers are made from all natural fabrics. The outer cover is removable so it can be washed.
+Description

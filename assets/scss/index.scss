@@ -85,16 +85,17 @@ $themeColor: $primary; // #007aff !default;
 }
 
 .v-title {
+  &__container {
   // height: 20rem;
   width: 100%;
   position: relative;
+  }
 
   &__video {
-    height: 99%;
+    // height: 99%;
     width: 99%;
     object-fit: cover;
     // position: absolute;
-
     // top: 0;
     // left: 0;
   }
@@ -116,7 +117,7 @@ $themeColor: $primary; // #007aff !default;
   &__text {
     font-size: 5rem;
     font-weight: bold;
-    line-height: 5rem;
+    // line-height: 5rem;
 
     @include media-breakpoint-up(md) {
       font-size: 7rem;
@@ -124,40 +125,15 @@ $themeColor: $primary; // #007aff !default;
       line-height: 7rem;
     }
   }
+  // &__text--sub {
+  //   font-size: 5rem;
+  //   font-weight: bold;
+  //   // line-height: 5rem;
+
+  //   @include media-breakpoint-up(md) {
+  //     font-size: 5rem;
+  //     font-weight: bold;
+  //     line-height: 5rem;
+  //   }
+  // }
 }
-
-// .container-video {
-//   height: 20rem;
-//   width: 100%;
-//   position: relative;
-
-//   video {
-//     height: 100%;
-//     width: 100%;
-//     object-fit: cover;
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//   }
-
-//   .text-box {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     background: #fff;
-//     color: #000;
-//     height: 100%;
-//     width: 100%;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-
-//     mix-blend-mode: screen;
-
-//     .h-text {
-//       font-size: 8rem;
-//       font-weight: bold;
-//       line-height: 8rem;
-//     }
-//   }
-// }
