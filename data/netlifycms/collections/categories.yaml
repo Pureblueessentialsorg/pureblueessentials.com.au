@@ -2,7 +2,7 @@ name: "shop_categories"
 label: "Shop categories"
 label_singular: "Shop category"
 folder: "content/categories"
-create: false
+create: true
 delete: false
 # filter: {field: "visible", value: true}
 #only for creation

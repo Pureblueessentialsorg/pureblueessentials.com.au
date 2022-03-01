@@ -3,3 +3,4 @@ label: Popular product?
 hint: Turn on to list product in popular products widget
 widget: boolean
 default: false
+required: false
