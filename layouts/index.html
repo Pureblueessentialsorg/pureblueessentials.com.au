@@ -42,10 +42,13 @@
     </ul>
 </div>
 {{ end }} -->
-<div class="row row-cols-1 row-cols-md-3">
+<div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
   {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
   {{ with .Page }}
-  {{ partial "blocks/category-card" . }}
+  <div class="col mb-3">
+      {{ partial "blocks/category-card" . }}
+  </div>
+
   {{ end }}
   {{ end }}
 </div>

@@ -15,7 +15,7 @@
   </head>
   {{- partial "head/body-class" . -}}
   {{- $bodyClass := delimit (.Scratch.Get "class") " " -}}
-  <body class="{{ $bodyClass }} d-flex flex-column min-vh-100 bg-light">
+  <body class="{{ $bodyClass }} d-flex flex-column min-vh-100">
     {{- if and .IsHome .Site.Params.alert -}}
     {{ partial "header/alert" . -}}
     {{- end -}}

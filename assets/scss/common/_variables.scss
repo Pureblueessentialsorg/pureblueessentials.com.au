@@ -67,6 +67,12 @@ $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
 
+// Settings for the `<body>` element.
+
+$body-bg:                   $gray-100; //$white !default;
+$body-color:                $gray-900 !default;
+$body-text-align:           null !default;
+
 // $primary:   $blue;
 
 // // Options
