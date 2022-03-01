@@ -14,7 +14,7 @@ label: "Categories"
 # min: 1
 
 widget: relation
-collection: categories
+collection: shop_categories
 value_field: id
 search_fields: [title]
 display_fields: [title]
