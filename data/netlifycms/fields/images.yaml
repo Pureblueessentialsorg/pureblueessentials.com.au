@@ -4,4 +4,4 @@ widget: "list"
 label_singular: "image"
 required: false
 summary: '{{fields.image}}'
-fields: { name: "image", label: "Image", widget: "image", media_folder: "", required: false, allow_multiple: false, choose_url: false}
+field: { name: "image", label: "Image", widget: "image", media_folder: "", required: false, allow_multiple: false, choose_url: false}
