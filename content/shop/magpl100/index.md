@@ -4,7 +4,7 @@ title: Magnesium rub PLUS
 summary: Liquid magnesium rub with lavender and lemongrass essential oils
 draft: false
 popular: false
-images: ["1.jpg"]
+images: ["photo.jpg"]
 categories:
   - rubs
 price: 29.5

@@ -5,7 +5,7 @@ id: magru100
 summary: Magnesium rub unscented in a pump pack bottle
 draft: false
 popular: false
-images: ["1.jpg"]
+images: ["photo1.jpg"]
 categories:
   - rubs
 price: 22

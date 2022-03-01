@@ -45,33 +45,7 @@
 <div class="row row-cols-1 row-cols-md-3">
   {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
   {{ with .Page }}
-  <div class="col">
-    <div class="card mb-3">
-      {{ $ctx := . }}
-      {{ $firstChild := index .Pages 0 }}
-      {{ $img := "" }}
-      {{ with .Params.images }}
-        {{ $img = index . 0 }}
-      {{ else }}
-        {{ with $firstChild.Params.images }}
-          {{ $img = $firstChild.Resources.GetMatch (index . 0) }}
-        {{ end }}
-      {{ end }}
-      {{ with $img }}
-      {{ partial "image" (dict "src" $img "page" $firstChild "title" $ctx.Title "class" "card-img-top" "widths" (slice 260 540))}}
-      {{ end }}
-      {{ with .Params.images }}
-      <img src="{{ index . 0 }}" class="card-img-top img-fluid" alt="...">
-      {{ end }}
-      <div class="card-body">
-        <h5 class="card-title">{{ .Title | humanize | title }}</h5>
-        {{ with .Params.hint }}
-        <p class="card-text">{{ . }}</p>
-        {{ end }}
-        <a href="{{ .Page.RelPermalink }}" class="btn btn-primary">View Products</a>
-      </div>
-    </div>
-  </div>
+  {{ partial "blocks/category-card" . }}
   {{ end }}
   {{ end }}
 </div>

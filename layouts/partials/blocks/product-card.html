@@ -2,7 +2,8 @@
   {{ with .Params.images }}
   <a href="{{ $.Permalink }}">
     {{ $img := $.Resources.GetMatch (index . 0) }}
-    {{ partial "image" (dict "src" $img "page" $ "title" $.Title "class" "card-img-top" "widths" (slice 260 540))}}
+    {{ partial "image" (dict "src" $img "page" $ "title" $.Title "class" "card-img-top" 
+    "widths" (slice 260 540) "fillRatio" (slice 6 4) )}}
   </a>
   {{ end }}
   <div class="card-body">

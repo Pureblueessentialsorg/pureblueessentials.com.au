@@ -1,7 +1,7 @@
 ---
 title: "Gift Packs"
 id: gift-packs
-images: []
+images: ["photo.jpg"]
 weight: 60
 visible: true
 ---

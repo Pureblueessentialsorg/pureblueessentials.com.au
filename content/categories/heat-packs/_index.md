@@ -1,7 +1,7 @@
 ---
 title: Heat Packs & Bath Soaks
 id: heat-packs
-images: []
+images: ["photo.jpg"]
 weight: 20
 visible: true
 ---
