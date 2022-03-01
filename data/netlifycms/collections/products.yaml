@@ -19,7 +19,8 @@ fields:
 - import field popular
 - import: field images
   extend: 
-    # hint: Minimum 1 image
+    hint: Minimum 1 image
+    min: 1
 - import field categories
 - import field price
 - import field size
