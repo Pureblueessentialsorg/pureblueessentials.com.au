@@ -1,10 +1,45 @@
 {{ define "main" }}
 {{- /* shows a list news items */ -}}
-<div class="row g-4">
-  {{ range .Paginator.Pages }}
-  <div class="col">
-    {{ partial "blocks/news-card.html" . }}
+{{ range $i, $e := .Paginator.Pages }}
+  {{ $pages := len $.Paginator.Pages }}
+  {{ if or (eq $i 0) (and (modBool $pages 2) (eq $i (sub $pages 1))) }}
+  {{- /* first news item, or last item for even - full width article */ -}}
+  <div class="row">
+    <div class="col">
+      {{ template "news" . }}
+    </div>
   </div>
+  {{ else }}
+  {{- /* half width pairs*/ -}}
+    {{ if not (modBool $i 2) }}
+    {{- /* if odd number */ -}}
+    <div class="row">
+      <div class="col-md-6">
+        {{ template "news" . }}
+      </div>
+    {{ else }}
+    {{- /* if even number */ -}}
+      <div class="col-md-6">
+        {{ template "news" . }}
+      </div>
+    </div>
+    {{ end }}
   {{ end }}
+{{ end }}
+
+{{ end }}
+
+
+{{ define "news" }}
+{{ with .Params.images }}
+  {{ $img := $.Resources.GetMatch (index . 0) }}
+  {{ partial "image" (dict "src" $img "page" $ "title" $.Title "class" "card-img-top")}}
+{{ end }}
+{{/*  <a href="{{ .Permalink }}">  */}}
+<h2 class="h5">{{ .Title  }}</h5>
+{{/*  </a>  */}}
+<div>
+{{ time.Format "Monday, Jan 2, 2006" .Lastmod}}
 </div>
+<p class="">{{ .Content }}</p>
 {{ end }}

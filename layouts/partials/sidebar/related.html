@@ -1,7 +1,7 @@
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
 {{- /* displays 5 related products */ -}}
-<div class="border p-3 mt-1">
+<div class="border px-3 pb-3">
     <p class="h4">Related Products:</p>
     <ul class="list-unstyled mb-0">
       {{ range . }}

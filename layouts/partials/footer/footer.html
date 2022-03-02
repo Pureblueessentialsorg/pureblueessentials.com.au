@@ -44,7 +44,7 @@
       <h4>Site Links</h4>
       <ul class="list-unstyled">
         {{ range .Site.Menus.footer }}
-        <li class="pb-2">{{ partial "svg-font" (dict "src" "icons/box/bx-chevron-right" )}} <a href="{{ .URL }}"
+        <li>{{ partial "svg-font" (dict "src" "icons/box/bx-chevron-right" )}} <a href="{{ .URL }}"
             class="text-decoration-none">{{ .Name }}</a></li>
         {{ end -}}
       </ul>
@@ -54,7 +54,7 @@
       <h4 class="invisible">Site Links</h4>
       <ul class="list-unstyled">
         {{ range .Site.Menus.footer2 }}
-        <li class="pb-2">{{ partial "svg-font" (dict "src" "icons/box/bx-chevron-right" )}} <a href="{{ .URL }}"
+        <li>{{ partial "svg-font" (dict "src" "icons/box/bx-chevron-right" )}} <a href="{{ .URL }}"
             class="text-decoration-none">{{ .Name }}</a></li>
         {{ end -}}
       </ul>

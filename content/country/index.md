@@ -5,10 +5,7 @@ menu:
   footer2:
     weight: 50
 ---
-**Acknowledgement of Country**
-
-\
-pure blue essentials is operated on Bunurong/Boon Wurrung Country.
+Pure Blue Essentials is operated on Bunurong/Boon Wurrung Country.
 
 We pay our deepest respects to the Elders, past, present and emerging of these lands and extend this respect to the people and lands throughout Australia and the world.
 

@@ -3,26 +3,30 @@
 {{- $lang := .Lang -}}
 {{- $country := index (findRE `-([a-z]*)` .Lang 1) 0 -}}
 {{- if $country -}}
-  {{- $lang = replaceRE "-([a-z]*)" (upper $country) .Lang 1 -}}
+{{- $lang = replaceRE "-([a-z]*)" (upper $country) .Lang 1 -}}
 {{- end -}}
-<html lang="{{ $lang }}" class="min-vh-100"> 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {{ partial "head/index" . }}
-    {{ block "head/json-ld" . }}{{ end }}
-  </head>
-  {{- partial "head/body-class" . -}}
-  {{- $bodyClass := delimit (.Scratch.Get "class") " " -}}
-  <body class="{{ $bodyClass }} d-flex flex-column min-vh-100">
-    {{- if and .IsHome .Site.Params.alert -}}
-    {{ partial "header/alert" . -}}
-    {{- end -}}
-    <header class="">
-      {{ partial "header/index" . }}</header>
+<html lang="{{ $lang }}" class="min-vh-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ partial "head/index" . }}
+  {{ block "head/json-ld" . }}{{ end }}
+</head>
+{{- partial "head/body-class" . -}}
+{{- $bodyClass := delimit (.Scratch.Get "class") " " -}}
+
+<body class="{{ $bodyClass }} d-flex flex-column min-vh-100">
+  {{- if and .IsHome .Site.Params.alert -}}
+  {{ partial "header/alert" . -}}
+  {{- end -}}
+  <header>
+    {{ partial "header/index" . }}
+  </header>
+  <main>
+    {{ if not .IsHome }}
     <div class="container">
-      {{ if not .IsHome }}
       <div class="row">
         <div class="col">
           {{ block "title" . }}<h1 class="h2">{{ .Title | humanize | title }}</h1>{{ end }}
@@ -32,9 +36,7 @@
         {{ if or (eq .Section "shop") (eq .Section "categories") }}
         {{- /* displays for shop or categories pages */ -}}
         <div class="col-lg-9">
-          <main class="mb-auto pb-3">
-            {{ block "main" . }}{{ end }}
-          </main>
+          {{ block "main" . }}{{ end }}
         </div>
         <div class="col-lg-3">
           <aside>
@@ -44,23 +46,24 @@
         {{ else }}
         {{- /* displays for generic pages except home */ -}}
         <div class="col">
-          <main class="mb-auto">
-            {{ block "main" . }}{{ end }}
-          </main>
-        </div>
-        {{ end }}
-        {{ else }}
-        {{- /* home display */ -}}
           {{ block "main" . }}{{ end }}
+        </div>
         {{ end }}
       </div>
     </div>
-  
-    <footer>
-      {{ partial "footer/footer" . }}
-    </footer>
-    {{ partial "footer/script-footer" . }}
-    {{ partial "footer/dev/grid" . }}
-    {{ partial "footer/dev/debug-footer" . }}
-  </body>
+    {{ else }}
+    {{- /* home display - no container/row/col*/ -}}
+    {{ block "main" . }}{{ end }}
+    {{ end }}
+  </main>
+
+
+  <footer>
+    {{ partial "footer/footer" . }}
+  </footer>
+  {{ partial "footer/script-footer" . }}
+  {{ partial "footer/dev/grid" . }}
+  {{ partial "footer/dev/debug-footer" . }}
+</body>
+
 </html>

@@ -1,0 +1,75 @@
+.v-title {
+
+  &__container {
+    @include media-breakpoint-up(md) {
+      // flex: 0 0 auto;
+      // width: 83.33333333%;
+      
+      width: 600px;
+          padding: 0 !important;
+    }
+    height: 80px;
+  position: relative;
+  // before video loads
+  background-color: transparent;
+  }
+
+  &__video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    // top: 0;
+    // left: 0;
+    // position in center
+    transform: translate(-50%, -50%) !important;
+    left: 50% !important;
+    top: 50% !important;
+    background-color: transparent;
+    
+  }
+
+  &__text-box {
+    position: absolute;
+    // top: 0;
+    // left: 0;
+       // position in center
+    transform: translate(-50%, -50%) !important;
+    left: 50% !important;
+    top: 50% !important;
+    // bootstrap background variable
+    background: $body-bg;
+    //background-color: transparent;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    mix-blend-mode: screen;
+  }
+
+  &__text {
+    // below md
+    font-size: 3rem;
+    font-weight: bold;
+    // line-height: 5rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 4rem;
+      font-weight: bold;
+      //sline-height: 5rem;
+    }
+  }
+  // &__text--sub {
+  //   font-size: 5rem;
+  //   font-weight: bold;
+  //   // line-height: 5rem;
+
+  //   @include media-breakpoint-up(md) {
+  //     font-size: 5rem;
+  //     font-weight: bold;
+  //     line-height: 5rem;
+  //   }
+  // }
+}

@@ -1,10 +1,26 @@
-<div class="card">
-  {{ partial "blocks/category-image" . }}
-  <div class="card-body text-center">
+<div class="card bg-transparent shadow h-100">
+  {{ template "image" . -}}
+  <div class="card-body text-center d-flex flex-column">
     <a href="{{ .Permalink }}" class="text-decoration-none stretched-link">
       <h5 class="card-title">{{ .Title | humanize | title }}</h5>
     </a>
     {{ $pageCount := len .Pages }}
-    <p class="card-text">{{ $pageCount }} product{{ if ne $pageCount 1 }}s{{ end }}</p>
+    <p class="card-text mt-auto"><span class="mt-auto">{{ $pageCount }} product{{ if ne $pageCount 1 }}s{{ end }}</span></p>
   </div>
 </div>
+{{- define "image" -}}
+{{- $ctx := . -}}
+{{- $firstChild := index .Pages 0 -}}
+{{- $img := "" -}}
+{{- with .Params.images -}}
+  {{- $img = index . 0 -}}
+{{- else -}}
+  {{- with $firstChild.Params.images -}}
+    {{- $img = $firstChild.Resources.GetMatch (index . 0) -}}
+  {{- end -}}
+{{- end -}}
+{{- with $img -}}
+{{- partial "image" (dict "src" $img "page" $ctx "title" $ctx.Title "class" "card-img-top" 
+"widths" (slice 260 540) "fillRatio" (slice 4 3) ) -}}
+{{- end -}}
+{{- end -}}
