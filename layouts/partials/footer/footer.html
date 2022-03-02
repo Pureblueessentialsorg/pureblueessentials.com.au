@@ -3,8 +3,8 @@
     {{/*  contact details  */}}
     <div class="col-lg-3 col-sm-6 footer-links text-light">
       <h3>{{ .Site.Title }}</h3>
-      {{ with .Site.Params.contact }}
-        {{ with index .address 0 }}
+      {{ with .Site.Data.schema }}
+        {{ with .postalAddress }}
           <p>
           {{ range .streetAddress }}
             {{ . }} <br>
@@ -18,7 +18,7 @@
           {{ with (index .telephone 0) }}
             <strong>Phone:</strong> <a href="{{ .url | safeURL }}">{{ .text }}</a><br>
           {{ end }}
-          {{ with (index .email 0) }}
+          {{ with .email }}
             <strong>Email:</strong> <a href="{{ .url | safeURL }}">{{ .text }}</a><br>
           {{ end }}
           </p>
