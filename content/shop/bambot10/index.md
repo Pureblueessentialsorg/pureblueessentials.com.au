@@ -9,7 +9,7 @@ images:
   - photo.jpg
 categories:
   - bottles
-price: 3.75
+price: 4.25
 size: 10ml
 brand: pure blue essentials
 weight: 100
