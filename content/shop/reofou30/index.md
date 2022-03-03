@@ -1,6 +1,6 @@
 ---
 visible: true
-title: Four thieves remedial essential oil blend 30mls
+title: Four Thieves remedial essential oil blend 30mls
 id: reofou30
 draft: false
 popular: true
@@ -28,6 +28,16 @@ Whether the fable is true or not, this essential oil formula has been used for m
 With a quite intense aroma (think zingy chai spice) it contains clove, lemon, cinnamon, eucalyptus and rosemary essential oils.
 
 As well as using in dilution on the body, the Four Thieves blend can be used to treat mould and bacteria on many surfaces.
+
+This 30ml bottle containing 100% pure essential oils that can be used for a variety of uses including:
+
+\- add to your own carrier oil
+
+\- use in an essential oil diffuser
+
+\- add to a warm bath
+
+\- use in home-made lotions or balms
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
 
