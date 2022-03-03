@@ -13,8 +13,8 @@ size: 10ml
 brand: pure blue essentials
 weight: 60
 length: 12
-height: 3
-width: 3
+height: 2
+width: -5
 ---
 What a strange name, you say.... Four Thieves...
 
@@ -27,6 +27,8 @@ Whether the fable is true or not, this essential oil formula has been used for m
 With a quite intense aroma (think zingy chai spice) it contains clove, lemon, cinnamon, eucalyptus, rosemary essential oils.
 
 As well as using in dilution on the body, the Four Thieves blend can be used to treat mould and bacteria on many surfaces.
+
+This 10ml bottle contains 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
 
 Also available in a 30ml bottle containing 100% pure essential oils that can be used for a variety of uses including:
 
