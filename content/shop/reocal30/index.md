@@ -20,7 +20,7 @@ With a combination of orange, tangerine, ylang ylang, patchouli and chamomile, t
 
 This 30ml bottle contains 100% pure essential oils. Shake well before use.
 
-It can be used for a variety of ways including:
+It can be used in a variety of ways including:
 
 \- add to your own carrier oil
 
