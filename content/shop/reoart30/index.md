@@ -1,6 +1,6 @@
 ---
 visible: true
-title: Arthritis (I said no Arthr) remedial essential oil blend
+title: Arthritis (I said no Arthr) remedial essential oil blend 30ml
 id: reoart30
 draft: false
 popular: false
@@ -26,7 +26,7 @@ In areas of the body prone to arthritis, rub into the skin generously with a car
 
 Alternatively, add 10 or 12 drops to a warm bath.
 
-This 30ml bottle contains 100% pure essential oils that can be used for a variety of uses, including:
+This 30ml bottle contains 100% pure essential oils that can be used in a variety of ways, including:
 
 \- add to your own carrier oil
 
@@ -37,3 +37,9 @@ This 30ml bottle contains 100% pure essential oils that can be used for a variet
 \- use in home-made lotions or balms
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
+
+**Cautions:**
+
+Keep away from eyes and mouth. For external use only. Do not ingest.
+
+If skin, eye or nasal irritation occurs, discontinue use.
