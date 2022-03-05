@@ -28,7 +28,7 @@ If skin, eye or nasal irritation occurs, discontinue use.
 
 This 10ml bottle contains 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. Shake well before use.
 
-Also available in a 30ml bottle containing 100% pure essential oils that can be used for a variety of uses including:
+Also available in a 30ml bottle containing 100% pure essential oils that can be used for a variety of ways including:
 
 \- add to your own carrier oil
 
