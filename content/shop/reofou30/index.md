@@ -1,6 +1,6 @@
 ---
 visible: true
-title: Four Thieves remedial essential oil blend 30mls
+title: Four Thieves remedial essential oil blend 30ml
 id: reofou30
 draft: false
 popular: true
