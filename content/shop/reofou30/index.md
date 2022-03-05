@@ -29,7 +29,7 @@ With a quite intense aroma (think zingy chai spice) it contains clove, lemon, ci
 
 As well as using in dilution on the body, the Four Thieves blend can be used to treat mould and bacteria on many surfaces.
 
-This 30ml bottle containing 100% pure essential oils that can be used for a variety of uses including:
+This 30ml bottle containing 100% pure essential oils that can be used in a variety of ways including:
 
 \- add to your own carrier oil
 
@@ -40,8 +40,6 @@ This 30ml bottle containing 100% pure essential oils that can be used for a vari
 \- use in home-made lotions or balms
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
-
-
 
 **Cautions:**
 
