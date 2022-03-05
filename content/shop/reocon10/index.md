@@ -1,6 +1,6 @@
 ---
 visible: true
-title: Contentment remedial essential oil blend 10
+title: Contentment remedial essential oil blend 10ml
 id: reocon10
 draft: false
 popular: true
@@ -27,14 +27,10 @@ Lemon, spearmint, grapefruit and nutmeg are all uplifting and reviving. Myrtle i
 
 Cedar completes the blend by adding fortifying and calming properties and may help to reduce fear.
 
-**Cautions:**
-
-Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, discontinue use.
-
 This 10ml bottle contains 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. Shake well before use.
 
 \
-Also available in a 30ml bottle containing 100% pure essential oils that can be used for a variety of uses including:
+Also available in a 30ml bottle containing 100% pure essential oils that can be used in a variety of ways including:
 
 \- add to your own carrier oil
 
@@ -43,3 +39,7 @@ Also available in a 30ml bottle containing 100% pure essential oils that can be 
 \- add to a warm bath
 
 \- use in home-made lotions or balms
+
+**Cautions:**
+
+Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, discontinue use.
