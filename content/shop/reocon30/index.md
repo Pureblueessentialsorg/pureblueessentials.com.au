@@ -27,15 +27,9 @@ Lemon, spearmint, grapefruit and nutmeg are all uplifting and reviving. Myrtle i
 
 Cedar completes the blend by adding fortifying and calming properties and may help to reduce fear.
 
-**Cautions:**
-
-Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, discontinue use.
-
-
-
 This 30ml bottle contains 100% pure essential oils. Shake well before use.
 
-It can be used for a variety of uses including:
+It can be used in a variety of ways including:
 
 \- add to your own carrier oil
 
@@ -46,3 +40,7 @@ It can be used for a variety of uses including:
 \- use in home-made lotions or balms
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
+
+**Cautions:**
+
+Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, discontinue use.
