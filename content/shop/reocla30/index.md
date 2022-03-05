@@ -16,7 +16,7 @@ length: 11
 height: 3
 width: 3
 ---
-The piquant combination of basil, rosemary, peppermint, lemon and bergamot helps to clear the mind and increase levels of concentration. The citrus and rosemary elements provide uplifting properties. Basil and peppermint are mentally stimulating.
+The piquant combination of basil, rosemary, peppermint, lemon and bergamot in the **Clarity** remedial essential oil blend helps to clear the mind and increase levels of concentration. The citrus and rosemary elements provide uplifting properties. Basil and peppermint are mentally stimulating.
 
 This is a great essential oil blend to use in an oil diffuser or essential oil burner when studying, or to use on pulse points on the body (underside of wrists, inside of elbow, temples, either side of neck) when public speaking, preparing for an interview.
 
@@ -32,7 +32,7 @@ Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, disconti
 
 This 30ml bottle contains 100% pure essential oils. Shake well before use.
 
-It can be used for a variety of uses including:
+It can be used for a variety of ways including:
 
 \- add to your own carrier oil
 
