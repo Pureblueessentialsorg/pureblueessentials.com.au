@@ -26,7 +26,7 @@ In areas of the body prone to arthritis, rub into the skin generously.
 
 This 10ml bottle contains 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
 
-Also available in 30mls containing 100% pure essential oils that can be used for a variety of uses, including:
+Also available in 30mls containing 100% pure essential oils that can be used in a variety of ways, including:
 
 \- add to your own carrier oil
 
@@ -35,3 +35,9 @@ Also available in 30mls containing 100% pure essential oils that can be used for
 \- add to a warm bath
 
 \- use in home-made lotions or balms
+
+**Cautions:**
+
+Keep away from eyes and mouth. For external use only. Do not ingest.
+
+If skin, eye or nasal irritation occurs, discontinue use.
