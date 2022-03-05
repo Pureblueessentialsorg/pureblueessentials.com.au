@@ -22,17 +22,9 @@ This is a great essential oil blend to use in an oil diffuser or essential oil b
 
 It can also be very useful when recovering from an illness or condition where brain-fog and/or fatigue are symptoms.
 
-**Cautions:**
-
-Do not use if pregnant, breastfeeding or on infants under 12 months old.
-
-Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, discontinue use.
-
-
-
 This 10ml bottle contains 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. Shake well before use.
 
-Also available in a 30ml bottle containing 100% pure essential oils that can be used for a variety of ways including:
+Also available in a 30ml bottle containing 100% pure essential oils that can be used in a variety of ways including:
 
 \- add to your own carrier oil
 
@@ -41,3 +33,9 @@ Also available in a 30ml bottle containing 100% pure essential oils that can be 
 \- add to a warm bath
 
 \- use in home-made lotions or balms
+
+**Cautions:**
+
+Do not use if pregnant, breastfeeding or on infants under 12 months old.
+
+Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, discontinue use.
