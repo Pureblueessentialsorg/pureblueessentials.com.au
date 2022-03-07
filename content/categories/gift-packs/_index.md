@@ -1,7 +1,8 @@
 ---
-title: "Gift Packs"
+title: gift packs
+images:
+  - image_2022-03-07_223703.png
 id: gift-packs
-images: ["photo.jpg"]
 weight: 60
 visible: true
 ---
