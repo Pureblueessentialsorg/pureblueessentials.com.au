@@ -1,7 +1,7 @@
 ---
 visible: true
 title: Energise remedial essential oil blend 10ml
-id: reoenel10
+id: reoene10
 summary: ""
 draft: false
 popular: false
