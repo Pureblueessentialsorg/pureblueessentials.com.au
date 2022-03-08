@@ -1,7 +1,7 @@
 ---
 visible: true
-title: Balance remedial essential oil blend 10ml
-id: reobal10
+title: Strain sprain pain remedial essential oil blend 10ml
+id: reopai10
 summary: ""
 draft: false
 popular: false
@@ -17,21 +17,19 @@ length: 12
 height: 2
 width: 2
 ---
-When your mood, your day or your life is a bit up and down and you need some grounding, try the pleasing combination of essential oils in the **Balance** remedial essential oil blend.
+A powerful blend of essential oils which have analgesic and curative characteristics are combined to make the **Strain sprain pain** blend. This blend is targeted at helping to repair muscle, tendon and ligament damage and to alleviate the pain associated with these injuries.
 
-Geranium, patchouli, sage and ylang ylang are all richly scented, earthy oils. They all help to return your nervous system to equilibrium. Orange has both calming and uplifting properties.
+This blend contains lavender, eucalyptus, cedar, oregano, peppermint, juniper and helichrysum essential oils.
 
-This blend can also be helpful when feelings of uncertainty can impact emotional stability, in situations such as meeting new people, travelling long distances, or in periods of major change.
+For joint or arthritis pain, see the **pure blue essentials “I said ‘no’ Arthr”.**
 
-A pleasant and versatile blend to use in an oil diffuser or essential oil burner.
+This 10ml bottle contains 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. Shake well before use.
 
-This 10ml bottle contains 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
-
-Also available in a 30ml bottle containing 100% pure essential oils that can be used for a variety of uses including:
+Also available in a 30ml bottle containing 100% pure essential oils, which can be used in a variety of ways including:
 
 \- add to your own carrier oil
 
-\- use in an essential oil diffuser
+\- use in an essential oil diffuser, or oil burner
 
 \- add to a warm bath
 
@@ -39,6 +37,6 @@ Also available in a 30ml bottle containing 100% pure essential oils that can be 
 
 **Cautions:**
 
-Keep away from eyes and mouth.
+Keep away from eyes and mouth. For external use only. Do not ingest.
 
 If skin, eye or nasal irritation occurs, discontinue use.
