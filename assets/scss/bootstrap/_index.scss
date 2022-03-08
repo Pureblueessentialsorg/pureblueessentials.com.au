@@ -1,8 +1,19 @@
-// Configuration
+/** Import Bootstrap functions */
 @import "bootstrap/scss/functions";
+
+/** Import custom variables */
+@import "bootstrap/variables";
+
+// Configuration
+// @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins";
 @import "bootstrap/scss/utilities";
+
+/** Import custom utilitiy classes */
+@import "bootstrap/utilities";
+
+
 
 // Layout & components
 
