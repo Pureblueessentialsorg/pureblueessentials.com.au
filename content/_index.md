@@ -17,6 +17,7 @@ menu:
     weight: 10
   footer:
     weight: 10
+
 ---
 (text in white or blue over square image) (font Source Sans Pro Light)
 

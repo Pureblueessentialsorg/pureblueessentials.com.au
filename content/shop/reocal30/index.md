@@ -4,8 +4,6 @@ title: Calm remedial essential oil blend 30ml
 id: reocal30
 draft: false
 popular: false
-images:
-  - adobestock_75778367_preview.jpeg
 categories:
   - remedial-oils
 price: 44

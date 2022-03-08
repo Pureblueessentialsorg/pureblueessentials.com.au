@@ -4,8 +4,6 @@ title: Wound Care remedial essential oil blend 10ml
 id: reowou10
 draft: false
 popular: false
-images:
-  - adobestock_75778367_preview.jpeg
 categories:
   - remedial-oils
 price: 20

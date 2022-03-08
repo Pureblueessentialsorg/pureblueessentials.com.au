@@ -29,20 +29,19 @@
 </div>
 {{- .Content -}}
 
-<!-- {{ with site.Taxonomies.categories }}
-{{- /* displays categories, but not on categories page */ -}}
-<div class="border p-3">
-    <p class="h4">Shop Categories</p>
-    <ul class="list-unstyled mb-0 ">
-      {{ range . }}
-      <li>
-        <a class="text-decoration-none"
-          href="{{ .Page.RelPermalink }}">{{ .Page.Title | humanize | title }}</a>
-      </li>
-      {{ end }}
-    </ul>
+<div class="row row-cols-4 g-4 d-flex justify-content-center py-3">
+  {{ range .Site.Menus.icons }}
+  <div class="col">
+    <div class="p-3 h-100 border border-dark border-1 d-flex flex-row">
+      <div class="p-2 fs-1 text-primary text-secondary-hover">
+         {{ partial "svg-font" (dict "src" .Pre ) }}
+      </div>
+      <div class="h4 d-flex align-items-center text-wrap text-break  text-primary text-secondary-hover">{{ .Name }}</div>
+    </div>
+  </div>
+  {{ end }}
 </div>
-{{ end }} -->
+
 <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
   {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
   {{ with .Page }}

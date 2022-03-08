@@ -4,8 +4,6 @@ title: Contentment remedial essential oil blend 30ml
 id: reocon30
 draft: false
 popular: true
-images:
-  - adobestock_75778367_preview.jpeg
 categories:
   - remedial-oils
 price: 44
