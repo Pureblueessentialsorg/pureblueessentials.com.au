@@ -6,7 +6,12 @@ title: Home
 description: Providing the essentials to optimise your health, hand made from
   pure ingredients found in nature.
 images: []
-lead: All natural ingredients
+lead: |-
+  clear text centred  with animation behind...
+
+  pure blue essentials
+
+  all natural ingredients
 menu:
   main:
     weight: 10
@@ -15,18 +20,13 @@ menu:
 ---
 (text in white or blue over square image) (font Source Sans Pro Light)
 
+(icon)  purebluenews
 
-(icon)  purebluenews blog
+(icon)  specials and discounts
 
-(icon)  specials, discounts and freebies
-
-(icon)  ....
-
-(MyAppointments app icon)  Looking for remedial massage on the Mornington Penninsula? Visit MyAppointments app to book online or make an enquiry
+(MyAppointments app icon)  Looking for remedial massage on the Mornington Penninsula?  Visit MyAppointments app to book online or make an enquiry
 
 (icon)   acknowledgement of country
-
-
 
 \    \[payment protections]                                                                 \[payment methods]
 
