@@ -34,6 +34,16 @@ This 30ml bottle containing 100% pure essential oils that can be used for a vari
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
 
+After more value for money? The **pure blue essential Longevity Packs** contain:
+
+\- a 30ml bottle of this remedial essential oil blend;
+
+\- 30ml bottle of jojoba oil (carrier oil);
+
+\- 10ml bottle (glass with bamboo casing) to refill with the **pure blue essentials** blend and carrier oil many times over.
+
+
+
 **Cautions:**
 
 Keep away from eyes and mouth.
