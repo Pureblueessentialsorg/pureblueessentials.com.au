@@ -17,17 +17,11 @@ length: 12
 height: 2
 width: 2
 ---
-We are pleased to be able to provide you with refillable 10ml bottles to that are safe for essentials oils.
+We are pleased to be able to provide you with refillable 10ml bottles that are safe for essentials oils.
 
-Glass bottle in a bamboo casing, with a stainless steel roller.
+They are high quality and environmentally friendly, with a glass bottle in a bamboo casing and a stainless steel roller. The only plastic component is the bottle top and lid thread, providing a leak-proof seal.
 
-Safe and reliable to keep in a bag, 
-
-Environmentally friendly
-
-Blend your own essential oil formula or keep your favourites on hand.
-
-
+Keep your favourites on hand in multiple places by blending your own essential oil formula, topping up your **pure blue essentials** blend, or a single essential oil.
 
 **Cautions:**
 
