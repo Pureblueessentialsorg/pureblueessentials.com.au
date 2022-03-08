@@ -1,0 +1,45 @@
+---
+visible: true
+title: Headache Help remedial essential oil blend 30ml
+id: reoheh30
+draft: false
+popular: false
+images:
+  - adobestock_75778367_preview.jpeg
+categories:
+  - remedial-oils
+price: 44
+size: 30ml
+brand: pure blue essentials
+weight: 110
+length: 3
+height: 11
+width: 3
+---
+The combination of lavender, lemongrass, peppermint and frankincense make the ideal combination to help relieve headache and migraine pain.
+
+Lavender is a wonderful relaxant and sedatives, reducing stress, anxiety and tension, which are often triggers or secondary causes of headaches or migraines.
+
+Lemongrass is an effective muscle and vascular relaxant.
+
+Frankincense reduces the effects of stress and improves our circadian rhythm. It is also known to be relaxing, soothing and calming, which can prevent a headache from coming on.
+
+Peppermint helps to relieve pain, has a decongesting effect and reduces vascular inflammation.
+
+Diluted in a carrier oil, rub the oil into the skin at the front and back of the neck, the underside of wrists and at the temples, keeping well clear of the eyes.
+
+This 30ml bottle containing 100% pure essential oils that can be used for a variety of uses including:
+
+\- add to your own carrier oil
+
+\- use in an essential oil diffuser
+
+\- add to a warm bath
+
+\- use in home-made lotions or balms
+
+Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
+
+**Cautions:**
+
+Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, discontinue use.
