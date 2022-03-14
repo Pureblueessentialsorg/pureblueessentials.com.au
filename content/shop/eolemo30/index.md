@@ -2,26 +2,26 @@
 visible: true
 title: Lemongrass essential oil 30ml
 id: eolemo30
-summary: pure lemongrass oil
+summary: pure lemongrass essential oil
 draft: false
 popular: true
 images:
   - placeholder4.jpg
 categories:
   - single-oils
-price: 26.5
+price: 24
 size: 30ml
 brand: pure blue essentials
-weight: 50
+weight: 60
 length: 3
 height: 11
 width: 3
 ---
-Lemongrass essential oil is..........
+Lemongrass essential oil is very effective in reducing soreness in tired muscles. 
 
-A heady, exotic scent
+As well as remedial benefits, it has a heady, exotic scent, relaxing ... to the central nervous system.
 
-
+Please contact us if you are wanting amount more than 30mls.
 
 **Cautions:**
 
