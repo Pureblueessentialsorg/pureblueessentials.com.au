@@ -5,7 +5,7 @@ id: reopms10
 draft: false
 popular: false
 images:
-  - adobestock_75778367_preview.jpeg
+  - dsc_0310-2-.jpg
 categories:
   - remedial-oils
 price: 20
