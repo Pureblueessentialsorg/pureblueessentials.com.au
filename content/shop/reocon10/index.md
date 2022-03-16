@@ -4,6 +4,8 @@ title: Contentment remedial essential oil blend 10ml
 id: reocon10
 draft: false
 popular: true
+images:
+  - dsc_0331.jpg
 categories:
   - remedial-oils
 price: 20
@@ -23,7 +25,7 @@ Jasmine is known for improving confidence, promoting optimism and is soothing an
 
 Lemon, spearmint, grapefruit and nutmeg are all uplifting and reviving. Myrtle is very relaxing for the nervous system and may combat depression.
 
-Cedar completes the blend by adding fortifying and calming properties and may help to reduce fear.
+Cypress completes the blend by adding fortifying and grounding properties.
 
 This 10ml bottle contains 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. Shake well before use.
 
