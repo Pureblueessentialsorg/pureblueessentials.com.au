@@ -4,6 +4,8 @@ title: Clarity remedial essential oil blend 30ml
 id: reocla30
 draft: false
 popular: false
+images:
+  - dsc_0298-2-.jpg
 categories:
   - remedial-oils
 price: 44
