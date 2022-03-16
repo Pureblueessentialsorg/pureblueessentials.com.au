@@ -4,6 +4,8 @@ title: Calm remedial essential oil blend 10ml
 id: reocal10
 draft: false
 popular: false
+images:
+  - dsc_0291-2-.jpg
 categories:
   - remedial-oils
 price: 20
