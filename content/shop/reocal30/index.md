@@ -4,6 +4,8 @@ title: Calm remedial essential oil blend 30ml
 id: reocal30
 draft: false
 popular: false
+images:
+  - dsc_0289-2-.jpg
 categories:
   - remedial-oils
 price: 44
@@ -14,7 +16,7 @@ length: 11
 height: 3
 width: 3
 ---
-With a combination of orange, tangerine, ylang ylang, patchouli and chamomile, the **Calm** remedial essential oil blend uses the relaxing citrus tones of orange and tangerine, the rich heady scents of ylang ylang and patchouli, and the gentle but effective chamomile to create a soothing, calming blend for your central nervous system.
+With a combination of orange, tangerine, ylang ylang, patchouli and chamomile, the **Calm** remedial essential oil blend uses the relaxing citrus tones of orange and tangerine, the rich, dreamy scents of ylang ylang and patchouli, and the gentle but effective chamomile to create a soothing, calming blend for your central nervous system.
 
 This 30ml bottle contains 100% pure essential oils. Shake well before use.
 
