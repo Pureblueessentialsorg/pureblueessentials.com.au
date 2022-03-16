@@ -16,7 +16,7 @@ length: 12
 height: 2
 width: 2
 ---
-With a combination of orange, tangerine, ylang ylang, patchouli and chamomile, the **Calm** remedial essential oil blend uses the relaxing citrus tones of orange and tangerine, the rich heady scents of ylang ylang and patchouli, and the gentle but effective chamomile to create a soothing, calming blend for your central nervous system.
+With a combination of orange, tangerine, ylang ylang, patchouli and chamomile, the **Calm** remedial essential oil blend uses the relaxing citrus tones of orange and tangerine, the rich, dreamy scents of ylang ylang and patchouli, and the gentle but effective chamomile to create a soothing, calming blend for your central nervous system.
 
 This 10ml bottle contains 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. Shake well before use.
 
