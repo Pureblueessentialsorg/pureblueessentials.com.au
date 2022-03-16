@@ -6,7 +6,7 @@ summary: ""
 draft: false
 popular: true
 images:
-  - placeholder4.jpg
+  - dsc_0299-2-.jpg
 categories:
   - remedial-oils
 price: 44
@@ -21,7 +21,7 @@ Lavender and chamomile have long been used to help induce a good night’s sleep
 
 Added to these dependables are bergamot, frankincense, geranium and cypress which also help to calm and relax the mind.
 
-This **Sleep Right** blend can promote a healthy sleep pattern - to calm your mind at bedtime, to stay asleep and to promote deeper, restorative sleep, leading to feeling less stressed upon waking and ready for the day.
+The **Sleep Right** blend can promote a healthy sleep pattern - to calm your mind at bedtime, to stay asleep and to promote deeper, restorative sleep, leading to feeling less stressed upon waking and ready for the day.
 
 This 30ml bottle contains 100% pure essential oils. Shake well before use.
 
