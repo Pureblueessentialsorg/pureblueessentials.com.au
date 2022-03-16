@@ -5,15 +5,15 @@ id: reobal30
 draft: false
 popular: true
 images:
-  - adobestock_75778367_preview.jpeg
+  - dsc_0280-2-.jpg
 categories:
   - remedial-oils
 price: 44
 size: 30ml
 brand: pure blue essentials
 weight: 110
-length: 11
-height: 3
+length: 3
+height: 11
 width: 3
 ---
 When your mood, your day or your life is a bit up and down and you need some grounding, try the potent combination of essential oils in the **Balance** remedial essential oil blend.
