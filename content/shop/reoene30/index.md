@@ -6,20 +6,20 @@ summary: ""
 draft: false
 popular: false
 images:
-  - placeholder4.jpg
+  - dsc_0284-2-.jpg
 categories:
   - remedial-oils
 price: 44
 size: 30ml
 brand: pure blue essentials
 weight: 110
-length: 11
-height: 3
+length: 3
+height: 11
 width: 3
 ---
 Aside from the beautiful aromas of the **Energise** blend, geranium and orange are mood lifters, juniper boosts digestion and bergamot helps to clear the mind.
 
-If either lethargy, fatigue or general tiredness are causing concerns to your daily vitality, use this blend to get your energy back on track.
+If either lethargy, fatigue or general tiredness are creating barriers to finding vitality in your day, use this blend to get your energy back on track.
 
 Recommended to use in the morning hours, or to boost the most productive hours of your day.
 
