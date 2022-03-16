@@ -5,7 +5,7 @@ id: reoheh10
 draft: false
 popular: false
 images:
-  - adobestock_75778367_preview.jpeg
+  - dsc_0278-2-.jpg
 categories:
   - remedial-oils
 price: 20
@@ -18,11 +18,11 @@ width: 2
 ---
 The combination of lavender, lemongrass, peppermint and frankincense make the ideal combination to help relieve headache and migraine pain.
 
-Lavender is a wonderful relaxant and sedatives, reducing stress, anxiety and tension, which are often triggers or secondary causes of headaches or migraines.
+Lavender is a wonderful relaxant and sedative, reducing stress, anxiety and tension, which are often triggers or secondary causes of headaches or migraines.
 
 Lemongrass is an effective muscle and vascular relaxant.
 
-Frankincense reduces the effects of stress and improves our circadian rhythm. It is also known to be relaxing, soothing and calming, which can prevent a headache from coming on.
+Frankincense reduces the effects of stress and improve can help our circadian rhythm to equalise. It is also known to be relaxing, soothing and calming, which can prevent a headache from coming on.
 
 Peppermint helps to relieve pain, has a decongesting effect and reduces vascular inflammation.
 
