@@ -19,11 +19,9 @@ width: 2
 ---
 Aside from the beautiful aromas of the **Energise** blend, geranium and orange are mood lifters, juniper boosts digestion and bergamot helps to clear the mind.
 
-If either lethargy, fatigue or general tiredness are causing concerns to your daily vitality, use this blend to get your energy back on track.
+If either lethargy, fatigue or general tiredness are creating barriers to finding vitality in your day, use this blend to get your energy back on track.
 
 Recommended to use in the morning hours, or to boost the most productive hours of your day.
-
-
 
 This 10ml bottle contains 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. Shake well before use.
 
