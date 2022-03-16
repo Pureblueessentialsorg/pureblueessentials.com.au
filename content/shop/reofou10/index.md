@@ -5,7 +5,7 @@ id: reofou10
 draft: false
 popular: true
 images:
-  - adobestock_75778367_preview.jpeg
+  - dsc_0294-2-.jpg
 categories:
   - remedial-oils
 price: 20
@@ -14,13 +14,13 @@ brand: pure blue essentials
 weight: 60
 length: 12
 height: 2
-width: -5
+width: 2
 ---
 What a strange name, you say.... Four Thieves...
 
 If you know the long history of the **Four Thieves** essential oil formula, here is the blend!
 
-If you not familiar with the history, in short, during the Black Plague in medieval times, 4 thieves managed to rob the sick and dying without catching the plague themselves. When they were eventually caught, the authorities offered to lighten their sentences if they revealed their secret formula.
+If you're not familiar with the history - in short - during the Black Plague in medieval times, 4 thieves managed to rob the sick and dying without catching the plague themselves. When they were eventually caught, the authorities offered to lighten their sentences if they revealed their secret formula.
 
 Whether the fable is true or not, this essential oil formula has been used for many centuries as an anti-bacterial, anti-viral and anti-fungal, even before they were named as such pathogens.
 
