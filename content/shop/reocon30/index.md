@@ -21,11 +21,7 @@ This blend is a dreamy, uplifting blend to help you embrace a good day, or help 
 
 If sadness, apathy or depression is creeping in, seek professional help if appropriate but also get your hands on our **Contentment** remedial essential oil blend.
 
-Jasmine is known for improving confidence, promoting optimism and is soothing and euphoric.
-
-Lemon, spearmint, grapefruit and nutmeg are all uplifting and reviving. Myrtle is very relaxing for the nervous system and may combat depression.
-
-Cedar completes the blend by adding fortifying and calming properties and may help to reduce fear.
+Jasmine is known for improving confidence, promoting optimism and is soothing and euphoric.  Lemon, spearmint, grapefruit and nutmeg are all uplifting and reviving.  Myrtle is very relaxing for the nervous system and may combat depression.  Cypress completes the blend by adding fortifying and grounding properties.
 
 This 30ml bottle contains 100% pure essential oils. Shake well before use.
 
