@@ -4,14 +4,16 @@ title: Wound Care remedial essential oil blend 30ml
 id: reowou30
 draft: false
 popular: false
+images:
+  - dsc_0285-2-.jpg
 categories:
   - remedial-oils
 price: 44
 size: 30ml
 brand: pure blue essentials
 weight: 110
-length: 11
-height: 3
+length: 3
+height: 11
 width: 3
 ---
 \
