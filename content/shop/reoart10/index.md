@@ -5,7 +5,7 @@ id: reoart10
 draft: true
 popular: false
 images:
-  - adobestock_75778367_preview.jpeg
+  - dsc_0323-2-.jpg
 categories:
   - remedial-oils
 price: 20
