@@ -1,4 +1,4 @@
 ---
-title: Shop Categories
-url: shop/categories
+title: Shop
+url: shop
 ---

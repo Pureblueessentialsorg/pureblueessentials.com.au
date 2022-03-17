@@ -7,13 +7,14 @@
         {{ $video := resources.Get "videos/output600x80.mp4" }}
         <source src="{{ $video.RelPermalink }}" type="{{ $video.MediaType }}">
       </video>
-      <div class="v-title__text-box">
+      
         <h1 class="v-title__text">{{ .Site.Title }}</h1>  
-      </div>
-      <p class="lead fs-1">{{ . | safeHTML }}</p>
+     
+     
     </div>
   </div>
 </div>
+<p class="lead fs-1">{{ . | safeHTML }}</p>
 {{ with .Params.lead }}
 <div class="row justify-content-center">
   <div class="col-lg-10 text-center">
@@ -48,7 +49,6 @@
   <div class="col mb-3">
       {{ partial "blocks/category-card" . }}
   </div>
-
   {{ end }}
   {{ end }}
 </div>

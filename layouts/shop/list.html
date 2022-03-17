@@ -17,6 +17,7 @@
 {{ template "_internal/pagination.html" . -}} */}}
 
 {{- /* shows a list of all the products since there isnt many in the store yet */ -}}
+{{- /* 
 <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
   {{ $paginator := .Paginate (.Data.Pages) -}}
   {{ range $paginator.Pages -}}
@@ -30,5 +31,17 @@
   <div class="col d-flex flex-col justify-content-center py-3">
     {{ template "_internal/pagination.html" . -}}
   </div>
+</div>
+
+*/ -}}
+
+<div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
+  {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
+  {{ with .Page }}
+  <div class="col mb-3">
+      {{ partial "blocks/category-card" . }}
+  </div>
+  {{ end }}
+  {{ end }}
 </div>
 {{ end }}
