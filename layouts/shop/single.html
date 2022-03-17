@@ -4,14 +4,14 @@
 <div class="row mb-3">
   <div class="col-md-5">
     {{ with .Params.images }}
-    {{ if gt . 1 }}
+    {{ if gt (len . ) 1 }}
     <div class="swiper-container">
       <!-- Slider main container -->
       <div id="js-swiperShopMain" class="swiper swiper-shop-main">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          {{ range .Params.images }}
+          {{ range . }}
           <div class="swiper-slide d-flex">
             {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 340 560) "sizes" "(min-width: 768px) 50vw, 100vw") }}
             {{ partial "image" $dict }}
@@ -25,7 +25,7 @@
       <!-- thumbnail swiper -->
       <div swiperShopThumbs="" id="js-swiperShopThumbs" class="swiper swiper-shop-thumbs">
         <div class="swiper-wrapper">
-          {{ range .Params.images }}
+          {{ range . }}
           <div class="swiper-slide">
             {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 76 122) ) }}
             {{ partial "image" $dict }}
