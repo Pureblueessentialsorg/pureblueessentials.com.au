@@ -10,6 +10,13 @@
 @import "bootstrap/scss/mixins";
 @import "bootstrap/scss/utilities";
 
+
+// Helpers
+@import "bootstrap/scss/helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/api";
+
 /** Import custom utilitiy classes */
 @import "bootstrap/utilities";
 
@@ -52,8 +59,3 @@
 @import "bootstrap/scss/offcanvas";
 @import "bootstrap/scss/placeholders";
 
-// Helpers
-@import "bootstrap/scss/helpers";
-
-// Utilities
-@import "bootstrap/scss/utilities/api";

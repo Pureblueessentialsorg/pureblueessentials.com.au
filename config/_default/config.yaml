@@ -1,8 +1,8 @@
 baseurl: "https://pureblueessentials.netlify.app"
 # override .Site.Title for copyright notice
 # copyright: "Custom Business Name"
-canonifyURLs: false
-disableAliases: true
+# canonifyURLs: false
+# disableAliases: true
 # disableHugoGeneratorInject: true
 # disableKinds: ["taxonomy", "taxonomyTerm"]
 enableEmoji: true
@@ -19,7 +19,7 @@ languages:
 #pagination 
 paginate: 6
 rssLimit: 10
-title: "Pure Blue Essentials"
+title: Pure Blue Essentials
 
 #summary length
 summaryLength: 15
@@ -66,8 +66,8 @@ permalinks:
   blog: "/:title/"
   # categories: "/shop/:section/:title"
   shop: "/shop/:slug"
-  categories: "/shop/:section/:slug"
-  #categories: "/shop/:slug"
+  #categories: "/shop/:section/:slug"
+  categories: "/shop/:slug"
 
 
 # remove white space from minified HTML

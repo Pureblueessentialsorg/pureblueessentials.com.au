@@ -7,14 +7,10 @@
         {{ $video := resources.Get "videos/output600x80.mp4" }}
         <source src="{{ $video.RelPermalink }}" type="{{ $video.MediaType }}">
       </video>
-      
-        <h1 class="v-title__text">{{ .Site.Title }}</h1>  
-     
-     
+      <h1 class="v-title__text">{{ .Site.Title }}</h1>
     </div>
   </div>
 </div>
-<p class="lead fs-1">{{ . | safeHTML }}</p>
 {{ with .Params.lead }}
 <div class="row justify-content-center">
   <div class="col-lg-10 text-center">
@@ -22,6 +18,11 @@
   </div>
 </div>
 {{ end }}
+<div class="row">
+  <div class="col">
+    <span class="text-primary">blue</span>
+  </div>
+</div>
 <div class="row justify-content-center">
   <div class="col-lg-10 text-center">
     <a class="btn btn-dark px-3" href="{{ "shop/" | absURL }}" role="button">Button 1</a>
@@ -30,20 +31,31 @@
 </div>
 {{- .Content -}}
 
-<div class="row row-cols-4 g-4 d-flex justify-content-center py-3">
+<div class="row row-cols-2 row-cols-md-4 g-4 d-flex justify-content-center py-3 g-3">
   {{ range .Site.Menus.icons }}
   <div class="col">
-    <div class="p-3 h-100 border border-dark border-1 d-flex flex-row">
-      <div class="p-2 fs-1 text-primary text-secondary-hover">
-         {{ partial "svg-font" (dict "src" .Pre ) }}
+    <div class="h-100 border border-dark border-1 border-opacity-50 px-3 pt-5 pb-4 d-flex flex-column align-items-center text-center">
+
+ 
+      <div style="width:64px;height:64px"
+        class="fs-1 text-primary bg-secondary d-flex justify-content-center align-items-center mb-3 rounded-3">
+        {{ partial "svg-font" (dict "src" .Pre "block" false) }}
       </div>
-      <div class="h4 d-flex align-items-center text-wrap text-break  text-primary text-secondary-hover">{{ .Name }}</div>
+            
+     <div>
+
+      <span class="h5 d-flex align-items-center text-wrap text-break  text-primary text-secondary-hover">{{ .Name }}</span>
+
+     </div>
+        
+
+      
     </div>
   </div>
   {{ end }}
 </div>
 
-<div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
+<div class="row row-cols-2 row-cols-md-3 g-4 d-flex justify-content-center">
   {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
   {{ with .Page }}
   <div class="col mb-3">
@@ -55,7 +67,7 @@
   
 
 
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {

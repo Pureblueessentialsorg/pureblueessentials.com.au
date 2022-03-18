@@ -8,10 +8,6 @@ description: Providing the essentials to optimise your health, hand made from
   pure ingredients found in nature.
 images: []
 lead: |-
-  clear text centred  with animation behind...
-
-  pure blue essentials
-
   all natural ingredients
 menu:
   main:

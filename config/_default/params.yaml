@@ -1,20 +1,16 @@
-# Meta Data for SEO
-
 ## Page Title
 titleSeparator: "-"
 # only used on home page
-titleAddition: "hand made from pure ingredients found in nature."
+# titleAddition: "hand made from pure ingredients found in nature."
+titleAddition: All Natural Ingredients
 # fall back description if a page does not have a description.
 description: "Providing the essentials to optimise your health, hand made from pure ingredients found in nature."
 
 ## Open Graph/JSON-LD
 
-
-
-
 ## Twitter Cards
-twitterSite: "@gethyas"
-twitterCreator: "@henkverlinde"
+# twitterSite: "@gethyas"
+# twitterCreator: "@henkverlinde"
 
 ## JSON-LD
 # schemaType: "Person"

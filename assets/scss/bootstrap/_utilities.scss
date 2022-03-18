@@ -23,14 +23,13 @@ $utilities: map-merge(
       property: color,
       class: text,
       state: hover,
-      values:
-        map-merge(
-          $utilities-text-colors,
-          (
-            "muted": $text-muted,
-            "reset": inherit,
-          )
-        ),
+      values: map-merge(
+        $utilities-text-colors,
+        (
+          "muted": $text-muted,
+          "reset": inherit,
+        )
+      ),
     ),
   )
 );
