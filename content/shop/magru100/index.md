@@ -9,7 +9,7 @@ images:
   - photo1.jpg
 categories:
   - rubs
-price: 19
+price: 21
 size: 100ml
 brand: pure blue essentials
 weight: 160
