@@ -9,19 +9,19 @@ images:
   - photo.jpg
 categories:
   - bottles
-price: 4.25
+price: 5.95
 size: 10ml
 brand: pure blue essentials
 weight: 100
-length: 12
-height: 2
+length: 2
+height: 12
 width: 2
 ---
 We are pleased to be able to provide you with refillable 10ml bottles that are safe for essentials oils.
 
 They are high quality and environmentally friendly, with a glass bottle in a bamboo casing and a stainless steel roller. The only plastic component is the bottle top thread and roller capture, providing a leak-proof seal.
 
-Keep your favourites on hand in multiple places by blending your own essential oil formula, topping up your **pure blue essentials** blend, or a single essential oil.
+Top up your **pure blue essentials** remedial essential oil blend over and over again, blend your own essential oil formula, , or use for a single oil.
 
 **Cautions:**
 
