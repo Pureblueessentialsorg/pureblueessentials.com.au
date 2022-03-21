@@ -1,5 +1,5 @@
 ---
-title: Specials
+title: Specials & Discounts
 draft: false
 menu: 
   footer2:

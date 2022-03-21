@@ -1,9 +1,66 @@
 {{ define "main" }}
-
-<ul>
-  {{ range where (where .Site.Pages "Type" "shop") "Kind" "eq" "page"}}
-  <li>{{ .Title }} 
-      <button class="btn btn-primary snipcart-add-item my-3" href="#" id="js-snip"
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>ID:</th>
+      <th>Category:</th>
+      <th>Name:</th>
+      <th>Price:</th>
+      <th>1st Image:</th>
+      <th>Weight:</th>
+      <th>Height:</th>
+      <th>Width:</th>
+      <th>Length:</th>
+      <th>Button:</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ $data := where (where .Site.Pages "Type" "shop") "Kind" "eq" "page" }}
+    {{ range sort $data "Params.id"  }}
+    {{ $ctx := . }}
+    <tr>
+      <th scope="row">
+        {{ .Params.id }}
+      </th>
+      <th>
+        {{ with .Params.categories }}
+        {{ delimit . "|" | humanize | title }}
+        {{ end }}
+      </th>
+      <th>
+        <a href="{{.RelPermalink }}">{{ .Title }}</a>
+      </th>
+      <th>${{ .Params.price }}</th>
+      <th>
+        {{ with .Params.images }}
+        {{ $image := $ctx.Resources.GetMatch (index . 0) }}
+        {{ $image = $image.Resize "60x" }}
+        <img src="{{ $image.RelPermalink }}" width="{{$image.Width}}" height="{{$image.Height}}">
+        {{ end }}
+      </th>
+      <th>
+          {{ with .Params.weight }}
+     {{ . }}g
+      {{ end }}
+      </th>
+      <th>
+          {{ with .Params.height }}
+      {{ . }}cm
+      {{ end }}
+      </th>
+      <th>
+         {{ with .Params.width }}
+      {{ . }}cm
+      {{ end }}
+      </th>
+     <th>
+       {{ with .Params.length }}
+      {{ . }}cm
+      {{ end }}
+     </th>
+      
+      <th>
+        <button class="btn btn-primary snipcart-add-item my-3" href="#" id="js-snip"
       data-item-id="{{ .Params.id }}"
       data-item-price="{{ .Params.price }}" 
       data-item-url="{{ .Permalink }}"
@@ -26,7 +83,7 @@
       {{ $image = $image.Resize "120x" }}
       data-item-image="{{ $image.RelPermalink }}"
       {{ end }}
-      data-item-name="{{ .Params.title }}"
+      data-item-name="{{ .Title }}"
       data-item-id="{{ .Params.id }}" 
       {{ with .Params.categories }}
       data-item-categories="{{ delimit . "|" }}"
@@ -44,12 +101,17 @@
       data-item-length="{{ . }}"
       {{ end }}>Add to cart
     </button>
-    
-  </li>
+      </th>
+    </tr>
+
+    {{ end }}
+  
+  </tbody>
+</table>
+
  
   
-  {{ end }}
-</ul>
+
 
 
 {{ end }}

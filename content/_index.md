@@ -16,20 +16,3 @@ menu:
     weight: 10
 
 ---
-(text in white or blue over square image) (font Source Sans Pro Light)
-
-(icon)  purebluenews
-
-(icon)  specials and discounts
-
-(MyAppointments app icon)  Looking for remedial massage on the Mornington Penninsula?  Visit MyAppointments app to book online or make an enquiry
-
-(icon)   acknowledgement of country
-
-\    \[payment protections]                                                                 \[payment methods]
-
-\    \[social media]
-
-\    \[website designed by ....]
-
-test

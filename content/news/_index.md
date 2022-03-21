@@ -1,5 +1,5 @@
 ---
-title: News
+title: Pure Blue News
 draft: false
 menu: 
   footer2:

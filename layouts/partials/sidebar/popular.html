@@ -4,12 +4,12 @@
 {{ end }}
 {{ if $popular }}
 {{- /* displays 5 popular products */ -}}
-<div class="border px-3 pb-3">
-    <p class="h4">Popular Products:</p>
-    <ul class="list-unstyled mb-0">
+<div class="sidebar">
+    <div>Popular Products:</div>
+    <ul class="">
       {{ range first 5 (where .Site.Pages "Params.popular" true) }}
       <li>
-        <a class="text-decoration-none"
+        <a class=""
           href="{{ .RelPermalink }}">{{ .Title }}</a>
       </li>
       {{ end }}

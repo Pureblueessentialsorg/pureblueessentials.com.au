@@ -1,10 +1,10 @@
-icons:
-- name: Make an appointment
-  weight: 40
-  url: www.google.com
-  pre: "icons/bootstrap/calendar-check.svg"
+# icons:
+# - name: Make an appointment
+#   weight: 40
+#   url: www.google.com
+#   pre: "icons/bootstrap/calendar-check.svg"
 
-footer:
-- name: Make an appointment
-  weight: 60
-  url: www.google.com
+# footer:
+# - name: Make an appointment
+#   weight: 60
+#   url: www.google.com

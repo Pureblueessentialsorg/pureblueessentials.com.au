@@ -1,4 +1,3 @@
-// import contactForm  from '@future-wd/contact-form-xhr';
 import contactForm from 'js/contact-form-xhr'
 import * as params from '@params';
 

@@ -103,7 +103,7 @@
         {{ $image = $image.Resize "120x" }}
         data-item-image="{{ $image.RelPermalink }}"
         {{ end }}
-        data-item-name="{{ .Params.title }}"
+        data-item-name="{{ .Title }}"
         data-item-id="{{ .Params.id }}" 
         {{ with .Params.categories }}
         data-item-categories="{{ delimit . "|" }}"

@@ -1,12 +1,12 @@
 {{ if ne .Kind "section" }}
 {{ with site.Taxonomies.categories }}
 {{- /* displays categories, but not category (list) page */ -}}
-<div class="border px-3 pb-3">
-    <p class="h4">Shop Categories</p>
-    <ul class="list-unstyled mb-0 ">
+<div class="sidebar">
+    <div class="">Shop Categories</div>
+    <ul class="">
       {{ range sort . "Page.Params.weight"}}
       <li>
-        <a class="text-decoration-none"
+        <a class=""
           href="{{ .Page.RelPermalink }}">{{ .Page.Title | humanize | title }}</a>
       </li>
       {{ end }}
