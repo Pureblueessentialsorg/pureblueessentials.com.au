@@ -6,7 +6,20 @@ summary: " Choose from 12 designs with some plush options too."
 draft: false
 popular: true
 images:
-  - placeholder4.jpg
+  - image_2022-04-03_103259.png
+  - image_2022-04-03_103803.png
+  - image_2022-04-03_103921.png
+  - image_2022-04-03_104110.png
+  - image_2022-04-03_104239.png
+  - image_2022-04-03_104347.png
+  - image_2022-04-03_104442.png
+  - image_2022-04-03_104540.png
+  - image_2022-04-03_104632.png
+  - image_2022-04-03_104715.png
+  - image_2022-04-03_104804.png
+  - image_2022-04-03_104858.png
+  - null
+  - null
 categories:
   - heat-packs
 price: 38
@@ -30,4 +43,4 @@ The heat pack is a very generous size for soothing aches and pains in large area
 
 Dimensions:   36cm length  x  15cm width  x  5cm depth 
 
-**Please read all instructions before use.**
+**PLEASE READ ALL INSTRUCTIONS BEFORE USE**
