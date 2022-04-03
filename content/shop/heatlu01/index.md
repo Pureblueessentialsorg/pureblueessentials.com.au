@@ -43,4 +43,4 @@ The heat pack is a very generous size for soothing aches and pains in large area
 
 Dimensions:   36cm length  x  15cm width  x  5cm depth 
 
-**Please read all instructions before use.**
+**PLEASE READ ALL INSTRUCTIONS BEFORE USE**
