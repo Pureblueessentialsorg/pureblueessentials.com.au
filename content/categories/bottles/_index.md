@@ -1,7 +1,8 @@
 ---
-title: "Bottles"
+title: Bottles to blend your own
+images:
+  - photo.jpg
 id: bottles
-images: ["photo.jpg"]
 weight: 40
 visible: true
 ---
