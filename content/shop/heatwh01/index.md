@@ -39,7 +39,7 @@ Also available with lupin filling for those with wheat allergies.
 
 **\*\* Add any three heat packs to the cart, for a 15% discount \*\***
 
-The heat pack is a very generous size for soothing aches and pains in large areas of the body such as the abdomen, lower back and thigh, as well as smaller areas such as arm, neck, foot.  Look out BFFs, your heat pack will become your best friend!
+The heat pack is a very generous size for soothing aches and pains in large areas of the body such as the abdomen, lower back and thigh, as well as smaller areas such as arm, neck, foot.  Look out BFFs, your heat pack will become your new best friend!
 
 Dimensions:   36cm length  x  15cm width  x  5cm depth 
 
