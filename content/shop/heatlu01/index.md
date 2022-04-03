@@ -6,7 +6,20 @@ summary: Choose from 12 designs and some plush options too.
 draft: false
 popular: true
 images:
-  - placeholder4.jpg
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
 categories:
   - heat-packs
 price: 38
@@ -22,11 +35,11 @@ Hand made, environmentally friendly and reusable.  Both the inner and outer cove
 
 Choose a cover design in blue, blue, or blue! Just kidding, choose from 12 designs with some plush options too.
 
-Also available with lupin filling for those with wheat allergies.
+Also available with wheat filling if you prefer.
 
 **\*\* Add any three heat packs to the cart, for a 15% discount \*\***
 
-The heat pack is a very generous size for soothing aches and pains in large areas of the body such as the abdomen, lower back and thigh, as well as smaller areas such as arm, neck, foot.  Look out BFFs, your heat pack will become your best friend!
+The heat pack is a very generous size for soothing aches and pains in large areas of the body such as the abdomen, lower back and thigh, as well as smaller areas such as arm, neck, foot.  Look out BFFs, your heat pack will become your new best friend!
 
 Dimensions:   36cm length  x  15cm width  x  5cm depth 
 
