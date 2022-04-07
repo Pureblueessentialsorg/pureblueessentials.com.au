@@ -1,12 +1,12 @@
 {{- /*
 {{ partial "components/social-links.html" (dict "class" "me-2 mb-2 text-primary" "fontClass" "fs-3" "em" 1) }}
 # config.yaml
-params:
-  social:
-    facebook:
-      disable: false
-      url: http://www.facebook.com/user
-      icon: icons/bootstrap/facebook
+#data/schema.yml
+social:
+  facebook:
+    disable: false
+    url: http://www.facebook.com/user
+    icon: icons/bootstrap/facebook
 */ -}}
 {{- $em := "" -}}
 {{- $fontClass := "" -}}
@@ -23,7 +23,7 @@ params:
     {{- end -}}
   {{- end -}}
 {{- end -}}
-{{- range $key, $value := site.Params.social -}}
+{{- range $key, $value := site.Data.schema.social -}}
 {{- $title := $value.title | default (humanize $key) -}}
 {{- if and (ne $value.disable true) $value.icon -}}
 <a role="button" href="{{- $value.url -}}" title="{{- $title -}}" class="{{- $class }} d-inline-block" target="_blank" rel="noopener">

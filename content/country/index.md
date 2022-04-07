@@ -5,7 +5,7 @@ menu:
   footer2:
     weight: 50
   icons:
-    weight: 10
+    weight: 20
     pre: "icons/bootstrap/book.svg"
 ---
 Pure Blue Essentials is operated on Bunurong/Boon Wurrung Country.

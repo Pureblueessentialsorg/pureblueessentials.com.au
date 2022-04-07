@@ -5,6 +5,7 @@ menu:
   footer2:
     weight: 5
   icons:
-    weight: 20
+    name: purebluenews
+    weight: 10
     pre: "icons/bootstrap/newspaper.svg"
 ---

@@ -1,4 +1,5 @@
 {{- /* insert any header html or partial here */ -}}
+{{ partial "header/header" . }}
 {{ partial "header/navbar" . -}}
 {{ if not .IsHome }}
   {{ partial "header/breadcrumb" . -}}
