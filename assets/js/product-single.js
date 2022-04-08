@@ -5,12 +5,15 @@ const button = document.querySelector('#js-snip')
 //   button.setAttribute('data-item-quantity', quantity.value)
 // })
 const select = document.querySelector('#js-sizes')
-select.addEventListener('change', () => {
-  // Sets the default frame color when adding the item
-  button.setAttribute("data-item-custom1-value", select.value)
-})
+if (select) {
+  select.addEventListener('change', () => {
+    // Sets the default frame color when adding the item
+    button.setAttribute("data-item-custom1-value", select.value)
+  })
+}
 
-import Swiper, { Navigation, Pagination, Thumbs } from 'swiper';
+
+import Swiper, { Navigation, Thumbs } from 'swiper';
 
 var swiperShopThumbs = new Swiper('#js-swiperShopThumbs', {
   spaceBetween: 10,
@@ -22,7 +25,7 @@ var swiperShopThumbs = new Swiper('#js-swiperShopThumbs', {
 /*eslint no-unused-vars: ["error", { "varsIgnorePattern": "swiperShop" }]*/
 var swiperShopMain = new Swiper('#js-swiperShopMain', {
   // configure Swiper to use modules
-  modules: [Navigation, Pagination, Thumbs],
+  modules: [Navigation, Thumbs],
   spaceBetween: 10,
   navigation: {
     nextEl: '.swiper-button-next',

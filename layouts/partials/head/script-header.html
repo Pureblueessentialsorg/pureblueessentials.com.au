@@ -4,9 +4,10 @@
 {{ if eq .Type "contact" }}
   {{ partial "esbuild" (dict "src" "js/contact.js") -}}
 {{ end }}
-{{/*  {{ if eq .Type "shop"}}
+{{/* swiper js */}}
+{{ if and (eq .Type "shop") (eq .Kind "page")}}
 {{ partial "esbuild" (dict "src" "js/product-single.js" ) }}
-{{ end }}  */}}
+{{ end }}
 <!-- {{ partial "image/js"}} -->
 
 
