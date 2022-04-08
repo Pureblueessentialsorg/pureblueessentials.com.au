@@ -18,12 +18,13 @@
 {{- $bodyClass := delimit (.Scratch.Get "class") " " -}}
 
 <body class="{{ $bodyClass }} d-flex flex-column min-vh-100">
-  {{- if and .IsHome .Site.Params.alert -}}
-  {{ partial "header/alert" . -}}
-  {{- end -}}
+ 
   <header>
     {{ partial "header/index" . }}
   </header>
+  {{- if and .IsHome .Site.Params.alert -}}
+  {{ partial "header/alert" . -}}
+  {{- end -}}
   <main>
     {{ if not .IsHome }}
     <div class="container">

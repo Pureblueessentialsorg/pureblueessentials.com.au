@@ -26,12 +26,12 @@ $teal:    #20c997 !default;
 // // scss-docs-end color-variables
 
 
-$blue:  #6cbcd2; //#144ccf;
+$blue: #144ccf;
 $indigo: #05329b;
 $purple: #890e84;
 $red: #be480a;
 $yellow: #ffbf00;
-$cyan: #3ddcef;
+$cyan: #6cbcd2; // #3ddcef;
 $gray: #b2b2b2;
 
 
@@ -171,3 +171,7 @@ $pagination-hover-border-color:     $gray-800;
 
 // $stretched-link-pseudo-element:           after;
 // $stretched-link-z-index:                  1;
+
+
+$nav-link-font-size:                1.4rem; // !default;
+$nav-link-font-weight:              600; // !default;

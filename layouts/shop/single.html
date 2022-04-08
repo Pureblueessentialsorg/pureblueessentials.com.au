@@ -94,6 +94,16 @@
         data-item-custom1-name="Size"
         data-item-custom1-options="{{ $.Params.size }}|{{ delimit . "|"}}"
         {{ end }}
+        {{ if .Params.heat }}
+        {{ with .Site.Data.heatPacks.designs }}
+        data-item-custom3-name="Design"
+        data-item-custom3-options="{{ delimit (apply . "title" ".") "|" }}"
+        {{ end }}
+        {{ with .Site.Data.heatPacks.fillings }}
+        data-item-custom4-name="Filling"
+        data-item-custom4-options="{{ delimit (apply . "title" "." )  "|" }}"
+        {{ end }}
+        {{ end }}
         {{ if .Params.message }}
         data-item-custom2-name="Message"
         data-item-custom2-type="textarea"
@@ -128,9 +138,19 @@
   <div class="col">
     <h2 class="h4">Description:</h2>
       {{- .Content -}}
-      {{ if .Params.designs }}
+      {{ if .Params.heat }}
       <br>
-      <strong>Available Designs:</strong>
+      <strong>Available Fillings: (Choose at checkout)</strong>
+      <br>
+      <ul class="list-unstyled">
+      {{ with .Site.Data.heatPacks }}
+      {{ range .fillings }}
+        <li>{{ . | title }}</li>
+      {{ end }}
+      {{ end }}
+      </ul>
+      <br>
+      <strong>Available Designs: (Choose at checkout)</strong>
       <br>
       <ul class="list-unstyled">
       {{ with .Site.Data.heatPacks }}
