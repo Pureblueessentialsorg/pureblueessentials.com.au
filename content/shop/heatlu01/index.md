@@ -2,25 +2,45 @@
 visible: true
 title: Heat Pack - Lupins Filled
 id: heatlu01
-summary: "Choose from blue, blue, or blue! Just kidding, lots of appealing designs and some plush and cuddly options too."
-draft: true
+summary: Choose from 12 designs and some plush options too.
+draft: false
 popular: true
-images: [placeholder4.jpg]
+images:
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
 categories:
   - heat-packs
-price: 32
+price: 38
+size: large
 brand: pure blue essentials
-size: 40cm x 90cm
-weight: 1000
-length: 2
-height: 2
-width: 2
-heat: true
+weight: 1100
+length: 35
+height: 5
+width: 15
+designs: true
 ---
-Both the inner and outer covers are made from all natural fabrics. The outer cover is removable so it can be washed.
+Hand made, environmentally friendly and reusable.  Both the inner and outer covers are hand made from all natural fabrics. The outer cover is removable so it can be washed. 
 
-Choose from blue, blue, or blue! Just kidding, lots of appealing designs and some plush and cuddly options too. 
+Choose a cover design in blue, blue, or blue! Just kidding, choose from 12 designs with some plush options too.
 
-The heat pack is a generous size for soothing aches and pains in large areas of the body such as the abdomen, lower back and thigh, as well as smaller areas such as arm, neck, foot. Look out BFFs, your heat pack will become your best friend!
+Also available with wheat filling if you prefer.
 
-Add any three heat packs to the cart, for a 20% discount!
+**\*\* Add any three heat packs to the cart, for a 15% discount \*\***
+
+The heat pack is a very generous size for soothing aches and pains in large areas of the body such as the abdomen, lower back and thigh, as well as smaller areas such as arm, neck, foot.  Look out BFFs, your heat pack will become your new best friend!
+
+Dimensions:   36cm length  x  15cm width  x  5cm depth 
+
+**PLEASE READ ALL INSTRUCTIONS BEFORE USE**
