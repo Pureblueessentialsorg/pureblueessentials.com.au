@@ -12,6 +12,7 @@ images:
   - image-3-.jpg
   - adobestock_297589693.jpeg
   - img_3232.jpg
+  - ylang-ylang-3518220_960_720.jpg
 lead: all natural ingredients
 menu:
   main:
