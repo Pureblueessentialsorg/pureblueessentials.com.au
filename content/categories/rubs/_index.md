@@ -1,7 +1,8 @@
 ---
 title: Magnesium rub and Fisiocrem
+images:
+  - adobestock_378638303.jpeg
 id: rubs
-images: ["photo.jpg"]
 weight: 30
 visible: true
 ---
