@@ -8,7 +8,7 @@ draft: true
 popular: false
 categories:
   - gift-packs
-price: 77
+price: 75
 size: 70ml
 brand: pure blue essentials
 weight: 280
@@ -16,7 +16,7 @@ length: 35
 height: 16
 width: 16
 ---
-The **pure blue essential Longevity Packs** allows refilling of the 10ml bottle many times over with the **pure blue essentials Balance** blend and carrier oil. 
+The **pure blue essential Longevity Packs** allow refilling of the 10ml bottle many times over with the **pure blue essentials Calm** blend and carrier oil. 
 
 It contains:
 
