@@ -1,33 +1,33 @@
 {{ define "main" }}
-<div class="container pt-3">
-<div class="row justify-content-center">
-  <div class="col d-flex flex-row justify-content-center">
-    <!-- <div class="v-title__container">
+<div class="container">
+
+
+  <div class="row justify-content-center mt-3">
+    <div class="col text-center">
+      <!-- <div class="v-title__container">
       <video autoplay loop muted class="v-title__video">
         {{ $video := resources.Get "videos/output600x80.mp4" }}
         <source src="{{ $video.RelPermalink }}" type="{{ $video.MediaType }}">
       </video>
       <h1 class="v-title__text">{{ .Site.Title }}</h1>
     </div> -->
-    <h1 style="font-size: 4rem;">{{ .Site.Title }}</h1>
+      <h1 style="font-size: 4rem;">{{ .Site.Title }}</h1>
+    </div>
   </div>
-</div>
-{{ with .Params.lead }}
-<div class="row justify-content-center">
-  <div class="col-lg-10 text-center">
+  {{ with .Params.lead }}
+  <div class="row text-center mb-5">
     <p class="lead fs-1">{{ . | safeHTML }}</p>
   </div>
-</div>
-{{ end }}
-<div class="row justify-content-center">
+  {{ end }}
+  <!-- <div class="row justify-content-center">
   <div class="col-lg-10 text-center">
     <a class="btn btn-dark px-3" href="#shop" role="button">Shop Now</a>
     <a class="btn btn-outline-dark px-3" href="#" role="button">Button 2</a>
   </div>
-</div>
-{{- .Content -}}
+</div> -->
+  {{- .Content -}}
 
-<!-- <div class="row row-cols-2 row-cols-lg-4 g-4 d-flex justify-content-center py-3 g-3">
+  <!-- <div class="row row-cols-2 row-cols-lg-4 g-4 d-flex justify-content-center py-3 g-3">
   {{ range .Site.Menus.icons }}
   <div class="col">
     <div class="icon d-flex align-items-center h-100 border border-primary border-opacity-25 px-3 py-4 ">
@@ -41,43 +41,43 @@
   </div>
   {{ end }}
 </div> -->
-<div class="row">
-  <div class="col">
-    <h2>Shop by Category</h2>
+  <div class="row">
+    <div class="col">
+      <h2>Shop by Category</h2>
+    </div>
   </div>
-</div>
-<div id="shop" class="row row-cols-2 row-cols-md-3 g-4 d-flex justify-content-center">
-  {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
-  {{ with .Page }}
-  <div class="col mb-3">
+  <div id="shop" class="row row-cols-2 row-cols-lg-3 g-2 g-lg-4 d-flex justify-content-center">
+    {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
+    {{ with .Page }}
+    <div class="col mb-3">
       {{ partial "blocks/category-card" . }}
+    </div>
+    {{ end }}
+    {{ end }}
   </div>
-  {{ end }}
-  {{ end }}
-</div>
-  
-<div class="row">
-  <div class="col">
-    <h2>Featured Products</h2>
+
+  <div class="row">
+    <div class="col">
+      <h2>Featured Products</h2>
+    </div>
   </div>
-</div>
-{{ $popular := false }}
-{{ range first 1 (where .Site.Pages "Params.popular" true) }}
+  {{ $popular := false }}
+  {{ range first 1 (where .Site.Pages "Params.popular" true) }}
   {{ $popular = true }}
-{{ end }}
-{{ if $popular }}
-{{- /* displays 5 popular products, add scroll if needed */ -}}
-<div id="featured" class="row row-cols-2 row-cols-md-5 g-4 d-flex justify-content-center">
-  {{ range first 5 (where .Site.Pages "Params.popular" true) }}
-  <div class="col mb-3">
-      {{ partial "blocks/product-card" . }}
-  </div>
-  
   {{ end }}
+  {{ if $popular }}
+  {{- /* displays 5 popular products, add scroll if needed */ -}}
+  <div id="featured" class="row row-cols-3 row-cols-lg-5 g-2 g-lg-4 d-flex justify-content-center">
+    {{ range first 5 (where .Site.Pages "Params.popular" true) }}
+    <div class="col mb-3">
+      {{ partial "blocks/product-card" . }}
+    </div>
+
+    {{ end }}
+  </div>
+  {{ end }}
+
 </div>
-{{ end }}
-
-
 
 <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
