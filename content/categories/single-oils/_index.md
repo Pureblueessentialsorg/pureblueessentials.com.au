@@ -1,7 +1,8 @@
 ---
 title: Single (pure) essential oils
+images:
+  - adobestock_127641279.jpeg
 id: single-oils
-images: ["photo.jpg"]
 weight: 50
 visible: true
 ---
