@@ -33,10 +33,10 @@
       <div class="row">
         {{ if or (eq .Section "shop") (eq .Section "categories") }}
         {{- /* displays for shop or categories pages */ -}}
-        <div class="col-lg-8">
+        <div class="col-lg-9">
           {{ block "main" . }}{{ end }}
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
           <aside>
             {{ block "sidebar" . }}{{ partial "sidebar/index" . }}{{ end }}
           </aside>
