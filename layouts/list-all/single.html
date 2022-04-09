@@ -60,47 +60,7 @@
      </th>
       
       <th>
-        <button class="btn btn-primary snipcart-add-item my-3" href="#" id="js-snip"
-      data-item-id="{{ .Params.id }}"
-      data-item-price="{{ .Params.price }}" 
-      data-item-url="{{ .Permalink }}"
-      data-item-description="{{ .Summary }}"
-      {{- $ctx := . -}} 
-      {{- $sizes := slice -}}
-      {{ range .Params.sizes }}
-      {{ $sizes = $sizes | append (printf "%s[+%d]" .size (sub .price $ctx.Params.price) ) }}
-      {{ end }}
-      {{ with $sizes }}
-      data-item-custom1-name="Size"
-      data-item-custom1-options="{{ $.Params.size }}|{{ delimit . "|"}}"
-      {{ end }}
-      {{ if .Params.message }}
-      data-item-custom2-name="Message"
-      data-item-custom2-type="textarea"
-      {{ end }}
-      {{ with .Params.images }}
-      {{ $image := $ctx.Resources.GetMatch (index . 0) }}
-      {{ $image = $image.Resize "120x" }}
-      data-item-image="{{ $image.RelPermalink }}"
-      {{ end }}
-      data-item-name="{{ .Title }}"
-      data-item-id="{{ .Params.id }}" 
-      {{ with .Params.categories }}
-      data-item-categories="{{ delimit . "|" }}"
-      {{ end }}
-      {{ with .Params.weight }}
-      data-item-weight="{{ . }}"
-      {{ end }}
-      {{ with .Params.height }}
-      data-item-height="{{ . }}"
-      {{ end }}
-      {{ with .Params.width }}
-      data-item-width="{{ . }}"
-      {{ end }}
-      {{ with .Params.length }}
-      data-item-length="{{ . }}"
-      {{ end }}>Add to cart
-    </button>
+       {{ partial "blocks/add-to-cart" . }}
       </th>
     </tr>
 
