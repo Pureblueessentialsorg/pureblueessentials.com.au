@@ -1,9 +1,9 @@
 ---
 visible: true
-title: Longevity Pack
+title: Longevity Packs
 id: lon03
-summary: 1x30ml and 1x10ml bottle of Essential Oil Blend of your choice, 1x30ml
-  bottle of jojoba oil
+summary: 1x30ml and 1x10ml bottle of Essential Oil Blend of your choice, plus
+  1x30ml bottle of jojoba oil
 draft: false
 popular: false
 categories:
