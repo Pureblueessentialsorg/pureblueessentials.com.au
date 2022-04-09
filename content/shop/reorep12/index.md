@@ -6,8 +6,6 @@ summary: 1 each of our 12 Remedial Essential Oil Blends (10mls). Pay for 10 and
   get 2 for free
 draft: false
 popular: true
-images:
-  - 1.jpg
 categories:
   - gift-packs
 price: 200

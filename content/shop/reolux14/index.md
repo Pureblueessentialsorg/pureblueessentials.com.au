@@ -7,7 +7,6 @@ summary: 1 each of 12 remedial essential oil blends (30mls), 100ml Jojoba oil, 1
 draft: false
 popular: false
 images:
-  - 1.jpg
 categories:
   - gift-packs
 price: 580

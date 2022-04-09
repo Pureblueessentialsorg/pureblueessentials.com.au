@@ -5,8 +5,6 @@ id: eoeuca30
 summary: pure eucalyptus essential oil
 draft: false
 popular: true
-images:
-  - placeholder4.jpg
 categories:
   - single-oils
 price: 24

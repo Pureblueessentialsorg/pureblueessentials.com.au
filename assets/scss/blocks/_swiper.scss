@@ -1,10 +1,10 @@
 $themeColor: $primary; // #007aff !default;
 // swiper
 @import "swiper/swiper.scss";
-@import "swiper/modules/pagination/pagination.scss";
+// @import "swiper/modules/pagination/pagination.scss";
 @import "swiper/modules/navigation/navigation.scss";
 @import "swiper/modules/thumbs/thumbs.scss";
-
+@import "swiper/modules/lazy/lazy.scss";
 .swiper {
   // &-container {
   //   width: 100%;

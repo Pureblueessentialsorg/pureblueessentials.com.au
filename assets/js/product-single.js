@@ -13,20 +13,25 @@ if (select) {
 }
 
 
-import Swiper, { Navigation, Thumbs } from 'swiper';
+import Swiper, { Navigation, Thumbs, Lazy } from 'swiper';
 
 var swiperShopThumbs = new Swiper('#js-swiperShopThumbs', {
   spaceBetween: 10,
   slidesPerView: 4,
   freeMode: true,
   watchSlidesProgress: true,
+  
 });
 
 /*eslint no-unused-vars: ["error", { "varsIgnorePattern": "swiperShop" }]*/
 var swiperShopMain = new Swiper('#js-swiperShopMain', {
   // configure Swiper to use modules
-  modules: [Navigation, Thumbs],
+  modules: [Navigation, Thumbs, Lazy],
   spaceBetween: 10,
+    // // Disable preloading of all images
+    // preloadImages: false,
+    // // Enable lazy loading
+    // lazy: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -68,3 +73,9 @@ import {
 // var scrollSpy = new bootstrap.ScrollSpy(document.body, {
 //   target: '#navbar-example'
 // })
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  document.querySelectorAll('img').forEach(function(img){
+   img.onerror = function(){this.style.display='none';};
+  })
+});

@@ -5,8 +5,7 @@ id: eolemo30
 summary: pure lemongrass essential oil
 draft: false
 popular: true
-images:
-  - placeholder4.jpg
+
 categories:
   - single-oils
 price: 24

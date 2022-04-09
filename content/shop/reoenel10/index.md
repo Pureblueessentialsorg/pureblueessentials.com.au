@@ -5,8 +5,6 @@ id: reoene10
 summary: ""
 draft: false
 popular: false
-images:
-  - placeholder4.jpg
 categories:
   - remedial-oils
 price: 20
