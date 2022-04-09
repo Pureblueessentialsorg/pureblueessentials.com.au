@@ -1,0 +1,24 @@
+---
+visible: true
+title: Bath soak Cedar and Frankincense 1kg
+id: bathcefr
+summary: Bath soaks fortified with cedar and frankincense essential oils - 1kg
+draft: false
+popular: false
+categories:
+  - heat-packs
+price: 19
+size: 1kg
+brand: Pure Blue Essentials
+weight: 1000
+length: 16
+height: 24
+width: 12
+---
+When you've overdone it at work, exercise, or home, or you have a headache, or just feeling a bit weary?  Add a cup of **pure blue essential Bath Soak** to a normal bath - or a footbath - to soak up the goodness of epsom salts and lavender and lemongrass essential oils.  
+
+Let the aroma of the essential oils take you to your happy place.... an ancient rainforest, a Moroccan souk, Uncle Tom's tool shed, Christmas morning.....
+
+But don't wait until your body is screaming out for relief, buy a pack now and keep it in the bathroom cupboard.
+
+Also available with lavender and lemongrass essential oils.
