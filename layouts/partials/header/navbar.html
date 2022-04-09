@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+<nav class="navbar navbar-expand-md navbar-dark bg-info">
   <div class="container-fluid">
     {{/* <a class="navbar-brand" href="{{ absURL " /" }}">{{ .Site.Title }}</a> */}}
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -45,31 +45,15 @@
         {{- end -}}
         {{- end -}}
       </ul>
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <div class="">
-            <a href="#" class="snipcart-checkout">
-              <div class="d-inline-block position-relative fs-2 m-3 text-primary">
 
-                {{/*  {{ partial "svg-font" (dict "src" "icons/bootstrap/cart" "block" true "title" "Shopping Cart" "desc" "View Shopping Cart") }}  */}}
-                {{ partial "svg-font" (dict "src" "icons/box/bx-shopping-bag" "block" true "title" "Shopping Cart" "desc" "View Shopping Cart") }}
-                {{/*  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" role="img" height="16" width="16" viewBox="0 0 16 16" class="svg-font em-1 d-block" aria-labelledby="476703eecce2bd27a2ec57b0b09b02ee-title" aria-describedby="476703eecce2bd27a2ec57b0b09b02ee-desc">
-                  <title id="476703eecce2bd27a2ec57b0b09b02ee-title">Shopping Cart</title>
-                  <desc id="476703eecce2bd27a2ec57b0b09b02ee-desc">View Shopping Cart</desc>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M51.714 20.47L55 60H9l3.286-39.53h9.857v-6.588C22.143 8.424 26.556 4 32 4c5.444 0 9.857 4.424 9.857 9.882v6.589h9.857zM25.43 13.883v16.47h-3.286v-6.587h-6.834l-2.737 32.94h38.856l-2.737-32.94h-6.834v6.588h-3.286v-16.47c0-3.634-2.947-6.589-6.571-6.589-3.624 0-6.571 2.955-6.571 6.588zm3.285 9.883V20.47h6.572v3.294h-6.572z"></path>
-                </svg>  */}}
-                {{/*  {{ $svg := resources.Get "icons/custom/snipcart.svg" }}
-                {{ $svg.Content | safeHTML }}  */}}
-                <!-- badge rounded-pill bg-secondary-->
-                <span class="position-absolute top-0 start-100 translate-middle  fs-6 snipcart-items-count"><span
-                  class="visually-hidden">Cart Contents</span></span>
-              </div>
-            </a>
-
-          </div>
-
-        </li>
-      </ul>
     </div>
+    <a href="#" class="snipcart-checkout">
+      <div class="d-inline-block position-relative fs-2 m-3 text-primary">
+        {{ partial "svg-font" (dict "src" "icons/box/bx-shopping-bag" "block" true "title" "Shopping Cart" "desc" "View Shopping Cart") }}
+        <!-- badge rounded-pill bg-secondary-->
+        <span class="position-absolute top-0 start-100 translate-middle  fs-6 snipcart-items-count"><span
+          class="visually-hidden">Cart Contents</span></span>
+      </div>
+    </a>
   </div>
 </nav>

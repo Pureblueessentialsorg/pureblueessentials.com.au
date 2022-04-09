@@ -85,8 +85,14 @@ test
       {{ end }}
     </div>
     <div class="col-sm-3 col-7 d-flex align-items-end m-0 p-0 pe-md-5 order-sm-first">
-      {{ $logo := resources.Get "images/footer-logo.png" }}
-      <img class="img-fluid d-block" src="{{ $logo.RelPermalink }}" alt="" >
+      {{ $dict := (dict
+        "src" "images/footer-logo.png"
+        "style" "max-width: 100% !important; height: auto !important;"
+        "title" "Pure Blue Essentials Logo"
+        "layout" "fixed"
+        "width" 300
+        )}}
+      {{ partial "image" $dict }}
      
 
   </div>
