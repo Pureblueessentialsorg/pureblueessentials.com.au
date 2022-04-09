@@ -17,9 +17,8 @@ images:
   - image_2022-04-03_104239.png
   - image_2022-04-03_104110.png
   - image_2022-04-03_103921.png
-  - image_2022-04-03_103259.png  
+  - image_2022-04-03_103259.png
   - image_2022-04-03_103803.png
- 
 categories:
   - heat-packs
 price: 38
@@ -41,6 +40,32 @@ Also available with lupin filling for those with wheat allergies.
 
 The heat pack is a very generous size for soothing aches and pains in large areas of the body such as the abdomen, lower back and thigh, as well as smaller areas such as arm, neck, foot.  Look out BFFs, your heat pack will become your new best friend!
 
-Dimensions:   36cm length  x  15cm width  x  5cm depth 
+Dimensions:   36cm length  x  15cm width  x  5cm height
 
 **PLEASE READ ALL INSTRUCTIONS BEFORE USE**
+
+**Designs - and design credits:**
+
+1.  Cornflower blue - PLUSH
+
+2.  Birds, multicolour
+
+3.  Triangle, dark blue
+
+4.  Turquoise
+
+5.  Gumleaves, natural
+
+6.  Bush Tomato Dreaming -  design by **Lyn Nungarrayi Sims**
+
+7.  Cuddly monstas
+
+8.  Wild waves - design by **John Louden**
+
+9.  Daisies, red
+
+10. Butterflies, black
+
+11.  Arrows, grey - PLUSH
+
+12.  Goanna Dreaming - design by **Melissa Napangardi Williams**
