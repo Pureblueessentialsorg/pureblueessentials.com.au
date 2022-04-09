@@ -6,12 +6,10 @@ menu:
     weight: 50
   icons:
     weight: 20
-    pre: "icons/bootstrap/book.svg"
+    pre: icons/bootstrap/book.svg
 ---
-Pure Blue Essentials is operated on Bunurong/Boon Wurrung Country.
+pure blue essentials is operated on Bunurong/Boon Wurrung Country.
 
-We pay our deepest respects to the Elders, past, present and emerging of these lands and extend this respect to the people and lands throughout Australia and the world.
+We pay our respects to the Elders, past, present and emerging of these lands and extend this respect to the people and lands throughout Australia and the world.
 
 We recognise all First Nations Peoples enduring relationship with Country and that here in Australia sovereignty was never ceded.
-
-First Nations peoples, through their rich cultures, languages and histories have cared for this Country for more than 60,000 years.
