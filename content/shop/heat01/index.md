@@ -6,7 +6,6 @@ summary: " Choose from 12 designs with some plush options too."
 draft: false
 popular: true
 images:
-  - photo.jpg
   - image_2022-04-03_104858.png
   - image_2022-04-03_104804.png
   - image_2022-04-03_104715.png
