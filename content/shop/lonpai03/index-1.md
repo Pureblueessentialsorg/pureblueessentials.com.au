@@ -1,14 +1,14 @@
 ---
 visible: true
 title: Arthritis longevity pack
-id: lonpai03
+id: lonart03
 summary: 1x30ml bottle of Arthritis (I said no Arthr) blend, 1x10ml bottle of
   Arthritis (I said no Arthr) blend, 1x30ml bottle of jojoba oil
 draft: true
 popular: false
 categories:
   - gift-packs
-price: 77
+price: 75
 size: 70ml
 brand: pure blue essentials
 weight: 280
