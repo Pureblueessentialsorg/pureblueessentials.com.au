@@ -5,10 +5,9 @@ id: eolemo30
 summary: pure lemongrass essential oil
 draft: false
 popular: true
-
 categories:
   - single-oils
-price: 24
+price: 28
 size: 30ml
 brand: pure blue essentials
 weight: 60
@@ -18,9 +17,9 @@ width: 3
 ---
 Lemongrass essential oil is very effective in reducing soreness in tired muscles. 
 
-As well as remedial benefits, it has a heady, exotic scent, relaxing ... to the central nervous system.
+As well as remedial benefits, it has a heady, exotic scent, relaxing to the central nervous system.
 
-Please contact us if you are wanting amount more than 30mls.
+Please contact us if you are wanting an amount more than 30mls.
 
 **Cautions:**
 
