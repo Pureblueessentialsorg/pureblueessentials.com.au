@@ -8,7 +8,7 @@ draft: false
 popular: false
 categories:
   - gift-packs
-price: 77
+price: 75
 size: 10ml + 30ml + 30ml
 brand: pure blue essentials
 weight: 280
@@ -21,9 +21,9 @@ The **pure blue essential Longevity Packs** allows refilling of the 10ml bottle 
 
 It contains:
 
-\- a 30ml bottle of remedial essential oil blend;
+\- a 30ml bottle of the remedial essential oil blend of your choice;
 
-\- a 10ml bottle of remedial essential oil blend;
+\- a 10ml bottle of the same blend;
 
 \- a 30ml bottle of pure Australian jojoba oil (carrier oil). A carrier oil is necessary to safely apply essential oils to the skin.
 
