@@ -23,7 +23,7 @@ social:
     {{- end -}}
   {{- end -}}
 {{- end -}}
-{{- range $key, $value := site.Data.schema.social -}}
+{{- range $key, $value := sort site.Data.schema.social "weight" -}}
 {{- $title := $value.title | default (humanize $key) -}}
 {{- if and (ne $value.disable true) $value.icon -}}
 <a role="button" href="{{- $value.url -}}" title="{{- $title -}}" class="{{- $class }} d-inline-block" target="_blank" rel="noopener">

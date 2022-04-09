@@ -10,12 +10,15 @@ social:
     account: "@handle"
     url: http://www.twitter.com/user
     icon: icons/bootstrap/twitter
+    weight: 10
   facebook:
     url: http://www.facebook.com/user
     icon: icons/bootstrap/facebook
+    weight: 20
   google: 
     url: google.com
     icon: icons/bootstrap/google
+    weight: 30
 # https://schema.org/PostalAddress
 postalAddress:
   name: Address
