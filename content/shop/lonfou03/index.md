@@ -4,7 +4,7 @@ title: Four Thieves longevity pack
 id: lonfou03
 summary: 1x30ml bottle of Four Thieves blend, 1x10ml bottle of Four Thieves
   blend, 1x30ml bottle of jojoba oil
-draft: false
+draft: true
 popular: false
 categories:
   - gift-packs

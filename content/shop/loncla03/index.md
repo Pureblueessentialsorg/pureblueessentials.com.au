@@ -4,7 +4,7 @@ title: Clarity longevity pack
 id: loncla03
 summary: 1x30ml bottle of Clarity blend, 1x10ml bottle of Clarity blend, 1x30ml
   bottle of jojoba oil
-draft: false
+draft: true
 popular: false
 categories:
   - gift-packs

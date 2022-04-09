@@ -4,7 +4,7 @@ title: Sleep Right longevity pack
 id: lonsle03
 summary: 1x30ml bottle of Sleep Right blend, 1x10ml bottle of Sleep Right blend,
   1x30ml bottle of jojoba oil
-draft: false
+draft: true
 popular: false
 categories:
   - gift-packs

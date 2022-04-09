@@ -1,48 +1,51 @@
 {{ define "title" }}&nbsp;{{ end }}
 {{ define "main" }}
-{{ .Type }} {{ .Kind }}
 <div class="row mb-3">
-  <div class="col-md-5">
+  <div class="col-md-6">
     {{ with .Params.images }}
-    {{ if gt (len . ) 1 }}
-    <div class="swiper-container">
-      <!-- Slider main container -->
-      <div id="js-swiperShopMain" class="swiper swiper-shop-main">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          {{ range . }}
-          <div class="swiper-slide d-flex">
-            {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 340 560) "sizes" "(min-width: 768px) 50vw, 100vw") }}
-            {{ partial "image" $dict }}
+      {{ if gt (len . ) 1 }}
+      <div class="swiper-container">
+        <!-- Slider main container -->
+        <div id="js-swiperShopMain" class="swiper swiper-shop-main">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            {{ range . }}
+            <div class="swiper-slide d-flex">
+              {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 340 560) "sizes" "(min-width: 768px) 50vw, 100vw") }}
+              {{ partial "image" $dict }}
+            </div>
+            {{ end }}
           </div>
-          {{ end }}
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-      <!-- thumbnail swiper -->
-      <div swiperShopThumbs="" id="js-swiperShopThumbs" class="swiper swiper-shop-thumbs">
-        <div class="swiper-wrapper">
-          {{ range . }}
-          <div class="swiper-slide">
-            {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 76 122) ) }}
-            {{ partial "image" $dict }}
+        <!-- thumbnail swiper -->
+        <div swiperShopThumbs="" id="js-swiperShopThumbs" class="swiper swiper-shop-thumbs">
+          <div class="swiper-wrapper">
+            {{ range . }}
+            <div class="swiper-slide">
+              {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 76 122) ) }}
+              {{ partial "image" $dict }}
+            </div>
+            {{ end }}
           </div>
-          {{ end }}
         </div>
       </div>
-    </div>
-    {{ else if eq (len .) 1 }}
-    {{- /* if only one image is present dont load swiper */ -}}
-    {{ $img := index $.Params.images 0 }}
-    {{ $dict := (dict "src" $img "page" $ "title" $.Title "fillRatio" (slice 3 2)) }}
-    {{ partial "image" $dict }}
-    {{ end }}
+      {{ else if eq (len .) 1 }}
+        {{- /* if only one image is present dont load swiper */ -}}
+        {{ $img := index $.Params.images 0 }}
+        {{ $dict := (dict "src" $img "page" $ "title" $.Title "fillRatio" (slice 3 2)) }}
+        {{ partial "image" $dict }}
+      {{ end }}
+    {{ else }}
+      {{- /* no image provided */ -}}
+      {{ $dict := (dict "src" "images/product-logo.jpg" "title" $.Title "fillRatio" (slice 3 2)) }}
+      {{ partial "image" $dict }}
     {{ end }}
   </div>
-  <div class="col-md-7">
+  <div class="col-md-6">
     <h1 class="h3">{{ .Title }}</h1>
     <div>
       {{ with .Params.Sizes }}
@@ -155,6 +158,18 @@
       <ul class="list-unstyled">
       {{ with .Site.Data.heatPacks }}
       {{ range .designs }}
+        <li>{{ . | title }}</li>
+      {{ end }}
+      {{ end }}
+      </ul>
+      {{ end }}
+      {{ if .Params.long }}
+      <br>
+      <strong>Available Essential oils: (Choose at checkout)</strong>
+      <br>
+      <ul class="list-unstyled">
+      {{ with .Site.Data.essentialOils }}
+      {{ range .types }}
         <li>{{ . | title }}</li>
       {{ end }}
       {{ end }}

@@ -4,7 +4,7 @@ title: PMS Lift longevity pack
 id: lonpms03
 summary: 1x30ml bottle of PMS Lift blend, 1x10ml bottle of PMS Lift blend,
   1x30ml bottle of jojoba oil
-draft: false
+draft: true
 popular: false
 categories:
   - gift-packs

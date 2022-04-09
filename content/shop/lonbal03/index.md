@@ -4,7 +4,7 @@ title: Balance longevity pack
 id: lonbal03
 summary: 1x30ml bottle of Balance blend, 1x10ml bottle of Balance blend, 1x30ml
   bottle of jojoba oil
-draft: false
+draft: true
 popular: false
 categories:
   - gift-packs
