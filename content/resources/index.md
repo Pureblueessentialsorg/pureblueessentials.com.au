@@ -9,8 +9,6 @@ menu:
 description: Wanting menu in Resources with multiple pages for individual
   information pages for different things....
 ---
-
-
 **Four Thieves Remedial Oil Blend**
 
 **History:**
@@ -25,8 +23,6 @@ Do not use while pregnant
 
 If skin, eye or nasal irritation occurs, discontinue use.
 
-
-
 **Some suggestions for use:**
 
 In a diffuser around the home or personal workspace.
@@ -35,12 +31,12 @@ In a spritzer bottle on pillows or around the room if you are ill with a cold or
 
 As a surface cleaner to kill germs (2% dilution in water)
 
-As a gargle for sore throat, or to kill oral bacteria (add **1** **drop** to 1 teaspoon of salt, add some water and stir well. Gargle for at least 1 minute.
+As a gargle for sore throat, or to kill oral bacteria (add **1** **drop** to 1 teaspoon of salt, add some water and stir well. Swish around mouth and gargle for 1 minute.
 
-As a deodorant (add to a wax-based or lotion-based cream for an amazing natural deodorant
+As a deodorant (2% dilution in a wax-based or lotion-based cream for an amazing natural deodorant
 
 As a mould deterrent on boat, tent, trailer and gazebo canvas
 
-Make a homemade wound care salve (add 1-2% to a standard lotion and apply to wounds for faster healing
+Make a homemade wound care salve (1-2% dilution in a basic lotion and apply to wounds for faster healing
 
 To heal nail fungus (1-2% dilution in coconut oil and applied with a cotton swab twice a day. Continue to use for 2 weeks after fungus has disappeared.
