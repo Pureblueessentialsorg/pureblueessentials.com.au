@@ -6,9 +6,9 @@ menu:
     weight: 30
   footer:
     weight: 30
-description: There are 2 "About Us" and inputting info in 1, it overwrites info
-  in the 2nd...the other tab I want is "Packaging and Recycling Policy"
-images: []
+description: ""
+images:
+  - pbelogo230322.png
 ---
 
 
