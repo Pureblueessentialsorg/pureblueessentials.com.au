@@ -6,7 +6,6 @@
 {{- $lang = replaceRE "-([a-z]*)" (upper $country) .Lang 1 -}}
 {{- end -}}
 <html lang="{{ $lang }}" class="min-vh-100">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -16,9 +15,7 @@
 </head>
 {{- partial "head/body-class" . -}}
 {{- $bodyClass := delimit (.Scratch.Get "class") " " -}}
-
 <body class="{{ $bodyClass }} d-flex flex-column min-vh-100">
- 
   <header>
     {{ partial "header/index" . }}
   </header>
