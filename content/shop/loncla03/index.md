@@ -8,7 +8,7 @@ draft: true
 popular: false
 categories:
   - gift-packs
-price: 77
+price: 75
 size: 70ml
 brand: pure blue essentials
 weight: 280
