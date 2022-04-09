@@ -17,7 +17,7 @@ languages:
   en-au:
     weight: 1
 #pagination 
-paginate: 6
+paginate: 50
 rssLimit: 10
 title: Pure Blue Essentials
 
