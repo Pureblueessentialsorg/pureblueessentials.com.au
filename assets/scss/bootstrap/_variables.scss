@@ -31,7 +31,7 @@ $indigo: #05329b;
 $purple: #890e84;
 $red: #be480a;
 $yellow: #ffbf00;
-$cyan: #6cbcd2; // #3ddcef;
+$cyan: #73cce5; //#6cbcd2; // #3ddcef;
 $gray: #b2b2b2;
 
 
@@ -175,3 +175,8 @@ $pagination-hover-border-color:     $gray-800;
 
 $nav-link-font-size:                1.4rem; // !default;
 $nav-link-font-weight:              600; // !default;
+
+$navbar-dark-color:                 rgba($white, .70); //rgba($white, .55) !default;
+$navbar-dark-hover-color:           rgba($white, .40);// rgba($white, .75) !default;
+$navbar-dark-active-color:          $white !default;
+$navbar-dark-disabled-color:        rgba($white, .25) !default;
