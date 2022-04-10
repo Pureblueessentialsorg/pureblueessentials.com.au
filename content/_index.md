@@ -13,6 +13,7 @@ images:
   - adobestock_297589693.jpeg
   - img_3232.jpg
   - ylang-ylang-3518220_960_720.jpg
+  - wavy-blue-background-2-.jpg
 lead: all natural ingredients
 menu:
   main:
