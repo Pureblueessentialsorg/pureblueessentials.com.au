@@ -5,11 +5,15 @@ id: fiscr120
 summary: Fisiocrem solugel 120gm tube
 draft: false
 popular: false
+images:
+  - dsc_0424.jpg
+  - dsc_0419.jpg
+  - dsc_0270-2-.jpg
 categories:
   - rubs
 price: 28
 size: 120g
-brand: ????
+brand: Pronat Group
 weight: 120
 length: 26
 height: 8
