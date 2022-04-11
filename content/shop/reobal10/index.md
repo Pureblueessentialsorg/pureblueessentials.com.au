@@ -3,7 +3,7 @@ visible: true
 title: Balance remedial essential oil blend 10ml
 id: reobal10
 draft: false
-popular: true
+popular: false
 images:
   - dsc_0230.jpg
 categories:
@@ -34,20 +34,18 @@ Also available in a 30ml bottle containing 100% pure essential oils that can be 
 
 \- use in home-made lotions or balms
 
-
-
- \*\* After more value for money? The **pure blue essential Longevity Packs** contain:
-
-\- a 30ml bottle of this remedial essential oil blend;
-
-\- 30ml bottle of jojoba oil (carrier oil);
-
-\- 10ml bottle (glass with bamboo casing) to refill with carrier oil and **Balance remedial essential oil blend** many times over.
-
-
-
 **Cautions:**
 
 Keep away from eyes and mouth.
 
 If skin, eye or nasal irritation occurs, discontinue use.
+
+
+
+PSSST... After more value for money? The[**Balance** **Longevity pack**]({{<relref "/lonbal03" >}}) contains:
+
+\- a 30ml bottle AND 10ml bottle of **Balance remedial essential oil blend**;
+
+\- 30ml bottle of jojoba oil (carrier oil);
+
+Allowing you to refill with carrier oil and Balance remedial essential oil blend many times over.
