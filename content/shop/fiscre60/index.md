@@ -13,7 +13,7 @@ categories:
   - rubs
 price: 17
 size: 60g
-brand: ????
+brand: Pronat Group
 weight: 60
 length: 16
 height: 5
