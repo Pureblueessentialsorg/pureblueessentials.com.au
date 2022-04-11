@@ -6,7 +6,7 @@ summary: Liquid magnesium rub in a pump pack bottle
 draft: false
 popular: false
 images:
-  - photo1.jpg
+  - dsc_0452.jpg
 categories:
   - rubs
 price: 18
