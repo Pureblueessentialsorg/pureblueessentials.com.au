@@ -5,6 +5,10 @@ id: fiscre60
 summary: Fisiocrem solugel 60gm tube
 draft: false
 popular: true
+images:
+  - dsc_0422.jpg
+  - dsc_0420.jpg
+  - dsc_0270-2-.jpg
 categories:
   - rubs
 price: 17
