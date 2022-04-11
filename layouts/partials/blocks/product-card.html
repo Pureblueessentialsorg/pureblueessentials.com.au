@@ -6,7 +6,7 @@
       {{ partial "image" (dict "src" $img "page" $ "title" $.Title "class" "card-img-top" 
       "widths" (slice 260 540) "fillRatio" (slice 6 4) ) }}
     {{ else }}
-      {{ $img := "images/product-logo.jpg" }}
+      {{ $img := "images/product-logo.png" }}
       {{ partial "image" (dict "src" $img "title" $.Title "class" "card-img-top" 
       "widths" (slice 260 540) "fillRatio" (slice 6 4) ) }}
     {{ end }}

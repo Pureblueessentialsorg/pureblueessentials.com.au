@@ -13,13 +13,13 @@
     </div> -->
       <h1 style="font-size: 4rem;">{{ .Site.Title }}</h1>
       {{ with .Params.lead }}
-        <div class="row text-center mb-5">
-          <p class="lead fs-1" style="font-size: 3rem !important;">{{ . | safeHTML }}</p>
-        </div>
+      <div class="row text-center mb-5">
+        <p class="lead fs-1" style="font-size: 3rem !important;">{{ . | safeHTML }}</p>
+      </div>
       {{ end }}
     </div>
   </div>
-  
+
 
   <!-- <div class="row justify-content-center">
   <div class="col-lg-10 text-center">
@@ -43,6 +43,36 @@
   </div>
   {{ end }}
 </div> -->
+  <div class="row mb-3 d-flex justify-content-center">
+    <div class="col-lg-10 col-xl-9">
+      <!-- Slider main container -->
+      <div class="swiper swiperHome" id="js-swiperHome">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          {{- $images := .Resources.ByType "image" -}}
+          {{- range $images }}
+          {{- $dict := (dict
+          "src" .
+          "page" $
+          "title" "pure blue essentials"
+          "widths" (slice 640 800 1200)
+          ) -}}
+          <div class="swiper-slide">{{ partial "image" $dict }}</div>
+          {{- end }}
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+  </div>
   <div class="row">
     <div class="col">
       <h2>Shop by Category</h2>

@@ -4,17 +4,22 @@
 {{ if eq .Type "contact" }}
   {{ partial "esbuild" (dict "src" "js/contact.js") -}}
 {{ end }}
-{{/* swiper js */}}
-{{ if and (eq .Type "shop") (eq .Kind "page")}}
-{{ partial "esbuild" (dict "src" "js/product-single.js" ) }}
-{{ end }}
-<!-- {{ partial "image/js"}} -->
 
+{{ $shopSingle := and (eq .Type "shop") (eq .Kind "page")}}
+{{ if $shopSingle }}
+  {{ partial "esbuild" (dict "src" "js/shop-single.js" ) }}
+{{ end }}
+
+{{ if or $shopSingle .IsHome }}
+  {{ partial "image/js"}}
+{{ end }}
+{{ partial "esbuild" (dict "src" "js/swiper.js" ) }}
 
 {{- /* EXAMPLE - only load script for production
 {{ if eq (hugo.Environment) "production" -}}
   {{ partial "esbuild" (dict "src" "js/instantpage.js") -}}
 {{ end -}}
+
 */}}
 {{/* EXAMPLE - only load script for a page type e.g. contact or gallery
 {{ if eq .Type "gallery" }}

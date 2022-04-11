@@ -43,7 +43,7 @@
       {{ end }}
     {{ else }}
       {{- /* no image provided */ -}}
-      {{ $dict := (dict "src" "images/product-logo.jpg" "title" $.Title "fillRatio" (slice 3 2)) }}
+      {{ $dict := (dict "src" "images/product-logo.png" "title" $.Title "fillRatio" (slice 3 2)) }}
       {{ partial "image" $dict }}
     {{ end }}
   </div>
