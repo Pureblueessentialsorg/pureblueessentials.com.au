@@ -6,6 +6,7 @@ draft: false
 popular: true
 images:
   - dsc_0280-2-.jpg
+  - dsc_0436.jpg
 categories:
   - remedial-oils
 price: 44
@@ -18,7 +19,7 @@ width: 3
 ---
 When your mood, your day or your life is a bit up and down and you need some grounding, try the potent combination of essential oils in the **Balance** remedial essential oil blend.
 
-Geranium, patchouli, sage and ylang ylang are all richly scented, earthy oils. They all help to return your nervous system to equilibrium. Orange has both calming and uplifting properties.
+Geranium, patchouli, sage, clary sage and ylang ylang are all richly scented, earthy oils. They all help to return your nervous system to equilibrium. 
 
 This blend can also be helpful when feelings of uncertainty can impact emotional stability, in situations such as meeting new people, travelling long distances, or in periods of major change.
 
@@ -43,8 +44,6 @@ After more value for money? The **pure blue essential Longevity Packs** contain:
 \- 30ml bottle of jojoba oil (carrier oil);
 
 \- 10ml bottle (glass with bamboo casing) to refill with the **pure blue essentials** blend and carrier oil many times over.
-
-
 
 **Cautions:**
 
