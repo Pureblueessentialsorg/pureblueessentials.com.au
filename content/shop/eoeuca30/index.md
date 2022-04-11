@@ -5,6 +5,8 @@ id: eoeuca30
 summary: pure eucalyptus essential oil
 draft: false
 popular: true
+images:
+  - dsc_0457.jpg
 categories:
   - single-oils
 price: 28
@@ -15,9 +17,9 @@ length: 3
 height: 11
 width: 3
 ---
-The unmistakable aroma of eucalyptus essential oil 
+The unmistakable aroma of eucalyptus essential oil.   There are hundreds of uses for eucalyptus oil, including as a very effective antiseptic.
 
-Eucalyptus is a very effective antiseptic and can help to relieve pain when used topically.
+Email us at hello@pureblueessentials.com.au with your favourite uses!
 
 Please contact us if you are wanting amounts of more than 30mls.
 
