@@ -1,3 +1,6 @@
+$spacer: 1rem !default; 
+
+
 // scss-docs-start gray-color-variables
 $white:    #fff !default;
 $gray-100:  #E7E7E7; //#f8f9fa !default;
@@ -176,6 +179,9 @@ $pagination-hover-border-color:     $gray-800;
 $nav-link-font-size:                1.4rem; // !default;
 $nav-link-font-weight:              600; // !default;
 
+
+$navbar-padding-y:                 $spacer * .15; // $spacer * .5 !default;
+$navbar-nav-link-padding-x:         1rem; //.5rem !default;
 $navbar-dark-color:                 rgba($white, .70); //rgba($white, .55) !default;
 $navbar-dark-hover-color:           rgba($white, .40);// rgba($white, .75) !default;
 $navbar-dark-active-color:          $white !default;

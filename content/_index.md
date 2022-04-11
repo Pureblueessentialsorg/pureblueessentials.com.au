@@ -7,11 +7,11 @@ description: Providing the essentials to optimise your health, hand made from
   pure ingredients found in nature.
 images:
   - adobestock_107111601.jpeg
-  - img_3227.jpg
+  # - img_3227.jpg
   - blue-ge8138b870_1280.jpg
   - image-3-.jpg
   - adobestock_297589693.jpeg
-  - img_3232.jpg
+  # - img_3232.jpg
   - ylang-ylang-3518220_960_720-2-.jpg
   - wavy-blue-background-2-.jpg
   - image.jpg

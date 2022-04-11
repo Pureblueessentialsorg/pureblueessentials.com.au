@@ -19,7 +19,7 @@ languages:
 #pagination 
 paginate: 15
 rssLimit: 10
-title: Pure Blue Essentials
+title: pure blue essentials
 
 #summary length
 summaryLength: 15

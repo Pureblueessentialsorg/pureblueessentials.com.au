@@ -5846,8 +5846,8 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem; }
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem; }
   .navbar > .container,
   .navbar > .container-fluid,
   .navbar > .container-sm,
@@ -5929,8 +5929,8 @@ textarea.form-control-lg {
       .navbar-expand-sm .navbar-nav .dropdown-menu {
         position: absolute; }
       .navbar-expand-sm .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem; }
+        padding-right: 1rem;
+        padding-left: 1rem; }
     .navbar-expand-sm .navbar-nav-scroll {
       overflow: visible; }
     .navbar-expand-sm .navbar-collapse {
@@ -5971,8 +5971,8 @@ textarea.form-control-lg {
       .navbar-expand-md .navbar-nav .dropdown-menu {
         position: absolute; }
       .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem; }
+        padding-right: 1rem;
+        padding-left: 1rem; }
     .navbar-expand-md .navbar-nav-scroll {
       overflow: visible; }
     .navbar-expand-md .navbar-collapse {
@@ -6013,8 +6013,8 @@ textarea.form-control-lg {
       .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute; }
       .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem; }
+        padding-right: 1rem;
+        padding-left: 1rem; }
     .navbar-expand-lg .navbar-nav-scroll {
       overflow: visible; }
     .navbar-expand-lg .navbar-collapse {
@@ -6055,8 +6055,8 @@ textarea.form-control-lg {
       .navbar-expand-xl .navbar-nav .dropdown-menu {
         position: absolute; }
       .navbar-expand-xl .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem; }
+        padding-right: 1rem;
+        padding-left: 1rem; }
     .navbar-expand-xl .navbar-nav-scroll {
       overflow: visible; }
     .navbar-expand-xl .navbar-collapse {
@@ -6097,8 +6097,8 @@ textarea.form-control-lg {
       .navbar-expand-xxl .navbar-nav .dropdown-menu {
         position: absolute; }
       .navbar-expand-xxl .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem; }
+        padding-right: 1rem;
+        padding-left: 1rem; }
     .navbar-expand-xxl .navbar-nav-scroll {
       overflow: visible; }
     .navbar-expand-xxl .navbar-collapse {
@@ -6138,8 +6138,8 @@ textarea.form-control-lg {
     .navbar-expand .navbar-nav .dropdown-menu {
       position: absolute; }
     .navbar-expand .navbar-nav .nav-link {
-      padding-right: 0.5rem;
-      padding-left: 0.5rem; }
+      padding-right: 1rem;
+      padding-left: 1rem; }
   .navbar-expand .navbar-nav-scroll {
     overflow: visible; }
   .navbar-expand .navbar-collapse {
