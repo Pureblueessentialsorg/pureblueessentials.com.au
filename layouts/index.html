@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="container">
+<div class="container" >
 
 
   <div class="row justify-content-center mt-3" style="min-height: 18rem;">
@@ -46,9 +46,9 @@
   <div class="row mb-3 d-flex justify-content-center">
     <div class="col-lg-10 col-xl-9">
       <!-- Slider main container -->
-      <div class="swiper swiperHome" id="js-swiperHome">
+      <div class="swiper swiperHome position-relative " id="js-swiperHome">
         <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper ">
           <!-- Slides -->
           {{- $images := .Resources.ByType "image" -}}
           {{- range $images }}
@@ -60,6 +60,10 @@
           ) -}}
           <div class="swiper-slide">{{ partial "image" $dict }}</div>
           {{- end }}
+
+        </div>
+        <div class="position-absolute start-50 translate-middle-x" style="z-index:2000;bottom:15%;">
+          <a href="{{ relref . " /shop" }}" class="btn btn-outline-light btn-lg">Shop Now</a>
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
@@ -70,7 +74,9 @@
 
         <!-- If we need scrollbar -->
         <div class="swiper-scrollbar"></div>
+
       </div>
+
     </div>
   </div>
   <div class="row">
@@ -110,7 +116,15 @@
   {{ end }}
 
 </div>
+<div class="back-to-top d-none" id="js-topNav">
+  <div class="text-primary fs-1">
+    <a href="#top">
+      {{ partial "svg-font" (dict "src" "icons/bootstrap/arrow-up-circle.svg" "em" 3 "block" true )}}
+    </a>
+  </div>
+</div>
 
+</div>
 <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
   if (window.netlifyIdentity) {
