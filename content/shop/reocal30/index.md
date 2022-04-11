@@ -6,6 +6,7 @@ draft: false
 popular: false
 images:
   - dsc_0289-2-.jpg
+  - dsc_0445.jpg
 categories:
   - remedial-oils
 price: 44
