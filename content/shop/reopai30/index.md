@@ -7,6 +7,7 @@ draft: false
 popular: false
 images:
   - dsc_0303-2-.jpg
+  - dsc_0443.jpg
 categories:
   - remedial-oils
 price: 44
@@ -17,11 +18,11 @@ length: 11
 height: 3
 width: 3
 ---
-A powerful blend of essential oils which have analgesic and curative characteristics are combined to make the **Strain sprain pain** blend. This blend is targeted at helping to repair muscle, tendon and ligament damage and to alleviate the pain associated with these injuries.
+A powerful blend of essential oils which have analgesic and curative characteristics are combined to make the **Strain, sprain, pain** blend. This blend is targeted at helping to repair muscle, tendon and ligament damage and to alleviate the pain associated with these injuries.
 
 This blend contains lavender, eucalyptus, cedar, oregano, peppermint, juniper and helichrysum essential oils.
 
-For joint or arthritis pain, see the **pure blue essentials “I said ‘no’ Arthr”.**
+For joint or arthritis pain, see the **pure blue essentials “I said ‘no’ Arthr”** \[here]({{< relref "/reoart30" >}})
 
 This 30ml bottle contains 100% pure essential oils. Shake well before use.
 
@@ -36,8 +37,6 @@ It can be used in a variety of ways including:
 \- use in home-made lotions or balms
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
-
-
 
 **Cautions:**
 
