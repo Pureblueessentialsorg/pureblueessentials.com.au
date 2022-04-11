@@ -6,6 +6,7 @@ draft: false
 popular: true
 images:
   - dsc_0292-2-.jpg
+  - dsc_0440.jpg
 categories:
   - remedial-oils
 price: 44
@@ -47,6 +48,6 @@ Do not use if pregnant or breastfeeding, or on infants under 12 months.
 
 Keep away from eyes.
 
-Can be used as a mouth gargle using 1 DROP in 100mls – do not swallow.
+Can be used as a mouth gargle using **1 DROP** in 100mls – do not swallow.
 
 If skin, eye or nasal irritation occurs, discontinue use.
