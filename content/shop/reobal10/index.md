@@ -44,6 +44,8 @@ Also available in a 30ml bottle containing 100% pure essential oils that can be 
 
 \- 10ml bottle (glass with bamboo casing) to refill with carrier oil and **Balance remedial essential oil blend** many times over.
 
+
+
 **Cautions:**
 
 Keep away from eyes and mouth.
