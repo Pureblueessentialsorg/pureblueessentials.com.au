@@ -5,6 +5,8 @@ id: eolave30
 summary: pure lavender essential oil
 draft: false
 popular: true
+images:
+  - dsc_0455.jpg
 categories:
   - single-oils
 price: 28
