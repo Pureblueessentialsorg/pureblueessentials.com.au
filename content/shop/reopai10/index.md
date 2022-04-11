@@ -21,7 +21,7 @@ A powerful blend of essential oils which have analgesic and curative characteris
 
 This blend contains lavender, eucalyptus, cedar, oregano, peppermint, juniper and helichrysum essential oils.
 
-For joint or arthritis pain, see the **pure blue essentials “I said ‘no’ Arthr”.**
+For joint or arthritis pain, see the **pure blue essentials “I said ‘no’ Arthr”** \[here]({{< relref "/reoart10" >}})
 
 This 10ml bottle contains 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. Shake well before use.
 
@@ -34,8 +34,6 @@ Also available in a 30ml bottle containing 100% pure essential oils, which can b
 \- add to a warm bath
 
 \- use in home-made lotions or balms
-
-
 
 **Cautions:**
 
