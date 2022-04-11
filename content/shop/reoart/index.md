@@ -1,7 +1,7 @@
 ---
 visible: true
-title: Arthritis (I said no Arthr) remedial essential oil blend 10ml
-id: reoart10
+title: Arthritis (I said no Arthr) remedial essential oil
+id: reoart
 draft: false
 popular: false
 images:
@@ -9,7 +9,10 @@ images:
 categories:
   - remedial-oils
 price: 20
-size: 10ml
+size: 10ml (Blend)
+sizes:
+- size: 30ml (Pure)
+  price: 44
 brand: pure blue essentials
 weight: 60
 length: 11

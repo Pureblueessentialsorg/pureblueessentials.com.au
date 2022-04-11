@@ -9,22 +9,22 @@ data-item-description="{{ .Summary }}"
 {{ $sizes = $sizes | append (printf "%s[+%d]" .size (sub .price $ctx.Params.price) ) }}
 {{ end }}
 {{ with $sizes }}
-data-item-custom1-name="Size"
-data-item-custom1-options="{{ $.Params.size }}|{{ delimit . "|"}}"
-{{ end }}
-{{ if .Params.heat }}
-{{ with .Site.Data.heatPacks.designs }}
-data-item-custom3-name="Design"
-data-item-custom3-options="{{ delimit (apply . "title" ".") "|" }}"
-{{ end }}
-{{ with .Site.Data.heatPacks.fillings }}
-data-item-custom4-name="Filling"
-data-item-custom4-options="{{ delimit (apply . "title" "." )  "|" }}"
-{{ end }}
+  data-item-custom1-name="Size"
+  data-item-custom1-options="{{ $.Params.size }}|{{ delimit . "|"}}"
 {{ end }}
 {{ if .Params.message }}
-data-item-custom2-name="Message"
-data-item-custom2-type="textarea"
+  data-item-custom2-name="Message"
+  data-item-custom2-type="textarea"
+{{ end }}
+{{ if .Params.heat }}
+  {{ with .Site.Data.heatPacks.designs }}
+    data-item-custom3-name="Design"
+    data-item-custom3-options="{{ delimit (apply . "title" ".") "|" }}"
+  {{ end }}
+  {{ with .Site.Data.heatPacks.fillings }}
+    data-item-custom4-name="Filling"
+    data-item-custom4-options="{{ delimit (apply . "title" "." )  "|" }}"
+  {{ end }}
 {{ end }}
 {{ with .Params.images }}
 {{ $image := $.Resources.GetMatch (index . 0) }}

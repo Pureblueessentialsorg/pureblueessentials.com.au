@@ -60,7 +60,7 @@
       </select>  */}}
       <strong>Sizes: </strong>
       <ul class="list-unstyled">
-        <li>{{ $.Params.size }} - {{ printf "%.2f" (float $.Params.price) }}</li>
+        <li>{{ $.Params.size }} - ${{ printf "%.2f" (float $.Params.price) }}</li>
         {{ range . }}
         {{ $price := float .price }}
         <li>{{ .size }} - ${{ printf "%.2f" (float .price) }}</li>
