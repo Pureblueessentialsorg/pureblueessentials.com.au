@@ -3,14 +3,13 @@
 // apply year to footer
 // document.getElementById('year').innerHTML = new Date().getFullYear();
 
-function topNav() {
+const distance = 300;
+const parentId = 'js-topNav';
+const hiddenClass = 'd-none';
 
-  distance = 300,
-  parentId = 'js-topNav',
-  hiddenClass = 'd-none',
+document.addEventListener("DOMContentLoaded", function (event) {
 
 
-  window.addEventListener('scroll', showOnScroll);
   const badge = document.getElementById(parentId);  //id of nav bar parent div
   const show = function (elem) {
     elem.classList.remove(hiddenClass);
@@ -18,12 +17,17 @@ function topNav() {
   const hide = function (elem) {
     elem.classList.add(hiddenClass);
   };
-  function showOnScroll() {
+
+  const showOnScroll = function () {
     if (document.body.scrollTop > distance || document.documentElement.scrollTop > distance) {
       show(badge);
     } else {
       hide(badge);
     }
   }
-}
-topNav();
+  if (badge) {
+    window.addEventListener('scroll', showOnScroll);
+  }
+
+
+});
