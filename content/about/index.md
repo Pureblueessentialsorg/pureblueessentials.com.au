@@ -10,8 +10,10 @@ description: ""
 images:
   - pbelogo230322.png
 ---
-
-
+<div class="clearfix">
+<div class="col-md-4 float-md-end">
+{{<image src="pbelogo230322.png" title="pure blue essentials">}}
+</div>
 **pure blue essentials** is a small Australian company borne out of a need for natural products to supply our own clients.
 
 Jacinda Minahan, the founder of **pure blue essentials**, has a Diploma in Horticulture, a Diploma in Horticulture (Herbs, Medicinal Plants and Essential Oils) and a Diploma in Remedial Massage Therapy.
@@ -43,3 +45,4 @@ Essential oils need to be protected from light. So when sourcing bottles we chos
 
 
 \**www. supercolor.com*
+</div>
