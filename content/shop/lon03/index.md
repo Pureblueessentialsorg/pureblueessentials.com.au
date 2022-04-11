@@ -6,6 +6,9 @@ summary: 1x30ml and 1x10ml bottle of Essential Oil Blend of your choice, plus
   1x30ml bottle of jojoba oil
 draft: false
 popular: false
+images:
+  - dsc_0433.jpg
+  - dsc_0432.jpg
 categories:
   - gift-packs
 price: 75
