@@ -43,3 +43,13 @@ Also available in a 30ml bottle containing 100% pure essential oils that can be 
 **Cautions:**
 
 Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, discontinue use.
+
+
+
+*PSSST...* After more value for money? The [**Contentment** **Longevity pack**]({{<relref "/loncon03" >}}) contains:
+
+\- a 30ml bottle AND 10ml bottle of **Contentment remedial essential oil blend**;
+
+\- 30ml bottle of jojoba oil (carrier oil);
+
+Allowing you to refill with carrier oil and Balance remedial essential oil blend many times over.
