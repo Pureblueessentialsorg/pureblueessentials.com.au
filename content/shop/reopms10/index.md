@@ -42,7 +42,7 @@ If skin, eye or nasal irritation occurs, discontinue use.
 
 
 
-PSSST... After more value for money? The[**PMS Lift** **Longevity pack**]({{<relref "/lonpms03" >}}) contains:
+*PSSST...* After more value for money? The[**PMS Lift** **Longevity pack**]({{<relref "/lonpms03" >}}) contains:
 
 \- a 30ml bottle AND 10ml bottle of **PMS Lift remedial essential oil blend**;
 
