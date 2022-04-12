@@ -5,7 +5,6 @@ id: reosle10
 summary: ""
 draft: false
 popular: true
-
 categories:
   - remedial-oils
 price: 20
@@ -41,3 +40,13 @@ Also available in a 10ml bottle containing 30% high quality carrier oil (pure Au
 Keep away from eyes and mouth. For external use only. Do not ingest.
 
 If skin, eye or nasal irritation occurs, discontinue use.
+
+
+
+PSSST... After more value for money? The[**Sleep Right** **Longevity pack**]({{<relref "/lonsle03" >}}) contains:
+
+\- a 30ml bottle AND 10ml bottle of **Sleep Right remedial essential oil blend**;
+
+\- 30ml bottle of jojoba oil (carrier oil);
+
+Allowing you to refill with carrier oil and Balance remedial essential oil blend many times over.
