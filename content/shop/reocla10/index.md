@@ -39,3 +39,13 @@ Also available in a 30ml bottle containing 100% pure essential oils that can be 
 Do not use if pregnant, breastfeeding or on infants under 12 months old.
 
 Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, discontinue use.
+
+
+
+*PSSST...* After more value for money? The [**Clarity** **Longevity pack**]({{<relref "/lonbal03" >}}) contains:
+
+\- a 30ml bottle AND 10ml bottle of **Clarity** **remedial essential oil blend**;
+
+\- 30ml bottle of jojoba oil (carrier oil);
+
+Allowing you to refill with carrier oil and Balance remedial essential oil blend many times over.
