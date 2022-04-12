@@ -38,3 +38,13 @@ Also available in a 30ml bottle containing 100% pure essential oils, which can b
 Keep away from eyes and mouth. For external use only. Do not ingest.
 
 If skin, eye or nasal irritation occurs, discontinue use.
+
+
+
+*PSSST...* After more value for money? The [**Energise Longevity pack**]({{<relref "/lonene03" >}}) contains:
+
+\- a 30ml bottle AND 10ml bottle of **Energise** **remedial essential oil blend**;
+
+\- 30ml bottle of jojoba oil (carrier oil);
+
+Allowing you to refill with carrier oil and Balance remedial essential oil blend many times over.
