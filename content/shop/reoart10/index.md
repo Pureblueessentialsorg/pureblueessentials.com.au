@@ -41,3 +41,13 @@ Also available in 30mls containing 100% pure essential oils that can be used in 
 Keep away from eyes and mouth. For external use only. Do not ingest.
 
 If skin, eye or nasal irritation occurs, discontinue use.
+
+
+
+*PSSST...* After more value for money? The [**Arthritis Longevity pack**]({{<relref "/lonart03" >}}) contains:
+
+\- a 30ml bottle AND 10ml bottle of **Arthritis remedial essential oil blend**;
+
+\- 30ml bottle of jojoba oil (carrier oil);
+
+Allowing you to refill with carrier oil and Balance remedial essential oil blend many times over.
