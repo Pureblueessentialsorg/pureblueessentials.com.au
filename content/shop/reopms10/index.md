@@ -39,3 +39,13 @@ Also available in a 30ml bottle containing 100% pure essential oils, which can b
 Keep away from eyes and mouth.
 
 If skin, eye or nasal irritation occurs, discontinue use.
+
+
+
+PSSST... After more value for money? The[**PMS Lift** **Longevity pack**]({{<relref "/lonpms03" >}}) contains:
+
+\- a 30ml bottle AND 10ml bottle of **PMS Lift remedial essential oil blend**;
+
+\- 30ml bottle of jojoba oil (carrier oil);
+
+Allowing you to refill with carrier oil and Balance remedial essential oil blend many times over.
