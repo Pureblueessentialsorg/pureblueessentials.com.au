@@ -42,7 +42,7 @@ Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, disconti
 
 
 
-*PSSST...* After more value for money? The [**Clarity** **Longevity pack**]({{<relref "/lonbal03" >}}) contains:
+*PSSST...* After more value for money? The [**Clarity** **Longevity pack**]({{<relref "/loncla03" >}}) contains:
 
 \- a 30ml bottle AND 10ml bottle of **Clarity** **remedial essential oil blend**;
 
