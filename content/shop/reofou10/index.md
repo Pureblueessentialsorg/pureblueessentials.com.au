@@ -49,3 +49,13 @@ Keep away from eyes.
 Can be used as a mouth gargle using **1 DROP** in 100mls – do not swallow.
 
 If skin, eye or nasal irritation occurs, discontinue use.
+
+
+
+*PSSST...* After more value for money? The [**Four Thieves Longevity pack**]({{<relref "/lonfou03" >}}) contains:
+
+\- a 30ml bottle AND 10ml bottle of **Four Thieves remedial essential oil blend**;
+
+\- 30ml bottle of jojoba oil (carrier oil);
+
+Allowing you to refill with carrier oil and Balance remedial essential oil blend many times over.
