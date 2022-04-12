@@ -21,7 +21,7 @@ A powerful blend of essential oils which have analgesic and curative characteris
 
 This blend contains lavender, eucalyptus, cedar, oregano, peppermint, juniper and helichrysum essential oils.
 
-For joint or arthritis pain, see the **pure blue essentials “I said ‘no’ Arthr”** \[here]({{< relref "/reoart10" >}})
+For joint or arthritis pain, see the **pure blue essentials “I said ‘no’ Arthr”** \[here]({{< relref "/reoart10" >}}) blend.
 
 This 10ml bottle contains 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. Shake well before use.
 
@@ -40,3 +40,13 @@ Also available in a 30ml bottle containing 100% pure essential oils, which can b
 Keep away from eyes and mouth. For external use only. Do not ingest.
 
 If skin, eye or nasal irritation occurs, discontinue use.
+
+
+
+*PSSST...* After more value for money? The [**Strain Sprain Pain Longevity pack**]({{<relref "/lonpai03" >}}) contains:
+
+\- a 30ml bottle AND 10ml bottle of  **Strain Sprain Pain remedial essential oil blend**;
+
+\- 30ml bottle of jojoba oil (carrier oil);
+
+Allowing you to refill with carrier oil and Balance remedial essential oil blend many times over.
