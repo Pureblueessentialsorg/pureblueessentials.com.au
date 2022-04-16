@@ -1,5 +1,7 @@
 {{- $.Scratch.Add "index" slice -}}
-{{- range .Site.RegularPages -}}
+{{- $products := where .Site.Pages "Type" "shop" }}
+{{- /* $products = where $products "Params.private" "!=" true */ -}}
+{{- range $products -}}
     {{- $.Scratch.Add "index" (dict "title" .Title "categories" .Params.categories "contents" .Plain "permalink" .Permalink) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
