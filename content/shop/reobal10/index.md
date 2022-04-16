@@ -42,7 +42,7 @@ If skin, eye or nasal irritation occurs, discontinue use.
 
 
 
-PSSST... After more value for money? The[**Balance** **Longevity pack**]({{<relref "/lonbal03" >}}) contains:
+PSSST... After more value for money? The[**Balance** **Longevity pack**]({{<relref "/shop/lon03" >}}) contains:
 
 \- a 30ml bottle AND 10ml bottle of **Balance remedial essential oil blend**;
 

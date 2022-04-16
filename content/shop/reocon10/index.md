@@ -46,7 +46,7 @@ Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, disconti
 
 
 
-*PSSST...* After more value for money? The [**Contentment** **Longevity pack**]({{<relref "/loncon03" >}}) contains:
+*PSSST...* After more value for money? The [**Contentment** **Longevity pack**]({{<relref "/shop/lon03" >}}) contains:
 
 \- a 30ml bottle AND 10ml bottle of **Contentment remedial essential oil blend**;
 

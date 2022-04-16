@@ -41,7 +41,7 @@ Keep away from eyes and mouth. For external use only. Do not ingest.
 
 If skin, eye or nasal irritation occurs, discontinue use.
 
-*PSSST...* After more value for money? The[**Sleep Right** **Longevity pack**]({{<relref "/lonsle03" >}}) contains:
+*PSSST...* After more value for money? The[**Sleep Right** **Longevity pack**]({{<relref "/shop/lon03" >}}) contains:
 
 \- a 30ml bottle AND 10ml bottle of **Sleep Right remedial essential oil blend**;
 
