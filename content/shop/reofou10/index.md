@@ -52,7 +52,7 @@ If skin, eye or nasal irritation occurs, discontinue use.
 
 
 
-*PSSST...* After more value for money? The [**Four Thieves Longevity pack**]({{<relref "/lonfou03" >}}) contains:
+*PSSST...* After more value for money? The [**Four Thieves Longevity pack**]({{<relref "/shop/lon03" >}}) contains:
 
 \- a 30ml bottle AND 10ml bottle of **Four Thieves remedial essential oil blend**;
 
