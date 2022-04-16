@@ -141,8 +141,16 @@ searchInput.onkeyup = function(e) {
 }
 
 // close results on focus out
-searchInput.addEventListener('clickout', function(event) {
-  searchResults.classList.add(hiddenClass);
+// searchInput.addEventListener('clickout', function(event) {
+//   searchResults.classList.add(hiddenClass);
+// });
+
+
+document.addEventListener('click', function(event) {
+    var isClickInsideElement = searchInput.contains(event.target);
+    if (!isClickInsideElement) {
+      searchResults.classList.add(hiddenClass);
+    }
 });
 
 
@@ -200,7 +208,7 @@ function executeSearch(term) {
   if (results.length === 0) { // no results based on what was typed into the input box
     //resultsAvailable = false;
     // searchitems = '';
-    searchitems = searchitems + '<li><span class="title">No items found</span></li>';
+    searchitems = searchitems + '<li><div class="title">No items found</div></li>';
   } else { // build our html 
 
     for (let item in results.slice(0,5)) { // only show first 5 results
