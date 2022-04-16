@@ -56,9 +56,51 @@
           class="visually-hidden">Cart Contents</span></span>
       </div>
     </a>
-    <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
+    <form id="js-search" class="d-flex position-relative" autocomplete="off">
+      <div class="form-floating">
+        <input id="js-searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+<label for="js-searchInput">Search</label>
+      </div>
+      <!-- <button id="js-searchSubmit" class="btn btn-outline-success" type="submit">Search</button> -->
+      <div class="position-absolute top-100 start-0 d-none" id="searchResults">
+        <ul class="p-0">
+          <li>
+            <a href="#" tabindex="0"> 
+            <span class="title">Sample Title</span><br />
+            <span class="sc">Section</span> — Date — <em>Description</em></a>
+          </li>
+        </ul>
+      </div>
+      
     </form>
   </div>
 </nav>
+<style>
+    
+#js-searchInput {
+  width: 320px;
+}
+
+#searchResults { width: 320px; }
+#searchResults li { 
+  list-style: none; 
+  margin-left: 0em;
+  background-color: #ffffff; 
+  border-bottom: 1px dotted #000;
+}
+#searchResults li .title { font-size: 1.1em; ;padding: 10px; width:100%;}
+#searchResults li:hover {background-color: #666}
+#searchResults a { text-decoration: none !important; }
+#searchResults a:hover, a:focus { outline: 0;  color: #fff; }
+
+
+/* clears the 'X' from Internet Explorer */
+input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+</style>
