@@ -1,14 +1,39 @@
 <div class="container pt-3">
-  <nav class="breadcrumb" aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      {{ define "breadcrumb" }}
-      {{ with .Parent }}
-      {{ template "breadcrumb" . }}
-      <li class="breadcrumb-item"> <a href="{{ .Permalink }}">{{ .Title | humanize | title }}</a> </li>
-      {{ end }}
-      {{ end }}
-      {{ template "breadcrumb" . }}
-      <li class="breadcrumb-item active" aria-current="page">{{ .Title | humanize | title }}</li>
-    </ol>
-  </nav>
+  <div class="row">
+    <div class="col-md-6 d-flex order-md-2">
+      <form id="js-search" class="search d-flex position-relative ms-md-auto" autocomplete="off">
+          <input id="js-searchInput" class="search__input form-control me-md-2" type="search" placeholder="Search"
+            aria-label="Search">
+          <!-- <label for="js-searchInput">Search</label> -->
+        <!-- <button id="js-searchSubmit" class="btn btn-outline-success" type="submit">Search</button> -->
+        <div class="position-absolute top-100 start-0 d-none search__results" id="js-searchResults">
+          <ul class="p-0">
+            <!-- <li>
+              <a href="#" tabindex="0">
+                <span class="title">Sample Title</span><br />
+                <span class="sc">Section</span> — Date — <em>Description</em></a>
+            </li> -->
+          </ul>
+        </div>
+      </form>
+    </div>
+
+
+    <div class="col-md-6">
+      <nav class="breadcrumb mt-3 m-md-0" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          {{ define "breadcrumb" }}
+          {{ with .Parent }}
+          {{ template "breadcrumb" . }}
+          <li class="breadcrumb-item"> <a href="{{ .Permalink }}">{{ .Title | humanize | title }}</a> </li>
+          {{ end }}
+          {{ end }}
+          {{ template "breadcrumb" . }}
+          <li class="breadcrumb-item active" aria-current="page">{{ .Title | humanize | title }}</li>
+        </ol>
+      </nav>
+    </div>
+    
+  </div>
+  
 </div>
