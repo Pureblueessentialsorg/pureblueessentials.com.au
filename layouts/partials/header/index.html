@@ -1,6 +1,18 @@
 {{- /* insert any header html or partial here */ -}}
 {{ partial "header/header" . }}
 {{ partial "header/navbar" . -}}
-{{ if not .IsHome }}
-  {{ partial "header/breadcrumb" . -}}
-{{ end }}
+{{- if and .IsHome .Site.Params.alert -}}
+{{ partial "header/alert" . -}}
+{{- end -}}
+<div class="container-fluid pt-3">
+  <div class="row">
+    <div class="col-md-6 d-flex order-md-2">
+      {{ partial "header/search" . -}}
+    </div>
+    <div class="col-md-6">
+      {{ if not .IsHome }}
+      {{ partial "header/breadcrumb" . -}}
+      {{ end }}
+    </div>
+  </div>
+</div>

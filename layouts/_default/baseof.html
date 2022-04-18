@@ -19,9 +19,6 @@
   <header>
     {{ partial "header/index" . }}
   </header>
-  {{- if and .IsHome .Site.Params.alert -}}
-  {{ partial "header/alert" . -}}
-  {{- end -}}
   <main>
     {{ if not .IsHome }}
     <div class="container">
