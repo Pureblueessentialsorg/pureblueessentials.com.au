@@ -1,7 +1,14 @@
 <div class="container-fluid bg-info">
   <div class="row d-none d-md-flex" style="min-height: 12rem;">
     <div class="col-md-3 col-lg-2">
-      &nbsp;
+      <a href="#" class="snipcart-checkout">
+        <div class="d-inline-block position-relative fs-2 m-3 text-primary">
+          {{ partial "svg-font" (dict "src" "icons/box/bx-shopping-bag" "block" true "title" "Shopping Cart" "desc" "View Shopping Cart") }}
+          <!-- badge rounded-pill bg-secondary-->
+          <span class="position-absolute top-0 start-100 translate-middle  fs-6 snipcart-items-count"><span
+            class="visually-hidden">Cart Contents</span></span>
+        </div>
+      </a>
     </div>
     <div class="col-md-6 col-lg-8 col-12 text-center d-flex justify-content-evenly flex-column">
       <h1 class="text-secondary" style="font-size: 3rem;" id="top">{{ .Site.Title }}</h1>

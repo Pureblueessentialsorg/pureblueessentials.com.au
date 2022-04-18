@@ -52,13 +52,13 @@ import {
 import Fuse from 'fuse.js'
 
 var fuse; // holds our search engine
-var searchVisible = false; 
+// var searchVisible = false; 
 var firstRun = true; // allow us to delay loading json data unless search activated
-var list = document.getElementById('searchResults'); // targets the <ul>
-var first = list.firstChild; // first child of search list
-var last = list.lastChild; // last child of search list
-var maininput = document.getElementById('js-searchInput'); // input box for search
-var resultsAvailable = false; // Did we get any search results?
+// var list = document.getElementById('searchResults'); // targets the <ul>
+// var first = list.firstChild; // first child of search list
+// var last = list.lastChild; // last child of search list
+// var maininput = document.getElementById('js-searchInput'); // input box for search
+// var resultsAvailable = false; // Did we get any search results?
 
 // ==========================================
 // The main keyboard event listener running the show
@@ -67,7 +67,7 @@ var resultsAvailable = false; // Did we get any search results?
 
 const search = document.getElementById('js-search');
 const searchInput = document.getElementById('js-searchInput');
-const searchResults =  document.getElementById("searchResults");
+const searchResults =  document.getElementById('js-searchResults');
 const hiddenClass = 'd-none';
 
 

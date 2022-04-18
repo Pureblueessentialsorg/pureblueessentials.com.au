@@ -8190,6 +8190,57 @@ textarea.form-control-lg {
   border-radius: 50px;
   transition: all 0.4s; }
 
+@media (max-width: 575.98px) {
+  .search {
+    width: 100%; } }
+
+@media (max-width: 575.98px) {
+  .search__input {
+    width: 100%; } }
+
+@media (min-width: 768px) {
+  .search__input {
+    width: 320px; } }
+
+.search__results {
+  width: 320px;
+  z-index: 2000; }
+  .search__results li {
+    list-style: none;
+    margin-left: 0em;
+    background-color: #ffffff;
+    border-bottom: 1px dotted #000; }
+    .search__results li .title {
+      font-size: 1.1em;
+      padding: 10px;
+      width: 100%; }
+    .search__results li:hover {
+      background-color: #666; }
+    .search__results li a {
+      text-decoration: none !important; }
+    .search__results li a:hover,
+    .search__results li a:focus {
+      outline: 0;
+      color: #fff; }
+
+/* clears the 'X' from Internet Explorer */
+input[type="search"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0; }
+
+input[type="search"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0; }
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none; }
+
 .alert-secondary {
   background-color: #0d4a80;
   color: #E7E7E7; }

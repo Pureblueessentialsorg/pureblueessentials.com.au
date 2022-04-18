@@ -1,5 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-info">
   <div class="container-fluid">
+
+
     {{/* <a class="navbar-brand" href="{{ absURL " /" }}">{{ .Site.Title }}</a> */}}
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,59 +50,18 @@
       </ul>
 
     </div>
-    <a href="#" class="snipcart-checkout">
+    <a href="#" class="snipcart-checkout d-block d-md-none">
       <div class="d-inline-block position-relative fs-2 m-3 text-primary">
         {{ partial "svg-font" (dict "src" "icons/box/bx-shopping-bag" "block" true "title" "Shopping Cart" "desc" "View Shopping Cart") }}
         <!-- badge rounded-pill bg-secondary-->
         <span class="position-absolute top-0 start-100 translate-middle  fs-6 snipcart-items-count"><span
-          class="visually-hidden">Cart Contents</span></span>
+            class="visually-hidden">Cart Contents</span></span>
       </div>
     </a>
-    <form id="js-search" class="d-flex position-relative" autocomplete="off">
-      <div class="form-floating">
-        <input id="js-searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-<label for="js-searchInput">Search</label>
-      </div>
-      <!-- <button id="js-searchSubmit" class="btn btn-outline-success" type="submit">Search</button> -->
-      <div class="position-absolute top-100 start-0 d-none" id="searchResults">
-        <ul class="p-0">
-          <li>
-            <a href="#" tabindex="0"> 
-            <span class="title">Sample Title</span><br />
-            <span class="sc">Section</span> — Date — <em>Description</em></a>
-          </li>
-        </ul>
-      </div>
+
+  
       
-    </form>
+    
+
   </div>
 </nav>
-<style>
-    
-#js-searchInput {
-  width: 320px;
-}
-
-#searchResults { width: 320px;  z-index:2000;}
-#searchResults li { 
-  list-style: none; 
-  margin-left: 0em;
-  background-color: #ffffff; 
-  border-bottom: 1px dotted #000;
-}
-#searchResults li .title { font-size: 1.1em; ;padding: 10px; width:100%;}
-#searchResults li:hover {background-color: #666}
-#searchResults a { text-decoration: none !important; }
-#searchResults a:hover, a:focus { outline: 0;  color: #fff; }
-
-
-/* clears the 'X' from Internet Explorer */
-input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
-input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
-
-/* clears the 'X' from Chrome */
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration { display: none; }
-</style>
