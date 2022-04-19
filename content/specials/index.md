@@ -12,8 +12,8 @@ menu:
 
 
 
-* \[Longevity packs]({{<relref "/lon03" >}}):  save on the cost of repurchasing 10ml remedial essential oil blend rollers.  Refill with the blend and a high quality carrier oil included in the pack (hyperlink to Longevity Packs)
+* \[Longevity packs]({{<relref "/lon03" >}}):  save on the cost of repurchasing 10ml remedial essential oil blend rollers.  Refill with the 30ml pure blend and a 30ml high quality carrier oil included in your longevity pack.
 
 
 
-* 15% off by purchasing 3 \[heat packs]({{<relref "/heat" >}}).  Choose 3 from the shop, add them to the cart and the discount will apply (hyperlink to heatpacks).
+* 15% off by purchasing 3 \[heat packs]({{<relref "/heat" >}}).  Choose 3 from the shop, add them to the cart and the discount will apply.
