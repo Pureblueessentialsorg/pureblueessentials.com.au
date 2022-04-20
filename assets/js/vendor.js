@@ -81,71 +81,25 @@ searchInput.addEventListener('focus', function() {
   }
 }, false);
 
-search.addEventListener('submit', function(event) {
-  event.preventDefault();
-  executeSearch(searchInput.value);
-
-
-  // Toggle visibility of search box
-  // if (!searchVisible) {
-  //   document.getElementById("fastSearch").style.visibility = "visible"; // show search box
-  //   document.getElementById("searchInput").focus(); // put focus in input box so you can just start typing
-  //   searchVisible = true; // search visible
-  // }
-  // else {
-  //   // document.getElementById("fastSearch").style.visibility = "hidden"; // hide search box
-  //   // document.activeElement.blur(); // remove focus from search box 
-  //   // searchVisible = false; // search not visible
-  // }
-
-  // // Allow ESC (27) to close search box
-  // if (event.keyCode == 27) {
-  //   if (searchVisible) {
-  //     document.getElementById("fastSearch").style.visibility = "hidden";
-  //     document.activeElement.blur();
-  //     searchVisible = false;
-  //   }
-  // }
-
-  // // DOWN (40) arrow
-  // if (event.keyCode == 40) {
-  //   if (searchVisible && resultsAvailable) {
-  //     console.log("down");
-  //     event.preventDefault(); // stop window from scrolling
-  //     if ( document.activeElement == maininput) { first.focus(); } // if the currently focused element is the main input --> focus the first <li>
-  //     else if ( document.activeElement == last ) { last.focus(); } // if we're at the bottom, stay there
-  //     else { document.activeElement.parentElement.nextSibling.firstElementChild.focus(); } // otherwise select the next search result
-  //   }
-  // }
-
-  // // UP (38) arrow
-  // if (event.keyCode == 38) {
-  //   if (searchVisible && resultsAvailable) {
-  //     event.preventDefault(); // stop window from scrolling
-  //     if ( document.activeElement == maininput) { maininput.focus(); } // If we're in the input box, do nothing
-  //     else if ( document.activeElement == first) { maininput.focus(); } // If we're at the first item, go to input box
-  //     else { document.activeElement.parentElement.previousSibling.firstElementChild.focus(); } // Otherwise, select the search result above the current active one
-  //   }
-  // }
-});
+// search.addEventListener('submit', function(event) {
+//   event.preventDefault();
+//   executeSearch(searchInput.value);
+// });
 
 
 // ==========================================
 // execute search as each character is typed
-//
-searchInput.onkeyup = function(e) { 
-  executeSearch(this.value);
-  if (this.value === '') {
+// keyup used to that blank text can be detected on backspace
+searchInput.addEventListener('keyup', function(event) { 
+  const text = this.value
+  if ((event.key === 'Backspace') && (text === '')) {
     searchResults.classList.add(hiddenClass);
+  } else {
+    executeSearch(text);
   }
-}
+});
 
 // close results on focus out
-// searchInput.addEventListener('clickout', function(event) {
-//   searchResults.classList.add(hiddenClass);
-// });
-
-
 document.addEventListener('click', function(event) {
     var isClickInsideElement = searchInput.contains(event.target);
     if (!isClickInsideElement) {
@@ -174,7 +128,7 @@ function fetchJSONFile(path, callback) {
 
 // ==========================================
 // load our search index, only executed once
-// on first call of search box (CMD-/)
+// on focus
 //
 function loadSearch() { 
   fetchJSONFile('/index.json', function(data){
@@ -197,7 +151,7 @@ function loadSearch() {
 
 
 // ==========================================
-// using the index we loaded on CMD-/, run 
+// using the index we loaded
 // a search query (for "term") every time a letter is typed
 // in the search box
 //
