@@ -1,7 +1,18 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- $products := where .Site.Pages "Type" "shop" }}
-{{- /* $products = where $products "Params.private" "!=" true */ -}}
+{{- $products = where $products "Params.private" "!=" true -}}
+{{ $image := "" }}
 {{- range $products -}}
-    {{- $.Scratch.Add "index" (dict "title" .Title "categories" .Params.categories "contents" .Plain "permalink" .Permalink) -}}
+  {{ if .Params.images }}
+    {{ if ge (len .Params.images) 1 }}
+      {{ with .Resources.GetMatch (index .Params.images 0) }}
+        {{ $image = .Fill "120x90" }}
+        {{ $image = $image.RelPermalink}}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $categories := apply .Params.categories "humanize" "." }}
+  {{ $categories = apply $categories "title" "." }}
+  {{- $.Scratch.Add "index" (dict "image" $image "title" .Title "categories" $categories "contents" .Plain "permalink" .Permalink) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

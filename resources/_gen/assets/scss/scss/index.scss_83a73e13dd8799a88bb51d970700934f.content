@@ -8202,28 +8202,43 @@ textarea.form-control-lg {
   .search__input {
     width: 320px; } }
 
-.search__results {
+.results {
   width: 320px;
-  z-index: 2000; }
-  .search__results li {
-    list-style: none;
-    margin-left: 0em;
-    background-color: #ffffff;
-    border-bottom: 1px dotted #000; }
-    .search__results li .title {
-      font-size: 1.1em;
-      padding: 10px;
-      width: 100%; }
-    .search__results li:hover {
-      background-color: #666; }
-    .search__results li a {
+  z-index: 2000;
+  background-color: #fff; }
+  .results__container {
+    width: 100%;
+    padding-top: 0.3rem; }
+  .results__row {
+    max-height: 79.981px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden; }
+    .results__row:hover {
+      background-color: #bdbdbd; }
+  .results__col {
+    flex: 0 0 auto; }
+    .results__col--4 {
+      width: 33.3333%; }
+    .results__col--8 {
+      width: 66.6666%;
+      padding: 0.3rem; }
+  .results__title {
+    font-size: 1rem;
+    width: 100%; }
+    .results__title a {
       text-decoration: none !important; }
-    .search__results li a:hover,
-    .search__results li a:focus {
+    .results__title a:hover,
+    .results__title a:focus {
       outline: 0;
       color: #fff; }
+  .results__image {
+    width: 100%;
+    height: auto; }
+  .results__empty {
+    padding: .5rem; }
 
-/* clears the 'X' from Internet Explorer */
+/* clears the X from Internet Explorer */
 input[type="search"]::-ms-clear {
   display: none;
   width: 0;
@@ -8234,7 +8249,7 @@ input[type="search"]::-ms-reveal {
   width: 0;
   height: 0; }
 
-/* clears the 'X' from Chrome */
+/* clears the X from Chrome */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
