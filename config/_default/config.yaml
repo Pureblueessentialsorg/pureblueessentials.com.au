@@ -26,7 +26,7 @@ summaryLength: 15
 
 # add redirects/headers (netlify)
 outputs:
-  home: ["HTML", "RSS", "REDIRECTS", "HEADERS", "JSON"]
+  home: ["HTML", "RSS", "REDIRECTS", "HEADERS"]
 
 # remove .{ext} from text/netlify
 mediaTypes:
@@ -69,12 +69,6 @@ permalinks:
   #categories: "/shop/:section/:slug"
   categories: "/shop/:slug"
 
-
-# remove white space from minified HTML
-minify:
-  tdewolff:
-    html:
-      keepWhitespace: false
 
 # related items widget config
 related:

@@ -49,22 +49,10 @@ import {
 //   res.json(index.search(req.query.q);
 // }
 
-import Fuse from 'fuse.js'
+import Fuse from 'fuse.js/dist/fuse.basic.esm';
 
-var fuse; // holds our search engine
-// var searchVisible = false; 
-var firstRun = true; // allow us to delay loading json data unless search activated
-// var list = document.getElementById('searchResults'); // targets the <ul>
-// var first = list.firstChild; // first child of search list
-// var last = list.lastChild; // last child of search list
-// var maininput = document.getElementById('js-searchInput'); // input box for search
-// var resultsAvailable = false; // Did we get any search results?
-
-// ==========================================
-// The main keyboard event listener running the show
-//
-// document.addEventListener('keydown', function(event) {
-
+let fuse; // fuse is loaded here and re-used later
+let searchLoaded = false; // allow us to delay loading json data unless search activated
 const search = document.getElementById('js-search');
 const searchInput = document.getElementById('js-searchInput');
 const searchResults = document.getElementById('js-searchResults');
@@ -74,59 +62,72 @@ const hiddenClass = 'd-none';
 searchInput.addEventListener('focus', function () {
   // Load json search index if first time invoking search
   // Means we don't load json unless searches are going to happen; keep user payload small unless needed
-  if (firstRun) {
+  if (!searchLoaded) {
     loadSearch(); // loads our json data and builds fuse.js search index
-    firstRun = false; // let's never do this again
+    searchLoaded = true; // let's never do this again
   }
 }, false);
 
 // disable enter when cursor inside the search box
 search.addEventListener('submit', function (event) {
   event.preventDefault();
-  executeSearch(searchInput.value);
+  // executeSearch(searchInput.value);
 });
 
-
-// ==========================================
-// execute search as each character is typed
-// keyup used to that blank text can be detected on backspace
-searchInput.addEventListener('keyup', function (event) {
-  const text = this.value
-  if ((event.key === 'Backspace') && (text === '')) {
-    searchResults.classList.add(hiddenClass);
-  } else {
-    searchResults.classList.remove(hiddenClass);
-    executeSearch(text);
-
+function watchSearch() {
+  // check if the user has already typed something
+  if (searchInput.value) {
+    executeSearch(searchInput.Value);
   }
-});
 
-// close results on focus out
-document.addEventListener('click', function (event) {
-  var isClickInsideElement = searchInput.contains(event.target);
-  if (!isClickInsideElement) {
-    searchResults.classList.add(hiddenClass);
-  }
-});
-
-
-// ==========================================
-// fetch some json without jquery
-//
-function fetchJSONFile(path, callback) {
-  var httpRequest = new XMLHttpRequest();
-  httpRequest.onreadystatechange = function () {
-    if (httpRequest.readyState === 4) {
-      if (httpRequest.status === 200) {
-        var data = JSON.parse(httpRequest.responseText);
-        if (callback) callback(data);
-      }
+  // ==========================================
+  // execute search as each character is typed
+  // keyup used to that blank text can be detected on backspace
+  searchInput.addEventListener('keyup', function (event) {
+    const text = this.value
+    if ((event.key === 'Backspace') && (text === '')) {
+      searchResults.classList.add(hiddenClass);
+    } else {
+      // show results 
+      searchResults.classList.remove(hiddenClass);
+      loading.classList.add(hiddenClass);
+      executeSearch(text);
     }
-  };
-  httpRequest.open('GET', path);
-  httpRequest.send();
+  });
+  // close results on focus out
+  document.addEventListener('click', function (event) {
+    var isClickInsideElement = searchInput.contains(event.target);
+    if (!isClickInsideElement) {
+      searchResults.classList.add(hiddenClass);
+    }
+  });
 }
 
+// ==========================================
+// GET json
+//
+function fetchJSONFile(path, callback, errorCallback) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', path);
+  xhr.onreadystatechange = () => {
+    if (xhr.status === 404) {
+      errorCallback();
+    } else {
+      var data = JSON.parse(xhr.responseText);
+      if (callback) callback(data);
+    }
+  };
+  xhr.ontimeout = () => errorCallback();
+  xhr.onerror = () => errorCallback();
+  xhr.timeout = 3000; // time in milliseconds
+  xhr.send();
+}
+
+// display message on xhr error
+function errorCallback() {
+  searchResults.classList.remove(hiddenClass);
+  searchResults.innerHTML = '<div class="results__empty">Connectivity error.</div>';
+};
 
 // ==========================================
 // load our search index, only executed once
@@ -151,12 +152,14 @@ function loadSearch() {
       ],
     };
     fuse = new Fuse(data, options); // build the index from the json file
-  });
+    // watch the search field now that fuse has loaded
+    watchSearch();
+  }, errorCallback);
 }
 
 // ==========================================
 // using the index we loaded
-// a search query (for "term") every time a letter is typed
+// a search query (for "term") 
 // in the search box
 //
 function executeSearch(term) {
