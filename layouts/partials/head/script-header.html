@@ -1,5 +1,6 @@
-{{ partial "esbuild" (dict "src" "js/vendor.js") -}}
 {{ partial "esbuild" (dict "src" "js/assets.js") -}}
+{{ partial "esbuild" (dict "src" "js/vendor.js") -}}
+{{ partial "esbuild" (dict "src" "js/search.js") -}}
 
 {{ if eq .Type "contact" }}
   {{ partial "esbuild" (dict "src" "js/contact.js") -}}
@@ -9,11 +10,12 @@
 {{ if $shopSingle }}
   {{ partial "esbuild" (dict "src" "js/shop-single.js" ) }}
 {{ end }}
-
 {{ if or $shopSingle .IsHome }}
-  {{ partial "image/js"}}
+  {{ partial "esbuild" (dict "src" "js/swiper.js" ) }}
 {{ end }}
-{{ partial "esbuild" (dict "src" "js/swiper.js" ) }}
+
+{{/*  partial "image/js" */}}
+
 
 {{- /* EXAMPLE - only load script for production
 {{ if eq (hugo.Environment) "production" -}}

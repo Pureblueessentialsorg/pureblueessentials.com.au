@@ -1,3 +1,6 @@
+document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');
+
+
 // import core-js so babel can provide necessarty polyfills
 // import 'core-js/stable';
 // apply year to footer

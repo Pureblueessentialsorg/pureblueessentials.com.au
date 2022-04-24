@@ -38,6 +38,7 @@
   &__container {
     width: 100%;
     padding-top: 0.3rem;
+    position: relative;
   }
   &__row {
     //   list-style: none;
@@ -67,11 +68,21 @@
     width: 100%;
     a {
       text-decoration: none !important;
-    }
-    a:hover,
-    a:focus {
-      outline: 0;
-      color: #fff;
+      &::hover,
+      &::focus {
+        outline: 0;
+        color: #fff;
+      }
+      // stretched link, with position:relative parent
+      &::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        content: "";
+      }
     }
   }
   &__image {

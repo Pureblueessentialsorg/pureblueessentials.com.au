@@ -8208,7 +8208,8 @@ textarea.form-control-lg {
   background-color: #fff; }
   .results__container {
     width: 100%;
-    padding-top: 0.3rem; }
+    padding-top: 0.3rem;
+    position: relative; }
   .results__row {
     max-height: 79.981px;
     display: flex;
@@ -8228,10 +8229,17 @@ textarea.form-control-lg {
     width: 100%; }
     .results__title a {
       text-decoration: none !important; }
-    .results__title a:hover,
-    .results__title a:focus {
-      outline: 0;
-      color: #fff; }
+      .results__title a::hover, .results__title a::focus {
+        outline: 0;
+        color: #fff; }
+      .results__title a::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        content: ""; }
   .results__image {
     width: 100%;
     height: auto; }

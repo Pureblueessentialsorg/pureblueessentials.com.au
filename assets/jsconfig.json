@@ -3,8 +3,7 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "..\\..\\..\\future-wd\\hugo-contact-form-xhr\\v2\\assets\\*",
-    "..\\..\\..\\future-wd\\hugo-image\\v2\\assets\\*"
+    "..\\..\\..\\future-wd\\hugo-contact-form-xhr\\v2\\assets\\*"
    ]
   }
  }
