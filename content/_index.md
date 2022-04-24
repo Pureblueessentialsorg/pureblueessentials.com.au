@@ -9,10 +9,12 @@ images:
   - blue-ge8138b870_1280.jpg
   - image-3-.jpg
   - adobestock_297589693.jpeg
-  - ylang-ylang-3518220_960_720-2-.jpg
-  - wavy-blue-background-2-.jpg
   - image.jpg
-lead: all natural ingredients
+  - ylangylangsqpic.png
+lead: |-
+  \- the essentials to optimise your health -
+
+  \- handmade from natural ingredients -
 menu:
   main:
     weight: 10

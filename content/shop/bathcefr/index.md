@@ -2,7 +2,7 @@
 visible: true
 title: Bath soak Cedar and Frankincense 1kg
 id: bathcefr
-summary: Bath soaks fortified with cedar and frankincense essential oils - 1kg
+summary: Bath salts fortified with cedar and frankincense essential oils - 1kg
 draft: false
 popular: false
 categories:
@@ -15,9 +15,11 @@ length: 16
 height: 24
 width: 12
 ---
-When you've overdone it at work, exercise, or home, or you have a headache, or just feeling a bit weary?  Add a cup of **pure blue essential Bath Soak** to a normal bath - or a footbath - to soak up the goodness of epsom salts and lavender and lemongrass essential oils.  
+Perfect for when you've overdone it at work, exercise, or home. Or do you suffer from headaches, or just feeling a bit weary?  
 
-Let the aroma of the essential oils take you to your happy place.... an ancient rainforest, a Moroccan souk, Uncle Tom's tool shed, Christmas morning.....
+Add a handful of **pure blue essential Bath Soak** to a normal bath, or a smaller amount to a footbath.  Relax and soak up the goodness of epsom salts and cedar and frankincense essential oils.  
+
+Let the aroma of the essential oils take you to your happy place.... an ancient rainforest, a Moroccan souk, Uncle Tom's tool shed, a day at the hot springs.....
 
 But don't wait until your body is screaming out for relief, buy a pack now and keep it in the bathroom cupboard.
 
