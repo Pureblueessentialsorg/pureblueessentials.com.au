@@ -49,6 +49,10 @@ import {
 //   res.json(index.search(req.query.q);
 // }
 
+// unexpected end of json
+// limit length of search
+
+
 import Fuse from 'fuse.js/dist/fuse.basic.esm';
 
 let fuse; // fuse is loaded here and re-used later
@@ -106,20 +110,19 @@ function watchSearch() {
 // ==========================================
 // GET json
 //
-function fetchJSONFile(path, callback, errorCallback) {
+function fetchJSONFile(path, callback, errorCallback, timeout = 3000) {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', path);
-  xhr.onreadystatechange = () => {
-    if (xhr.status === 404) {
-      errorCallback();
-    } else {
+  xhr.onloaded = () => {
+    if (xhr.status === 200) { // success
       var data = JSON.parse(xhr.responseText);
       if (callback) callback(data);
+    } else { // fail
+      const status = `Error ${xhr.status}: ${xhr.statusText}`;
+      if (errorCallback) errorCallback(status);
     }
   };
-  xhr.ontimeout = () => errorCallback();
-  xhr.onerror = () => errorCallback();
-  xhr.timeout = 3000; // time in milliseconds
+  xhr.timeout = timeout; // time in milliseconds
   xhr.send();
 }
 
