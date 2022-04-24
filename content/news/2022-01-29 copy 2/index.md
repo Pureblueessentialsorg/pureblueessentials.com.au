@@ -1,7 +1,7 @@
 ---
 visible: true
 title: WE ARE GO !
-date: 2021-05-01T14:00:00.000Z
+date: 2022-05-01T14:00:00.000Z
 summary: null
 draft: false
 images:
@@ -17,8 +17,6 @@ We sincerely thank you for visiting our website and hope that you find some wond
 
 Please bear with us through our start-up phase. If we come across any website issues, we will be onto them right away.  If you do find a significant issue, please contact us by emailing:    pureblueessentials@gmail.com
 
-
-
 Wishing you health and prosperity every day,
 
-Jacinda Minahan and the team
+**Jacinda Minahan and the team**
