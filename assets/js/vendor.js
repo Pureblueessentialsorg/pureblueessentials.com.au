@@ -111,8 +111,13 @@ function watchSearch() {
 // GET json
 //
 function fetchJSONFile(path, callback, errorCallback, timeout = 3000) {
-  var xhr = new XMLHttpRequest();
+  // 1. Create a new XMLHttpRequest object
+  const xhr = new XMLHttpRequest();
+  // 2. Configure it: GET-request for the URL 
   xhr.open('GET', path);
+  // 3. Send the request over the network
+  xhr.send();
+  // 4. This will be called after the response is received (success or not)
   xhr.onloaded = () => {
     if (xhr.status === 200) { // success
       var data = JSON.parse(xhr.responseText);
@@ -122,8 +127,8 @@ function fetchJSONFile(path, callback, errorCallback, timeout = 3000) {
       if (errorCallback) errorCallback(status);
     }
   };
+  // 5. set timeout 
   xhr.timeout = timeout; // time in milliseconds
-  xhr.send();
 }
 
 // display message on xhr error
