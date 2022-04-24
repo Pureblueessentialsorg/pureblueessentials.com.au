@@ -15,10 +15,12 @@ length: 16
 height: 24
 width: 12
 ---
-When you've overdone it at work, exercise, or home, or you have a headache, or just feeling a bit weary?  Add a cup of **pure blue essential Bath Soak** to a normal bath - or a footbath - to soak up the goodness of epsom salts and lavender and lemongrass essential oils.  
+Perfect for when you've overdone it at work, exercise, or home. Or do you suffer from headaches, or just feeling a bit weary?  
+
+Add a handful of **pure blue essential Bath Soak** to a normal bath, or a smaller amount to a footbath,  Relax and soak up the goodness of epsom salts and lavender and lemongrass essential oils.  
 
 Let the aroma of the essential oils take you to your happy place.... an exotic beach, a music festival, Grandma's garden, a village in Tuscany.....
 
 But don't wait until your body is screaming out for relief, buy a pack now and keep it in the bathroom cupboard.
 
-Also available with cedar and cypress essential oils.
+Also available with cedar and frankincense essential oils.
