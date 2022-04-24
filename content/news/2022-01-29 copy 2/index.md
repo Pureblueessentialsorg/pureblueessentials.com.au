@@ -4,7 +4,8 @@ title: WE ARE GO !
 date: 2021-05-01T14:00:00.000Z
 summary: null
 draft: false
-images: []
+images:
+  - image_2022-04-24_201505865.png
 ---
 Hello and welcome.
 
