@@ -8264,6 +8264,15 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none; }
 
+.hero__title {
+  font-size: 3rem; }
+
+.hero__line1, .hero__line2 {
+  font-size: 2rem; }
+
+.header__title {
+  font-size: 4rem; }
+
 .alert-secondary {
   background-color: #0d4a80;
   color: #E7E7E7; }

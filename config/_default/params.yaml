@@ -47,7 +47,7 @@ smallLimit: "300"
 
 # Alert
 alert: true
-alertText: Free shipping across Australia on orders over $100
+alertText: Free shipping within Australia for orders over $120
 
 
 

@@ -114,3 +114,23 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
+
+.hero {
+  // min-height: 18rem;
+
+  &__title {
+    font-size: 3rem;
+  }
+  &__line1, &__line2 {
+    font-size: 2rem;
+  }
+}
+
+.header {
+  &__title {
+    font-size: 4rem;
+  }
+  &__sub {
+
+  }
+}

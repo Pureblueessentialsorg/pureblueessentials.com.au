@@ -1,9 +1,20 @@
 {{ define "main" }}
 <div class="container" >
-
-
-  <div class="row justify-content-center mt-3" style="min-height: 18rem;">
+  <div class="row justify-content-center mt-3">
     <div class="col text-center d-flex justify-content-evenly flex-column">
+       <div class="hero">
+        <h1 class="hero__title">{{ .Site.Title }}</h1>
+        {{ if (or .Params.line1 .Params.line2) }}
+        <div class="row text-center mb-5">
+          {{ with .Params.line1 }}
+          <div class="lead fs-1 hero__line1">{{ . }}</div>
+          {{ end }}
+          {{ with .Params.line2 }}
+          <div class="lead fs-1 hero__line2">{{ . }}</div>
+          {{ end }}
+        </div>
+        {{ end }}
+       </div>
       <!-- <div class="v-title__container">
       <video autoplay loop muted class="v-title__video">
         {{ $video := resources.Get "videos/output600x80.mp4" }}
@@ -11,15 +22,8 @@
       </video>
       <h1 class="v-title__text">{{ .Site.Title }}</h1>
     </div> -->
-      <h1 style="font-size: 4rem;">{{ .Site.Title }}</h1>
-      {{ with .Params.lead }}
-      <div class="row text-center mb-5">
-        <p class="lead fs-1" style="font-size: 3rem !important;">{{ . | safeHTML }}</p>
-      </div>
-      {{ end }}
     </div>
   </div>
-
 
   <!-- <div class="row justify-content-center">
   <div class="col-lg-10 text-center">
@@ -56,6 +60,7 @@
           "src" .
           "page" $
           "title" "pure blue essentials"
+          "fillRatio" (slice 6 4)
           "widths" (slice 640 800 1200)
           ) -}}
           <div class="swiper-slide">{{ partial "image" $dict }}</div>
@@ -63,7 +68,7 @@
 
         </div>
         <div class="position-absolute start-50 translate-middle-x" style="z-index:2000;bottom:15%;">
-          <a href="{{ relref . " /shop" }}" class="btn btn-outline-light btn-lg">Shop Now</a>
+          <a href="{{ relref . " /shop" }}" class="btn btn-primary btn-lg">Shop Now</a>
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
@@ -79,7 +84,7 @@
 
     </div>
   </div>
-  <div class="row">
+  <div class="row mt-5">
     <div class="col">
       <h2>Shop by Category</h2>
     </div>
@@ -94,7 +99,7 @@
     {{ end }}
   </div>
 
-  <div class="row">
+  <div class="row mt-5">
     <div class="col">
       <h2>Featured Products</h2>
     </div>
@@ -105,7 +110,7 @@
   {{ end }}
   {{ if $popular }}
   {{- /* displays 5 popular products, add scroll if needed */ -}}
-  <div id="featured" class="row row-cols-3 row-cols-lg-5 g-2 g-lg-4 d-flex justify-content-center">
+  <div id="featured" class="mb-3 row row-cols-3 row-cols-lg-5 g-2 g-lg-4 d-flex justify-content-center">
     {{ range first 5 (where .Site.Pages "Params.popular" true) }}
     <div class="col mb-3">
       {{ partial "blocks/product-card" . }}

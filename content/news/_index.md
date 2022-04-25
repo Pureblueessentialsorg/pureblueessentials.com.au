@@ -1,6 +1,6 @@
 ---
 title: Pure Blue News
-draft: false
+draft: true
 menu: 
   footer2:
     weight: 5

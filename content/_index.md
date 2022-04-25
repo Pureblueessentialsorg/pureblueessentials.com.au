@@ -11,10 +11,9 @@ images:
   - adobestock_297589693.jpeg
   - image.jpg
   - ylangylangsqpic.png
-lead: |-
-  \- the essentials to optimise your health -
 
-  \- handmade from natural ingredients -
+line1: "- the essentials to optimise your health -"
+line2: "- handmade from natural ingredients -"
 menu:
   main:
     weight: 10

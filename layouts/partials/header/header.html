@@ -1,19 +1,19 @@
-<div class="container-fluid bg-info">
+<div class="container-fluid bg-info header">
   <div class="row d-none d-md-flex" style="min-height: 12rem;">
     <div class="col-md-3 col-lg-2">
-      <a href="#" class="snipcart-checkout">
+      <!-- <a href="#" class="snipcart-checkout">
         <div class="d-inline-block position-relative fs-2 m-3 text-primary">
           {{ partial "svg-font" (dict "src" "icons/box/bx-shopping-bag" "block" true "title" "Shopping Cart" "desc" "View Shopping Cart") }}
-          <!-- badge rounded-pill bg-secondary-->
           <span class="position-absolute top-0 start-100 translate-middle  fs-6 snipcart-items-count"><span
             class="visually-hidden">Cart Contents</span></span>
         </div>
-      </a>
+      </a> -->
+
     </div>
     <div class="col-md-6 col-lg-8 col-12 text-center d-flex justify-content-evenly flex-column">
-      <h1 class="text-secondary" style="font-size: 3rem;" id="top">{{ .Site.Title }}</h1>
-      <h2 class="text-secondary">- Natural Health Products - </h2>
-      <h3 class="fs-3 text-white">Your body will thank you for it</h3>
+      <h1 class="text-secondary header__title" id="top">{{ .Site.Title }}</h1>
+      <div class=" h2 text-secondary">- Natural Health Products - </div>
+      <div class="h2 text-white">Your body will thank you for it</div>
 
     </div>
     <div class="col-md-3 col-lg-2 d-flex justify-content-end p-0">
@@ -24,6 +24,7 @@
         "layout" "fixed"
         "width" 300
         "placeholder" "empty"
+        "class" "ps-4"
         )}}
       {{ partial "image" $dict }}
     </div>
