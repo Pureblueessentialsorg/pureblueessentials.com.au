@@ -48,10 +48,10 @@ telephone:
   # first record appears in schema data
   # subsequent records for display
   - name: Phone
-    text: (02) 8004 3293
-    url: "tel:+61280043293"
+    text: 0409 491 636
+    url: "tel:+61409491636"
     icon: icons/bootstrap/phone
-    desc: Land line phone number
+    desc: Mobile phone number
     disable: false
     weight: 10
   # mobile
@@ -61,8 +61,8 @@ telephone:
   #   disable: false
 email: 
   name: Email
-  text: test@domain.com
-  url: "mailto:test@domain.com"
+  text: pureblueessentials@gmail.com
+  url: "mailto:pureblueessentials@gmail.com"
   icon: icons/bootstrap/envelope
   disable: false
   desc: Email Address
