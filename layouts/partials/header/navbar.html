@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-info">
-  <div class="container-fluid">
+  <div class="container-fluid p-0">
     <div class="d-md-none d-block">
       <a href="#" class="snipcart-checkout">
         <div class="d-inline-block position-relative fs-2 m-3 text-primary">
@@ -57,16 +57,26 @@
         {{- end -}}
         {{- end -}}
       </ul>
-      <div class="ms-auto d-none d-md-block">
+      <!-- <div class="ms-auto d-none d-md-block">
         <a href="#" class="snipcart-checkout">
           <div class="d-inline-block position-relative fs-2 m-3 text-primary">
             {{ partial "svg-font" (dict "src" "icons/box/bx-shopping-bag" "block" true "title" "Shopping Cart" "desc" "View Shopping Cart") }}
-            <!-- badge rounded-pill bg-secondary-->
             <span class="position-absolute top-0 start-100 translate-middle  fs-6 snipcart-items-count"><span
                 class="visually-hidden">Cart Contents</span></span>
           </div>
         </a>
+      </div> -->
+      <form id="js-search" class="search d-flex position-relative ms-md-auto" autocomplete="off">
+        <input id="js-searchInput" class="search__input form-control me-md-2" type="search" placeholder="Search"
+          aria-label="Search">
+        <!-- <label for="js-searchInput">Search</label> -->
+      <!-- <button id="js-searchSubmit" class="btn btn-outline-success" type="submit">Search</button> -->
+      <div class="position-absolute top-100 start-0 d-none results" id="js-searchResults">
+        <div class="results__empty" id="js-searchLoading">
+          Loading..
+        </div>
       </div>
+      </form>
 
     </div>
   
