@@ -1,6 +1,6 @@
 import Swiper, { Navigation, Thumbs, Lazy, Pagination, Autoplay } from 'swiper';
 
-var swiperShopThumbs = new Swiper('#js-swiperShopThumbs', {
+const swiperShopThumbs = new Swiper('#js-swiperShopThumbs', {
   spaceBetween: 10,
   slidesPerView: 4,
   freeMode: true,
@@ -10,7 +10,7 @@ var swiperShopThumbs = new Swiper('#js-swiperShopThumbs', {
 });
 
 /*eslint no-unused-vars: ["error", { "varsIgnorePattern": "swiperShopMain" }]*/
-var swiperShopMain = new Swiper('#js-swiperShopMain', {
+const swiperShopMain = new Swiper('#js-swiperShopMain', {
   // configure Swiper to use modules
   modules: [Navigation, Thumbs, Lazy],
   spaceBetween: 10,
@@ -33,14 +33,14 @@ var swiperShopMain = new Swiper('#js-swiperShopMain', {
   // }
 });
 
-document.addEventListener('DOMContentLoaded', function(event) {
+document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('img').forEach(function(img){
    img.onerror = function(){this.style.display='none';};
   })
 });
 
 /*eslint no-unused-vars: ["error", { "varsIgnorePattern": "swiperHome" }]*/
-var swiperHome = new Swiper('#js-swiperHome', {
+const swiperHome = new Swiper('#js-swiperHome', {
   // configure Swiper to use modules
   modules: [Navigation, Thumbs, Pagination, Autoplay],
   spaceBetween: 10,
