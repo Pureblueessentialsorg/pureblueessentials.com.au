@@ -2,6 +2,7 @@
 {{- /* uppercase country code in language code */ -}}
 {{- $lang := .Lang -}}
 {{- $country := index (findRE `-([a-z]*)` .Lang 1) 0 -}}
+{{ upper $country }}
 {{- if $country -}}
 {{- $lang = replaceRE "-([a-z]*)" (upper $country) .Lang 1 -}}
 {{- end -}}
