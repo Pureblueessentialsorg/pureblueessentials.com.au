@@ -2,21 +2,18 @@
 import Fuse from 'fuse.js/dist/fuse.basic.esm';
 
 let fuse; // fuse is loaded here and re-used later
-let searchLoaded = false; // allow us to delay loading json data unless search activated
 const search = document.getElementById('js-search');
 const searchInput = document.getElementById('js-searchInput');
 const searchResults = document.getElementById('js-searchResults');
 const loading = document.getElementById('js-searchLoading');
+
 const hiddenClass = 'd-none';
 
 searchInput.addEventListener('focus', function () {
   // Load json search index if first time invoking search
   // Means we don't load json unless searches are going to happen; keep user payload small unless needed
-  if (searchLoaded === false) {
-    loadSearch(); // loads our json data and builds fuse.js search index
-    searchLoaded = true; // let's never do this again
-  }
-}, false);
+  loadSearch(); // loads our json data and builds fuse.js search index
+}, {once: true});
 
 // disable enter when cursor inside the search box
 search.addEventListener('submit', function (event) {
@@ -27,6 +24,7 @@ search.addEventListener('submit', function (event) {
 function watchSearch() {
   // check if the user has already typed something
   if (searchInput.value) {
+    // run search
     executeSearch(searchInput.Value);
   }
 
@@ -35,7 +33,9 @@ function watchSearch() {
   // keyup used to that blank text can be detected on backspace
   searchInput.addEventListener('keyup', function (event) {
     const text = this.value
-    if ((event.key === 'Backspace') && (text === '')) {
+    // if ((event.key === 'Backspace') && (text === '')) {
+    if (!searchInput.value) {
+      // hide results no input value after key pressed
       searchResults.classList.add(hiddenClass);
     } else {
       // show results 
@@ -50,7 +50,15 @@ function watchSearch() {
     if (!isClickInsideElement) {
       searchResults.classList.add(hiddenClass);
     }
+    // resume results on click back in 
+    searchInput.addEventListener('focus', function () {
+    // check if the user has already typed something
+    if (searchInput.value){
+      searchResults.classList.remove(hiddenClass);
+    }
+  }, false);
   });
+
 }
 
 // ==========================================
@@ -130,10 +138,10 @@ function executeSearch(term) {
       const output = `
         <div class="results__container" id="result-${key}">
           <div class="results__row">
-            <div class="results__col--4">
+            <div class="results__col--photo">
               <img src="${image}" class="results__image" /> 
             </div>
-            <div class="results__col--8"> 
+            <div class="results__col--text"> 
               <div class="results__title"><a href="${permalink}">${title}</a></div>
               <div class="text-muted">${categories.join(', ')}</div>
             </div>

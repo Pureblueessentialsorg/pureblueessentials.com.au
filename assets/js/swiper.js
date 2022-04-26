@@ -5,8 +5,6 @@ const swiperShopThumbs = new Swiper('#js-swiperShopThumbs', {
   slidesPerView: 4,
   freeMode: true,
   watchSlidesProgress: true,
-  // loop: true, // creates additional slides
-  
 });
 
 /*eslint no-unused-vars: ["error", { "varsIgnorePattern": "swiperShopMain" }]*/
@@ -33,11 +31,11 @@ const swiperShopMain = new Swiper('#js-swiperShopMain', {
   // }
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('img').forEach(function(img){
-   img.onerror = function(){this.style.display='none';};
-  })
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//   document.querySelectorAll('img').forEach(function(img){
+//    img.onerror = function(){this.style.display='none';};
+//   })
+// });
 
 /*eslint no-unused-vars: ["error", { "varsIgnorePattern": "swiperHome" }]*/
 const swiperHome = new Swiper('#js-swiperHome', {

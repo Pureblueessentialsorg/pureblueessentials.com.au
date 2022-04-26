@@ -1,24 +1,20 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-info">
-  <div class="container-fluid p-0">
+  <div class="container-fluid px-1">
     <div class="d-md-none d-block">
       <a href="#" class="snipcart-checkout">
         <div class="d-inline-block position-relative fs-2 m-3 text-primary">
           {{ partial "svg-font" (dict "src" "icons/box/bx-shopping-bag" "block" true "title" "Shopping Cart" "desc" "View Shopping Cart") }}
-          <!-- badge rounded-pill bg-secondary-->
           <span class="position-absolute top-0 start-100 translate-middle  fs-6 snipcart-items-count"><span
               class="visually-hidden">Cart Contents</span></span>
         </div>
       </a>
     </div>
-    <div class="h1 fs-1 d-md-none text-secondary navbar-brand">{{ .Site.Title }}</div>
-    {{/* <a class="navbar-brand" href="{{ absURL " /" }}">{{ .Site.Title }}</a> */}}
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a href="{{ absURL " /" }}" class="h1 fs-1 d-md-none text-secondary navbar-brand">{{ .Site.Title }}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
-      <ul class="navbar-nav  mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
         {{- range .Site.Menus.main -}}
         {{- if .HasChildren -}}
         <li class="nav-item dropdown ">
@@ -56,29 +52,17 @@
         </li>
         {{- end -}}
         {{- end -}}
-      </ul>
-      <!-- <div class="ms-auto d-none d-md-block">
-        <a href="#" class="snipcart-checkout">
-          <div class="d-inline-block position-relative fs-2 m-3 text-primary">
-            {{ partial "svg-font" (dict "src" "icons/box/bx-shopping-bag" "block" true "title" "Shopping Cart" "desc" "View Shopping Cart") }}
-            <span class="position-absolute top-0 start-100 translate-middle  fs-6 snipcart-items-count"><span
-                class="visually-hidden">Cart Contents</span></span>
-          </div>
-        </a>
-      </div> -->
-      <form id="js-search" class="search d-flex position-relative ms-md-auto" autocomplete="off">
-        <input id="js-searchInput" class="search__input form-control me-md-2" type="search" placeholder="Search"
-          aria-label="Search">
-        <!-- <label for="js-searchInput">Search</label> -->
-      <!-- <button id="js-searchSubmit" class="btn btn-outline-success" type="submit">Search</button> -->
-      <div class="position-absolute top-100 start-0 d-none results" id="js-searchResults">
-        <div class="results__empty" id="js-searchLoading">
+      </ul> 
+     
+    </div>
+    <form id="js-search" class="search position-relative d-flex" autocomplete="off">
+      <input id="js-searchInput" class="search__input form-control" type="search" placeholder="Search"
+        aria-label="Search">
+      <div class="position-absolute top-100 end-0 d-none results" id="js-searchResults">
+        <div class="results__loading" id="js-searchLoading">
           Loading..
         </div>
       </div>
-      </form>
-
-    </div>
-  
+    </form>
   </div>
 </nav>

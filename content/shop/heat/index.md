@@ -6,6 +6,9 @@ summary: " Choose from 12 designs with some plush options too."
 draft: false
 popular: true
 images:
+  - dsc_0483.jpg
+  - dsc_0475.jpg
+  - dsc_0465.jpg
   - image_2022-04-03_104858.png
   - image_2022-04-03_104804.png
   - image_2022-04-03_104715.png
@@ -18,9 +21,7 @@ images:
   - image_2022-04-03_103921.png
   - image_2022-04-03_103259.png
   - image_2022-04-03_103803.png
-  - dsc_0483.jpg
-  - dsc_0475.jpg
-  - dsc_0465.jpg
+ 
 categories:
   - heat-packs
 price: 38
