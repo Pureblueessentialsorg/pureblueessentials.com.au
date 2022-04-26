@@ -1,5 +1,5 @@
 {{ partial "esbuild" (dict "src" "js/assets.js") -}}
-{{ partial "esbuild" (dict "src" "js/vendor.js") -}}
+
 {{ partial "esbuild" (dict "src" "js/search.js") -}}
 
 {{ if eq .Type "contact" }}
@@ -29,5 +29,6 @@
 {{ end }}
 
 */ -}}
+{{ partial "esbuild" (dict "src" "js/vendor.js") -}}
 
 

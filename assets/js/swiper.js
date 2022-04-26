@@ -5,7 +5,7 @@ var swiperShopThumbs = new Swiper('#js-swiperShopThumbs', {
   slidesPerView: 4,
   freeMode: true,
   watchSlidesProgress: true,
-  loop: true,
+  // loop: true, // creates additional slides
   
 });
 

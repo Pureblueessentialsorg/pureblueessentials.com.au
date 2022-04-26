@@ -84,7 +84,7 @@ related:
 # import modules
 module:
   imports:
-  - path: github.com/future-wd/hugo-image/v2
+  - path: github.com/future-wd/hugo-image/v3
   - path: github.com/future-wd/hugo-svg-font/v2
   - path: github.com/theNewDynamic/hugo-module-tnd-netlifycms
   - path: github.com/future-wd/hugo-snipcart/v3

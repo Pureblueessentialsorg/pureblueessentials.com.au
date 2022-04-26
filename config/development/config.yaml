@@ -1,4 +1,4 @@
 module:
-  replacements: "github.com/future-wd/hugo-image/v2 -> ../../../future-wd/hugo-image/v2, github.com/future-wd/hugo-svg-font/v2 -> ../../../future-wd/hugo-svg-font/v2, github.com/future-wd/hugo-snipcart/v3 -> ../../../future-wd/hugo-snipcart/v3, github.com/future-wd/hugo-contact-form-xhr/v2 -> ../../../future-wd/hugo-contact-form-xhr/v2"
+  replacements: "github.com/future-wd/hugo-image/v3 -> ../../../future-wd/hugo-image/v3, github.com/future-wd/hugo-svg-font/v2 -> ../../../future-wd/hugo-svg-font/v2, github.com/future-wd/hugo-snipcart/v3 -> ../../../future-wd/hugo-snipcart/v3, github.com/future-wd/hugo-contact-form-xhr/v2 -> ../../../future-wd/hugo-contact-form-xhr/v2"
 
 

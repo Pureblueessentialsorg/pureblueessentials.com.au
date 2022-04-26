@@ -15,7 +15,6 @@
               <!-- <div class="swiper-lazy-preloader"></div> -->
               {{ $dict := (dict "src" . "placeholder" "empty" "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 340 560) "sizes" "(min-width: 768px) 50vw, 100vw") }}
               {{ partial "image" $dict }}
-    
             </div>
             {{ end }}
           </div>
@@ -28,7 +27,7 @@
           <div class="swiper-wrapper">
             {{ range . }}
             <div class="swiper-slide">
-              {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 76 122) ) }}
+              {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 76 122) "loading" "auto" ) }}
               {{ partial "image" $dict }}
             </div>
             {{ end }}

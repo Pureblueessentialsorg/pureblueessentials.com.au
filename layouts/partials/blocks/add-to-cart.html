@@ -26,9 +26,16 @@ data-item-description="{{ .Summary }}"
     data-item-custom4-options="{{ delimit (apply . "title" "." )  "|" }}"
   {{ end }}
 {{ end }}
+{{ if .Params.long }}
+  {{ with .Site.Data.essentialOils.types }}
+    data-item-custom4-name="Essential Oil"
+    data-item-custom4-options="{{ delimit (apply . "title" "." )  "|" }}"
+  {{ end }}
+{{ end }}
+     
 {{ with .Params.images }}
 {{ $image := $.Resources.GetMatch (index . 0) }}
-{{ $image = $image.Resize "120x" }}
+{{ $image = $image.Fill "120x80" }}
 data-item-image="{{ $image.RelPermalink }}"
 {{ end }}
 data-item-name="{{ .Title }}"

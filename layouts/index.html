@@ -54,10 +54,11 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper ">
           <!-- Slides -->
-          {{- $images := .Resources.ByType "image" -}}
+          {{-  $images := .Resources.ByType "image" -}}
           {{- range $images }}
+          {{ $image := printf "%s" . }}
           {{- $dict := (dict
-          "src" .
+          "src" $image
           "page" $
           "title" "pure blue essentials"
           "fillRatio" (slice 6 4)
@@ -65,7 +66,7 @@
           ) -}}
           <div class="swiper-slide">{{ partial "image" $dict }}</div>
           {{- end }}
-
+        
         </div>
         <div class="position-absolute start-50 translate-middle-x" style="z-index:2000;bottom:15%;">
           <a href="{{ relref . " /shop" }}" class="btn btn-primary btn-lg">Shop Now</a>

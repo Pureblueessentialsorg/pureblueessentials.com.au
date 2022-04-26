@@ -1,5 +1,14 @@
-import 'lazysizes';
+import lazySizes from 'lazysizes';
 import 'lazysizes/plugins/native-loading/ls.native-loading';
+// native loading config
+lazySizes.cfg.nativeLoading = {
+	setLoadingAttribute: true,
+	disableListeners: {
+		scroll: true,
+	},
+};
+// lazySizes.cfg.init = false;
+
 /* eslint-disable no-unused-vars */
 // import image from 'js/lazysizes';
 // alternatively only import the modules that you need from the library
@@ -32,11 +41,8 @@ import {
 // })
 
 
-
-// native loading config
-lazySizes.cfg.nativeLoading = {
-	setLoadingAttribute: true,
-	disableListeners: {
-		scroll: true
-	},
-};
+// window.addEventListener('DOMContentLoaded', (event) => {
+//   console.log('dom content loaded')
+//   lazySizes.init();
+//   console.log(document.getElementsByClassName('lazysizes'));
+// });

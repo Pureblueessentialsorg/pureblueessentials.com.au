@@ -21,7 +21,6 @@ images:
   - dsc_0483.jpg
   - dsc_0475.jpg
   - dsc_0465.jpg
-  - null
 categories:
   - heat-packs
 price: 38
