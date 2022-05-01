@@ -29,7 +29,7 @@ This covers all your health support needs and each 10ml bottles contains 30% hig
 
 If the “PMS lift” doesn’t apply to you, let us know in the notes at checkout and we will swap it out for another of your choice of the other 11. 
 
-The 12 pure blue essentials remedial oil blends are also available in 30mls bottles of 100% pure essentials without carrier oil.  The 30ml equivalent of the Resilience Pack is the **Pure Blue Luxury Pack**, or they are available individually.   
+The 12 pure blue essentials remedial oil blends are also available in 30mls bottles of 100% pure essentials without carrier oil.  The 30ml equivalent of the Resilience Pack is the **Pure Blue Luxury Pack**, or they are available individually (hyperlink).   
 
 **Cautions:** 
 
