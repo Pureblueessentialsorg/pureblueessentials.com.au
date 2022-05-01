@@ -29,7 +29,7 @@
   "address": {
     {{ with .postalAddress -}}
     "@type": "PostalAddress",
-    "streetAddress": "{{ delimit .streetAddress ", " }}",
+    {{ with .streetaddress }}"streetAddress": "{{ delimit . ", " }}",{{ end }}
     "addressLocality": "{{ .addressLocality }}",
     "addressRegion": "{{ .addressRegion }}",
     "postalCode": "{{ .postalCode }}",

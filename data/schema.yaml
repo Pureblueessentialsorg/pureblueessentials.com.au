@@ -22,8 +22,8 @@ social:
 # https://schema.org/PostalAddress
 postalAddress:
   name: Address
-  streetAddress: 
-  - New Buildings Road
+  # streetAddress: 
+  # - New Buildings Road
   addressLocality: Wyndham
   addressRegion: NSW
   postalCode: 2550
@@ -100,12 +100,12 @@ openingHoursSpecification:
 
 
 # only for contact details display
-extraItem:
-- name: Help Desk
-  text: Help Desk
-  url: helpdesk.com
-  icon: 
-  disable: true
+# extraItem:
+# - name: Help Desk
+#   text: Help Desk
+#   url: helpdesk.com
+#   icon: 
+#   disable: true
 
 
 # founder:

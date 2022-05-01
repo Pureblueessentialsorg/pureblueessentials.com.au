@@ -56,6 +56,7 @@ alertText: Free shipping within Australia for orders over $120
 
 snipcart:
   enabled: true # defaults to true
-  key: NGUxMjlkZjUtNjAxNC00OGY3LWJjNWItOTRjMzkzZTk2NzU1NjM3Nzg4MDk4NTI5MjU1Njk5
+  # key: NGUxMjlkZjUtNjAxNC00OGY3LWJjNWItOTRjMzkzZTk2NzU1NjM3Nzg4MDk4NTI5MjU1Njk5 # test
+  key: MmY2YTFkN2MtMmQyNS00ZGE4LWIxNjMtODc5MDRiNGJmZTJlNjM3Nzg4MDk4NTI5MjU1Njk5
   side: false # or false for full screen cart
   bootstrap: true # enables snipcart z-index css for bootstrap compatibility 
