@@ -1,11 +1,13 @@
 ---
 visible: true
 title: Wound Care longevity pack
-id: lonpai03
+id: lonwou03
 summary: 1x30ml bottle of Wound Care blend, 1x10ml bottle of Wound Care blend,
   1x30ml bottle of jojoba oil
 draft: true
 popular: false
+images:
+  - dsc_0433.jpg
 categories:
   - gift-packs
 price: 75

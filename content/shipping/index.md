@@ -1,5 +1,5 @@
 ---
-title: Shipping
+title: Shipping Policy
 draft: false
 menu:
   footer2:

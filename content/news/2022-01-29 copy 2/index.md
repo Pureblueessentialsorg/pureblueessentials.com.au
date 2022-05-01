@@ -9,7 +9,7 @@ images:
 ---
 Hello and welcome.
 
-What a big day for us here at **pure blue essentials**.  Launching our products out into the world.
+What a big day for us here at **pure blue essentials**.  Launching our products into the online world.
 
 After years of product development and months of website development, we are launching our website today! 
 

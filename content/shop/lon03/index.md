@@ -20,7 +20,7 @@ height: 16
 width: 16
 long: true
 ---
-The **pure blue essential Longevity Packs** allows refilling of the 10ml bottle many times over with the **pure blue essentials oil blend of your choice** and carrier oil. 
+The **pure blue essential Longevity Packs** allows refilling of the 10ml bottle many times over with the **pure blue essentials oil blend of your choice** and high quality carrier oil. 
 
 It contains:
 
@@ -30,4 +30,4 @@ It contains:
 
 \- a 30ml bottle of pure Australian jojoba oil (carrier oil). A carrier oil is necessary to safely apply essential oils to the skin.
 
-If you require more empty 10ml bottles they are available to purchase individually [here]({{< relref "/bambot10" >}})
+If you require more empty 10ml bottles they are available to purchase individually \[here]({{< relref "/bambot10" >}})

@@ -6,9 +6,8 @@ summary: Pure Australian Jojoba Oil - a high quality carrier oil
 draft: false
 popular: true
 images:
-  - dsc_0314-2-.jpg
-  # - dsc_0316-2-.jpg
   - dsc_0435.jpg
+  - dsc_0314-2-.jpg
 categories:
   - single-oils
 price: 20

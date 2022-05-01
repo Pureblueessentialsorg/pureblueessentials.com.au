@@ -6,6 +6,8 @@ summary: 1x30ml bottle of Calm blend, 1x10ml bottle of Calm blend, 1x30ml bottle
   of jojoba oil
 draft: true
 popular: false
+images:
+  - image_2022-05-01_132211124.png
 categories:
   - gift-packs
 price: 75

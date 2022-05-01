@@ -6,6 +6,8 @@ summary: 1x30ml bottle of Sleep Right blend, 1x10ml bottle of Sleep Right blend,
   1x30ml bottle of jojoba oil
 draft: true
 popular: false
+images:
+  - dsc_0433.jpg
 categories:
   - gift-packs
 price: 75
