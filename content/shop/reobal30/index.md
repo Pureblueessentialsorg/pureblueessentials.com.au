@@ -21,7 +21,7 @@ When your mood, your day or your life is a bit up and down and you need some gro
 
 Geranium, patchouli, sage, clary sage and ylang ylang are all richly scented, earthy oils. They all help to return your nervous system to equilibrium. 
 
-This blend can also be helpful when feelings of uncertainty can impact emotional stability, in situations such as meeting new people, travelling long distances, or in periods of major change.
+This blend can also be helpful when feelings of uncertainty can impact emotional stability, in situations such as meeting new people, travelling long distances, difficult or challenging situations, or in periods of major change.
 
 A pleasant and versatile blend to use.  Its one of our favourites.
 
@@ -37,13 +37,13 @@ This 30ml bottle containing 100% pure essential oils that can be used for a vari
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
 
-After more value for money? The **pure blue essential Longevity Packs** contain:
+*PSSST*... After more value for money? The **Balance Longevity Pack** contains:
 
 \- a 30ml bottle of this remedial essential oil blend;
 
 \- 30ml bottle of jojoba oil (carrier oil);
 
-\- 10ml bottle (glass with bamboo casing) to refill with the **pure blue essentials** blend and carrier oil many times over.
+\- 10ml bottle (glass with bamboo casing) to refill with your **pure blue essentials** blend and carrier oil many times over.
 
 **Cautions:**
 
