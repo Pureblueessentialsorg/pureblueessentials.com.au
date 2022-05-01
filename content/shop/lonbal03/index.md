@@ -6,6 +6,8 @@ summary: 1x30ml bottle of Balance blend, 1x10ml bottle of Balance blend, 1x30ml
   bottle of jojoba oil
 draft: true
 popular: false
+images:
+  - image_2022-05-01_131831333.png
 categories:
   - gift-packs
 price: 75
