@@ -3,7 +3,7 @@ title: Contact Us
 draft: false
 menu: 
   main:
-    weight: 50
+    weight: 100
   footer:
     weight: 50
 type: contact

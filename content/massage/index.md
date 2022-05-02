@@ -1,14 +1,12 @@
 ---
 title: Remedial Massages Booking
-draft: false
+draft: true
 menu:
-  icons:
+  icons:  
     weight: 40
     pre: "icons/bootstrap/calendar-check.svg"
   footer:
     weight: 60
-description: There are 2 "About Us" and inputting info in 1, it overwrites info
-  in the 2nd...the other tab I want is "Packaging and Recycling Policy"
 images: []
 ---
 

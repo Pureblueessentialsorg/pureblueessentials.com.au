@@ -1,7 +1,9 @@
 ---
 title: Pure Blue News
-draft: true
+draft: false
 menu: 
+  main:
+      weight: 50
   footer2:
     weight: 5
   icons:

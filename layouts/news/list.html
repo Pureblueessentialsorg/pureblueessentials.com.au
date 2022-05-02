@@ -5,7 +5,10 @@
   {{ if or (eq $i 0) (and (modBool $pages 2) (eq $i (sub $pages 1))) }}
   {{- /* first news item, or last item for even - full width article */ -}}
   <div class="row">
-    <div class="col">
+    <div class="col-md-4">
+      {{ template "image" . }}
+    </div>
+    <div class="col-md-8">
       {{ template "news" . }}
     </div>
   </div>
@@ -15,11 +18,13 @@
     {{- /* if odd number */ -}}
     <div class="row">
       <div class="col-md-6">
+        {{ template "image" . }}
         {{ template "news" . }}
       </div>
     {{ else }}
     {{- /* if even number */ -}}
       <div class="col-md-6">
+        {{ template "image" . }}
         {{ template "news" . }}
       </div>
     </div>
@@ -30,11 +35,16 @@
 {{ end }}
 
 
-{{ define "news" }}
-{{ with .Params.images }}
-  {{ $img := $.Resources.GetMatch (index . 0) }}
-  {{ partial "image" (dict "src" $img "page" $ "title" $.Title "class" "card-img-top")}}
+{{ define "image" }}
+{{ if .Params.images }}
+  {{ if (index .Params.images 0) }}
+    {{ with $img := index .Params.images 0 }}
+      {{ partial "image" (dict "src" $img "page" $ "title" $.Title "class" "card-img-top img-fluid")}}
+    {{ end }}
+  {{ end }}
 {{ end }}
+{{ end }}
+{{ define "news" }}
 {{/*  <a href="{{ .Permalink }}">  */}}
 <h2 class="h5">{{ .Title  }}</h5>
 {{/*  </a>  */}}
