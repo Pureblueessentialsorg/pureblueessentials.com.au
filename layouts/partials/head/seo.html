@@ -42,7 +42,4 @@
 {{ range .AlternativeOutputFormats -}}
 <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
 {{ end -}}
-{{- with .Site.GoogleAnalytics -}}
-{{ template "_internal/google_analytics.html" . -}}
-{{- end -}}
 {{- partial "head/structured-data" . -}}
