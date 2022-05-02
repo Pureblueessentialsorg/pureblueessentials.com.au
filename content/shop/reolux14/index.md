@@ -24,8 +24,10 @@ The **pure blue luxury pack**.  The ultimate gift pack for natural health care a
 For regular users of remedial essential oils, or a luxury gift for that special person who takes their natural health care seriously.
 
 **Contents:**
-\* 12 x 30ml remedial essential oil blends: Arthritis, Balance, Calm, Clarity, Contentment, Energise, Four Thieves, Headache Help, PMS Lift, Sleep Right, Strain Sprain Pain and Wound Care.
-\* 1 x 100ml pure Australian jojoba oil (carrier oil)
+
+* 12 x 30ml remedial essential oil blends: Arthritis, Balance, Calm, Clarity, Contentment, Energise, Four Thieves, Headache Help, PMS Lift, Sleep Right, Strain Sprain Pain and Wound Care.
+
+* 1 x 100ml pure Australian jojoba oil (carrier oil)
 
 * 1x heat pack
 
@@ -33,7 +35,7 @@ Dilute these pure essentials oil blends with jojoba oil as a carrier oil to use 
 Use neat to add to a bath, in an essential oil diffuser, or other essential oil disperser.
 For more uses, print off some ideas from our RESOURCES page.
 
-**Cautions:** 
+**Cautions:**
 
 Keep away from eyes and mouth. For external use only. Do not ingest.  
 
