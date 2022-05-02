@@ -11,12 +11,11 @@ create: true
 fields:
 - import field visible
 - import field title 
-# CHECK THIS  
 - name: date
   label: Date
   widget: date
   required: true
-  hidden: true
+  hint: Leave at the current/date time, unless you want to delay visibility. REBUILD WILL BE REQUIRED!
 - import field summary
 - import field draft
 - import field images
