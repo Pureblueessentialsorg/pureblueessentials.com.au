@@ -8,7 +8,7 @@ baseurl: "https://pureblueessentials.com.au/"
 enableEmoji: true
 enableGitInfo: false
 enableRobotsTXT: true
-# googleAnalytics: 
+googleAnalytics: "G-JNXJ0NDPXB"
 # # for xml output
 # languageCode: "en-au"
 # # for website
