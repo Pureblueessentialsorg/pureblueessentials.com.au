@@ -6,7 +6,6 @@ menu:
     weight: 30
   footer:
     weight: 30
-description: ""
 images:
   - pbelogo230322.png
 ---

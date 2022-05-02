@@ -4,7 +4,6 @@ draft: false
 menu:
   footer2:
     weight: 30
-description: Shipping policy
 ---
 None of our products are drop-shipped. We make them and send them directly to you.
 
