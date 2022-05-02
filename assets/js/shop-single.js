@@ -1,13 +1,27 @@
-const button = document.querySelector('#js-snip')
-// const quantity = document.querySelector('#quantity')
-// quantity.addEventListener('change', () => {
-//   // Sets the default quantity when adding the item
-//   button.setAttribute('data-item-quantity', quantity.value)
-// })
-const select = document.querySelector('#js-sizes')
-if (select) {
-  select.addEventListener('change', () => {
-    // Sets the default frame color when adding the item
-    button.setAttribute('data-item-custom1-value', select.value)
-  })
+const button = document.getElementById('js-snip')
+
+function update (id, num) {
+  const elem = document.getElementById(id);
+  if (elem) {
+    elem.addEventListener('change', () => {
+      // Sets the default frame color when adding the item
+      const attr = `data-item-custom${num}-value`;
+      button.setAttribute(attr, elem.value)
+    })
+  }
 }
+
+
+// sizes
+update('js-sizes', 1);
+// longetivity pack
+update('js-long', 4);
+// heat pack
+update('js-designs', 3);
+update('js-filling', 4);
+
+
+
+
+
+

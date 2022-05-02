@@ -49,6 +49,32 @@
   <div class="col-md-6">
     <h1 class="h3">{{ .Title }}</h1>
     <div>
+      {{ if .Params.heat }}
+      {{ with .Site.Data.heatPacks }}
+        <label for="js-fillings">Available Fillings:</label>
+        <select name="" id="js-fillings" class="form-select">
+        {{ range .fillings }}
+          <option>{{ . | title }}</option>
+        {{ end }}
+        </select>
+        <label for="js-designs"> Available Designs:</label>
+        <select name="" id="js-designs" class="form-select">
+        {{ range .designs }}
+          <option>{{ . | title }}</option>
+        {{ end }}
+        </select>
+      {{ end }}
+      {{ end }}
+      {{ if .Params.long }}
+      <label for="js-long">Choose Essential oils:</label>
+      <select name="" id="js-long" class="form-select">
+        {{ with .Site.Data.essentialOils }}
+          {{ range .types }}
+          <option>{{ . | title }}</option>
+          {{ end }}
+        {{ end }}
+      </select>
+      {{ end }}
       {{ with .Params.Sizes }}
       {{/*  <label for="js-sizes">Sizes</label>
       <select id="js-sizes">
@@ -94,7 +120,7 @@
       {{- .Content -}}
       {{ if .Params.heat }}
       <br>
-      <strong>Available Fillings: (Choose at checkout)</strong>
+      <strong>Available Fillings:</strong>
       <br>
       <ul class="list-unstyled">
       {{ with .Site.Data.heatPacks }}
@@ -104,7 +130,7 @@
       {{ end }}
       </ul>
       <br>
-      <strong>Available Designs: (Choose at checkout)</strong>
+      <strong>Available Designs:</strong>
       <br>
       <ul class="list-unstyled">
       {{ with .Site.Data.heatPacks }}
@@ -116,7 +142,7 @@
       {{ end }}
       {{ if .Params.long }}
       <br>
-      <strong>Available Essential oils: (Choose at checkout)</strong>
+      <strong>Available Essential oils:</strong>
       <br>
       <ul class="list-unstyled">
       {{ with .Site.Data.essentialOils }}
