@@ -2,6 +2,10 @@ github.com/future-wd/hugo-contact-form-xhr/v2 v2.0.5 h1:6V6hhstuZWoZ4ReLkUnOCXy7
 github.com/future-wd/hugo-contact-form-xhr/v2 v2.0.5/go.mod h1:hpugMvN9zJoSn+LzcbobRTl2A9JmN/RitPoH1k61vSk=
 github.com/future-wd/hugo-contact-form-xhr/v2 v2.1.0 h1:+lC3X5XriapbjYitePR6PYfi2u6XfR5mjo2YHizREn4=
 github.com/future-wd/hugo-contact-form-xhr/v2 v2.1.0/go.mod h1:hpugMvN9zJoSn+LzcbobRTl2A9JmN/RitPoH1k61vSk=
+github.com/future-wd/hugo-contact-form-xhr/v2 v2.1.1 h1:1KbwpzHP5lnQ2xpLsv0YUMg3E97ShtPNppGXp1j/6yU=
+github.com/future-wd/hugo-contact-form-xhr/v2 v2.1.1/go.mod h1:hpugMvN9zJoSn+LzcbobRTl2A9JmN/RitPoH1k61vSk=
+github.com/future-wd/hugo-contact-form-xhr/v2 v2.1.2 h1:PerL3P6iqt5Ycfn16A6R+8zb0c+LwwkJvgrHIP14lms=
+github.com/future-wd/hugo-contact-form-xhr/v2 v2.1.2/go.mod h1:hpugMvN9zJoSn+LzcbobRTl2A9JmN/RitPoH1k61vSk=
 github.com/future-wd/hugo-image v0.1.1 h1:2PKdGqVJO6rkPRDrI9lVpEkjdvIw01s/cLgNirGvLJ0=
 github.com/future-wd/hugo-image v0.1.1/go.mod h1:IWSFyLh5UEhs27ao9y2H339ssUaViU+2XFH2w7h6DBI=
 github.com/future-wd/hugo-image v0.1.3 h1:YcIOhZFchWuL3I5CFjICJm80oTJMlSkXSuh0YdgZBrY=
