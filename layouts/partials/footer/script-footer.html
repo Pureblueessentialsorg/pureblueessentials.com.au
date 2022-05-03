@@ -4,6 +4,22 @@
 {{- if .Site.GoogleAnalytics -}}
 {{ template "_internal/google_analytics.html" . }}
 {{- end -}}
+{{ partial "esbuild" (dict "src" "js/assets.js") -}}
+{{ partial "esbuild" (dict "src" "js/vendor.js") -}}
+{{ partial "esbuild" (dict "src" "js/search.js") -}}
+
+{{ if eq .Type "contact" }}
+  {{ partial "esbuild" (dict "src" "js/contact.js") -}}
+{{ end }}
+
+{{ $shopSingle := and (eq .Type "shop") (eq .Kind "page")}}
+{{ if $shopSingle }}
+  {{ partial "esbuild" (dict "src" "js/shop-single.js" ) }}
+{{ end }}
+
+{{ if or $shopSingle .IsHome }}
+  {{ partial "esbuild" (dict "src" "js/swiper.js" ) }}
+{{ end }}
 {{/*  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"></script>  */}}
 
 
