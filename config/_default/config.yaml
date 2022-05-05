@@ -3,8 +3,6 @@ baseurl: "https://pureblueessentials.com.au/"
 # copyright: "Custom Business Name"
 # canonifyURLs: false
 # disableAliases: true
-# disableHugoGeneratorInject: true
-# disableKinds: ["taxonomy", "taxonomyTerm"]
 enableEmoji: true
 enableGitInfo: false
 enableRobotsTXT: true
