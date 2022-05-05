@@ -171,6 +171,8 @@
   ],
   {{ end -}}
   "description": "{{ .Summary }}", 
+  "sku": "{{ .Params.id }}",
+  "mpn": "{{ .Params.id }}",
   {{ with .Params.brand -}}
   "brand": {
     "@type": "brand",
