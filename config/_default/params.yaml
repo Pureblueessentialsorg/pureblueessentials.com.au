@@ -6,33 +6,6 @@ titleAddition: All Natural Ingredients
 # fall back description if a page does not have a description.
 description: "Providing the essentials to optimise your health, hand made from pure ingredients found in nature."
 
-## Open Graph/JSON-LD
-
-## Twitter Cards
-# twitterSite: "@gethyas"
-# twitterCreator: "@henkverlinde"
-
-## JSON-LD
-# schemaType: "Person"
-# schemaType: "Organization"
-# schemaName: "Hyas"
-# schemaAuthor: "Henk Verlinde"
-# schemaAuthorTwitter: "https://twitter.com/henkverlinde"
-# schemaAuthorLinkedIn: "https://www.linkedin.com/in/henkverlinde/"
-# schemaAuthorGitHub: "https://github.com/h-enk"
-# schemaLocale: "en-US"
-# schemaLogo: "logo-hyas.png"
-# schemaLogoWidth: 512
-# schemaLogoHeight: 512
-# schemaImage: "hyas.png"
-# schemaImageWidth: 1280
-# schemaImageHeight: 640
-# schemaTwitter: "https://twitter.com/gethyas"
-# schemaLinkedIn: ""
-# schemaGitHub: "https://github.com/h-enk/hyas"
-
-## Chrome Browser
-themeColor: "#fff"
 
 # Images
 quality: 85
