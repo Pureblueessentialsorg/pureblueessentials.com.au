@@ -7,7 +7,7 @@ export function topNav({  //defaults
 } = {}) {
 
   if (window.innerWidth >= breakPoint) {
-    console.log(`width is greater than ${breakPoint}, with is ${window.innerWidth}`)
+    // console.log(`width is greater than ${breakPoint}, with is ${window.innerWidth}`)
     window.addEventListener('scroll', showOnScroll);
     const badge = document.getElementById(parentId);  //id of nav bar parent div
     const show = function (elem) {
@@ -16,7 +16,7 @@ export function topNav({  //defaults
     const hide = function (elem) {
       elem.classList.add(hiddenClass);
     };
-    function showOnScroll() {
+    const showOnScroll = () => {
       if (document.body.scrollTop > distance || document.documentElement.scrollTop > distance) {
         show(badge);
       } else {
