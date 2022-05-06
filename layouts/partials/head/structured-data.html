@@ -80,9 +80,9 @@
 {{ end -}}
 {{- /* https://developers.google.com/search/docs/advanced/structured-data/breadcrumb#json-ld_1 */ -}}
 {{ .Scratch.Set "itemCount" 1 }}
-{{ define "partials/inline/breadcrumb" }}
+{{ define "partials/inline/breadcrumbData" }}
   {{ with .parent }}
-    {{ partial "inline/breadcrumb" (dict "ctx" $.ctx "parent" .Parent) }}
+    {{ partial "inline/breadcrumbData" (dict "ctx" $.ctx "parent" .Parent) }}
     {{- $.ctx.Scratch.Add  "itemList" (slice (dict 
       "@type" "ListItem"
       "url" .Permalink 
@@ -92,7 +92,7 @@
     {{ $.ctx.Scratch.Add "itemCount" 1 }}
   {{ end }}
 {{ end }}
-{{ partial "inline/breadcrumb" (dict "ctx" . "parent" .Parent) }}
+{{ partial "inline/breadcrumbData" (dict "ctx" . "parent" .Parent) }}
 {{- .Scratch.Add  "itemList" (slice (dict 
   "@type" "ListItem"
   "name" (.Title | humanize | title )

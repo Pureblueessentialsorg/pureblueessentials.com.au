@@ -1,12 +1,12 @@
 <nav class="breadcrumb mt-3 m-md-0" aria-label="breadcrumb">
   <ol class="breadcrumb">
-    {{ define "breadcrumb" }}
+    {{ define "partials/inline/breadcrumb" }}
       {{ with .Parent }}
-        {{ template "breadcrumb" . }}
+        {{ partial "inline/breadcrumb" . }}
         <li class="breadcrumb-item"> <a href="{{ .Permalink }}">{{ .Title | humanize | title }}</a> </li>
       {{ end }}
     {{ end }}
-    {{ template "breadcrumb" . }}
+    {{ partial "inline/breadcrumb" . }}
     <li class="breadcrumb-item active" aria-current="page">{{ .Title | humanize | title }}</li>
   </ol>
 </nav>
