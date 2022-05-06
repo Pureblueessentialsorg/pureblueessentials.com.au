@@ -1,114 +1,106 @@
+{{- $scratch := newScratch }}
 {{- /* https://developers.google.com/search/docs/advanced/structured-data/local-business */ -}}
 {{- with .Site.Data.schema -}}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "{{ .type }}",
+  {{- /* organisation schema */ -}}
+  {{- $scratch.SetInMap "org" "@context" "https://schema.org" -}}
+  {{- $scratch.SetInMap "org"  "@type" .type  -}}
+  {{- $scratch.SetInMap "org" "url" site.BaseURL -}}
+  {{- $scratch.SetInMap "org" "logo" (.logo | absURL ) -}}
+  {{- $scratch.SetInMap "org" "name" site.Title -}}
   {{ with .images -}}
-  "image": [
-    {{- range $i, $e := . -}}
-      {{- if ne $i 0 -}}, {{ end }}
-      {{ . | absURL }}
+    {{- $images := slice -}}
+    {{- range  . -}}
+      {{ with $image := resources.GetMatch . }}
+      {{ $images = $images | append $image.Permalink }}
+      {{ end }}
     {{- end }}
-    ],
+    {{- $scratch.SetInMap "org" "image" $images  -}}
   {{ end -}}
-  "url": {{ site.BaseURL }},
-  "logo": {{ .logo | absURL }},
-  "name": "{{ site.Title }}",
-  {{- $social := .social -}}
-  {{- $socialCount := 0 -}}
-  {{ with $social -}}
-  "sameAs" : [
+  {{ with .social -}}
+    {{ $socials := slice}}
     {{- range . -}}
-    {{- if ne $socialCount 0 -}}, {{ end }}
-    {{ .url }}
-    {{- $socialCount = add $socialCount 1 -}}
+    {{ $socials = $socials | append .url }}
     {{- end -}}
-  ],
+    {{- $scratch.SetInMap "org" "sameAs" $socials -}}
   {{ end -}}
-  "address": {
-    {{ with .postalAddress -}}
-    "@type": "PostalAddress",
-    {{ with .streetaddress }}"streetAddress": "{{ delimit . ", " }}",{{ end }}
-    "addressLocality": "{{ .addressLocality }}",
-    "addressRegion": "{{ .addressRegion }}",
-    "postalCode": "{{ .postalCode }}",
-    "addressCountry": "{{ .addressCountry | default "Australia" }}"
-    {{ end -}}
-  },
+  {{ with .postalAddress -}}
+    {{- $scratch.SetInMap "address" "@type" "PostalAddress" -}}
+    {{- with .streetaddress -}}
+      {{- $scratch.SetInMap "address" "streetAddress" (delimit . ", ") -}}
+    {{ end }}
+    {{- with .addressLocality -}}
+      {{- $scratch.SetInMap "address" "addressLocality" . -}}
+    {{- end -}}
+    {{- with .addressRegion -}}
+      {{- $scratch.SetInMap "address" "addressRegion" . -}}
+    {{- end -}}
+    {{- with .postalCode -}}
+      {{- $scratch.SetInMap "address" "postalCode" . -}}
+    {{- end -}}
+    {{- with .addressCountry | default "Australia" -}}
+      {{- $scratch.SetInMap "address" "addressCountry" . -}}
+    {{- end -}}
+    {{- $scratch.SetInMap "org" "address" ($scratch.Get "address") -}}
+  {{ end -}}
   {{ with .geo -}}
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": {{ .latitude }},
-    "longitude": {{ .longitude }}
-  },
+    {{ $geo := (dict 
+      "@type" "GeoCoordinates"
+      "latitude" .latitude
+      "longitude" .longitude
+      )}}
+    {{- $scratch.SetInMap "org" "geo" $geo -}}
   {{ end -}}
   {{- with .telephone -}}
-  {{ range first 1 . -}}
-  "telephone": "{{ .url }}",
-  {{- end -}}
+    {{- with (index . 0) -}}
+      {{- $scratch.SetInMap "org" "telephone" .text -}}
+    {{- end -}}
   {{ end -}}
   {{ with .email -}}
-  "email": "{{ .url }}",
+  {{- $scratch.SetInMap "org" "email" .text -}}
   {{ end -}}
   {{ with .priceRange -}}
-  "priceRange": "{{ . }}",
+    {{- $scratch.SetInMap "org" "priceRange" . -}}
   {{ end -}}
   {{ with .openingHoursSpecification.days -}}
-  "openingHoursSpecification": [
     {{ range . -}}
-    {{- if and (not .custom) (and .opens .closes) -}}
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "{{ .dayOfWeek }}"
-      ],
-      "opens": "{{ time.Format "15:04" .opens }}",
-      "closes": "{{ time.Format "15:04" .closes }}"
-    },
+      {{- if and (not .custom) (and .opens .closes) -}}
+        {{- $day := (dict
+          "@type" "OpeningHoursSpecification"
+          "dayOfWeek" (slice .dayOfWeek)
+          "opens" (time.Format "15:04" .opens)
+          "closes" (time.Format "15:04" .closes) ) -}}
+        {{- $scratch.Add "days" (slice $day) -}}
+      {{- end -}}
     {{- end -}}
-    {{ end -}}
-  ],
-  {{ end -}}
-} 
-</script>
+    {{- $scratch.SetInMap "org" "openingHoursSpecification" ($scratch.Get "days") -}}
+  {{ end -}} 
+  <script type="application/ld+json">
+  {{ $scratch.Get "org" | jsonify (dict "prefix" " " "indent" "  ") | safeJS }}
+  </script>
 {{ end -}}
-{{- /* create breadcrumb scratch */ -}}
-{{- $dot := . -}}
-{{- $dot.Scratch.Set "path" "" -}}
-{{- $dot.Scratch.Set "breadcrumb" slice -}}
-{{- $url := replace .Permalink .Site.BaseURL "" -}}
-{{- $.Scratch.Add "path" .Site.BaseURL -}}
-{{- $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) -}}
-{{- range $index, $element := split $url "/" -}}
-  {{- $dot.Scratch.Add "path" $element -}}
-  {{- $.Scratch.Add "path" "/" -}}
-    {{- if ne $element "" -}}
-    {{- $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}}
-  {{- end -}}
-{{- end -}}
 {{- /* https://developers.google.com/search/docs/advanced/structured-data/breadcrumb#json-ld_1 */ -}}
+{{ .Scratch.Set "itemCount" 1 }}
+{{ define "partials/inline/breadcrumb" }}
+  {{ with .parent }}
+    {{ partial "inline/breadcrumb" (dict "ctx" $.ctx "parent" .Parent) }}
+    {{- $.ctx.Scratch.Add  "itemList" (slice (dict 
+      "@type" "ListItem"
+      "url" .Permalink 
+      "name" (.Title | humanize | title )
+      "position" ($.ctx.Scratch.Get "itemCount")
+    )) -}}
+    {{ $.ctx.Scratch.Add "itemCount" 1 }}
+  {{ end }}
+{{ end }}
+{{ partial "inline/breadcrumb" (dict "ctx" . "parent" .Parent) }}
+{{- .Scratch.Add  "itemList" (slice (dict 
+  "@type" "ListItem"
+  "name" (.Title | humanize | title )
+  "position" (.Scratch.Get "itemCount")
+)) -}}
+{{- $scratch.SetInMap "breadcrumb" "@context" "https://schema.org" -}}
+{{- $scratch.SetInMap "breadcrumb" "@type" "BreadcrumbList" -}}
+{{- $scratch.SetInMap "breadcrumb" "itemListElement" ($.Scratch.Get "itemList") -}}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {{ $list := $.Scratch.Get "breadcrumb" -}}
-    {{ $len := (len $list) -}}
-    {{ range $index, $element := $list -}}
-    {{ if ne .position 1 -}}, {{ end -}}
-    {
-    "@type": "ListItem",
-    "position": {{ .position }},
-    {{- if ne (add $index 1) $len }}
-    "name": "{{ .name | humanize | title }}",
-    "item": {{ .url }}
-    {{- else -}}
-    {{- /* last item (the page) */ -}}
-    "name": "{{ $.Title | humanize | title }}"
-    {{- end }}
-  }
-    {{- end -}}
-  ]
-}
+{{ $scratch.Get "breadcrumb" | jsonify (dict "prefix" " " "indent" "  ") | safeJS }}
 </script>

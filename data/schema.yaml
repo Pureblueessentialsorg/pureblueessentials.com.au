@@ -2,8 +2,8 @@
 ## JSON-LD
 
 type: "HealthAndBeautyBusiness"
-images: ["image.png"]
-logo: "logo.png"
+images: ["images/pbelogo.png"]
+logo: "images/pbelogo.png"
 social:
   twitter:
     # account is for twitter cards, include @
@@ -31,11 +31,11 @@ postalAddress:
   icon: icons/bootstrap/geo-alt
   disable: false
   weight: 30
-geo:
-  latitude: 36.923940
-  longitude: 149.585617
-  #gmap not for schema
-  gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3189.595278902036!2d149.5834283147259!3d-36.923939979923254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b3c11a40a5be799%3A0x290d3431484ee460!2sNew%20Buildings%20Rd%2C%20New%20South%20Wales%202550%2C%20Australia!5e0!3m2!1sen!2spa!4v1643603547085!5m2!1sen!2spa"
+# geo:
+#   latitude: 36.923940
+#   longitude: 149.585617
+#   #gmap not for schema
+#   gmap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3189.595278902036!2d149.5834283147259!3d-36.923939979923254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b3c11a40a5be799%3A0x290d3431484ee460!2sNew%20Buildings%20Rd%2C%20New%20South%20Wales%202550%2C%20Australia!5e0!3m2!1sen!2spa!4v1643603547085!5m2!1sen!2spa"
 
 # postal address is just for contact details display
 # servicePostalAddress:

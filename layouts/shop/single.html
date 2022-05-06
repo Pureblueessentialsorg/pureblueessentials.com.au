@@ -196,7 +196,7 @@
 {{ end }}
 
 <script type="application/ld+json">
-{{ $scratch.Get "product" | jsonify | safeJS }}
+{{ $scratch.Get "product" | jsonify (dict "prefix" " " "indent" "  ")| safeJS }}
 </script>
  
 {{ end }}
