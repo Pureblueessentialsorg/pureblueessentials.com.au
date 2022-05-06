@@ -157,38 +157,48 @@
 {{ end }}
 
 {{ define "head/json-ld" }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "product",
-  "name": "{{ .Title }}",
-  {{ with .Params.images -}}
-  "image": [
-    {{- range $i, $e := . -}}
-    {{- if ne $i 0 -}}, {{ end }}
-    {{ $.Permalink }}
+{{- $scratch := newScratch -}}
+{{- $scratch.SetInMap "product" "@context" "https://schema.org" -}}
+{{- $scratch.SetInMap "product" "@type" "product" -}}
+{{- $scratch.SetInMap "product" "name" .Title -}}
+{{- with .Params.images -}}
+  {{- with $src := index . 0 -}}
+    {{- $images := slice -}}
+    {{- $res := 60000 -}}
+    {{- $sqrt := math.Sqrt $res | float -}}
+    {{- /* $formats := (slice (slice 1 1) (slice 4 3) (slice 16 9) ) */ -}}
+    {{- $formats := (slice (slice 4 3) ) -}}
+    {{- range $format := $formats -}}
+      {{- $total := add (index $format 0) (index $format 1) | float -}}
+      {{- $decimal := apply (apply $format "div" "." $total) "mul" "." 2 }}
+      {{- $pixels := apply $decimal "mul" "." $sqrt  -}}
+      {{- with $image := $.Resources.GetMatch $src -}}
+        {{- $image = $image.Fill (printf "%dx%d" (index $pixels 0 | int) (index $pixels 1 | int) ) -}}
+        {{- $images = $images | append $image.Permalink -}}
+      {{- end -}}
     {{- end -}}
-  ],
-  {{ end -}}
-  "description": "{{ .Summary }}", 
-  "sku": "{{ .Params.id }}",
-  "mpn": "{{ .Params.id }}",
-  {{ with .Params.brand -}}
-  "brand": {
-    "@type": "brand",
-    "name": "{{ . }}"
-  },
-  {{ end -}}
-  "offers": {
-    "@type": "Offer",
-    "price": "{{ .Params.Price }}",
-    "availability": "https://schema.org/InStock",
-    "priceCurrency": "AUD",
-    "itemCondition": "https://schema.org/NewCondition",
-    "url": {{ .Permalink }}
-  }
-}
+    {{- $scratch.SetInMap "product" "image" $images -}}
+  {{- end -}}
+{{ end -}}
+{{- $scratch.SetInMap "product" "sku" .Params.id -}}
+{{- $scratch.SetInMap "product" "mpn" .Params.id -}}
+{{ with .Params.brand -}}
+  {{- $scratch.SetInMap "product" "brand" (dict "@type" "brand" "name" .) -}}
+{{ end -}}
+{{ with .Params.price }}
+  {{- $scratch.SetInMap "product" "offers" (dict
+    "@type" "Offer"
+    "price" .
+    "availability" "https://schema.org/InStock"
+    "priceCurrency" "AUD"
+    "itemCondition" "https://schema.org/NewCondition"
+    "url" $.Permalink ) -}}
+{{ end }}
+
+<script type="application/ld+json">
+{{ $scratch.Get "product" | jsonify | safeJS }}
 </script>
+ 
 {{ end }}
 
  {{/*  <ul class="nav nav-tabs" id="myTab" role="tablist">
