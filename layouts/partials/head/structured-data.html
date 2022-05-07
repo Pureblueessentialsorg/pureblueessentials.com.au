@@ -79,28 +79,29 @@
   </script>
 {{ end -}}
 {{- /* https://developers.google.com/search/docs/advanced/structured-data/breadcrumb#json-ld_1 */ -}}
-{{ .Scratch.Set "itemCount" 1 }}
+{{ $scratch.Set "itemCount" 1 }}
 {{ define "partials/inline/breadcrumbData" }}
+  {{ $scratchCtx := .scratch}}
   {{ with .parent }}
-    {{ partial "inline/breadcrumbData" (dict "ctx" $.ctx "parent" .Parent) }}
-    {{- $.ctx.Scratch.Add  "itemList" (slice (dict 
+    {{ partial "inline/breadcrumbData" (dict "scratch" $scratchCtx "parent" .Parent) }}
+    {{- $scratchCtx.Add  "itemList" (slice (dict 
       "@type" "ListItem"
       "url" .Permalink 
       "name" (.Title | humanize | title )
-      "position" ($.ctx.Scratch.Get "itemCount")
+      "position" ($scratchCtx.Get "itemCount")
     )) -}}
-    {{ $.ctx.Scratch.Add "itemCount" 1 }}
+    {{ $scratchCtx.Add "itemCount" 1 }}
   {{ end }}
 {{ end }}
-{{ partial "inline/breadcrumbData" (dict "ctx" . "parent" .Parent) }}
-{{- .Scratch.Add  "itemList" (slice (dict 
+{{ partial "inline/breadcrumbData" (dict "scratch" $scratch "parent" .Parent) }}
+{{- $scratch.Add  "itemList" (slice (dict 
   "@type" "ListItem"
   "name" (.Title | humanize | title )
-  "position" (.Scratch.Get "itemCount")
+  "position" ($scratch.Get "itemCount")
 )) -}}
 {{- $scratch.SetInMap "breadcrumb" "@context" "https://schema.org" -}}
 {{- $scratch.SetInMap "breadcrumb" "@type" "BreadcrumbList" -}}
-{{- $scratch.SetInMap "breadcrumb" "itemListElement" ($.Scratch.Get "itemList") -}}
+{{- $scratch.SetInMap "breadcrumb" "itemListElement" ($scratch.Get "itemList") -}}
 <script type="application/ld+json">
 {{ $scratch.Get "breadcrumb" | jsonify (dict "prefix" " " "indent" "  ") | safeJS }}
 </script>

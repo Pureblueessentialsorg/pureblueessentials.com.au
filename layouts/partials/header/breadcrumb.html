@@ -3,7 +3,7 @@
     {{ define "partials/inline/breadcrumb" }}
       {{ with .Parent }}
         {{ partial "inline/breadcrumb" . }}
-        <li class="breadcrumb-item"> <a href="{{ .Permalink }}">{{ .Title | humanize | title }}</a> </li>
+        <li class="breadcrumb-item"> <a href="{{ .RelPermalink }}">{{ .Title | humanize | title }}</a> </li>
       {{ end }}
     {{ end }}
     {{ partial "inline/breadcrumb" . }}
