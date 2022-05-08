@@ -87,7 +87,7 @@
     {{- $scratchCtx.Add  "itemList" (slice (dict 
       "@type" "ListItem"
       "url" .Permalink 
-      "name" (.Title | humanize | title )
+      "item" (.Title | humanize | title )
       "position" ($scratchCtx.Get "itemCount")
     )) -}}
     {{ $scratchCtx.Add "itemCount" 1 }}
