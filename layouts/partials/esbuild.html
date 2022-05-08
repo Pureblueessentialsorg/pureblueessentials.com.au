@@ -24,7 +24,7 @@
 {{- end -}}
 {{- if eq (hugo.Environment) "development" -}}
   {{- $jsConfig = (dict "sourceMap" "inline" "target" "es2015" "params" $params) -}}
-  {{- $src = $src | js.Build $jsConfig | fingerprint "sha512" -}}
+  {{- $src = $src | js.Build $jsConfig | fingerprint "sha256" -}}
 {{ end -}}
 
 <script
