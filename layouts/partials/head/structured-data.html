@@ -25,7 +25,7 @@
   {{ end -}}
   {{ with .postalAddress -}}
     {{- $scratch.SetInMap "address" "@type" "PostalAddress" -}}
-    {{- with .streetaddress -}}
+    {{- with .streetAddress -}}
       {{- $scratch.SetInMap "address" "streetAddress" (delimit . ", ") -}}
     {{ end }}
     {{- with .addressLocality -}}
@@ -75,7 +75,7 @@
     {{- $scratch.SetInMap "org" "openingHoursSpecification" ($scratch.Get "days") -}}
   {{ end -}} 
   <script type="application/ld+json">
-  {{ $scratch.Get "org" | jsonify (dict "prefix" " " "indent" "  ") | safeJS }}
+  {{ $scratch.Get "org" | jsonify (dict "indent" "  ") | safeJS }}
   </script>
 {{ end -}}
 {{- /* https://developers.google.com/search/docs/advanced/structured-data/breadcrumb#json-ld_1 */ -}}
@@ -103,5 +103,5 @@
 {{- $scratch.SetInMap "breadcrumb" "@type" "BreadcrumbList" -}}
 {{- $scratch.SetInMap "breadcrumb" "itemListElement" ($scratch.Get "itemList") -}}
 <script type="application/ld+json">
-{{ $scratch.Get "breadcrumb" | jsonify (dict "prefix" " " "indent" "  ") | safeJS }}
+{{ $scratch.Get "breadcrumb" | jsonify (dict "indent" "  ")| safeJS }}
 </script>
