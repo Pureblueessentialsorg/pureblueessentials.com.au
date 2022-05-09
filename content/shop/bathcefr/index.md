@@ -5,6 +5,9 @@ id: bathcefr
 summary: Bath salts fortified with cedar and frankincense essential oils - 1kg
 draft: false
 popular: false
+images:
+  - dsc_0555.jpg
+  - dsc_0549-2-.jpg
 categories:
   - heat-packs
 price: 19
