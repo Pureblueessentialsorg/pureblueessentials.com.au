@@ -5,6 +5,9 @@ id: bathlale
 summary: Bath soaks fortified with lavender and lemongrass essential oils - 1kg
 draft: false
 popular: false
+images:
+  - dsc_0548-2-.jpg
+  - dsc_0543.jpg
 categories:
   - heat-packs
 price: 19
