@@ -86,8 +86,8 @@
     {{ partial "inline/breadcrumbData" (dict "scratch" $scratchCtx "parent" .Parent) }}
     {{- $scratchCtx.Add  "itemList" (slice (dict 
       "@type" "ListItem"
-      "url" .Permalink 
-      "item" (.Title | humanize | title )
+      "item" .Permalink 
+      "name" (.Title | humanize | title )
       "position" ($scratchCtx.Get "itemCount")
     )) -}}
     {{ $scratchCtx.Add "itemCount" 1 }}
