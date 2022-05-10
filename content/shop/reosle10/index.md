@@ -5,6 +5,8 @@ id: reosle10
 summary: ""
 draft: false
 popular: true
+images:
+  - dsc_0569-2-.jpg
 categories:
   - remedial-oils
 price: 20

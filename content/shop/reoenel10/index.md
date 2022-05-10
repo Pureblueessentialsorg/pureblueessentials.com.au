@@ -5,6 +5,8 @@ id: reoene10
 summary: ""
 draft: false
 popular: false
+images:
+  - dsc_0571.jpg
 categories:
   - remedial-oils
 price: 20

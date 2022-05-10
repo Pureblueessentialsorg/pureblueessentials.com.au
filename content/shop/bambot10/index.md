@@ -6,7 +6,8 @@ summary: 10ml bamboo-covered glass bottles
 draft: false
 popular: true
 images:
-  - photo.jpg
+  - dsc_0561.jpg
+  - dsc_0556-2-.jpg
 categories:
   - bottles
 price: 5.95
