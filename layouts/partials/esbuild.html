@@ -28,7 +28,7 @@
 {{ end -}}
 
 <script
-{{ if eq $.load "async" -}} async {{ else }} defer {{ end }}
+{{ if eq $.load "async" -}} async {{ else }} {{ end }}
 src="{{- $src.RelPermalink -}}"
 integrity="{{- $src.Data.Integrity -}}">
 </script>
