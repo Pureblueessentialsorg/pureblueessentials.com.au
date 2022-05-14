@@ -12,6 +12,10 @@
   {{ partial "esbuild" (dict "src" "js/contact.js") -}}
 {{ end }}
 
+{{ if .IsHome }}
+  {{ partial "esbuild" (dict "src" "js/home.js") -}}
+{{ end }}
+
 {{ $shopSingle := and (eq .Type "shop") (eq .Kind "page")}}
 {{ if $shopSingle }}
   {{ partial "esbuild" (dict "src" "js/shop-single.js" ) }}

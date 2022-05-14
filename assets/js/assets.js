@@ -7,8 +7,7 @@ document.documentElement.className = document.documentElement.className.replace(
 // apply year to footer
 // document.getElementById('year').innerHTML = new Date().getFullYear();
 
-import {topNav} from './top-nav.js';
-topNav();
+
 
 
 // const distance = 300;

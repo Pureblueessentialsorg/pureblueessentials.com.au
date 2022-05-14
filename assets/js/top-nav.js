@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   if (window.innerWidth >= breakPoint) {
     // console.log(`width is greater than ${breakPoint}, with is ${window.innerWidth}`)
    
-    const badge = document.getElementById(parentId);  //id of nav bar parent div
+    const badge = document.getElementById(parentId);  //id  div
     const show = function (elem) {
       elem.classList.remove(hiddenClass);
     };
