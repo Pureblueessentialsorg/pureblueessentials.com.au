@@ -78,8 +78,8 @@ related:
   indices:
   - name: "categories"
     weight: 100
-  - name: "date"
-    weight: 10
+  # - name: "date"
+  #   weight: 10
 
 # import modules
 module:

@@ -3,47 +3,49 @@
 <div class="row mb-3">
   <div class="col-md-6">
     {{ with .Params.images }}
-      {{ if gt (len . ) 1 }}
-      <div class="swiper-container">
-        <!-- Slider main container -->
-        <div id="js-swiperShopMain" class="swiper swiper-shop-main">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            {{ range . }}
-            <div class="swiper-slide">
-              <!-- <div class="swiper-lazy-preloader"></div> -->
-              {{ $dict := (dict "src" . "placeholder" "empty" "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 340 560) "sizes" "(min-width: 992px) 37.5vw,(min-width: 768px) 50vw, 100vw" ) }}
-              {{ partial "image" $dict }}
-            </div>
-            {{ end }}
+    {{ if gt (len . ) 1 }}
+    <div class="swiper-container">
+      <!-- Slider main container -->
+      <div id="js-swiperShopMain" class="swiper swiper-shop-main">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          {{ range . }}
+          <div class="swiper-slide">
+            <!-- <div class="swiper-lazy-preloader"></div> -->
+            {{ $dict := (dict "src" . "placeholder" "empty" "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths"
+            (slice 340 560) "sizes" "(min-width: 992px) 37.5vw,(min-width: 768px) 50vw, 100vw" ) }}
+            {{ partial "image" $dict }}
           </div>
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          {{ end }}
         </div>
-        <!-- thumbnail swiper -->
-        <div swiperShopThumbs="" id="js-swiperShopThumbs" class="swiper swiper-shop-thumbs">
-          <div class="swiper-wrapper">
-            {{ range . }}
-            <div class="swiper-slide">
-              {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 76 122) "loading" "auto" ) }}
-              {{ partial "image" $dict }}
-            </div>
-            {{ end }}
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <!-- thumbnail swiper -->
+      <div swiperShopThumbs="" id="js-swiperShopThumbs" class="swiper swiper-shop-thumbs">
+        <div class="swiper-wrapper">
+          {{ range . }}
+          <div class="swiper-slide">
+            {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 76 122) "loading"
+            "auto" ) }}
+            {{ partial "image" $dict }}
           </div>
+          {{ end }}
         </div>
       </div>
-      {{ else if eq (len .) 1 }}
-        {{- /* if only one image is present dont load swiper */ -}}
-        {{ $img := index $.Params.images 0 }}
-        {{ $dict := (dict "src" $img "page" $ "title" $.Title "fillRatio" (slice 3 2)) }}
-        {{ partial "image" $dict }}
-      {{ end }}
+    </div>
+    {{ else if eq (len .) 1 }}
+    {{- /* if only one image is present dont load swiper */ -}}
+    {{ $img := index $.Params.images 0 }}
+    {{ $dict := (dict "src" $img "page" $ "title" $.Title "fillRatio" (slice 3 2)) }}
+    {{ partial "image" $dict }}
+    {{ end }}
     {{ else }}
-      {{- /* no image provided */ -}}
-      {{ $dict := (dict "src" "images/product-logo.png" "title" $.Title "fillRatio" (slice 3 2)) }}
-      {{ partial "image" $dict }}
+    {{- /* no image provided */ -}}
+    {{ $dict := (dict "src" "images/product-logo.png" "title" $.Title "fillRatio" (slice 3 2)) }}
+    {{ partial "image" $dict }}
     {{ end }}
   </div>
   <div class="col-md-6">
@@ -51,57 +53,57 @@
     <div>
       {{ if .Params.heat }}
       {{ with .Site.Data.heatPacks }}
-        <label for="js-fillings">Available Fillings:</label>
-        <select name="" id="js-fillings" class="form-select">
+      <label for="js-fillings">Available Fillings:</label>
+      <select name="" id="js-fillings" class="form-select">
         {{ range .fillings }}
-          <option>{{ . | title }}</option>
+        <option>{{ . | title }}</option>
         {{ end }}
-        </select>
-        <label for="js-designs"> Available Designs:</label>
-        <select name="" id="js-designs" class="form-select">
+      </select>
+      <label for="js-designs"> Available Designs:</label>
+      <select name="" id="js-designs" class="form-select">
         {{ range .designs }}
-          <option>{{ . | title }}</option>
+        <option>{{ . | title }}</option>
         {{ end }}
-        </select>
+      </select>
       {{ end }}
       {{ end }}
       {{ if .Params.long }}
       <label for="js-long">Choose Essential oils:</label>
       <select name="" id="js-long" class="form-select">
         {{ with .Site.Data.essentialOils }}
-          {{ range .types }}
-          <option>{{ . | title }}</option>
-          {{ end }}
+        {{ range .types }}
+        <option>{{ . | title }}</option>
+        {{ end }}
         {{ end }}
       </select>
       {{ end }}
       {{ with .Params.Sizes }}
-      {{/*  <label for="js-sizes">Sizes</label>
+      {{/* <label for="js-sizes">Sizes</label>
       <select id="js-sizes">
         <option value="{{ $.Params.size }}">{{ $.Params.size }} - ${{ $.Params.price }}</option>
         {{ range . }}
         <option value="{{ .size }}">{{ .size }} - ${{ .price }}</option>
         {{ end }}
-      </select>  */}}
+      </select> */}}
       <strong>Sizes: </strong>
       <ul class="list-unstyled">
         <li>{{ $.Params.size }} - ${{ printf "%.2f" (float $.Params.price) }}</li>
         {{ range . }}
         {{ $price := float .price }}
         <li>{{ .size }} - ${{ printf "%.2f" (float .price) }}</li>
-        {{ end }}  
+        {{ end }}
       </ul>
       {{ else }}
-        {{ with .Params.price}}
-        <div>
-          Price: ${{ printf "%.2f" (float .) }}
-        </div>
-        {{ end }}
-        {{ with .Params.size }}
-        <div>
-          Size: {{ . }}
-        </div>
-        {{ end }}
+      {{ with .Params.price}}
+      <div>
+        Price: ${{ printf "%.2f" (float .) }}
+      </div>
+      {{ end }}
+      {{ with .Params.size }}
+      <div>
+        Size: {{ . }}
+      </div>
+      {{ end }}
       {{ end }}
     </div>
     <!-- <div>
@@ -117,41 +119,41 @@
 <div class="row">
   <div class="col">
     <h2 class="h4">Description:</h2>
-      {{- .Content -}}
-      {{ if .Params.heat }}
-      <br>
-      <strong>Available Fillings:</strong>
-      <br>
-      <ul class="list-unstyled">
+    {{- .Content -}}
+    {{ if .Params.heat }}
+    <br>
+    <strong>Available Fillings:</strong>
+    <br>
+    <ul class="list-unstyled">
       {{ with .Site.Data.heatPacks }}
       {{ range .fillings }}
-        <li>{{ . | title }}</li>
+      <li>{{ . | title }}</li>
       {{ end }}
       {{ end }}
-      </ul>
-      <br>
-      <strong>Available Designs:</strong>
-      <br>
-      <ul class="list-unstyled">
+    </ul>
+    <br>
+    <strong>Available Designs:</strong>
+    <br>
+    <ul class="list-unstyled">
       {{ with .Site.Data.heatPacks }}
       {{ range .designs }}
-        <li>{{ . | title }}</li>
+      <li>{{ . | title }}</li>
       {{ end }}
       {{ end }}
-      </ul>
-      {{ end }}
-      {{ if .Params.long }}
-      <br>
-      <strong>Available Essential oils:</strong>
-      <br>
-      <ul class="list-unstyled">
+    </ul>
+    {{ end }}
+    {{ if .Params.long }}
+    <br>
+    <strong>Available Essential oils:</strong>
+    <br>
+    <ul class="list-unstyled">
       {{ with .Site.Data.essentialOils }}
       {{ range .types }}
-        <li>{{ . | title }}</li>
+      <li>{{ . | title }}</li>
       {{ end }}
       {{ end }}
-      </ul>
-      {{ end }}
+    </ul>
+    {{ end }}
   </div>
 </div>
 {{ end }}
@@ -161,95 +163,96 @@
 {{- $scratch.SetInMap "product" "@context" "https://schema.org" -}}
 {{- $scratch.SetInMap "product" "@type" "product" -}}
 {{- $scratch.SetInMap "product" "name" .Title -}}
+{{- $scratch.SetInMap "product" "description" .Plain -}}
 {{- with .Params.images -}}
-  {{- with $src := index . 0 -}}
-    {{- $images := slice -}}
-    {{- $res := 60000 -}}
-    {{- $sqrt := math.Sqrt $res | float -}}
-    {{- /* $formats := (slice (slice 1 1) (slice 4 3) (slice 16 9) ) */ -}}
-    {{- $formats := (slice (slice 4 3) ) -}}
-    {{- range $format := $formats -}}
-      {{- $total := add (index $format 0) (index $format 1) | float -}}
-      {{- $decimal := apply (apply $format "div" "." $total) "mul" "." 2 }}
-      {{- $pixels := apply $decimal "mul" "." $sqrt  -}}
-      {{- with $image := $.Resources.GetMatch $src -}}
-        {{- $image = $image.Fill (printf "%dx%d" (index $pixels 0 | int) (index $pixels 1 | int) ) -}}
-        {{- $images = $images | append $image.Permalink -}}
-      {{- end -}}
-    {{- end -}}
-    {{- $scratch.SetInMap "product" "image" $images -}}
-  {{- end -}}
+{{- with $src := index . 0 -}}
+{{- $images := slice -}}
+{{- $res := 60000 -}}
+{{- $sqrt := math.Sqrt $res | float -}}
+{{- /* $formats := (slice (slice 1 1) (slice 4 3) (slice 16 9) ) */ -}}
+{{- $formats := (slice (slice 4 3) ) -}}
+{{- range $format := $formats -}}
+{{- $total := add (index $format 0) (index $format 1) | float -}}
+{{- $decimal := apply (apply $format "div" "." $total) "mul" "." 2 }}
+{{- $pixels := apply $decimal "mul" "." $sqrt -}}
+{{- with $image := $.Resources.GetMatch $src -}}
+{{- $image = $image.Fill (printf "%dx%d" (index $pixels 0 | int) (index $pixels 1 | int) ) -}}
+{{- $images = $images | append $image.Permalink -}}
+{{- end -}}
+{{- end -}}
+{{- $scratch.SetInMap "product" "image" $images -}}
+{{- end -}}
 {{ end -}}
 {{- $scratch.SetInMap "product" "sku" .Params.id -}}
 {{- $scratch.SetInMap "product" "mpn" .Params.id -}}
 {{ with .Params.brand -}}
-  {{- $scratch.SetInMap "product" "brand" (dict "@type" "brand" "name" .) -}}
+{{- $scratch.SetInMap "product" "brand" (dict "@type" "brand" "name" .) -}}
 {{ end -}}
 {{ with .Params.price }}
-  {{- $scratch.SetInMap "product" "offers" (dict
-    "@type" "Offer"
-    "price" .
-    "availability" "https://schema.org/InStock"
-    "priceCurrency" "AUD"
-    "itemCondition" "https://schema.org/NewCondition"
-    "url" $.Permalink ) -}}
+{{- $scratch.SetInMap "product" "offers" (dict
+"@type" "Offer"
+"price" .
+"availability" "https://schema.org/InStock"
+"priceCurrency" "AUD"
+"itemCondition" "https://schema.org/NewCondition"
+"url" $.Permalink ) -}}
 {{ end }}
 
 <script type="application/ld+json">
 {{ $scratch.Get "product" | jsonify (dict "prefix" " " "indent" "  ")| safeJS }}
 </script>
- 
+
 {{ end }}
 
- {{/*  <ul class="nav nav-tabs" id="myTab" role="tablist">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="desc-tab" data-bs-toggle="tab" data-bs-target="#desc" type="button"
-          role="tab" aria-controls="desc" aria-selected="true">Description</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs" type="button" role="tab"
-          aria-controls="profile" aria-selected="false">Specs</button>
-      </li>
-    </ul>
+{{/* <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="desc-tab" data-bs-toggle="tab" data-bs-target="#desc" type="button" role="tab"
+      aria-controls="desc" aria-selected="true">Description</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs" type="button" role="tab"
+      aria-controls="profile" aria-selected="false">Specs</button>
+  </li>
+</ul>
 
-    <div class="tab-content border border-top-0 p-2" id="myTabContent">
-      <div class="tab-pane fade show active" id="desc" role="tabpanel" aria-labelledby="desc-tab">
-        {{- .Content -}}
-      </div>
-      <div class="tab-pane fade" id="specs" role="tabpanel" aria-labelledby="specs-tab">
-        {{ with .Params.size }}
-        <div>
-          Size: {{ . }}
-        </div>
-        {{ end }}
-        {{ with .Params.brand }}
-        <div>
-          Brand: {{ . }}
-        </div>
-        {{ end }}
-        <div>
-          {{- if gt .Params.categories 1 }}Categories: {{ else }}Category: {{ end -}}
-          {{- delimit .Params.categories ", " | humanize -}}
-        </div>
-        {{ with .Params.weight }}
-        <div>
-          Weight: {{ . }} grams
-        </div>
-        {{ end }}
-        {{ with .Params.height }}
-        <div>
-          Height: {{ . }} cm
-        </div>
-        {{ end }}
-        {{ with .Params.Width }}
-        <div>
-          Width: {{ . }} cm
-        </div>
-        {{ end }}
-        {{ with .Params.Length }}
-        <div>
-          Length: {{ . }} cm
-        </div>
-        {{ end }}
-      </div>
-    </div>  */}}
+<div class="tab-content border border-top-0 p-2" id="myTabContent">
+  <div class="tab-pane fade show active" id="desc" role="tabpanel" aria-labelledby="desc-tab">
+    {{- .Content -}}
+  </div>
+  <div class="tab-pane fade" id="specs" role="tabpanel" aria-labelledby="specs-tab">
+    {{ with .Params.size }}
+    <div>
+      Size: {{ . }}
+    </div>
+    {{ end }}
+    {{ with .Params.brand }}
+    <div>
+      Brand: {{ . }}
+    </div>
+    {{ end }}
+    <div>
+      {{- if gt .Params.categories 1 }}Categories: {{ else }}Category: {{ end -}}
+      {{- delimit .Params.categories ", " | humanize -}}
+    </div>
+    {{ with .Params.weight }}
+    <div>
+      Weight: {{ . }} grams
+    </div>
+    {{ end }}
+    {{ with .Params.height }}
+    <div>
+      Height: {{ . }} cm
+    </div>
+    {{ end }}
+    {{ with .Params.Width }}
+    <div>
+      Width: {{ . }} cm
+    </div>
+    {{ end }}
+    {{ with .Params.Length }}
+    <div>
+      Length: {{ . }} cm
+    </div>
+    {{ end }}
+  </div>
+</div> */}}
