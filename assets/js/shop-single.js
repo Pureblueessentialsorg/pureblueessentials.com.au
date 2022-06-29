@@ -1,6 +1,6 @@
 const button = document.getElementById('js-snip')
 
-function update (id, num) {
+function update(id, num) {
   const elem = document.getElementById(id);
   if (elem) {
     elem.addEventListener('change', () => {
@@ -11,14 +11,16 @@ function update (id, num) {
   }
 }
 
-
 // sizes
 update('js-sizes', 1);
 // longetivity pack
 update('js-long', 4);
 // heat pack
 update('js-designs', 3);
-update('js-filling', 4);
+update('js-fillings', 4);
+
+
+
 
 
 
