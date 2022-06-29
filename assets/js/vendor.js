@@ -26,23 +26,3 @@ import {
   // Tooltip , // Tooltips
 } from 'bootstrap';
 /* eslint-enable no-unused-vars */
-
-// example initialization from this import 
-// var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-//   target: '#navbar-example'
-// })
-
-// bootstrap js - import the whole library
-// import 'bootstrap';
-
-// example initialization from this import 
-// var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-//   target: '#navbar-example'
-// })
-
-
-// window.addEventListener('DOMContentLoaded', (event) => {
-//   console.log('dom content loaded')
-//   lazySizes.init();
-//   console.log(document.getElementsByClassName('lazysizes'));
-// });
