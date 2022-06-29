@@ -3,9 +3,6 @@
   "version": "1.6.0",
   "repository": "https://github.com/pureblueessentialsorg/pureblueessentials.com.au",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "browserslist": [
     ">= 0.5%",
     "last 2 major versions",
