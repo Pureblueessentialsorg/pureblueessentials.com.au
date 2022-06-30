@@ -4,9 +4,9 @@
 {{- if .Site.GoogleAnalytics -}}
 {{ template "_internal/google_analytics.html" . }}
 {{- end -}}
-{{ partial "esbuild" (dict "src" "js/assets.js") -}}
-{{ partial "esbuild" (dict "src" "js/vendor.js") -}}
-{{ partial "esbuild" (dict "src" "js/search.js") -}}
+{{ partial "esbuild" "js/assets.js" -}}
+{{ partial "esbuild" "js/vendor.js" -}}
+{{ partial "esbuild" "js/search.js" -}}
 
 {{ if eq .Type "contact" }}
   {{ partial "esbuild" (dict "src" "js/contact.js") -}}
