@@ -63,16 +63,15 @@
 {{- $params := (dict "env" hugo.Environment) -}}
 {{- /* standard production configuration for es build */ -}}
 {{- $jsConfig := (dict "target" "es2015" "minify" "true" "params" $params) }}
-{{- /* md5 used for fingerprinting as it yields the shortest file name, increase if you wish */ -}}
-{{- $js := $resource | js.Build $jsConfig | fingerprint "md5" -}}
+{{- $js := $resource | js.Build $jsConfig | fingerprint -}}
 {{- /* is .babelEs6 is set to true - use babel to lower to es6 */ -}}
 {{- if $babel -}}
 {{- $babelConfig := (dict "noComments" true "minified" true "config" "config/babel.module.config.js") -}}
-{{- $js = $resource| js.Build $jsConfig | babel $babelConfig | fingerprint "md5" -}}
+{{- $js = $resource| js.Build $jsConfig | babel $babelConfig | fingerprint -}}
 {{- end -}}
 {{- if eq (hugo.Environment) "development" -}}
 {{- $jsConfig = (dict "sourceMap" "inline" "target" "es2015" "params" $params) -}}
-{{- $js = $resource | js.Build $jsConfig | fingerprint "md5" -}}
+{{- $js = $resource | js.Build $jsConfig | fingerprint -}}
 {{ end -}}
 
 <script {{ with $load }}{{ . }}{{ end }} 
