@@ -4,7 +4,7 @@
   "paths": {
    "*": [
     "*",
-    "..\\..\\..\\..\\Users\\Sean\\AppData\\Local\\Temp\\hugo_cache\\modules\\filecache\\modules\\pkg\\mod\\github.com\\future-wd\\hugo-contact-form-xhr\\v2@v2.1.2\\assets\\*"
+    "..\\..\\..\\future-wd\\hugo-contact-form-xhr\\v2\\assets\\*"
    ]
   }
  }

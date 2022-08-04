@@ -198,7 +198,7 @@
 "url" $.Permalink ) -}}
 {{ end }}
 
-<script type="application/ld+json">
+<script type="application/ld+json" id="json-product">
 {{ $scratch.Get "product" | jsonify (dict "prefix" " " "indent" "  ")| safeJS }}
 </script>
 
