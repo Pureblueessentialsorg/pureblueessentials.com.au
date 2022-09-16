@@ -1,0 +1,8 @@
+{{ if ne .Site.Params.snipcart.enabled false -}}
+<div hidden id="snipcart" 
+data-api-key="{{- .Site.Params.snipcart.key -}}"
+{{ if site.Params.snipcart.side -}}
+data-config-modal-style="side"  
+{{- end -}}
+></div>
+{{- end -}}

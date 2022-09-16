@@ -1,0 +1,27 @@
+module:
+  hugoVersion:
+    min: "0.64.0"
+  mounts:
+    - source: data
+      target: data
+    - source: templates
+      target: layouts/netlifycms
+    - source: partials
+      target: layouts/partials/tnd-netlifycms
+    - source: console
+      target: layouts/partials/tnd-netlifycms
+outputFormats:
+  netlifycms_debug:
+    baseName: config
+    isPlainText: true
+    mediatype: text/html
+    notAlternative: false
+  netlifycms_config:
+    baseName: config
+    isPlainText: true
+    mediatype: application/yaml
+    notAlternative: false
+mediaTypes:
+  application/yaml:
+    suffixes:
+    - yml

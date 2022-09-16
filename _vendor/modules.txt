@@ -1,0 +1,5 @@
+# github.com/future-wd/hugo-image/v3 v3.0.0-alpha.5
+# github.com/future-wd/hugo-svg-font/v2 v2.3.3
+# github.com/theNewDynamic/hugo-module-tnd-netlifycms v0.1.80
+# github.com/future-wd/hugo-snipcart/v3 v3.3.3
+# github.com/future-wd/hugo-contact-form-xhr/v2 v2.1.2
