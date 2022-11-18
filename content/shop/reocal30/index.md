@@ -3,7 +3,7 @@ visible: true
 title: Calm remedial essential oil blend 30ml
 id: reocal30
 draft: false
-popular: false
+popular: true
 images:
   - dsc_0289-2-.jpg
   - dsc_0445.jpg
