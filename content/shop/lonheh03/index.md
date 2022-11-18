@@ -5,7 +5,7 @@ id: lonheh03
 summary: 1x30ml bottle of Headache Help blend, 1x10ml bottle of Headache Help
   blend, 1x30ml bottle of jojoba oil
 draft: true
-popular: false
+popular: true
 images:
   - dsc_0433.jpg
 categories:
