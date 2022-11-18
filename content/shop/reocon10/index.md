@@ -3,7 +3,7 @@ visible: true
 title: Contentment remedial essential oil blend 10ml
 id: reocon10
 draft: false
-popular: true
+popular: false
 images:
   - dsc_0331.jpg
 categories:
