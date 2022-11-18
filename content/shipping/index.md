@@ -13,4 +13,4 @@ If you don't receive any shipping information via email, or need to get in touch
 
 pureblueessentials@gmail.com            with your order number in the subject line.
 
-Please also see our packaging and recycling policy regarding responsible recycling - and clever reuse -of your packaging once you receive your wonderful **pure blue essential** products !
+Please also see our packaging and recycling policy regarding responsible recycling - and clever reuse - of your packaging once you receive your wonderful **pure blue essential** products !
