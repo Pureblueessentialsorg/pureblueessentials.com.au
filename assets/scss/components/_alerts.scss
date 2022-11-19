@@ -1,4 +1,8 @@
-.alert-secondary {
+.alert.alert-secondary-dark {
   background-color: $secondary;
   color: $light;
+
+  a {
+    color: $light;
+  }
 }
