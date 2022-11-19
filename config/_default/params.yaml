@@ -20,7 +20,7 @@ smallLimit: "300"
 
 # Alert
 alert: true
-alertText: Free shipping within Australia for orders over $120
+alertText: Free shipping within Australia for orders over $120 | [15% off for XMAS use code **G1QB422Y**]({{< relref "/news" >}})
 
 
 
@@ -33,4 +33,4 @@ snipcart:
   key: MmY2YTFkN2MtMmQyNS00ZGE4LWIxNjMtODc5MDRiNGJmZTJlNjM3Nzg4MDk4NTI5MjU1Njk5
 
   side: false # or false for full screen cart
-  bootstrap: true # enables snipcart z-index css for bootstrap compatibility 
+  bootstrap: true # enables snipcart z-index css for bootstrap compatibility
