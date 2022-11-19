@@ -22,10 +22,8 @@ The **pure blue essential Longevity Packs** allows refilling of the 10ml bottle 
 
 It contains:
 
-\- a 30ml bottle of **Sleep Right** remedial essential oil blend;
-
-\- a 10ml bottle of **Sleep Right** remedial essential oil blend;
-
-\- a 30ml bottle of pure Australian jojoba oil (carrier oil). A carrier oil is necessary to safely apply essential oils to the skin.
+- a 30ml bottle of **Sleep Right** remedial essential oil blend;
+- a 10ml bottle of **Sleep Right** remedial essential oil blend;
+- a 30ml bottle of pure Australian jojoba oil (carrier oil). A carrier oil is necessary to safely apply essential oils to the skin.
 
 If you require more empty 10ml bottles they are available to purchase individually here (hyperlink)
