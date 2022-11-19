@@ -1,9 +1,7 @@
 {{ define "main" }}
-{{- /* shows a list news items */ -}}
-{{ range $i, $e := .Paginator.Pages.ByDate }}
+{{ range $i, $e := .Paginator.Pages.ByDate.Reverse }}
   {{ $pages := len $.Paginator.Pages }}
-  {{ if or (eq $i 0) (and (modBool $pages 2) (eq $i (sub $pages 1))) }}
-  {{- /* first news item, or last item for even - full width article */ -}}
+  {{ if .Params.images }}
   <div class="row pb-3">
     <div class="col-md-4">
       {{ template "image" . }}
@@ -13,22 +11,11 @@
     </div>
   </div>
   {{ else }}
-  {{- /* half width pairs*/ -}}
-    {{ if not (modBool $i 2) }}
-    {{- /* if odd number */ -}}
-    <div class="row pb-3">
-      <div class="col-md-6">
-        {{ template "image" . }}
-        {{ template "news" . }}
-      </div>
-    {{ else }}
-    {{- /* if even number */ -}}
-      <div class="col-md-6">
-        {{ template "image" . }}
-        {{ template "news" . }}
-      </div>
+  <div class="row pb-3">
+    <div class="col">
+      {{ template "news" . }}
     </div>
-    {{ end }}
+  </div>
   {{ end }}
 {{ end }}
 

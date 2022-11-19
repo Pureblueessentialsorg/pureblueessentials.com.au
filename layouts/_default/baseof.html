@@ -1,12 +1,5 @@
 <!doctype html>
-{{- /* uppercase country code in language code */ -}}
-{{- $lang := .Lang -}}
-{{- $country := index (findRE `-([a-z]*)` .Lang 1) 0 -}}
-{{ upper $country }}
-{{- if $country -}}
-{{- $lang = replaceRE "-([a-z]*)" (upper $country) .Lang 1 -}}
-{{- end -}}
-<html lang="{{ $lang }}" class="no-js min-vh-100">
+<html lang="{{ .Lang }}" class="no-js min-vh-100">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">

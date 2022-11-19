@@ -8303,9 +8303,11 @@ input[type="search"]::-webkit-search-results-decoration {
 .header__title {
   font-size: 4rem; }
 
-.alert-secondary {
+.alert.alert-secondary-dark {
   background-color: #0d4a80;
   color: #E7E7E7; }
+  .alert.alert-secondary-dark a {
+    color: #E7E7E7; }
 
 .svg-font {
   font-size: inherit;
