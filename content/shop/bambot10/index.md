@@ -20,9 +20,9 @@ width: 2
 ---
 We are pleased to be able to provide you with refillable 10ml bottles that are safe for essentials oils.
 
-They are high quality and environmentally friendly, with a glass bottle in a bamboo casing and a stainless steel roller. The only plastic component is the bottle top thread and roller capture, providing a leak-proof seal.
+They are high quality and environmentally friendly, with a glass bottle in a bamboo casing and a stainless steel roller. The only plastic component is the lid thread and roller capture, providing a leak-proof seal.
 
-Top up your **pure blue essentials** remedial essential oil blend over and over again, blend your own essential oil formula, , or use for a single oil.
+Top up your **pure blue essentials** remedial essential oil blend over and over again, blend your own essential oil formula, or use for your favourite single oil.
 
 **Cautions:**
 

@@ -4,7 +4,7 @@ title: Fisiocrem 60gms
 id: fiscre60
 summary: Fisiocrem solugel 60gm tube
 draft: false
-popular: true
+popular: false
 images:
   - dsc_0422.jpg
   - dsc_0420.jpg

@@ -9,17 +9,15 @@ menu:
 images:
   - pbelogo230322.png
 ---
-**pure blue essentials** is a small Australian company borne out of a need for natural health products to supply our own clients.
+**pure blue essentials** is a small Australian business borne out of a need for natural health products to supply to remedial massage therapy clients.  
 
-Jacinda Minahan, the founder of **pure blue essentials**, holds a Diploma in Horticulture (Herbs, Medicinal Plants and Essential Oils) and a Diploma in Remedial Massage Therapy.
-
-These have combined with over 20 years’ experience in these industries to shape our high quality products.
+Jacinda Minahan, the founder of **pure blue essentials**, holds a Diploma in Horticulture (Herbs, Medicinal Plants and Essential Oils) and a Diploma in Remedial Massage Therapy.  With a total of over 20 years experience in both sectors, our high quality natural health products have been shaped to support your health needs.
 
 Our aim is to always bring you high quality, pure, natural products for the essentials of healthy living, at home and on the move, allowing you to take your natural health care into your own hands.
 
-The ingredients and packaging we use are sourced locally, sustainably and ethically where possible.  We ensure that our products are free of palm oil, GMOs, animal products, synthetic fragrances and artificial colours.
+The ingredients and packaging we use are sourced locally, sustainably and ethically where possible.  We ensure that our products are always free of palm oil, GMOs, animal products, synthetic fragrances and artificial colours.
 
-As our business grows we will always keep your products pure, look for ways to further support local business, and contribute greater percentages to not-for-profit organisations.
+As our business grows we will always keep our products pure, look for ways to further support local business, and contribute greater percentages to not-for-profit organisations.
 
 **Why blue???**
 

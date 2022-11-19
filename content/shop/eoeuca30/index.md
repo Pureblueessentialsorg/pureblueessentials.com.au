@@ -4,7 +4,7 @@ title: Eucalyptus essential oil 30ml
 id: eoeuca30
 summary: pure eucalyptus essential oil
 draft: false
-popular: true
+popular: false
 images:
   - dsc_0457.jpg
 categories:
