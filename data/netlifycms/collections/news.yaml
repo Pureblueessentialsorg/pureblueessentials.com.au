@@ -3,7 +3,7 @@ label: "News"
 folder: "content/news"
 filter: {field: "visible", value: true}
 delete: false
-slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+path: "{{year}}-{{month}}-{{day}}_{{slug}}"
 media_folder: ''
 public_folder: ''
 create: true
