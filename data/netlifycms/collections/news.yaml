@@ -1,16 +1,15 @@
 name: "news"
 label: "News"
-# label_singular: "Product"
 folder: "content/news"
 filter: {field: "visible", value: true}
 delete: false
-path: "{{date}}/index.md"
+slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
 media_folder: ''
 public_folder: ''
 create: true
 fields:
 - import field visible
-- import field title 
+- import field title
 - name: date
   label: Date
   widget: date
@@ -19,4 +18,4 @@ fields:
 - import field summary
 - import field draft
 - import field images
-- import field body 
+- import field body
