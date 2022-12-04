@@ -20,7 +20,7 @@ smallLimit: "300"
 
 # Alert
 alert: true
-alertText: Free shipping within Australia for orders over $120 | [15% off for XMAS use code **G1QB422Y**]({{< relref "/news" >}})
+alertText: Free shipping within Australia for orders over $120 | 15% off for XMAS use code **G1QB422Y**
 
 
 
