@@ -31,7 +31,7 @@
       <h4 class="">Shop Categories</h4>
       <ul class="list-unstyled">
         {{ range sort . "Page.Params.weight" }}
-          <li>{{ partial "svg-font" (dict "src" "icons/box/bx-chevron-right" )}} 
+          <li>{{ partial "svg-font" (dict "src" "icons/box/bx-chevron-right" )}}
             <a class="text-decoration-none"
               href="{{ .Page.RelPermalink }}">{{ .Page.Title | humanize | title }}</a>
           </li>
@@ -59,7 +59,7 @@
         {{ end -}}
       </ul>
     </div>
-    
+
   </div> -->
   <div class="row">
     <!-- <div class="col-sm-3 col-md-2 d-flex align-items-end justify-content-end  m-0 p-0">
@@ -74,7 +74,7 @@ test
         <div class="d-flex align-items-center">
           <div class="fs-4 text-white me-2 my-2">
           {{ if .Pre }}
-          {{ partial "svg-font" (dict "src" .Pre "block" true "title" .Name "desc" .Params.desc) }} 
+          {{ partial "svg-font" (dict "src" .Pre "block" true "title" .Name "desc" .Params.desc) }}
           {{ end }}
           </div>
         </div>
@@ -91,15 +91,18 @@ test
         "title" "Pure Blue Essentials Logo"
         "layout" "fixed"
         "width" 300
+        "densities" (slice 1 2)
+        "page" .
+        "type" "global"
         )}}
       {{ partial "image" $dict }}
-     
+
 
   </div>
     <div class="col-sm-2 col-5 d-flex align-items-end justify-content-end pb-3">
-   
+
         {{ partial "blocks/menu-social" (dict "fontClass" "text-white fs-3" "class" "me-2") }}
- 
+
     </div>
   </div>
   <!-- <div class="row">
@@ -111,7 +114,7 @@ test
         &copy; <span id="year"><noscript>{{ now.Format "2006"}}</noscript></span> &nbsp;{{ .Site.Copyright | default .Site.Title }}
         {{- end -}}
       </span>
-   
+
     </div>
   </div>
 </div> -->

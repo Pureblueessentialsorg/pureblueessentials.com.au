@@ -16,7 +16,7 @@ googleAnalytics: "G-JNXJ0NDPXB"
 # languages:
 #   en-au:
 #     weight: 1
-#pagination 
+#pagination
 paginate: 15
 rssLimit: 10
 title: pure blue essentials
@@ -36,7 +36,7 @@ mediaTypes:
 
 
 outputFormats:
-  # add output format for netlify _redirects  
+  # add output format for netlify _redirects
   REDIRECTS:
     mediatype: "text/netlify"
     baseName: "_redirects"
@@ -84,8 +84,10 @@ related:
 # import modules
 module:
   imports:
-  - path: github.com/future-wd/hugo-image/v3
+  - path: github.com/future-wd/hugo-responsive-images
   - path: github.com/future-wd/hugo-svg-font/v2
   - path: github.com/theNewDynamic/hugo-module-tnd-netlifycms
   - path: github.com/future-wd/hugo-snipcart/v3
   - path: github.com/future-wd/hugo-contact-form-xhr/v2
+
+ignoreErrors: ["alt-error"]
