@@ -46,6 +46,6 @@
     "postcss": "^8.4.14",
     "postcss-cli": "^9.1.0",
     "purgecss-whitelister": "^2.4",
-    "swiper": "^8.2.6"
+    "swiper": "^9.0.0"
   }
 }
