@@ -5,13 +5,10 @@
         {{ $dict := (dict
           "src" "images/top-left.png"
           "title" "Pure Blue Essentials Logo"
-          "layout" "fixed"
           "width" 300
           "loading" "auto"
           "class" "pe-4 img-fluid"
-          "densites" (slice 1 2)
-          "page" .
-          "placeholder" false
+          "ctx" .
           "type" "global"
           )}}
         {{ partial "image" $dict }}

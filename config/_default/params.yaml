@@ -6,21 +6,9 @@ titleAddition: All Natural Ingredients
 # fall back description if a page does not have a description.
 description: "Providing the essentials to optimise your health, hand made from pure ingredients found in nature."
 
-
-# Images
-quality: 85
-bgColor: "#fff"
-landscapePhotoWidths: [900, 800, 700, 600, 500]
-portraitPhotoWidths: [800, 700, 600, 500]
-lqipWidth: "20x"
-smallLimit: "300"
-
-# Footer - override default copyright message
-# footer: "Custom Footer Text"
-
 # Alert
 alert: true
-alertText: Free shipping within Australia for orders over $120 | 15% off for XMAS use code **G1QB422Y**
+alertText: Free shipping within Australia for orders over $120
 
 
 

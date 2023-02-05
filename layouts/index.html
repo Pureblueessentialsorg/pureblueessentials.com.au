@@ -3,7 +3,7 @@
   <div class="row justify-content-center mt-3">
     <div class="col text-center d-flex justify-content-evenly flex-column">
        <div class="hero">
-        <h1 class="hero__title">{{ .Site.Title }}</h1>
+        <!-- <h1 class="hero__title">{{ .Site.Title }}</h1> -->
         {{ if (or .Params.line1 .Params.line2) }}
         <div class="row text-center mb-5">
           {{ with .Params.line1 }}
@@ -24,33 +24,11 @@
     </div> -->
     </div>
   </div>
-
-  <!-- <div class="row justify-content-center">
-  <div class="col-lg-10 text-center">
-    <a class="btn btn-dark px-3" href="#shop" role="button">Shop Now</a>
-    <a class="btn btn-outline-dark px-3" href="#" role="button">Button 2</a>
-  </div>
-</div> -->
   <!-- {{- .Content -}} -->
-
-  <!-- <div class="row row-cols-2 row-cols-lg-4 g-4 d-flex justify-content-center py-3 g-3">
-  {{ range .Site.Menus.icons }}
-  <div class="col">
-    <div class="icon d-flex align-items-center h-100 border border-primary border-opacity-25 px-3 py-4 ">
-      <div class="icon__svg fs-1 me-3">
-        {{ partial "svg-font" (dict "src" .Pre "block" true) }}
-      </div>
-      <div class="icon__text h5 text-wrap text-break m-0">
-        {{ .Name }}
-      </div>
-    </div>
-  </div>
-  {{ end }}
-</div> -->
   <div class="row mb-3 d-flex justify-content-center">
     <div class="col-lg-10 col-xl-9">
       <!-- Slider main container -->
-      <div class="swiper swiperHome position-relative " id="js-swiperHome">
+      <div class="swiper swiper-home position-relative " id="js-swiperHome">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper ">
           <!-- Slides -->
@@ -66,7 +44,7 @@
           ) -}}
           <div class="swiper-slide">{{ partial "image" $dict }}</div>
           {{- end }}
-        
+
         </div>
         <div class="position-absolute start-50 translate-middle-x" style="z-index:2000;bottom:15%;">
           <a href="{{ relref . " /shop" }}" class="btn btn-primary btn-lg">Shop Now</a>

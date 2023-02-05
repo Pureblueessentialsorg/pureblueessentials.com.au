@@ -8208,6 +8208,9 @@ img[data-sizes="auto"] {
     .swiper-shop-thumbs .swiper-slide-thumb-active {
       opacity: 1; }
 
+.swiper-home {
+  max-height: 60vh; }
+
 .back-to-top {
   position: fixed;
   right: 15px;

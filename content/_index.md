@@ -3,7 +3,7 @@ draft: false
 lastmod: 2020-04-17T12:18:10+00:00
 date: 2020-04-17T12:18:10+00:00
 title: Home
-description: The essentials to optimise your health, hand made from natural ingredients
+description: Australia's premier essential oils supplier direct to the public. The essentials to optimise your health, hand made from natural ingredients. All oils hand blended and bottled in Australia in the Bega Valley.
 images:
   - adobestock_107111601.jpeg
   - blue-ge8138b870_1280.jpg

@@ -12,7 +12,7 @@
   </div>
   {{ end }}
   {{ end }}
-  {{ .Content }}
+  {{ .Content }}  
   {{ if .Params.images }}
   {{ if index .Params.images 1}}
   {{ with $img1 := .Resources.GetMatch (index .Params.images 1) }}

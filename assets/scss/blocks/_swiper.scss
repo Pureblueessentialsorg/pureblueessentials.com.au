@@ -35,7 +35,7 @@ $themeColor: $primary; // #007aff !default;
         width: 100% !important;
         height: auto !important;
         // min-height: 200px;
-        display: block; // for lazysizes 
+        display: block; // for lazysizes
         // height: initial !important;
         // object-fit: cover !important;
         // object-position: center !important;
@@ -61,4 +61,6 @@ $themeColor: $primary; // #007aff !default;
   }
 }
 
-
+.swiper-home {
+  max-height: 60vh;
+}
