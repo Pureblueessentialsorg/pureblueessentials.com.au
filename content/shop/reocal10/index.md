@@ -3,7 +3,7 @@ visible: true
 title: Calm remedial essential oil blend 10ml
 id: reocal10
 draft: false
-popular: false
+popular: true
 images:
   - dsc_0291-2-.jpg
 categories:
