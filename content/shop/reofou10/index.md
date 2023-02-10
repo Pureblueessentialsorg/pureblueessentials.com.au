@@ -3,7 +3,7 @@ visible: true
 title: Four thieves remedial essential oil blend 10ml
 id: reofou10
 draft: false
-popular: true
+popular: false
 images:
   - dsc_0294-2-.jpg
 categories:
