@@ -2,7 +2,7 @@
 visible: true
 title: Sleep Right remedial essential oil blend 30ml
 id: reosle30
-summary: ""
+summary: essential oil blend for better sleep
 draft: false
 popular: true
 images:
