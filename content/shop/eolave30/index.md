@@ -4,7 +4,7 @@ title: Lavender essential oil 30ml
 id: eolave30
 summary: pure lavender essential oil
 draft: false
-popular: true
+popular: false
 images:
   - dsc_0455.jpg
 categories:
