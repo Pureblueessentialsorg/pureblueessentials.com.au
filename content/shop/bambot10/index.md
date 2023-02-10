@@ -10,12 +10,12 @@ images:
   - dsc_0556-2-.jpg
 categories:
   - bottles
-price: 5.95
+price: 5.45
 size: 10ml
 brand: pure blue essentials
 weight: 100
 length: 2
-height: 12
+height: 10
 width: 2
 ---
 We are pleased to be able to provide you with refillable 10ml bottles that are safe for essentials oils.
