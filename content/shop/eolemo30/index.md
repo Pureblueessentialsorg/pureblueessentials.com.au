@@ -4,7 +4,7 @@ title: Lemongrass essential oil 30ml
 id: eolemo30
 summary: pure lemongrass essential oil
 draft: false
-popular: true
+popular: false
 images:
   - dsc_0454.jpg
 categories:
