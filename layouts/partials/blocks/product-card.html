@@ -1,17 +1,21 @@
 <div class="card bg-transparent shadow h-100">
-  
+
   <a href="{{ $.Permalink }}">
     {{ with .Params.images }}
       {{ $img := (index . 0) }}
-      {{ partial "image" (dict "src" $img "page" $ "title" $.Title "class" "img-fluid card-img-top" 
+      {{ partial "image" (dict "src" $img "page" $ "title" $.Title "class" "img-fluid card-img-top"
       "widths" (slice 260 540) "fillRatio" (slice 6 4) ) }}
     {{ else }}
-      {{ $img := "images/product-logo.png" }}
-      {{ partial "image" (dict "src" $img "title" $.Title "class" "img-fluid card-img-top" 
-      "widths" (slice 260 540) "fillRatio" (slice 6 4) ) }}
+      {{ partial "image" (dict
+        "src" "assets/images/product-logo.png"
+        "ctx" $
+        "title" $.Title
+        "class" "img-fluid card-img-top"
+        "widths" (slice 260 540)
+        "fillRatio" (slice 6 4) ) }}
     {{ end }}
   </a>
- 
+
   <div class="card-body d-flex flex-column">
     <a href="{{ .Permalink }}" class="text-decoration-none stretched-link">
       <h5 class="card-title">{{ .Title  }}</h5>

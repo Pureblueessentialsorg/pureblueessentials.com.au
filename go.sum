@@ -38,6 +38,10 @@ github.com/future-wd/hugo-responsive-images v1.1.12 h1:F9lRcvoHlDAxPRzswxd8+o4C1
 github.com/future-wd/hugo-responsive-images v1.1.12/go.mod h1:zu7P18tofMOufY0bGmvBkFno25/caSo5JLWPV9yK40E=
 github.com/future-wd/hugo-responsive-images v1.2.12 h1:ludZdZotZ63tOViSbEYXhJkd3pLRAjFIzeC1a+8avek=
 github.com/future-wd/hugo-responsive-images v1.2.12/go.mod h1:YE72mEpC8vO+vJTDmDhgNIQV3N7QdV3gleRwe8zrgmU=
+github.com/future-wd/hugo-responsive-images v1.2.13 h1:ts5HuaPyhCxEw2hzhRGZkoiwvsAQ+KhZ3iQhR9V8His=
+github.com/future-wd/hugo-responsive-images v1.2.13/go.mod h1:YE72mEpC8vO+vJTDmDhgNIQV3N7QdV3gleRwe8zrgmU=
+github.com/future-wd/hugo-responsive-images v1.2.14 h1:ClSqIxcLCnfz7KKZiIWvDKSrKY/Uc+Am1qZSFEvN2yM=
+github.com/future-wd/hugo-responsive-images v1.2.14/go.mod h1:YE72mEpC8vO+vJTDmDhgNIQV3N7QdV3gleRwe8zrgmU=
 github.com/future-wd/hugo-snipcart/v3 v3.1.2 h1:Fw5HJERwgqG3LY3vRJCzKml1aUxJSD5ZkxCmv6NbVCI=
 github.com/future-wd/hugo-snipcart/v3 v3.1.2/go.mod h1:ZGcdXCpUHf7QUkEgKhwGonStqIaxzUZ13WQd5lDVtCw=
 github.com/future-wd/hugo-snipcart/v3 v3.3.0 h1:EWysXWsniJiRIcE6lHvZ3vMve9NPt7Fb55YGbCwVKdE=
