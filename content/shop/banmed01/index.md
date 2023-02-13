@@ -5,6 +5,8 @@ id: banmed01
 summary: medium banksia essential oil diffuser
 draft: false
 popular: false
+images:
+  - banksia-pod-small-blue-border.png
 categories:
   - bottles
 price: 30
