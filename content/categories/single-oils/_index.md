@@ -1,5 +1,5 @@
 ---
-title: Single (pure) essential oils
+title: Single essential oils
 images:
   - adobestock_127641279.jpeg
 id: single-oils
