@@ -9,13 +9,13 @@ menu:
 images:
   - pbelogo230322.png
 ---
-**pure blue essentials** is a small Australian business borne out of a need for natural health products to supply to remedial massage therapy clients.  
+**pure blue essentials** is a small Australian business created out of a need for natural health products to support remedial massage clients.  
 
-Jacinda Minahan, the founder of **pure blue essentials**, holds a Diploma in Horticulture (Herbs, Medicinal Plants and Essential Oils) and a Diploma in Remedial Massage Therapy.  With a total of over 20 years experience in both sectors, our high quality natural health products have been shaped to support your health needs.
+Jacinda Minahan, the founder of **pure blue essentials**, holds a Diploma in Horticulture (Herbs, Medicinal Plants and Essential Oils) and a Diploma in Remedial Massage Therapy.  With a total of over 20 years experience in both sectors, our high quality natural health products have been expertly shaped to support your health needs.
 
 Our aim is to always bring you high quality, pure, natural products for the essentials of healthy living, at home and on the move, allowing you to take your natural health care into your own hands.
 
-The ingredients and packaging we use are sourced locally, sustainably and ethically where possible.  We ensure that our products are always free of palm oil, GMOs, animal products, synthetic fragrances and artificial colours.
+Our ingredients and packaging are sourced locally, sustainably and ethically.  We ensure that our products are *always* free of palm oil, GMOs, animal products, synthetic fragrances and artificial colours.  We only add a high carrier oil (Australian owned and grown jojoba oil) to our 10ml roll-on products, to make it safe to directly apply to  the skin.  In any 30ml essential oil blend there is no carrier oil, it is a combination of 100% pure essential oils that are for the purpose described.
 
 As our business grows we will always keep our products pure, look for ways to further support local business, and contribute greater percentages to not-for-profit organisations.
 
