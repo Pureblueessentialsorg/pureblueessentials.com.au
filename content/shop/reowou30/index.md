@@ -3,7 +3,7 @@ visible: true
 title: Wound Care remedial essential oil blend 30ml
 id: reowou30
 draft: false
-popular: false
+popular: true
 images:
   - dsc_0285-2-.jpg
   - dsc_0444.jpg
