@@ -15,6 +15,9 @@ function update(id, num) {
 update('js-sizes', 1);
 // longetivity pack
 update('js-long', 4);
+// diffuser pack
+// longetivity pack
+update('js-diff', 5);
 // heat pack
 update('js-designs', 3);
 update('js-fillings', 4);

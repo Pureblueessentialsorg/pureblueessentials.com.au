@@ -1,9 +1,9 @@
 <button class="btn btn-primary snipcart-add-item my-3" href="#" id="js-snip"
 data-item-id="{{ .Params.id }}"
-data-item-price="{{ .Params.price }}" 
+data-item-price="{{ .Params.price }}"
 data-item-url="{{ .Permalink }}"
 data-item-description="{{ .Summary }}"
-{{- $ctx := . -}} 
+{{- $ctx := . -}}
 {{- $sizes := slice -}}
 {{ range .Params.sizes }}
 {{ $sizes = $sizes | append (printf "%s[+%d]" .size (sub .price $ctx.Params.price) ) }}
@@ -32,14 +32,20 @@ data-item-description="{{ .Summary }}"
     data-item-custom4-options="{{ delimit (apply . "title" "." )  "|" }}"
   {{ end }}
 {{ end }}
-     
+{{ if .Params.diff }}
+  {{ with .Site.Data.essentialOils.types }}
+    data-item-custom5-name="Essential Oil"
+    data-item-custom5-options="{{ delimit (apply . "title" "." )  "|" }}"
+  {{ end }}
+{{ end }}
+
 {{ with .Params.images }}
 {{ $image := $.Resources.GetMatch (index . 0) }}
 {{ $image = $image.Fill "120x80" }}
 data-item-image="{{ $image.RelPermalink }}"
 {{ end }}
 data-item-name="{{ .Title }}"
-data-item-id="{{ .Params.id }}" 
+data-item-id="{{ .Params.id }}"
 {{ with .Params.categories }}
 data-item-categories="{{ delimit . "|" }}"
 {{ end }}
