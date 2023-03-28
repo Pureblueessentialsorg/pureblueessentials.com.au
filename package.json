@@ -29,7 +29,7 @@
     "lint:markdown": "markdownlint *.md content/**/*.md"
   },
   "devDependencies": {
-    "eslint": "^8.18.0",
+    "eslint": "^8.36.0",
     "markdownlint-cli": "^0.33.0",
     "npm-check": "^6.0.1",
     "stylelint": "^15.3.0",
