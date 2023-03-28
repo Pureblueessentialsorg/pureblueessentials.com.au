@@ -2,7 +2,8 @@
 @import "bootstrap/index";
 
 /** Import theme styles */
-// common
+/* common */
+
 @import "common";
 // blocks
 @import "blocks";
@@ -20,7 +21,7 @@
     color: $primary !important;
     border-color: #bfc1c2 !important;
   }
- 
+
 
   &__text {
     // &:hover {
@@ -52,7 +53,7 @@
     margin: 0;
     padding-left: 0em;
   }
-  
+
   ul li {
     position: relative;
     margin: 0.5rem 0.5em;
