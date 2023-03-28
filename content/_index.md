@@ -11,7 +11,8 @@ images:
   - image.jpg
   - ylangylangsqpic.png
   - _20220517_113421.jpg
-  - banksia-blue-background.png
+  - banksia-large.jpg
+
 lead: "**Welcome to our online shop**"
 description: Australia's premier essential oils supplier direct to the public.
   The essentials to optimise your health, hand made from natural ingredients.
