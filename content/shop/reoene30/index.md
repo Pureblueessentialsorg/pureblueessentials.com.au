@@ -2,7 +2,7 @@
 visible: true
 title: Energise remedial essential oil blend 30ml
 id: reoene30
-summary: ""
+summary: An uplifting blend of 100% pure essential oils
 draft: false
 popular: false
 images:
@@ -37,6 +37,10 @@ It can be used in a variety of ways including:
 \- use in home-made lotions or balms
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
+
+
+
+
 
 **Cautions:**
 
