@@ -18,7 +18,7 @@ height: 11
 width: 3
 ---
 \
-**Wound Care** remedial essential oil blend is an extremely helpful blend to have on hand, both at home and on the move, as a high grade topical oil to treat cuts, grazes, stings and other wounds.**Cautions:**
+**Wound Care** remedial essential oil blend is an extremely helpful blend to have on hand, both at home and on the move, as a high grade topical oil to treat cuts, grazes, stings and other wounds.
 
 It contains lavender, arnica, tea tree, helichrysum essential oils, calendula infusion and plant-derived vitamin e oil
 
@@ -38,7 +38,7 @@ It can be used in a variety of ways including:
 
 \- use in home-made lotions or balms
 
-Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
+Also available in a **value bundle**, or in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. 
 
 **Cautions:**
 
