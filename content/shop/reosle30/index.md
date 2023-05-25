@@ -2,7 +2,8 @@
 visible: true
 title: Sleep Right remedial essential oil blend 30ml
 id: reosle30
-summary: 100% pure essential oil blend for better sleep
+summary: 100% pure essential oil blend for better sleep - get to sleep, stay
+  asleep and feel rested in the morning
 draft: false
 popular: true
 images:
@@ -36,7 +37,15 @@ It can be used in a variety of ways including:
 
 \- use in home-made lotions or balms
 
-Also available in a **value bundle**, or in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. 
+Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. 
+
+After more value for money? The **Sleep Right value bundle** contains:
+
+\- a 30ml bottle of this remedial essential oil blend;
+
+\- 30ml bottle of jojoba oil (carrier oil);
+
+\- 10ml bottle (glass with bamboo casing) to refill with your **Sleep Right** blend and carrier oil many times over.
 
 
 
