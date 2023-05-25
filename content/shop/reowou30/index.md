@@ -40,6 +40,8 @@ It can be used in a variety of ways including:
 
 Also available in a **value bundle**, or in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. 
 
+
+
 **Cautions:**
 
 Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, discontinue use.
