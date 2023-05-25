@@ -2,6 +2,8 @@
 visible: true
 title: Four Thieves remedial essential oil blend 30ml
 id: reofou30
+summary: The age-old recipe that has been used as an anti-bacterial, anti-viral
+  and anti-fungal
 draft: false
 popular: true
 images:
@@ -41,6 +43,10 @@ This 30ml bottle containing 100% pure essential oils that can be used in a varie
 \- use in home-made lotions or balms
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
+
+
+
+
 
 **Cautions:**
 
