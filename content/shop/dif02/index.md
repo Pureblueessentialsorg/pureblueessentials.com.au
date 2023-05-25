@@ -5,7 +5,7 @@ diff: true
 visible: true
 title: Banksia oil diffuser gift pack
 id: dif02
-summary: Diffuser gift pack
+summary: Banksia pod essential oil diffuser with a 30ml essential oil blend
 popular: false
 categories:
   - gift-packs
