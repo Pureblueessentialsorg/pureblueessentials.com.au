@@ -2,6 +2,7 @@
 visible: true
 title: Headache Help remedial essential oil blend 30ml
 id: reoheh30
+summary: 100% pure essential oil blend to reduce the pain and symptoms of headaches
 draft: false
 popular: false
 images:
@@ -23,7 +24,7 @@ Lavender is a wonderful relaxant and sedative, reducing stress, anxiety and tens
 
 Lemongrass is an effective muscle and vascular relaxant.
 
-Frankincense reduces the effects of stress and can help our circadian rhythm equalise. It is also known to be relaxing, soothing and calming, which can prevent a headache from coming on.
+Frankincense reduces the effects of stress and can help calm the nervous system.  It is also known to be relaxing, soothing and calming, which can prevent a headache from coming on.  
 
 Peppermint helps to relieve pain, has a decongesting effect and reduces vascular inflammation.
 
@@ -40,6 +41,16 @@ This 30ml bottle containing 100% pure essential oils that can be used for a vari
 \- use in home-made lotions or balms
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
+
+After more value for money? The **Headache Help value bundle** contains:
+
+\- 30ml bottle of this remedial essential oil blend;
+
+\- 30ml bottle of jojoba oil (carrier oil);
+
+\- 10ml bottle (glass with bamboo casing) to refill with your **Headache Help** blend and carrier oil many times over.  
+
+
 
 **Cautions:**
 
