@@ -1,14 +1,10 @@
 ---
 title: Terms and Conditions
-summary: Terms and Conditions and Refund Policy
+summary: Terms and Conditions and Refund Policy - the legal stuff
 ---
-
-
 **TERMS AND CONDITIONS:**
 
 All aspects of business undertaken by Pure Blue Essentials adheres to Australian consumer Law.
-
-
 
 **Ordering Information:**
 
@@ -26,15 +22,13 @@ Once an order is confirmed and paid for, order cancellation requests due to chan
 
 Products sold are not for human ingestion or consumption. They are for external use only and not for any other intended purpose.
 
-
-
 **Payments:**
 
 All orders must be paid for and cleared by accounts before shipment/delivery.
 
 Payments can me made via Credit Card, Debit Card (VISA & Mastercard) or PayPal.
 
-We do not accept cheque payments
+We do not accept cheque payments.
 
 
 
@@ -44,9 +38,9 @@ Price does not include freight.
 
 Freight will be calculated and charged prior to your order being finalised. Freight is calculated on size, weight and Dangerous Good (DG) classification of your order.
 
-We will ship goods using Australian Wholesale Oils nominated service provider for Australian customers. We do not use any customer provided courier services.
+We will ship goods using Pure Blue Essentials' nominated service provider for Australian customers. We do not use any customer provided courier services. 
 
-For International Orders, we will advise cost of courier and an estimated lead time for delivery. AWO will not be held responsible for any goods held up or incurring extra local clearance charges. Please check with your local custom agents or shipping agent prior to shipment of goods.
+For International Orders, we will advise cost of courier and an estimated lead time for delivery. Pure Blue Essentials not be held responsible for any goods held up or incurring extra local clearance charges. Please check with your local custom agents or shipping agent prior to shipment of goods. Pure Blue Essentials
 
 All orders should be checked and any discrepancy or error must be lodge within three (3) days of receipt of goods. Refer to our Returns Policy for more information.
 
@@ -87,9 +81,9 @@ By using this website you hereby consent to our Terms and Conditions.
 
 \------------------------------------------------------
 
-
-
 **REFUND POLICY:**
+
+
 
 **Discrepancies or Damages:**
 
@@ -98,6 +92,8 @@ If for any reason your product is faulty, incorrect or arrives damaged, please e
 Notification must be made within three (3) days of receiving your order. No claims will accepted after three (3) days from receipt of goods.
 
 After a claim has been made, the return must be received within thirty (20) days.
+
+
 
 **Change of Mind Returns & Cancellations:**
 
