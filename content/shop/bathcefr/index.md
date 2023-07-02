@@ -10,7 +10,7 @@ images:
   - dsc_0549-2-.jpg
 categories:
   - heat-packs
-price: 19
+price: 21
 size: 1kg
 brand: Pure Blue Essentials
 weight: 1000
