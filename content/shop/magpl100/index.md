@@ -2,7 +2,7 @@
 visible: true
 title: Magnesium rub PLUS
 id: magpl100
-summary: Liquid magnesium rub with lavender and lemongrass essential oils
+summary: Premium liquid magnesium rub with lavender and lemongrass essential oils
 draft: false
 popular: true
 images:
