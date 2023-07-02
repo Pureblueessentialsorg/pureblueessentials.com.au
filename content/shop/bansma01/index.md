@@ -6,7 +6,7 @@ summary: small banksia essential oil diffuser
 draft: false
 popular: false
 images:
-  - banksia-pod-small-blue-border.png
+  - banksia-blue-background.png
 categories:
   - bottles
 price: 18
