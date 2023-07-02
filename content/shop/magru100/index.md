@@ -2,14 +2,14 @@
 visible: true
 title: Magnesium rub
 id: magru100
-summary: Liquid magnesium rub in a pump pack bottle
+summary: Liquid magnesium rub with added essential oils (lavender and lemongrass)
 draft: false
 popular: false
 images:
   - dsc_0452.jpg
 categories:
   - rubs
-price: 18
+price: 19.95
 size: 100ml
 brand: pure blue essentials
 weight: 160
