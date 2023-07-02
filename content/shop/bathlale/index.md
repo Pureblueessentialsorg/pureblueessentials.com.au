@@ -2,7 +2,8 @@
 visible: true
 title: Bath soak Lavender and Lemongrass 1kg
 id: bathlale
-summary: Bath soaks fortified with lavender and lemongrass essential oils - 1kg
+summary: Magnesium-rich bath salts fortified with lavender and lemongrass
+  essential oils - 1kg
 draft: false
 popular: false
 images:
