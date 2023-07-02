@@ -9,7 +9,7 @@ summary: Banksia pod essential oil diffuser with a 30ml essential oil blend
 popular: false
 categories:
   - gift-packs
-price: 58
+price: 59
 brand: Pure Blue Essentials
 weight: 350
 length: 20
