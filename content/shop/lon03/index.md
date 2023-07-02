@@ -2,8 +2,8 @@
 visible: true
 title: Value Bundles
 id: lon03
-summary: 1x30ml and 1x10ml bottle of Essential Oil Blend of your choice, plus
-  1x30ml bottle of jojoba oil
+summary: "Value bundle: 1x30ml + 1x10ml Essential Oil Blend of your choice +
+  1x30ml bottle of jojoba oil"
 draft: false
 popular: false
 images:
@@ -11,7 +11,7 @@ images:
   - dsc_0432.jpg
 categories:
   - gift-packs
-price: 75
+price: 76.95
 size: 10ml + 30ml + 30ml
 brand: pure blue essentials
 weight: 280
