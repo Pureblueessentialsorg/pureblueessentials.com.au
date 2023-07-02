@@ -2,7 +2,7 @@
 visible: true
 title: Heat Packs (options available)
 id: heat
-summary: " Choose from 12 designs with some plush options too."
+summary: Wheat heat packs and lupin heat packs, made from all natural materials
 draft: false
 popular: true
 images:
@@ -21,10 +21,9 @@ images:
   - image_2022-04-03_103921.png
   - image_2022-04-03_103259.png
   - image_2022-04-03_103803.png
- 
 categories:
   - heat-packs
-price: 38
+price: 32.95
 size: large
 brand: pure blue essentials
 weight: 1100
