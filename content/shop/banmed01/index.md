@@ -6,7 +6,9 @@ summary: Medium - Banksia pod essential oil diffuser
 draft: false
 popular: false
 images:
-  - banksia-pod-small-blue-border.png
+  - banskia-medium-blue-background.png
+  - banksia-medium-image-2.jpg
+  - null
 categories:
   - bottles
 price: 30
