@@ -9,7 +9,7 @@ images:
   - dsc_0457.jpg
 categories:
   - single-oils
-price: 28
+price: 26
 size: 30ml
 brand: pure blue essentials
 weight: 60
