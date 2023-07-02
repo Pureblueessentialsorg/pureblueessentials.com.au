@@ -2,7 +2,7 @@
 visible: true
 title: Heat Pack - Lupins Filled
 id: heatlu01
-summary: Choose from 12 designs and some plush options too.
+summary: Lupin heat packs, made from all natural materials
 draft: true
 popular: true
 images:
@@ -22,7 +22,7 @@ images:
   - null
 categories:
   - heat-packs
-price: 34.95
+price: 32.95
 size: large
 brand: pure blue essentials
 weight: 1100
