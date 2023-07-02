@@ -22,7 +22,7 @@ images:
   - null
 categories:
   - heat-packs
-price: 38
+price: 34.95
 size: large
 brand: pure blue essentials
 weight: 1100
