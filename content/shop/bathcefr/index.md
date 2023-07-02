@@ -2,7 +2,8 @@
 visible: true
 title: Bath soak Cedar and Frankincense 1kg
 id: bathcefr
-summary: Bath salts fortified with cedar and frankincense essential oils - 1kg
+summary: Magnesium-rich bath salts fortified with cedar and frankincense
+  essential oils - 1kg
 draft: false
 popular: false
 images:
