@@ -5,4 +5,7 @@ images:
 id: remedial-oils
 weight: 10
 visible: true
+summary: "Essential oils to help alleviate the pain and symptoms of many common
+  complaints:  arthritis, anxiety, headaches, fatigue, low mood, insomnia, PMS,
+  muscle soreness and injury."
 ---
