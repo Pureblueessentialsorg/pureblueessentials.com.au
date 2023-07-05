@@ -5,4 +5,5 @@ images:
 id: single-oils
 weight: 50
 visible: true
+summary: Lavender, eucalyptus, lemongrass essentials oils.  Jojoba oil
 ---
