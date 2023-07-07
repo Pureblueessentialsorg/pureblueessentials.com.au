@@ -2,7 +2,8 @@
 visible: true
 title: Bath soak Cedar and Frankincense 1kg
 id: bathcefr
-summary: Bath salts fortified with cedar and frankincense essential oils - 1kg
+summary: Magnesium-rich bath salts fortified with cedar and frankincense
+  essential oils - 1kg
 draft: false
 popular: false
 images:
@@ -10,7 +11,7 @@ images:
   - dsc_0549-2-.jpg
 categories:
   - heat-packs
-price: 19
+price: 21
 size: 1kg
 brand: Pure Blue Essentials
 weight: 1000

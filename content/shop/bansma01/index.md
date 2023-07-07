@@ -6,7 +6,9 @@ summary: small banksia essential oil diffuser
 draft: false
 popular: false
 images:
-  - banksia-pod-small-blue-border.png
+  - banksia-blue-background.png
+  - image_2023-07-02_174435126.png
+  - null
 categories:
   - bottles
 price: 18
@@ -17,7 +19,7 @@ length: 10
 height: 13
 width: 10
 ---
-A﻿n essential oil diffuser made from the seed pod of the Banksia grandis.  Australian made, natural, re-usable and aesthetically beautiful.  Totally free of plastic and uses no batteries or electricity in its operation.  Choose from a small or medium size, depending on the size of your space to use your oil diffuser.
+T﻿hese beautiful all-natural essential oil diffusers are made from the seed pod of the Banksia grandis.  They are Australian made, totally free of plastic and require no batteries, no flame and no electricity for operation. 
 
 S﻿imply lift the cork, add 1ml of essential oils into the hole in the pod and replace the cork.  For maximum diffusion of the essential oil, top up every 3-4 days.
 

@@ -2,6 +2,7 @@
 visible: true
 title: Calm remedial essential oil blend 30ml
 id: reocal30
+summary: A popular blend to soothe, calm and relax
 draft: false
 popular: false
 images:
@@ -32,6 +33,16 @@ It can be used in a variety of ways including:
 \- use in home-made lotions or balms
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
+
+After more value for money? The **Calm value bundle** contains:  
+
+\- 30ml bottle of this remedial essential oil blend;
+
+\- 30ml bottle of jojoba oil (carrier oil);
+
+\- 10ml bottle (glass with bamboo casing) to refill with your **Calm** blend and carrier oil many times over.  
+
+
 
 **Cautions**:
 

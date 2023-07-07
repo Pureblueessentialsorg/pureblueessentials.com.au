@@ -2,7 +2,7 @@
 visible: true
 title: Magnesium rub PLUS
 id: magpl100
-summary: Liquid magnesium rub with lavender and lemongrass essential oils
+summary: Premium liquid magnesium rub with lavender and lemongrass essential oils
 draft: false
 popular: true
 images:
@@ -10,7 +10,7 @@ images:
   - dsc_0563.jpg
 categories:
   - rubs
-price: 23
+price: 23.95
 size: 100ml
 brand: pure blue essentials
 weight: 160
