@@ -1,5 +1,5 @@
 ---
-title: MAGNESIUM RUB AND FISIOCREM
+title: Magnesium Rubs and Fisiocrem
 images:
   - adobestock_378638303.jpeg
 id: rubs

@@ -1,5 +1,5 @@
 ---
-title: GIFT PACKS AND VALUE BUNDLES
+title: Gift Packs and Value Bundles
 images:
   - gift-packs-image.jpeg
 id: gift-packs

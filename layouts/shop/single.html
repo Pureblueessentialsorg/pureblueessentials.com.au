@@ -12,7 +12,8 @@
           <!-- Slides -->
           {{ range . }}
           <div class="swiper-slide">
-            <!-- <div class="swiper-lazy-preloader"></div> -->
+            {{ $img := $.Resources.GetMatch .}}
+            {{ if $img }}
             {{ $dict := (dict
               "src" .
               "placeholder" false
@@ -22,8 +23,9 @@
               "fillRatio" (slice 3 2)
               "widths" (slice 340 560)
               "sizes" "(min-width: 992px) 37.5vw,(min-width: 768px) 50vw, 100vw" ) }}
-            {{ partial "image" $dict }}
-          </div>
+            {{ partial "picture" $dict }}
+            {{ end }}
+            </div>
           {{ end }}
         </div>
         <!-- If we need navigation buttons -->
@@ -35,9 +37,17 @@
         <div class="swiper-wrapper">
           {{ range . }}
           <div class="swiper-slide">
-            {{ $dict := (dict "src" . "page" $ "title" $.Title "fillRatio" (slice 3 2) "widths" (slice 76 122) "loading"
-            "auto" ) }}
-            {{ partial "image" $dict }}
+            {{ $img := $.Resources.GetMatch .}}
+            {{ if $img }}
+              {{ $dict := (dict 
+                "src" $img 
+                "page" $ 
+                "title" $.Title 
+                "fillRatio" (slice 3 2) 
+                "widths" (slice 76 122) 
+                "loading" "auto" ) }}
+              {{ partial "picture" $dict }}
+            {{ end }}
           </div>
           {{ end }}
         </div>
@@ -47,12 +57,12 @@
     {{- /* if only one image is present dont load swiper */ -}}
     {{ $img := index $.Params.images 0 }}
     {{ $dict := (dict "src" $img "page" $ "title" $.Title "fillRatio" (slice 3 2)) }}
-    {{ partial "image" $dict }}
+    {{ partial "picture" $dict }}
     {{ end }}
     {{ else }}
     {{- /* no image provided */ -}}
     {{ $dict := (dict "src" "assets/images/product-logo.png" "title" $.Title "fillRatio" (slice 3 2) "ctx" $ )}}
-    {{ partial "image" $dict }}
+    {{ partial "picture" $dict }}
     {{ end }}
   </div>
   <div class="col-md-6">

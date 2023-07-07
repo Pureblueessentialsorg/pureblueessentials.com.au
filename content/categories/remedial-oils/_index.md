@@ -1,5 +1,5 @@
 ---
-title: REMEDIAL ESSENTIAL OIL BLENDS
+title: Remedial Essential Oil Blends
 images:
   - adobestock_268893290-2-.jpeg
 id: remedial-oils

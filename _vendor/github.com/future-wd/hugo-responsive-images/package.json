@@ -1,0 +1,34 @@
+{
+  "name": "@future-wd/hugo-image",
+  "version": "1.3.2",
+  "description": "Image processing for hugo",
+  "main": "layouts/partials/image.html",
+  "scripts": {
+    "release": "standard-version",
+    "release:dry-run": "standard-version --dry-run",
+    "git:push": "git push --follow-tags origin master",
+    "update": "npx npm-check --update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/future-wd/hugo-responsive-image"
+  },
+  "keywords": [
+    "hugo",
+    "image",
+    "responsive",
+    "placeholder",
+    "processing"
+  ],
+  "author": "Sean Emerson",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.3",
+    "prettier-plugin-go-template": "^0.0.13",
+    "standard-version": "^9.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/future-wd/hugo-responsive-images/issues"
+  },
+  "homepage": "https://github.com/future-wd/hugo-responsive-images#readme"
+}

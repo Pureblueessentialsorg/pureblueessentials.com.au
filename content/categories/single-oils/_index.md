@@ -1,5 +1,5 @@
 ---
-title: SINGLE ESSENTIAL OILS
+title: Single Essential Oils
 images:
   - adobestock_127641279.jpeg
 id: single-oils

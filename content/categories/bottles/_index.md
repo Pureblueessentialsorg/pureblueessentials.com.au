@@ -1,5 +1,5 @@
 ---
-title: BOTTLES AND ESSENTIAL OIL DIFFUSERS
+title: Bottles and Essential Oil Diffusers
 images:
   - dsc_0561.jpg
 id: bottles

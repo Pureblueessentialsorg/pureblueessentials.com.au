@@ -8,7 +8,6 @@ popular: false
 images:
   - banksia-blue-background.png
   - image_2023-07-02_174435126.png
-  - null
 categories:
   - bottles
 price: 18

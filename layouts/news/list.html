@@ -26,7 +26,7 @@
 {{ if .Params.images }}
   {{ if (index .Params.images 0) }}
     {{ with $img := index .Params.images 0 }}
-      {{ partial "image" (dict "src" $img "page" $ "title" $.Title "class" "card-img-top img-fluid" "widths" (slice 600 900))}}
+      {{ partial "picture" (dict "src" $img "page" $ "title" $.Title "class" "card-img-top img-fluid" "widths" (slice 600 900))}}
     {{ end }}
   {{ end }}
 {{ end }}

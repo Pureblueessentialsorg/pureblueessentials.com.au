@@ -2,16 +2,17 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th>ID:</th>
-      <th>Category:</th>
-      <th>Name:</th>
-      <th>Price:</th>
-      <th>1st Image:</th>
-      <th>Weight:</th>
-      <th>Height:</th>
-      <th>Width:</th>
-      <th>Length:</th>
-      <th>Button:</th>
+      <th>ID</th>
+      <th>Cat</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Img 1</th>
+      <th>Imgs</th>
+      <th>Weight</th>
+      <th>H</th>
+      <th>W</th>
+      <th>L</th>
+      <th>Add To Cart</th>
     </tr>
   </thead>
   <tbody>
@@ -37,6 +38,11 @@
         {{ $image = $image.Resize "60x" }}
         <img src="{{ $image.RelPermalink }}" width="{{$image.Width}}" height="{{$image.Height}}">
         {{ end }}
+      </th>
+      <th>
+        {{ with .Params.images }}
+          {{ len . }}
+        {{ else }}0{{ end }}
       </th>
       <th>
           {{ with .Params.weight }}

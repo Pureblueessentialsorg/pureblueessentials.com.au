@@ -3,10 +3,10 @@
   <a href="{{ $.Permalink }}">
     {{ with .Params.images }}
       {{ $img := (index . 0) }}
-      {{ partial "image" (dict "src" $img "page" $ "title" $.Title "class" "img-fluid card-img-top"
+      {{ partial "picture" (dict "src" $img "page" $ "title" $.Title "class" "img-fluid card-img-top"
       "widths" (slice 260 540) "fillRatio" (slice 6 4) ) }}
     {{ else }}
-      {{ partial "image" (dict
+      {{ partial "picture" (dict
         "src" "assets/images/product-logo.png"
         "ctx" $
         "title" $.Title

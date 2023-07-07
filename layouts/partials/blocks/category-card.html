@@ -2,7 +2,7 @@
   {{ template "image" . -}}
   <div class="card-body text-center d-flex flex-column">
     <a href="{{ .Permalink }}" class="text-decoration-none stretched-link">
-      <h5 class="card-title">{{ .Title | humanize | title }}</h5>
+      <h5 class="card-title">{{ .Title }}</h5>
     </a>
     {{ $pageCount := len .Pages }}
     <p class="card-text mt-auto"><span class="mt-auto">{{ $pageCount }} product{{ if ne $pageCount 1 }}s{{ end }}</span></p>

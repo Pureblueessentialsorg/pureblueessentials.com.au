@@ -1,5 +1,5 @@
 ---
-title: HEAT PACKS AND BATH SOAKS
+title: Heat Packs and Bath Soaks
 images:
   - photo.jpg
 id: heat-packs
