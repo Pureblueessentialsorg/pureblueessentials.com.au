@@ -1,9 +1,0 @@
-{{ if ne .Site.Params.snipcart.enabled false -}}
-{{ if not .Site.Params.snipcart.version }}
- {{ errorf "You have not passed the dot context to the snipcart js partial" }}
-{{ end }}
-{{ if not .Site.Params.snipcart.key }}
- {{ errorf "You must configure a snipcart public key" }}
-{{ end }}
-<script defer src="{{ printf "https://cdn.snipcart.com/themes/v%v/default/snipcart.js" .Site.Params.snipcart.version }}"></script>
-{{- end -}}

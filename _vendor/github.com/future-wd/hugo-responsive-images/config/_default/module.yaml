@@ -1,6 +1,0 @@
-hugoVersion:
-  extended: false
-  min: 0.101.0
-imports:
-- path: github.com/future-wd/hugo-imaging-common
-

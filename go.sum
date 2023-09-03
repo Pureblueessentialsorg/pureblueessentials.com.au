@@ -32,6 +32,8 @@ github.com/future-wd/hugo-image/v3 v3.0.1 h1:pTvkB5vs5wzV20ZUdjuqQcon1M7KO7l+Pnx
 github.com/future-wd/hugo-image/v3 v3.0.1/go.mod h1:zm36U+nwmRu4Y+juelDFPmATZBFrtBDezp/XEi6O0f4=
 github.com/future-wd/hugo-imaging-common v0.0.8 h1:CUyb3oKj93JESA7RuhWK9T3Mzj25IQl0UI/Haa/iZmo=
 github.com/future-wd/hugo-imaging-common v0.0.8/go.mod h1:T+CwESc3sveTg/R4X/2AeQszY52MuqfyNuVV2UmSn+E=
+github.com/future-wd/hugo-imaging-common v0.0.9 h1:Hzq35hdvDjSkKIuACZNx4X3QIQylzlHiMxnQom9an6M=
+github.com/future-wd/hugo-imaging-common v0.0.9/go.mod h1:T+CwESc3sveTg/R4X/2AeQszY52MuqfyNuVV2UmSn+E=
 github.com/future-wd/hugo-responsive-images v1.1.11 h1:rCcCwI4rEyqnXsqaFVRwx7339Wbs58U7QofZC5XKrHg=
 github.com/future-wd/hugo-responsive-images v1.1.11/go.mod h1:zu7P18tofMOufY0bGmvBkFno25/caSo5JLWPV9yK40E=
 github.com/future-wd/hugo-responsive-images v1.1.12 h1:F9lRcvoHlDAxPRzswxd8+o4C1j2PxzT4WNUQLwhELOc=
@@ -46,6 +48,8 @@ github.com/future-wd/hugo-responsive-images v1.2.16 h1:+pIlS+XxA+hmiK4+R/7ud9tKM
 github.com/future-wd/hugo-responsive-images v1.2.16/go.mod h1:YE72mEpC8vO+vJTDmDhgNIQV3N7QdV3gleRwe8zrgmU=
 github.com/future-wd/hugo-responsive-images v1.3.2 h1:JTqP0Ooz66KS2SmSor+MEGpQv2B4KLh9JqApaOci/zI=
 github.com/future-wd/hugo-responsive-images v1.3.2/go.mod h1:YE72mEpC8vO+vJTDmDhgNIQV3N7QdV3gleRwe8zrgmU=
+github.com/future-wd/hugo-responsive-images v1.3.3 h1:mQhpfeWmcRe2XBwj+tkUBIgtluvK5aWeYuyaJX9+p6I=
+github.com/future-wd/hugo-responsive-images v1.3.3/go.mod h1:om8SyIf50w/wa/KPTyP4IcesPkhVth+5TCSUF/Ulf3o=
 github.com/future-wd/hugo-snipcart/v3 v3.1.2 h1:Fw5HJERwgqG3LY3vRJCzKml1aUxJSD5ZkxCmv6NbVCI=
 github.com/future-wd/hugo-snipcart/v3 v3.1.2/go.mod h1:ZGcdXCpUHf7QUkEgKhwGonStqIaxzUZ13WQd5lDVtCw=
 github.com/future-wd/hugo-snipcart/v3 v3.3.0 h1:EWysXWsniJiRIcE6lHvZ3vMve9NPt7Fb55YGbCwVKdE=

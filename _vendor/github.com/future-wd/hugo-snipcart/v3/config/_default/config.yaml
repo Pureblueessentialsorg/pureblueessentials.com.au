@@ -1,6 +1,0 @@
-params:
-  snipcart:
-    version: 3.3.3
-    enabled: true
-    side: true
-    bootstrap: true 
