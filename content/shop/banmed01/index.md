@@ -11,7 +11,7 @@ images:
   - null
 categories:
   - bottles
-price: 30
+price: 32
 size: medium 15cm
 brand: Pure Blue Essentials
 weight: 190
