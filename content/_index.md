@@ -26,15 +26,15 @@ menu:
   footer:
     weight: 10
 ---
-
-
 **Welcome to our online shop**
 
-We are here to provide essential oil products to reduce the pain and symptoms of many common ailments faced by many of us.
+We're here to provide environmentally-friendly products and gifts for a healthy body, healthy mind and healthy home.  Here's a few examples:
 
-If you’re not sure where to start, think about whether you want a remedial blend to use on your skin (10ml roll-ons) or with an essential oil diffuser (30ml bottle with dropper). If you want both, choose the longevity pack (search longevity pack) which contains a 10ml remedial blend, a 30ml remedial blend and a 30ml jojoba oil as a high quality carrier oil.
+* M﻿agnesium-rich sprays for tired, aching or sore muscles (also great for restless legs).
+* Beautiful p﻿lastic-free essential oil diffusers, organic cotton washcloths and beeswax food wrappers.  
+* Essential oils to reduce the pain and symptoms of many common ailments faced by many of us. 
 
-If you need an essential oil diffuser, we have those too! Beautiful banksia pod oil diffusers which are free of plastic and use no batteries or electricity (search essential oil diffuser).
+
 
 ***What are essential oils?***
 
@@ -53,6 +53,8 @@ For example:
 * Oregano oil, together with turmeric and ginger oil included in a blend for arthritis pain (search I said ‘No’ Arthr)
 * Clove oil combined with eucalyptus, cinnamon and lemon included in a general antibacterial, antiviral, antifungal formula (search Four thieves).
 * Helichrysum, Vitamin E and tea tree oils included in a wound care formula (search Wound Care).
+
+If you’re not sure where to start, think about whether you want a remedial blend to use on your skin (10ml roll-ons) or with an essential oil diffuser (30ml bottle with dropper). If you want both, choose the value pack which contains a 10ml remedial blend, a 30ml remedial blend and a 30ml jojoba oil as a high quality carrier oil. 
 
 We believe optimal health and youngliving is possible, no matter what your age.
 
