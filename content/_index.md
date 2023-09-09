@@ -30,11 +30,10 @@ menu:
 
 We're here to provide environmentally-friendly products and gifts for a healthy body, healthy mind and healthy home.  Here's a few examples:
 
-* M﻿agnesium-rich sprays for tired, aching or sore muscles (also great for restless legs).
+* \[M﻿agnesium-rich sprays] for tired, aching or sore muscles (also great for restless legs).
 * Beautiful p﻿lastic-free [essential oil diffusers](/bansma01), organic cotton washcloths and beeswax food wrappers.  
-* Essential oils to reduce the pain and symptoms of many common ailments faced by many of us. 
-
-
+* \[Essential oils] to reduce the pain and symptoms of many common ailments faced by many of us.
+* L﻿uxury \[heat packs] with removable, washable covers
 
 ***What are essential oils?***
 
@@ -46,15 +45,15 @@ Combining active ingredients of different plants will target the complex pain an
 
 For example:
 
-* Cedarwood and frankincense in a bath soak (search bath soaks).
-* Lavender and lemongrass in a magnesium spray for tired, aching, or cramping muscles (search Magnesium Rub Plus)
-* Lavender and peppermint included in a remedial essential oil blend for headaches (search Headache Help).
-* Ylangylang, clary sage and rose oil included in a remedial blend for pre-menstrual symptoms (search PMS Lift).
-* Oregano oil, together with turmeric and ginger oil included in a blend for arthritis pain (search I said ‘No’ Arthr)
-* Clove oil combined with eucalyptus, cinnamon and lemon included in a general antibacterial, antiviral, antifungal formula (search Four thieves).
-* Helichrysum, Vitamin E and tea tree oils included in a wound care formula (search Wound Care).
+* Cedarwood and frankincense in a \[bath soak].
+* Lavender and lemongrass in a \[magnesium spray] for tired, aching, or cramping muscles.
+* Lavender and peppermint included in a remedial essential oil blend for ]headaches].
+* Ylangylang, clary sage and rose oil included in a remedial blend to help with the symptoms of \[PMS].
+* Oregano oil, together with turmeric and ginger oil included in a blend for \[arthritis pain].
+* Clove oil combined with eucalyptus, cinnamon and lemon included in a potent antibacterial, antiviral, antifungal formula called \[Four Thieves].
+* Helichrysum, Vitamin E and tea tree oils included in a \[wound care] blend.
 
-If you’re not sure where to start, think about whether you want a remedial blend to use on your skin (10ml roll-ons) or with an essential oil diffuser (30ml bottle with dropper). If you want both, choose the value pack which contains a 10ml remedial blend, a 30ml remedial blend and a 30ml jojoba oil as a high quality carrier oil. 
+If you’re not sure where to start, think about whether you want a remedial blend to use on your skin (10ml roll-ons) or with an essential oil diffuser (30ml bottle with dropper). If you want both, choose the \[value pack] which contains a 10ml remedial blend, a 30ml remedial blend and a 30ml jojoba oil as a high quality carrier oil.
 
 We believe optimal health and youngliving is possible, no matter what your age.
 
