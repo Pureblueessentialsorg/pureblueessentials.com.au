@@ -31,7 +31,7 @@ menu:
 We're here to provide environmentally-friendly products and gifts for a healthy body, healthy mind and healthy home.  Here's a few examples:
 
 * M﻿agnesium-rich sprays for tired, aching or sore muscles (also great for restless legs).
-* Beautiful p﻿lastic-free essential oil diffusers, organic cotton washcloths and beeswax food wrappers.  
+* Beautiful p﻿lastic-free [essential oil diffusers](/bansma01), organic cotton washcloths and beeswax food wrappers.  
 * Essential oils to reduce the pain and symptoms of many common ailments faced by many of us. 
 
 
