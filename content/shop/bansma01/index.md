@@ -22,4 +22,4 @@ T﻿hese beautiful all-natural essential oil diffusers are made from the seed po
 
 S﻿imply lift the cork, add 1ml of essential oils into the hole in the pod and replace the cork.  For maximum diffusion of the essential oil, top up every 3-4 days.
 
-T﻿he small size diffuser is a﻿lso available in a gift pack with a 30ml bottle of your chosen remedial essential oil blend.  Great value!
+S﻿ave with the Banksia diffuser gift packs which includes your choice of 12 essential oil blends.  Great value!
