@@ -6,4 +6,6 @@ id: bottles
 weight: 40
 visible: true
 summary: Eco-friendly products to make your home healthier
+aliases:
+- /shop/bottles-and-essential-oil-diffusers
 ---

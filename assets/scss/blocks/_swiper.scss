@@ -5,6 +5,7 @@ $themeColor: $primary; // #007aff !default;
 @import "swiper/modules/navigation/navigation.scss";
 @import "swiper/modules/thumbs/thumbs.scss";
 @import "swiper/modules/lazy/lazy.scss";
+@import "swiper/modules/effect-fade/effect-fade.scss";
 .swiper {
   // &-container {
   //   width: 100%;
@@ -63,4 +64,14 @@ $themeColor: $primary; // #007aff !default;
 
 .swiper-home {
   max-height: 60vh;
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
 }
+
+

@@ -1,4 +1,4 @@
-import Swiper, { Navigation, Thumbs, Lazy, Pagination, Autoplay } from 'swiper';
+import Swiper, { Navigation, Thumbs, Lazy, Pagination, Autoplay, EffectFade } from 'swiper';
 
 const swiperShopThumbs = new Swiper('#js-swiperShopThumbs', {
   spaceBetween: 10,
@@ -40,7 +40,7 @@ const swiperShopMain = new Swiper('#js-swiperShopMain', {
 /*eslint no-unused-vars: ["error", { "varsIgnorePattern": "swiperHome" }]*/
 const swiperHome = new Swiper('#js-swiperHome', {
   // configure Swiper to use modules
-  modules: [Navigation, Thumbs, Pagination, Autoplay],
+  modules: [Navigation, Thumbs, Pagination, Autoplay, EffectFade],
   spaceBetween: 10,
   // // Disable preloading of all images
   // preloadImages: false,
@@ -58,7 +58,13 @@ const swiperHome = new Swiper('#js-swiperHome', {
   //   delay: 1000,
   //   pauseOnMouseEnter: true,
   // },
-  autoplay: true,
+  autoplay: {
+    delay: 4000,
+  },
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true,
+  },
   // on: {
   //   afterInit: function() {
   //     lazySizes.autoSizer.checkElems();

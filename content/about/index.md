@@ -4,6 +4,7 @@ draft: false
 menu:
   main:
     weight: 30
+    name: About
   footer:
     weight: 30
 images:

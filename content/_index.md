@@ -30,11 +30,11 @@ menu:
 
 We're here to provide environmentally-friendly products and gifts for a healthy body, healthy mind and healthy home.  Here's a few examples:
 
-* [M﻿agnesium-rich sprays](/shop/rubs) for tired, aching or sore muscles (also great for restless legs).
-* Beautiful p﻿lastic-free [essential oil diffusers](/shop/bottles), organic cotton washcloths and beeswax food wrappers. 
-*﻿ Gift packs and value packs to save $$$'s and/or buy a luxury, eco-friendly gift for a special someone. 
+* [Magnesium-rich sprays](/shop/magnesium-rubs-and-fisiocrem/) for tired, aching or sore muscles (also great for restless legs).
+* Beautiful plastic-free [essential oil diffusers](/shop/bottles), organic cotton washcloths and beeswax food wrappers.
+* Gift packs and value packs to save $$$'s and/or buy a luxury, eco-friendly gift for a special someone.
 * [Essential oils](/shop/remedial-oils) to reduce the pain and symptoms of many common ailments faced by many of us.
-* L﻿uxury [heat packs](/shop/heat-packs) with removable, washable covers. 
+* Luxury [heat packs](/shop/heat-packs-and-bath-soaks/) with removable, washable covers. 
 
 ***What are essential oils?***
 

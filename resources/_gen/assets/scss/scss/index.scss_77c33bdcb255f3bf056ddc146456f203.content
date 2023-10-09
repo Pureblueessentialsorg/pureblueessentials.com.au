@@ -8364,6 +8364,9 @@ textarea.form-control-lg {
   100% {
     mask-position: -200% 0%; } }
 
+.navbar-nav {
+  --bs-nav-link-font-size: calc(1.08rem + 0.18vw); }
+
 /** Import theme styles */
 /* common */
 img[data-sizes="auto"] {
@@ -8801,6 +8804,18 @@ img[data-sizes="auto"] {
   100% {
     transform: rotate(360deg); } }
 
+.swiper-fade.swiper-free-mode .swiper-slide {
+  transition-timing-function: ease-out; }
+
+.swiper-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity; }
+  .swiper-fade .swiper-slide .swiper-slide {
+    pointer-events: none; }
+
+.swiper-fade .swiper-slide-active, .swiper-fade .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto; }
+
 .swiper-shop-main .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -8825,6 +8840,10 @@ img[data-sizes="auto"] {
 
 .swiper-home {
   max-height: 60vh; }
+  .swiper-home .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
 .back-to-top {
   position: fixed;

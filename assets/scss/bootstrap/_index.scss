@@ -60,3 +60,10 @@
 @import "bootstrap/scss/offcanvas";
 @import "bootstrap/scss/placeholders";
 
+
+
+.navbar-nav {
+  // --bs-nav-link-font-size: calc(1.265rem + 0.18vw);
+  --bs-nav-link-font-size: calc(1.08rem + 0.18vw);
+}
+
