@@ -7,7 +7,6 @@ draft: false
 popular: false
 images:
   - arthritis-pain-30ml-15-off.png
-  - null
 categories:
   - remedial-oils
 price: 39
