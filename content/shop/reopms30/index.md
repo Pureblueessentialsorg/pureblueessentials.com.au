@@ -6,11 +6,10 @@ summary: Assists in reducing the symptoms of PMS
 draft: false
 popular: true
 images:
-  - dsc_0308-2-.jpg
-  - dsc_0450.jpg
+  - pms-lift-600x66-15-off.png
 categories:
   - remedial-oils
-price: 44
+price: 39
 size: 30ml
 brand: pure blue essentials
 weight: 110
