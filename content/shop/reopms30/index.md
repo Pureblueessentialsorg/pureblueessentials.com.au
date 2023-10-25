@@ -6,10 +6,10 @@ summary: Assists in reducing the symptoms of PMS
 draft: false
 popular: true
 images:
-  - pms-lift-600x66-15-off.png
+  - pms-lift-600x600-20-off.png
 categories:
   - remedial-oils
-price: 39
+price: 36
 size: 30ml
 brand: pure blue essentials
 weight: 110
@@ -17,9 +17,9 @@ length: 3
 height: 11
 width: 3
 ---
-The **PMS lift** is a blessing for many, to help relieve the symptoms of premenstrual syndrome (PMS) and alleviate the discomfort of menstrual pain and cramps.
+***20% off for a short time only***
 
-It can assist in many areas such as mood swings, breast tenderness, pelvic cramps and fluid retention.
+The **PMS lift** is a blessing for many, to help relieve the symptoms of premenstrual syndrome (PMS) and alleviate the discomfort of menstrual pain and cramps. It can assist in many areas such as mood swings, breast tenderness, pelvic cramps and fluid retention. 
 
 With a combination of lavender, clary sage, geranium, marjoram and rose, this is a potent blend for PMS and menstrual pain but also has a comforting, pleasant, earthy, sweet aroma.
 
@@ -42,8 +42,6 @@ After more value for money? The **PMS Lift value bundle** contains:
 \- 30ml bottle of jojoba oil (carrier oil);
 
 \- 10ml bottle (glass with bamboo casing) to refill with your **PMS Lift** blend and carrier oil many times over.
-
-
 
 **Cautions:**
 
