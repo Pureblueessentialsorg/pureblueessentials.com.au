@@ -17,6 +17,8 @@ length: 3
 height: 11
 width: 3
 ---
+***20% off for a short time only***
+
 Arthritis is experienced by approximately [3.9 million](https://arthritisaustralia.com.au/what-is-arthritis/fastfacts/) [Australians](https://arthritisaustralia.com.au/what-is-arthritis/fastfacts/). It is a chronic inflammatory condition affecting the bones, joints and sometimes muscles. Arthritis causes physiological changes in a joint and symptoms usually range from stiffness, swelling, redness and pain. It often occurs in hands, feet, knees, neck and hips but can occur in any joint. The inflammation and swelling from arthritis in a joint can lead to changes in adjacent muscles.
 
 The essential oils in **“I said no Arthr”** are known to alleviate the pain and inflammation associated with Arthritis. They can help alleviate swelling, reduce inflammation and ease muscle tension.
