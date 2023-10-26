@@ -11,7 +11,7 @@ images:
   - dsc_0270-2-.jpg
 categories:
   - rubs
-price: 28
+price: 26
 size: 120g
 brand: Pronat Group
 weight: 120
