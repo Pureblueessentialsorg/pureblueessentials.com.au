@@ -26,10 +26,9 @@ menu:
   footer:
     weight: 10
 ---
-#### **Welcome to our online shop**
+##### **Welcome to our online shop**
 
-#### 
-Use the code GREENFRIDAY at checkout for 20% off during the GREEN FRIDAY sales             (its black friday but making better choices!).    
+#### Use the code GREENFRIDAY at checkout for 20% off during the GREEN FRIDAY sales             (its black friday but making better choices!).    
 
 We're here to provide environmentally-friendly products and gifts for a healthy body, healthy mind and healthy home.  Here's a few examples:
 
