@@ -24,13 +24,13 @@ They are high quality and environmentally friendly, with a glass bottle in a bam
 
 Top up your **pure blue essentials** remedial essential oil blend over and over again, blend your own essential oil formula, or use for your favourite single oil.
 
-W﻿ant more than 1??  Check out our value pack.
+W﻿ant more than 1??  Check out our [**bamboo roll-on value pack**]({{<relref "/shop/bambotx6" >}})
 
 
 **Cautions:**
 
 Essential oils should only be applied to the skin when diluted in a carrier oil.
 
-Essential oils are for external use only. Do not ingest.  Keep essential oils away from eyes and mouth. 
+Essential oils are for external use only. Do not ingest. Keep essential oils away from eyes and mouth. 
 
 If skin, eye or nasal irritation occurs, discontinue use.
