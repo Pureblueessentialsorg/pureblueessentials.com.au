@@ -1,6 +1,6 @@
 ---
 visible: true
-title: Healthy Home Pamper Hamper 3
+title: Healthy Home Hamper 3
 id: hamper03
 summary: Hamper with 6 items - healthy, natural products to keep you and your
   home healthy
@@ -18,8 +18,8 @@ length: 30
 height: 40
 width: 20
 ---
-T﻿his is a beautiful collection of handcrafted items for a special person or - of course - yourself! Bundled up into a natural drawstring bag. 
-There are 6 eco-friendly items that will help to keep you and your home healthy and relaxed.  
+A beautiful collection of handcrafted items for a special person or - of course - yourself! Bundled up into a natural drawstring bag. 
+Six eco-friendly items that will help to keep you and your home healthy and relaxed.  
 
 **C﻿ontains:**
 
