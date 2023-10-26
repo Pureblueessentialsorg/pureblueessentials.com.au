@@ -23,9 +23,7 @@ The essential oils in **“I said no Arthr”** are known to alleviate the pain 
 
 Ginger and frankincense are the most effective essential oils for arthritis, both basil and eucalyptus are anti-inflammatory and analgesic, and orange is anti-inflammatory and calming. Turmeric is anti-inflammatory and lavender is a calmative.
 
-In areas of the body prone to arthritis, rub into the skin generously with a carrier oil.
-
-Alternatively, add 10 or 12 drops to a warm bath.
+In areas of the body prone to arthritis, rub into the skin generously with a carrier oil.  For joint pain in multiple areas, add a few drops to a warm bath.
 
 This 30ml bottle contains 100% pure essential oils that can be used in a variety of ways, including:
 
