@@ -10,7 +10,7 @@ images:
   - image_2023-07-02_174435126.png
 categories:
   - bottles
-price: 18
+price: 21
 size: small 10cm
 brand: Pure Blue Essentials
 weight: 120
