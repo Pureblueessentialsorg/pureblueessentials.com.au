@@ -1,8 +1,8 @@
 ---
 visible: true
-title: Value Bundles
+title: Essential Oil Value Packs
 id: lon03
-summary: "Value bundle: 1x30ml + 1x10ml Essential Oil Blend of your choice +
+summary: "Value packs: 1x30ml + 1x10ml Essential Oil Blend of your choice +
   1x30ml bottle of jojoba oil"
 draft: false
 popular: false
@@ -20,7 +20,7 @@ height: 16
 width: 16
 long: true
 ---
-The **pure blue essential value bundles** allow refilling of the 10ml bottle many times over with the pure blue essentials oil blend of your choice and high quality carrier oil.
+The **pure blue essential value packs** allow refilling of the 10ml bottle many times over with the pure blue essentials oil blend of your choice and high quality carrier oil.
 
 It contains:
 
