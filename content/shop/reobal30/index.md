@@ -32,7 +32,7 @@ This 30ml bottle containing 100% pure essential oils that can be used for a vari
 
 \- use in an essential oil diffuser
 
-\- add to a warm bath
+\- add a few drops to a warm bath, or a few drops on your feet in the shower
 
 \- use in home-made lotions or balms
 
@@ -45,8 +45,6 @@ After more value for money? The **Balance value bundle** contains:
 \- 30ml bottle of jojoba oil (carrier oil);
 
 \- 10ml bottle (glass with bamboo casing) to refill with your **Balance** blend and carrier oil many times over.  
-
-
 
 **Cautions:**
 
