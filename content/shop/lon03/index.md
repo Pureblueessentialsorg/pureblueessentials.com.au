@@ -11,7 +11,7 @@ images:
   - dsc_0432.jpg
 categories:
   - gift-packs
-price: 76.95
+price: 75.95
 size: 10ml + 30ml + 30ml
 brand: pure blue essentials
 weight: 280
