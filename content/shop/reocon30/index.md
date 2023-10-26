@@ -33,7 +33,7 @@ It can be used in a variety of ways including:
 
 \- use in an essential oil diffuser
 
-\- add to a warm bath
+\- add a few drops to a warm bath, or a few drops on your feet in the shower
 
 \- use in home-made lotions or balms
 
@@ -46,12 +46,6 @@ After more value for money? The **Contentment value bundle** contains:
 \- 30ml bottle of jojoba oil (carrier oil);
 
 \- 10ml bottle (glass with bamboo casing) to refill with your **Contentment** blend and carrier oil many times over.  
-
-
-
-
-
-
 
 **Cautions:**
 
