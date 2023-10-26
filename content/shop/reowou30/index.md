@@ -32,13 +32,13 @@ This 30ml bottle contains 100% pure essential oils. Shake well before use.
 
 It can be used in a variety of ways including:
 
-\- add to your own carrier oil
+\- applying to scratches, blemishes and small wounds
 
-\- use in an essential oil diffuser
+\-applying to closed to help reduce scarring 
 
-\- add to a warm bath
+\- add to a warm bath if skin is dry
 
-\- use in home-made lotions or balms
+\- use in home-made salves
 
 Also available in  a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin. 
 
@@ -49,8 +49,6 @@ After more value for money? The **Wound Care value bundle** contains:
 \- 30ml bottle of jojoba oil (carrier oil);
 
 \- 10ml bottle (glass with bamboo casing) to refill with your **Wound Care** blend and carrier oil many times over.
-
-
 
 **Cautions:**
 
