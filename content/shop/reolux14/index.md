@@ -37,6 +37,6 @@ For more uses, print off some ideas from our RESOURCES page.
 
 Keep away from eyes and mouth. For external use only. Do not ingest.
 
-Some blends contain essential oils that are not suitable to be used when pregnant.
+Some blends contain essential oils that are not suitable to be used when pregnant or breastfeeding.
 
 If skin, eye or nasal irritation occurs, discontinue use.
