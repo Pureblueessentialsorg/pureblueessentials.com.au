@@ -50,6 +50,8 @@ After more value for money? The **Wound Care value bundle** contains:
 
 \- 10ml bottle (glass with bamboo casing) to refill with your **Wound Care** blend and carrier oil many times over.
 
+
+
 **Cautions:**
 
 Keep away from eyes and mouth. If skin, eye or nasal irritation occurs, discontinue use.
