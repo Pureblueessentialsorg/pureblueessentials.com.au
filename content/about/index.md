@@ -10,9 +10,9 @@ menu:
 images:
   - pbelogo230322.png
 ---
-**pure blue essentials** is a small Australian business created out of a need natural, sustainable health products to support remedial massage clients. 
+**pure blue essentials** is a small Australian business created out of a need for natural, sustainable health products to support remedial massage clients.  
 
-Jacinda Minahan, the founder of **pure blue essentials**, holds a Diploma in Horticulture (Herbs, Medicinal Plants and Essential Oils) and a Diploma in Remedial Massage Therapy.  With a total of over 20 years experience in both sectors, our high quality natural health products have been expertly shaped to support your health needs.
+Jacinda Minahan, the founder of **pure blue essentials**, holds a Diploma in Horticulture (Herbs, Medicinal Plants and Essential Oils) and a Diploma in Remedial Massage Therapy.  With a total of over 20 years' experience in both sectors, our high quality natural health products have been expertly shaped to support your health needs.
 
 Our aim is to always bring you high quality, pure, natural products for the essentials of healthy living, at home and on the move, allowing you to take your natural health care into your own hands.
 
@@ -28,13 +28,11 @@ The color blue invokes calm and represents both the sky and the sea. It is the c
 
 And isn’t it also just a really great colour !?!
 
-Essential oils need to be protected from light.  So we chose cobalt blue for our bottles.  A no brainer really. We hope you enjoy our beautiful blue bottles.
+Essential oils need to be protected from light.  So we chose cobalt blue for our bottles.  A no brainer really. We hope you enjoy our beautiful blue bottles as much as you enjoy our quality products.
 
 \**www. supercolor.com*
 
 </div>
-
-
 
 *T﻿he legal stuff.....*
 
@@ -54,11 +52,9 @@ For International Customers, price excludes GST.
 
 Prices on the website are subjected to change without any notice. However, when an order is confirmed and paid for, we will honour the price for that sale.
 
-Once an order is confirmed and paid for, order cancellation requests due to change of mind or an incorrectly placed order, will be treated as a Change of Mind Return - please refer to our '*[Returns](https://www.awo.com.au/returns/)*' policy for all information.
+Once an order is confirmed and paid for, order cancellation requests due to change of mind or an incorrectly placed order, will be treated as a Change of Mind Return - please refer to our  Returns Policy for more information.
 
-Products sold are not for human ingestion or consumption. They are for external use only and not for any other intended purpose.
-
-
+Products sold are *not for human ingestion or consumption*. They are for external use only and not for any other intended purpose.
 
 **Payments:**
 
@@ -66,21 +62,17 @@ All orders must be paid for and cleared by accounts before shipment/delivery.
 
 Payments can me made via Credit Card, Debit Card (VISA & Mastercard) or PayPal.
 
-We do not accept cheque payments
-
-
+We do not accept cheque payments.
 
 **Freight and Delivery:**
 
-Price does not include freight.
+Product prices do not include postage.
 
-Freight will be calculated and charged prior to your order being finalised. Freight is calculated on size, weight and Dangerous Good (DG) classification of your order.
+Postage will be calculated and charged prior to your order being finalised. It is calculated on size, weight and Dangerous Good (DG) classification of your order. 
 
-We will ship goods using Pure Blue Essentials’ nominated service provider for Australian customers. We do not use any customer provided courier services. Pure Blue Essentials will not be held responsible for any goods held up or incurring extra local clearance charges. Please check with your local custom agents or shipping agent prior to shipment of goods.
+We will ship goods using Pure Blue Essentials’ nominated service provider for Australian customers.  We do not use any customer provided courier services.  Pure Blue Essentials will not be held responsible for any goods held up or incurring extra local clearance charges.  Please check with your local custom agents or shipping agent prior to shipment of goods.
 
 All orders should be checked and any discrepancy or error must be lodge within three (3) days of receipt of goods. Refer to our Returns Policy for more information.
-
-
 
 **Liability:**
 
@@ -88,37 +80,29 @@ If products are not stored correctly, this could alter the stability and nature 
 
 Pure Blue Essentials shall not be held liable for this. Please undertake testing of product(s) on small areas of skin or intended surfaces to ensure suitability.
 
-
-
 **Disclaimer:**
 
 All product images contained in our website are for illustrative purposes only and actual items may vary slightly in appearance.
 
 Package contents and/or packaging used are at our discretion and may vary from time to time.
 
-Errors such as misprints or omissions are regrettable. We reserve the right to make changes and corrections anytime in prices, products and specifications without notice. If we have made an error in pricing, we will notify you of the correct price.
+Errors such as misprints or omissions are regrettable. We reserve the right to make changes and corrections anytime in prices, products and specifications without notice.  If we have made an error in pricing, we will notify you of the correct price.
 
-We will not accept any liability for any loss or damage or error which may be incurred by any person acting in reliance upon this information. Information is for education purpose only and individuals must exercise their independent judgement in determining if the product is suitable for their particular purpose or usage.
+We will not accept any liability for any loss or damage or error which may be incurred by any person acting in reliance upon this information.  Information is for education purpose only and individuals must exercise their independent judgement in determining if the product is suitable for their particular purpose or usage.
 
 Liability is limited to the value of the goods and does not include any losses including consequential losses.
 
 Compliance and all laws and regulations and intellectual property right and/or registered business name applying to the products are the responsibility of the user and any third party related to the user.
 
-
-
 **Terms & Conditions and Privacy Policy Amendments:**
 
-We may amend our policy from time to time or as required by law and this will be updated on our website. Refer to our website for updated details.
-
-
+We may amend our policy from time to time or as required by law and this will be updated on our website.  
 
 **Your Consent:**
 
 By using this website you hereby consent to our Terms and Conditions.
 
 \-----------------------------------------------------
-
-
 
 **REFUND POLICY:**
 
@@ -129,8 +113,6 @@ If for any reason your product is faulty, incorrect or arrives damaged, please e
 Notification must be made within three (3) days of receiving your order. No claims will accepted after three (3) days from receipt of goods.
 
 After a claim has been made, the return must be received within twenty (20) days.
-
-
 
 **Change of Mind Returns & Cancellations:**
 
@@ -144,11 +126,9 @@ Product(s) must be returned in their original packaging and must be unopened, un
 
 Customers are liable for return postage charges.
 
-
-
 **Unclaimed or Returned Orders:**
 
-Unclaimed - if you fail to collect your order from the post office within the Post Offices stipulated time-frame (usually 1 week), it will be returned to us.
+Unclaimed - if you fail to collect your order from the post office within the Post Office's stipulated time-frame (usually 10 days), it will be returned to us.
 
 Incorrect Address *\-* your order undelivered due to an incorrect address, it will be returned to us.
 
