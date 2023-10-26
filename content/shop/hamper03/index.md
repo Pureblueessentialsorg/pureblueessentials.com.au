@@ -10,7 +10,7 @@ images:
   - hamper03.png
 categories:
   - gift-packs
-price: 92
+price: 112
 size: 40cm x 30cm
 brand: Pure Blue Essentials
 weight: 2300
