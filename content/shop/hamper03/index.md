@@ -7,7 +7,7 @@ summary: Hamper with 6 items - healthy, natural products to keep you and your
 draft: false
 popular: false
 images:
-  - hamper03-600x600-20-off.png
+  - hamper03.png
 categories:
   - gift-packs
 price: 92
@@ -18,8 +18,6 @@ length: 30
 height: 40
 width: 20
 ---
-***20% off for a short time only***
-
 T﻿his is a beautiful collection of handcrafted items for a special person or - of course - yourself! Bundled up into a large drawstring bag. \
 There are 6 eco-friendly items that will help to keep you and your home healthy and relaxed.  
 
