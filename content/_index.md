@@ -31,9 +31,9 @@ menu:
 We're here to provide environmentally-friendly products and gifts for a healthy body, healthy mind and healthy home.  Here's a few examples:
 
 * [Magnesium-rich sprays](/shop/magnesium-rubs-and-fisiocrem/) for tired, aching or sore muscles (also great for restless legs).
-* Beautiful plastic-free [essential oil diffusers](/shop/bottles), organic cotton washcloths and beeswax food wrappers.
+* Beautiful plastic-free [essential oil diffusers](/shop/bottles/), organic cotton washcloths and beeswax food wrappers. 
 * Gift packs and value packs to save $$$'s and/or buy a luxury, eco-friendly gift for a special someone.
-* [Essential oils](/shop/remedial-oils) to reduce the pain and symptoms of many common ailments faced by many of us.
+* [Essential oils](/shop/remedial-oils/) to reduce the pain and symptoms of many common ailments faced by many of us.
 * Luxury [heat packs](/shop/heat-packs-and-bath-soaks/) with removable, washable covers. 
 
 ***What are essential oils?***
@@ -46,15 +46,15 @@ Combining active ingredients of different plants will target the complex pain an
 
 For example:
 
-* Cedarwood and frankincense in a [bath soak](/shop/heat-packs).
-* Lavender and lemongrass in a [magnesium spray](/shop/rubs) for tired, aching, or cramping muscles.
-* Lavender and peppermint included in a remedial essential oil blend for [headaches](/shop/remedial-oils).
-* Ylangylang, clary sage and rose oil included in a remedial blend to help with the symptoms of [PMS](/shop/remedial-oils).
-* Oregano oil, together with turmeric and ginger oil included in a blend for [arthritis pain](/shop/remedial-oils).
-* Clove oil combined with eucalyptus, cinnamon and lemon included in a potent antibacterial, antiviral, antifungal formula called [Four Thieves](/shop/remedial-oils).
-* Helichrysum, Vitamin E and tea tree oils included in a [wound care](/shop/remedial-oils) blend.
+* Cedarwood and frankincense in a [bath soak](/shop/heat-packs/).
+* Lavender and lemongrass in a [magnesium spray](/shop/magnesium-rubs-and-fisiocrem/) for tired, aching, or cramping muscles.
+* Lavender and peppermint included in a remedial essential oil blend for [headaches](/shop/remedial-oils/).
+* Ylangylang, clary sage and rose oil included in a remedial blend to help with the symptoms of [PMS](/shop/remedial-oils/).
+* Oregano oil, together with turmeric and ginger oil included in a blend for [arthritis pain](/shop/remedial-oils/).
+* Clove oil combined with eucalyptus, cinnamon and lemon included in a potent antibacterial, antiviral, antifungal formula called [Four Thieves](/shop/remedial-oils/).
+* Helichrysum, Vitamin E and tea tree oils included in a [wound care](/shop/remedial-oils/) blend.
 
-If you’re not sure where to start, think about whether you want a remedial blend to use on your skin (10ml roll-ons) or with an essential oil diffuser (30ml bottle with dropper). If you want both, choose the [value pack](/shop/gift-packs) which contains a 10ml remedial blend, a 30ml remedial blend and a 30ml jojoba oil as a high quality carrier oil. 
+If you’re not sure where to start, think about whether you want a remedial blend to use on your skin (10ml roll-ons) or with an essential oil diffuser (30ml bottle with dropper). If you want both, choose the [value pack](/shop/gift-packs/) which contains a 10ml remedial blend, a 30ml remedial blend and a 30ml jojoba oil as a high quality carrier oil. 
 
 We believe optimal health and youngliving is possible, no matter what your age.
 
