@@ -27,7 +27,7 @@ This 30ml bottle containing 100% pure essential oils that can be used for a vari
 
 \- use in an essential oil diffuser
 
-\- add to a warm bath
+\- add a few drops to a warm bath, or a few drops on your feet in the shower
 
 \- use in home-made lotions or balms
 
