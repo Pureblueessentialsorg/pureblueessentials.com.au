@@ -35,6 +35,6 @@ The 12 pure blue essentials remedial oil blends are also available in 30mls bott
 
 Keep away from eyes and mouth. For external use only. Do not ingest.  
 
-Some blends contain essential oils that are not suitable to be used when pregnant. 
+Some blends contain essential oils that are not suitable to be used when pregnant or breast-feeding.
 
 If skin, eye or nasal irritation occurs, discontinue use.
