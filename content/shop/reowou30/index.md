@@ -32,9 +32,9 @@ This 30ml bottle contains 100% pure essential oils. Shake well before use.
 
 It can be used in a variety of ways including:
 
-\- applying to scratches, blemishes and small wounds
+\- applying to scratches, cuts, blemishes and small wounds 
 
-\-applying to closed to help reduce scarring 
+\- applying to closed to help reduce scarring 
 
 \- add to a warm bath if skin is dry
 
