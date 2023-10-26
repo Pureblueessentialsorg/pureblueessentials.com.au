@@ -1,20 +1,22 @@
 ---
 draft: false
-size: box 20cm
+size: bag 20cm
 diff: true
 visible: true
 title: Banksia oil diffuser gift pack
 id: dif02
 summary: Banksia pod essential oil diffuser with a 30ml essential oil blend
 popular: false
+images:
+  - hold-tight-image-coming-soon-1-.png
 categories:
   - gift-packs
 price: 59
 brand: Pure Blue Essentials
 weight: 350
-length: 20
-height: 20
-width: 20
+length: 8
+height: 15
+width: 8
 ---
 A﻿ wonderful gift for yourself or someone special.
 
