@@ -9,7 +9,7 @@ images:
   - dsc_0441.jpg
 categories:
   - remedial-oils
-price: 44
+price: 46
 size: 30ml
 brand: pure blue essentials
 weight: 110
