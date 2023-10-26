@@ -6,10 +6,10 @@ summary: A potent blend to help alleviate arthritis pain
 draft: false
 popular: false
 images:
-  - arthritis-pain-30ml-20-off-600-x-400.png
+  - arthritis-pain-30ml-1.png
 categories:
   - remedial-oils
-price: 36
+price: 46
 size: 30ml
 brand: pure blue essentials
 weight: 110
@@ -17,8 +17,6 @@ length: 3
 height: 11
 width: 3
 ---
-***20% off for a short time only***
-
 Arthritis is experienced by approximately [3.9 million](https://arthritisaustralia.com.au/what-is-arthritis/fastfacts/) [Australians](https://arthritisaustralia.com.au/what-is-arthritis/fastfacts/). It is a chronic inflammatory condition affecting the bones, joints and sometimes muscles. Arthritis causes physiological changes in a joint and symptoms usually range from stiffness, swelling, redness and pain. It often occurs in hands, feet, knees, neck and hips but can occur in any joint. The inflammation and swelling from arthritis in a joint can lead to changes in adjacent muscles.
 
 The essential oils in **“I said no Arthr”** are known to alleviate the pain and inflammation associated with Arthritis. They can help alleviate swelling, reduce inflammation and ease muscle tension.
