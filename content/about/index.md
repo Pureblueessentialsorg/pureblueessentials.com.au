@@ -34,7 +34,9 @@ Essential oils need to be protected from light.  So we chose cobalt blue for our
 
 </div>
 
-*T﻿he legal stuff.....*
+
+
+### *T﻿he legal stuff.....*
 
 **TERMS AND CONDITIONS:**
 
@@ -50,9 +52,9 @@ For Australian Customers, price includes the GST.
 
 For International Customers, price excludes GST.
 
-Prices on the website are subjected to change without any notice. However, when an order is confirmed and paid for, we will honour the price for that sale.
+Prices on the website are subjected to change without any notice. However, when an order is confirmed and payment received, we will honour the price for that sale. 
 
-Once an order is confirmed and paid for, order cancellation requests due to change of mind or an incorrectly placed order, will be treated as a Change of Mind Return - please refer to our  Returns Policy for more information.
+Once an order is confirmed and payment received, order cancellation requests due to change of mind or an incorrectly placed order, will be treated as a Change of Mind Return - please refer to our Returns Policy below.
 
 Products sold are *not for human ingestion or consumption*. They are for external use only and not for any other intended purpose.
 
@@ -76,9 +78,7 @@ All orders should be checked and any discrepancy or error must be lodge within t
 
 **Liability:**
 
-If products are not stored correctly, this could alter the stability and nature of the products. Also, if used with other ingredients, this could also cause product stability issues.
-
-Pure Blue Essentials shall not be held liable for this. Please undertake testing of product(s) on small areas of skin or intended surfaces to ensure suitability.
+If products are not stored correctly, this could alter the stability and nature of the products. Also, if used with other ingredients, this could also cause product stability issues.  Pure Blue Essentials shall not be held liable for this. Please undertake testing of product(s) on small areas of skin or intended surfaces to ensure suitability.  
 
 **Disclaimer:**
 
