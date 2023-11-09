@@ -60,6 +60,6 @@ If you’re not sure where to start, think about whether you want a remedial ble
 
 We believe optimal health and youngliving is possible, no matter what your age.
 
-Have a browse in our [shop](/shop) and we hope you find a remedial product that will genuinely help you feel better.
+Have a browse in our [shop](/shop) and find something that's right for you.
 
 If you have any questions, please [get in touch with us](/contact) here at pure blue essentials.
