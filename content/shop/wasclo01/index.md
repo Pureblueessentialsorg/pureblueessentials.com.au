@@ -5,6 +5,12 @@ id: wasclo01
 summary: Organic cotton washcloth for the bathroom or kitchen
 draft: false
 popular: false
+images:
+  - washcloth-03.png
+  - washcloth-05.png
+  - washcloth-02.png
+  - washcloth01-600px-x-450px.png
+  - washcloth-04.png
 categories:
   - bottles
 price: 11
