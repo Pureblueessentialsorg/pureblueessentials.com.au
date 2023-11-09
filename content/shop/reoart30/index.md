@@ -37,7 +37,7 @@ This 30ml bottle contains 100% pure essential oils that can be used in a variety
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
 
-After more value for money? The **I Said No Arthr value bundle** contains:  
+After more value for money? The **I Said No Arthr value bundle** ({{<relref "/shop/lon03" >}}) contains:  
 
 \- 30ml bottle of this remedial essential oil blend;
 
