@@ -34,7 +34,7 @@ It can be used in a variety of ways including:
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
 
-After more value for money? The **Calm value bundle** contains:  
+After more value for money? The **Calm value bundle**({{<relref "/shop/lon03" >}})  contains:  
 
 \- 30ml bottle of this remedial essential oil blend;
 
