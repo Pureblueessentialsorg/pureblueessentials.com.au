@@ -30,7 +30,7 @@ menu:
 
 #### Use the code GREENFRIDAY at checkout for 20% off during the GREEN FRIDAY sales             (its black friday but making better choices!).    
 
-We're here to provide environmentally-friendly products and gifts for a healthy body, healthy mind and healthy home.  Here's a few examples:
+We're here to provide environmentally-friendly products and gifts for a healthy body, a healthy mind and a healthy home.  Here's a few examples:
 
 * [Magnesium-rich sprays](/shop/magnesium-rubs-and-fisiocrem/) for tired, aching or sore muscles (also great for restless legs).
 * Beautiful plastic-free [essential oil diffusers](/shop/healthy-home/), organic cotton washcloths. 
