@@ -6,7 +6,10 @@ summary: Bamboo covered glass roll-on bottle value pack
 draft: false
 popular: false
 images:
-  - hold-tight-image-coming-soon-1-.png
+  - bambotx6-02.png
+  - bambot-single-01.png
+  - bambot-6pack-01.png
+  - bambotx6-03.png
 categories:
   - bottles
 price: 25
