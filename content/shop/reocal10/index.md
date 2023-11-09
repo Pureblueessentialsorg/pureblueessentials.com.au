@@ -38,7 +38,7 @@ If skin, eye or nasal irritation occurs, discontinue use.
 
 
 
-*PSSST...* After more value for money? The [**Calm** **Longevity pack**]({{<relref "/shop/lon03" >}}) contains:
+*PSSST...* After more value for money? The [**Calm** **value pack**]({{<relref "/shop/lon03" >}}) contains:
 
 \- a 30ml bottle AND 10ml bottle of **Calm remedial essential oil blend**;
 
