@@ -27,10 +27,8 @@ menu:
     weight: 10
 ---
 ##### **Welcome to our online shop**
-
-#### Use the code GREENFRIDAY at checkout for 20% off during the GREEN FRIDAY sales             (its black friday but making better choices!).    
-
-We're here to provide environmentally-friendly products and gifts for a healthy body, a healthy mind and a healthy home.  Here's a few examples:
+   
+We're here to provide environmentally-friendly products and gifts for a healthy body, a healthy mind and a healthy home.  Here's a few examples:  Among our pages
 
 * [Magnesium-rich sprays](/shop/magnesium-rubs-and-fisiocrem/) for tired, aching or sore muscles (also great for restless legs).
 * Beautiful plastic-free [essential oil diffusers](/shop/healthy-home/), organic cotton washcloths. 
@@ -62,4 +60,4 @@ We believe optimal health and youngliving is possible, no matter what your age.
 
 Have a browse in our [shop](/shop) and find something that's right for you.
 
-If you have any questions, please [get in touch with us](/contact) here at pure blue essentials.
+If you can't find what you're looking for, use the search bar at the top of the page, or  [get in touch with us](/contact) here at pure blue essentials.
