@@ -11,7 +11,7 @@ images:
   - dsc_0432.jpg
 categories:
   - gift-packs
-price: 75.95
+price: 77
 size: 10ml + 30ml + 30ml
 brand: pure blue essentials
 weight: 280
@@ -20,7 +20,7 @@ height: 16
 width: 16
 long: true
 ---
-The **pure blue essential value packs** allow refilling of the 10ml bottle many times over with the pure blue essentials oil blend of your choice and high quality carrier oil.
+Our **value packs** allow refilling of a 10ml roll-on bottle many times over with the pure blue essentials oil blend of your choice and high quality carrier oil.  Choose from one of 12 blends from the drop down menu.
 
 It contains:
 
