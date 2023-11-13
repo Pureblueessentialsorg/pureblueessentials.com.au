@@ -2,11 +2,12 @@
 visible: true
 title: Healthy Home Hamper
 id: hamper03
-summary: Hamper of healthy, natural products to keep you and your home healthy
+summary: Hamper of healthy, natural products to keep your body, mind and your
+  home healthy and relaxed
 draft: false
 popular: false
 images:
-  - hamper03.png
+  - hamper-him-600x600.png
 categories:
   - gift-packs
 price: 129
