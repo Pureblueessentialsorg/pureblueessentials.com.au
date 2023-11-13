@@ -22,9 +22,9 @@ Seven eco-friendly items that will help to keep you and your home healthy and re
 
 **C﻿ontains:**
 
-* 5﻿00mg bath soak with lavender and lemongrass essentials oils
-* Balance essential oil blend - 30mls   
-* H﻿eadache Help essential oil blend - 10mls
+* 5﻿00mg bath soak with cedar and frankincense essentials oils
+* H﻿eadache Help essential oil blend- 10mls
+* W﻿ound Care essential oil blend - 30mls
 * B﻿anksia pod essential oil diffuser
 * M﻿agnesium rub  (spray on) - 100mls
 * O﻿rganic cotton wash cloth - for the kitchen, the bathroom, skin care or baby care
