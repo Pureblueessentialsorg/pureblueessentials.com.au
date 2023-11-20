@@ -2,7 +2,8 @@
 visible: true
 title: Jojoba Oil 30ml
 id: eojojo30
-summary: 30ml pure Australian jojoba oil - a high quality carrier oil
+summary: 30ml pure Australian jojoba oil - a high quality oil with hundreds of
+  uses in skincare and around the home
 draft: false
 popular: true
 images:
