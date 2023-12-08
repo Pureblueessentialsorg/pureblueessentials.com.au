@@ -18,7 +18,7 @@ length: 30
 height: 40
 width: 20
 ---
-A beautiful collection of handcrafted items for a special person's home or - of course - for your home.  Bundled up into a natural drawstring bag. 
+A beautiful collection of handcrafted items for a special person's home or - of course - for your home.  Bundled up into a large natural drawstring bag. 
 Six eco-friendly items that will help to keep you and your home healthy and relaxed.  
 
 **C﻿ontains:**
