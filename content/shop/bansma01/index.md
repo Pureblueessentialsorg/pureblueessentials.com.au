@@ -18,8 +18,14 @@ length: 10
 height: 13
 width: 10
 ---
-T﻿hese beautiful all-natural essential oil diffusers are made from the seed pod of the Banksia grandis.  They are Australian made, totally free of plastic and require no batteries, no flame and no electricity for operation. 
+T﻿hese beautiful all-natural essential oil diffusers are made from the seed pod of the Banksia *grandis*.  
 
-S﻿imply lift the cork, add 1ml of essential oils into the hole in the pod and replace the cork.  For maximum diffusion of the essential oil, top up every 3-4 days.
+* Australian made
+* plastic free
+* silent
+* m﻿oisture free
+* require no batteries, no flame and no electricity for operation
 
-S﻿ave with the Banksia diffuser gift packs which includes your choice of 12 essential oil blends.  Great value!
+S﻿imply lift the cork, add a few drops of essential oils into the hole in the pod and replace the cork.  For maximum diffusion of the essential oil, top up every 3-4 days.  
+
+S﻿ave with the Banksia diffuser gift packs [here]({{< relref"/shop/bambot10" >}}) which includes your choice of 12 essential oil blends.  Great value!
