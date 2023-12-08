@@ -10,7 +10,7 @@ images:
   - hamper-him-600x600.png
 categories:
   - gift-packs
-price: 56
+price: 58
 size: 30cm x 20cm
 brand: Pure Blue Essentials
 weight: 750
