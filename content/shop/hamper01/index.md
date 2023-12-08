@@ -28,6 +28,6 @@ Seven eco-friendly items that will help to keep you and your home healthy and re
 * B﻿anksia pod essential oil diffuser
 * M﻿agnesium rub  (spray on) - 100mls
 * O﻿rganic cotton wash cloth - for the kitchen, the bathroom, skin care or baby care
-* 1kg heat pack with removable, washable cover
+* 1kg heat pack with a removable, washable cover 
 
 *Remember.... free shipping for orders over $120.*
