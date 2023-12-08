@@ -7,9 +7,10 @@ draft: false
 popular: false
 images:
   - bambotx6-02.png
-  - bambot-single-01.png
+  - ""
   - bambot-6pack-01.png
   - bambotx6-03.png
+  - bambot-single-01.png
 categories:
   - bottles
 price: 25
