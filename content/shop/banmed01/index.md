@@ -7,8 +7,6 @@ draft: false
 popular: false
 images:
   - banskia-medium-blue-background.png
-  - banksia-medium-image-2.jpg
-  - null
 categories:
   - bottles
 price: 32
