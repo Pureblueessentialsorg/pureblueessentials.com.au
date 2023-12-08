@@ -19,7 +19,8 @@ height: 30
 width: 15
 ---
 A beautiful collection of handcrafted items for a special person's home or - of course - for your home.  Bundled up into a natural drawstring bag. 
-Five eco-friendly items that will help to keep you and your home healthy and relaxed.  
+
+Five eco-friendly items that will help to keep you and your home healthy and relaxed.  Smaller that our other hampers, its still a wonderful luxury hamper for yourself or as a beautiful eco-friendly gift.
 
 **C﻿ontains:**
 
