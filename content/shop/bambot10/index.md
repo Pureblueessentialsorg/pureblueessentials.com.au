@@ -6,6 +6,7 @@ summary: 10ml bamboo-covered glass bottles
 draft: false
 popular: true
 images:
+  - bambot-single-01.png
   - dsc_0561.jpg
   - dsc_0556-2-.jpg
 categories:
