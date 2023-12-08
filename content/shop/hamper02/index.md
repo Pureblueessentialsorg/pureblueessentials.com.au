@@ -9,7 +9,7 @@ images:
   - hamper-him-600x600.png
 categories:
   - gift-packs
-price: 129
+price: 115
 size: 40cm x 30cm
 brand: Pure Blue Essentials
 weight: 1700
@@ -17,12 +17,12 @@ length: 30
 height: 40
 width: 20
 ---
-A beautiful collection of handcrafted items for a special person.  Bundled up into a natural drawstring bag. 
+A beautiful collection of handcrafted items for a special person.  Bundled up into a large natural drawstring bag. 
 Seven eco-friendly items that will help to keep the body, mind and home healthy and relaxed. 
 
 **C﻿ontains:**
 
-* 5﻿00mg bath soak with lavender and lemongrass essentials oils
+* 5﻿00g bath soak with lavender and lemongrass essentials oils
 * Balance essential oil blend - 30mls   
 * PMS Lift essential oil blend - 10mls  
 * B﻿anksia pod essential oil diffuser
