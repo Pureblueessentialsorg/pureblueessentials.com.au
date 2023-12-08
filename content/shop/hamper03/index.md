@@ -28,6 +28,6 @@ They're all eco-friendly items that will help to keep you and your home healthy 
 * Medium b﻿anksia pod essential oil diffuser
 * M﻿agnesium rub (spray on) - 100mls
 * 2 x o﻿rganic cotton wash cloths - for the kitchen, the bathroom, skin care or baby care
-* 3﻿ x beeswax resusable food wraps
+* 3﻿ x beeswax re-usable food wraps
 
 *Remember.... free shipping for orders over $120.*
