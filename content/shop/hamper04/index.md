@@ -24,7 +24,7 @@ Five eco-friendly items that will help to keep you and your home healthy and rel
 
 **C﻿ontains:**
 
-* 4﻿00mg bath soak with lavender and lemongrass essentials oil
+* 3﻿00g bath soak with lavender and lemongrass essentials oil
 * Lemongrass essential oil - 30mls 
 * M﻿agnesium rub (spray on) - 100mls
 * O﻿rganic cotton wash cloth - for the kitchen, the bathroom, skin care or baby care
