@@ -28,6 +28,6 @@ Five eco-friendly items that will help to keep you and your home healthy and rel
 * Lemongrass essential oil - 30mls 
 * M﻿agnesium rub (spray on) - 100mls
 * O﻿rganic cotton wash cloth - for the kitchen, the bathroom, skin care or baby care
-* 6 x bamboo and glass roll-on bottles 
+* 6 x 10ml bamboo and glass roll-on bottles 
 
 *Remember.... free shipping for orders over $120.*
