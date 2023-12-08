@@ -21,8 +21,10 @@ length: 12
 height: 10
 width: 4
 ---
-A﻿ value pack of our wonderful 10ml roll-on bottles.  
-M﻿ade of eco-friendly and safe materials, they have a stainless steel roller that won't rust or react with the contents.  Refillable, leakproof and great for keeping in your bag.
+The﻿ value pack of our wonderful 10ml roll-on bottles. There's 6 in a box so there's enough to go around when you find out how useful they are.
+M﻿ade of eco-friendly and safe materials, they have a stainless steel roller that won't rust or react with the contents.  Refillable, leakproof and great for keeping in your bag, at work, or a few places around the home.
 
-P﻿erfect for essential oil blends, liquid lip balm, skin oil, or any other use you might have for them.
-They are great to share - or keep them all for yourself! 
+P﻿erfect for our essential oil blends, your own favourite oil, liquid lip balm, skin oil, blemish cream or any other use you might have for them. 
+They're great to share around with friends and family - or keep them all for yourself! 
+
+A﻿lso available to purchase individually [here]({{< relref"/shop/bambot10" >}}).
