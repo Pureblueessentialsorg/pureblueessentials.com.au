@@ -2,7 +2,7 @@
 visible: true
 title: Essential Oil Value Packs
 id: lon03
-summary: "Value packs: 1x30ml + 1x10ml Essential Oil Blend of your choice +
+summary: "Value packs: 1x30ml and 1x10ml Essential Oil Blend of your choice +
   1x30ml bottle of jojoba oil"
 draft: false
 popular: false
