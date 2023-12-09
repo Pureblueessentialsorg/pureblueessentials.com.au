@@ -22,7 +22,7 @@ A powerful blend of essential oils which have analgesic and curative characteris
 
 This blend contains lavender, eucalyptus, cedar, oregano, peppermint, juniper and helichrysum essential oils.
 
-For joint or arthritis pain, see the **pure blue essentials “I said no Arthr”** \[here]({{< relref "/reoart30" >}})
+For joint or arthritis pain, see the **pure blue essentials “I said no Arthr”** [here]({{< relref "/reoart30" >}})
 
 This 30ml bottle contains 100% pure essential oils. Shake well before use.
 

@@ -28,4 +28,4 @@ It contains:
 * a 10ml bottle of the same blend;
 * a 30ml bottle of pure Australian jojoba oil (carrier oil). A carrier oil is necessary to safely apply essential oils to the skin.
 
-If you require more empty 10ml bottles they are available to purchase individually \[here]({{< relref "/shop/bambot10" >}})
+If you require more empty 10ml bottles they are available to purchase individually [here]({{< relref "/shop/bambot10" >}})
