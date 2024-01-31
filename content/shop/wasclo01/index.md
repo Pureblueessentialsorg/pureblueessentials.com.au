@@ -6,6 +6,8 @@ summary: Organic cotton washcloth for the bathroom, the kitchen, skincare or bab
 draft: false
 popular: false
 images:
+  - img_8467.jpg
+  - img_8468.jpg
   - washcloth-03.png
   - washcloth-05.png
   - washcloth-02.png
