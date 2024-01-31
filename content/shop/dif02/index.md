@@ -3,12 +3,13 @@ draft: false
 size: bag 20cm
 diff: true
 visible: true
-title: Banksia oil diffuser gift pack
+title: Banksia essential oil diffuser gift pack
 id: dif02
 summary: Banksia pod essential oil diffuser with a 30ml essential oil blend
 popular: false
 images:
-  - hold-tight-image-coming-soon-1-.png
+  - img_8457.jpg
+  - img_8459.jpg
 categories:
   - gift-packs
 price: 59
