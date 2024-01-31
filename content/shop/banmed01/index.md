@@ -6,6 +6,7 @@ summary: Medium - Banksia pod essential oil diffuser
 draft: false
 popular: false
 images:
+  - img_8464.jpg
   - banskia-medium-blue-background.png
 categories:
   - bottles
