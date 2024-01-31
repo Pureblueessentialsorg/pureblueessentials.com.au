@@ -6,7 +6,7 @@ summary: small banksia essential oil diffuser
 draft: false
 popular: false
 images:
-  - banksia-blue-background.png
+  - img_8450.jpg
   - image_2023-07-02_174435126.png
 categories:
   - bottles
