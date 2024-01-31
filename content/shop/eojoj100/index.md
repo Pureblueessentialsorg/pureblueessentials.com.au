@@ -7,7 +7,7 @@ summary: 100ml pure Australian jojoba oil - a high quality oil with hundreds of
 draft: false
 popular: true
 images:
-  - hold-tight-image-coming-soon.png
+  - img_8470.jpg
 categories:
   - single-oils
 price: 39.95
