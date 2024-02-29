@@ -1,8 +1,9 @@
 ---
 visible: true
-title: Organic cotton wash cloth
+title: Organic cotton wash cloths
 id: wasclo01
-summary: Organic cotton washcloth for the bathroom, the kitchen, skincare or babycare
+summary: Organic cotton washcloths for the bathroom, the kitchen, skin care and
+  baby care
 draft: false
 popular: false
 images:
@@ -15,10 +16,10 @@ images:
   - washcloth-04.png
 categories:
   - bottles
-price: 11
+price: 13
 size: 18cm
 brand: Pure Blue Essentials
-weight: 60
+weight: 40
 length: 18
 height: 18
 width: 1
