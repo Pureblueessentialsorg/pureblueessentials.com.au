@@ -28,13 +28,15 @@ menu:
 ---
 ##### **Welcome to our online shop**
 
-We're here to provide environmentally-friendly products and gifts for a healthy body, a healthy mind and a healthy home.  Here's a few examples:  Among our pages
+We're here to provide environmentally-friendly products and gifts for a healthy body, a healthy mind and a healthy home.  Among our pages you'll find ingredients for natural skin care and zero waste skin care recipes, natural alternatives for mosquito and rodent repellents, stainless steel pegs and a range of natural health products with high quality ingredients.  Here are some of our best sellers:
 
 * [Magnesium-rich sprays](/shop/magnesium-rubs-and-fisiocrem/) for tired, aching or sore muscles (also great for restless legs).
-* Beautiful plastic-free [essential oil diffusers]({{< relref "/shop/lon03" >}}) and organic cotton washcloths.
-* [Gift packs and value packs]({{< relref "/shop/lon03" >}}) to save $$$'s and/or buy a high quality, eco-friendly gift for a special someone. 
-* [Essential oils]({{< relref "/shop/lon03" >}}) to reduce the pain and symptoms of many common ailments faced by many of us.
+* Beautiful plastic-free \[essential oil diffusers]({{< relref "/shop/lon03" >}}) and organic cotton washcloths.
+* \[Gift packs and value packs]({{< relref "/shop/lon03" >}}) to save $$$'s and/or buy a high quality, eco-friendly gift for a special someone. 
+* \[Essential oils]({{< relref "/shop/lon03" >}}) to reduce the pain and symptoms of many common ailments faced by many of us.
 * Luxury [heat packs](/shop/heat-packs-and-bath-soaks/) with removable, washable covers. 
+
+
 
 ***What are essential oils?***
 
@@ -60,4 +62,4 @@ We believe optimal health and youngliving is possible, no matter what your age.
 
 Have a browse in our [shop](/shop) and find something that's right for you.
 
-If you can't find what you're looking for, use the search bar at the top of the page, or  [get in touch with us](/contact) here at pure blue essentials.
+If you can't find what you're looking for, use the search bar at the top of the page, or  [get in touch with us](/contact) here at **pure blue essentials**.
