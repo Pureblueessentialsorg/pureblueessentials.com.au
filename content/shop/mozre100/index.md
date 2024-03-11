@@ -1,9 +1,9 @@
 ---
 visible: true
-title: Mosquito repellent essential oil
+title: Mosquito repellent essential oil 100mls
 id: mozre100
-summary: A very effective natural alternative to deterring mosquitos.  In a
-  100ml spray bottle
+summary: A very effective natural alternative to deterring mosquitos. In a 100ml
+  spray bottle
 draft: false
 popular: false
 images:
