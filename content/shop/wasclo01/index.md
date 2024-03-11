@@ -29,8 +29,9 @@ Long lasting, natural and zero waste, our organic cotton wash cloths are handmad
 **B﻿uy 3 or more and receive 10% off** (discount automatically applied in at checkout).
 
 They'll last a long time so here's a few tips to sanitise them when you need to:
-- put in the washing machine
-- place flat in the dishwasher 
-- place in a heatproof bowl with boiled water and a small amount of soap, dishwashing liquid or sanitising wash, then soak for 5 minutes 
 
-A﻿s these are lovingly handmade, you may find some natural variation in the size or colour.
+* put in the washing machine
+* place flat in the dishwasher 
+* place in a heatproof bowl with boiled water and a small amount of soap, dishwashing liquid or sanitising wash, then soak for 5 minutes 
+
+A﻿s these are lovingly handmade, you may find some natural variation in the size or colour.  If there's one design that you really want, email us and let us know as soon as possible after your purchase.
