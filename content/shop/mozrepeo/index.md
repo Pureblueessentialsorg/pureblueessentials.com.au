@@ -1,6 +1,6 @@
 ---
 visible: true
-title: Mosquito repellent essential oil
+title: Mosquito repellent essential oil 30mls
 id: mozrepeo
 summary: A very effective natural alternative to DEET as a pure essential oil.
 draft: false
