@@ -5,7 +5,10 @@ id: sspr25
 summary: Pack of 25 regular size stainless steel pegs - rainbow coloured
 draft: false
 popular: false
-images: []
+images:
+  - img_8590.jpg
+  - img_8605.jpg
+  - img_8596.jpg
 categories:
   - bottles
 price: 25
