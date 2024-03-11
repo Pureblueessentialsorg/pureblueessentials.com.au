@@ -10,15 +10,15 @@ menu:
 images:
   - pbelogo230322.png
 ---
-**pure blue essentials** is a small Australian business created out of a need for natural, sustainable health products to support remedial massage clients.  
+**pure blue essentials** is a small Australian business created out of a desire to support people who are looking to live naturally and reduce waste and to make them accessible to everyone.
 
 Jacinda Minahan, the founder of **pure blue essentials**, holds a Diploma in Horticulture (Herbs, Medicinal Plants and Essential Oils) and a Diploma in Remedial Massage Therapy.  With a total of over 20 years' experience in both sectors, our high quality natural health products have been expertly shaped to support your health needs.
 
-Our aim is to always bring you high quality, pure, natural products for the essentials of healthy living, at home and on the move, allowing you to take your natural health care into your own hands.
+Our aim is to always bring you high quality, pure, natural products for the essentials of healthy living, at home and on the move, allowing you to take your natural health care and zero waste living into your own hands.
 
-Our ingredients and packaging are sourced locally, sustainably and ethically.  Our premises are off-grid and carbon neutral.  The health and wellbeing of our planet is just as important as providing natural health care to humans.
+Our ingredients and packaging are sourced locally, sustainably and ethically.  We always ship plastic-free and our premises are off-grid and carbon neutral.  The health and wellbeing of our planet is just as important as providing natural health care to humans.   While some of our products do contain plastic (such as the mist sprayer cap on our 100ml bottles), bio-plastics in packaging is very high on our agenda to research and invest in for the very near future.   
 
-We ensure that our products are *always* free of palm oil, GMOs, animal products, synthetic fragrances and artificial colours.  We only add a high quailty carrier oil (Australian owned and grown jojoba oil) to our 10ml roll-on products, to make it safe to directly apply to  the skin.  In any 30ml essential oil blend there is no carrier oil, it is a combination of 100% pure essential oils that are for the purpose described.
+We ensure that our products are *always* free of palm oil, GMOs, animal products, synthetic fragrances and artificial colours.  We only add a high quality carrier oil (Australian owned and grown jojoba oil) to our 10ml roll-on products, to make it safe to directly apply to  the skin.  In any 30ml essential oil blend there is no carrier oils or fillers, it is a combination of 100% pure essential oils that are for the purpose described.  The only exceptions to this is where Arnica infusion and Calendula infusion are included.  The standard method of extracting the active ingredients is to soak the flowers in a carrier oil and the resulting product is called an infusion. 
 
 As our business grows we will always keep our products pure, look for ways to further support local business, and contribute greater percentages to not-for-profit organisations.
 
@@ -33,8 +33,6 @@ Essential oils need to be protected from light.  So we chose cobalt blue for our
 \**www. supercolor.com*
 
 </div>
-
-
 
 ### *T﻿he legal stuff.....*
 
