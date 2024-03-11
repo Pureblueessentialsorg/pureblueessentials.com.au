@@ -5,7 +5,8 @@ images:
 id: bottles
 weight: 40
 visible: true
-summary: Eco-friendly products to make your home healthier
+summary: "Eco-friendly products for a healthier home, including ingredients for
+  making your own natural zero waste skin care "
 aliases:
-- /shop/bottles-and-essential-oil-diffusers
+  - /shop/bottles-and-essential-oil-diffusers
 ---
