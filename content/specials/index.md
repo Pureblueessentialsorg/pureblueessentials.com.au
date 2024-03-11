@@ -10,6 +10,7 @@ menu:
   icons:
     weight: 50
     pre: icons/bootstrap/currency-dollar.svg
+summary: Find specials and discounts here
 ---
 * **F﻿ree shipping for orders over $120**
 * \[Value Packs]({{<relref "/shop/lon03" >}}):  save on the cost of repurchasing 10ml remedial essential oil blend rollers.  Refill with the 30ml pure blend and a 30ml high quality carrier oil included in your value pack.  
