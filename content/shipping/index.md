@@ -11,6 +11,6 @@ We will always aim to fulfill your order within 48 hours and send it via Austral
 
 If you don't receive any shipping information via email, or need to get in touch with us regarding your shipment, please email us at:
 
-pureblueessentials@gmail.com            with your order number in the subject line.
+pureblueessentials@gmail.com     with your order number in the subject line.
 
-Please also see our packaging and recycling policy regarding responsible recycling - and clever reuse - of your packaging once you receive your wonderful **pure blue essential** products !
+We always ship plastic-free.  Please also see our packaging and recycling policy regarding responsible recycling - and clever reuse - of your packaging once you receive your wonderful  **pure blue essential** products !
