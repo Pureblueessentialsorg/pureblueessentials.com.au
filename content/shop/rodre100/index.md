@@ -1,6 +1,6 @@
 ---
 visible: true
-title: Rodent repellent essential oil
+title: Rodent repellent essential oil 100mls
 id: rodre100
 summary: A very effective natural alternative to repelling and deterring
   rodents.  In a 100ml spray bottle
