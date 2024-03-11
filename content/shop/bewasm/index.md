@@ -1,8 +1,8 @@
 ---
 visible: true
-title: Beeswax granules 60gms
+title: Beeswax 60gms
 id: bewasm
-summary: Pure raw Australian beeswax granules
+summary: Pure Australian beeswax granules 60g
 draft: false
 popular: true
 images:
