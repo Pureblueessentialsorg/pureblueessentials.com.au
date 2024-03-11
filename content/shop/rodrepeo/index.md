@@ -1,6 +1,6 @@
 ---
 visible: true
-title: Rodent repellent essential oil
+title: Rodent repellent essential oil 30mls
 id: rodrepeo
 summary: "A very effective natural alternative to repelling and deterring rodents.  "
 draft: false
