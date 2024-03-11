@@ -10,7 +10,7 @@ images:
   - img_8583.jpg
 categories:
   - bottles
-price: 32
+price: 23.95
 size: 100mls
 brand: Pure Blue Essentials
 weight: 119
