@@ -16,8 +16,8 @@ images:
   - washcloth-04.png
 categories:
   - bottles
-price: 13
-size: 18cm
+price: 12
+size: 17cm
 brand: Pure Blue Essentials
 weight: 40
 length: 18
