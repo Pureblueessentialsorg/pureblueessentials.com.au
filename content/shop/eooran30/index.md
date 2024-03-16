@@ -6,7 +6,7 @@ summary: pure orange essential oil
 draft: false
 popular: false
 images:
-  - hold-tight-image-coming-soon.png
+  # - hold-tight-image-coming-soon.png
 categories:
   - single-oils
 price: 28

@@ -13,7 +13,7 @@ images:
   - washcloth-05.png
   - washcloth-02.png
   - washcloth01-600px-x-450px.png
-  - washcloth-04.png
+  # - washcloth-04.png
 categories:
   - bottles
 price: 12
