@@ -19,14 +19,13 @@ length: 2
 height: 10
 width: 2
 ---
-We are pleased to be able to provide you with refillable 10ml bottles that are safe for essentials oils.
+One of our favourite and most popular products!  Refillable 10ml eco-friendly bottles that are safe for essential oils and also great for skin lotions or perfumes
 
 They are high quality and environmentally friendly, with a glass bottle in a bamboo casing and a stainless steel roller. The only plastic component is the lid thread and roller capture, providing a leak-proof seal.
 
-Top up your **pure blue essentials** remedial essential oil blend over and over again, blend your own essential oil formula, or use for your favourite single oil.
+Top up your **pure blue essentials** remedial essential oil blend over and over again, blend your own essential oil formula, or use your favourite single oil.  
 
-W﻿ant more than 1??  Check out our [**bamboo roll-on value pack**]({{<relref "/shop/bambotx6" >}})
-
+Need more than 1??  For great value, check out our [**bamboo roll-on value pack**]({{<relref "/shop/bambotx6" >}})
 
 **Cautions:**
 
