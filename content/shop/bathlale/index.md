@@ -1,9 +1,9 @@
 ---
 visible: true
-title: Bath soak Lavender and Lemongrass 1kg
+title: Bath soak Lavender and Lemongrass 500g
 id: bathlale
 summary: Magnesium-rich bath salts fortified with lavender and lemongrass
-  essential oils - 1kg
+  essential oils - 500gm
 draft: false
 popular: false
 images:
@@ -11,17 +11,17 @@ images:
   - dsc_0543.jpg
 categories:
   - heat-packs
-price: 21
-size: 1kg
+price: 15
+size: 500g
 brand: Pure Blue Essentials
-weight: 1000
-length: 16
-height: 24
-width: 12
+weight: 500
+length: 9
+height: 15
+width: 4
 ---
 Perfect for when you've overdone it at work, exercise, or home. Or do you suffer from headaches, or just feeling a bit weary?  
 
-Add a handful of **pure blue essential Bath Soak** to a normal bath, or a smaller amount to a footbath,  Relax and soak up the goodness of epsom salts and lavender and lemongrass essential oils.  
+Add a handful of **pure blue essential Bath Soak** to a normal bath, or a smaller amount to a footbath.  Relax and soak up the goodness of epsom salts and lavender and lemongrass essential oils.  
 
 Let the aroma of the essential oils take you to your happy place.... an exotic beach, a music festival, Grandma's garden, a village in Tuscany.....
 
