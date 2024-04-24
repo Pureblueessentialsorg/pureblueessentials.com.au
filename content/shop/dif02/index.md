@@ -12,7 +12,7 @@ images:
   - img_8459.jpg
 categories:
   - gift-packs
-price: 59
+price: 58
 brand: Pure Blue Essentials
 weight: 350
 length: 8
