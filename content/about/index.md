@@ -10,7 +10,7 @@ menu:
 images:
   - pbelogo230322.png
 ---
-**pure blue essentials** is a small Australian business created out of a desire to support people who are looking to live naturally and reduce waste and to make them accessible to everyone.
+**pure blue essentials** is a small Australian business created out of a desire to support people who are looking to live naturally, stay healthy and to reduce waste.
 
 Jacinda Minahan, the founder of **pure blue essentials**, holds a Diploma in Horticulture (Herbs, Medicinal Plants and Essential Oils) and a Diploma in Remedial Massage Therapy.  With a total of over 20 years' experience in both sectors, our high quality natural health products have been expertly shaped to support your health needs.
 
