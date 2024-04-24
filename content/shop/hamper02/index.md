@@ -3,13 +3,13 @@ visible: true
 title: Healthy Hamper for Her
 id: hamper02
 summary: Hamper of healthy, natural products for that special "HER"
-draft: false
+draft: true
 popular: false
 images:
   - hamper-him-600x600.png
 categories:
   - gift-packs
-price: 115
+price: 111
 size: 40cm x 30cm
 brand: Pure Blue Essentials
 weight: 1700
