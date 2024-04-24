@@ -1,6 +1,6 @@
 ---
 draft: false
-size: bag 20cm
+size: 20cm
 diff: true
 visible: true
 title: Banksia essential oil diffuser gift pack
