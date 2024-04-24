@@ -2,8 +2,8 @@
 visible: true
 title: Healthy Home Hamper - small
 id: hamper04
-summary: Hamper of healthy, natural products to keep your body, mind and your
-  home healthy and relaxed
+summary: Hamper of healthy, natural products to keep your body and your home
+  healthy and relaxed
 draft: false
 popular: false
 images:
@@ -11,23 +11,28 @@ images:
 categories:
   - gift-packs
 price: 58
-size: 30cm x 20cm
+size: 40 x 30cm x 20cm
 brand: Pure Blue Essentials
 weight: 750
-length: 18
+length: 40
 height: 30
-width: 15
+width: 19
 ---
-A beautiful collection of handcrafted items for a special person's home or - of course - for your home.  Bundled up into a natural drawstring bag. 
+A beautiful collection of handcrafted items for a special person's home or, of course, - you.  
 
-Five eco-friendly items that will help to keep you and your home healthy and relaxed.  Smaller that our other hampers, its still a wonderful luxury hamper for yourself or as a beautiful eco-friendly gift.
+Eco-friendly items that will help to keep you and your home healthy and relaxed, naturally.  
+
+Makes a beautiful eco-friendly gift.
+
+Bundled up into a natural drawstring bag. 
 
 **C﻿ontains:**
 
-* 3﻿00g bath soak with lavender and lemongrass essentials oil
-* Lemongrass essential oil - 30mls 
-* M﻿agnesium rub (spray on) - 100mls
-* O﻿rganic cotton wash cloth - for the kitchen, the bathroom, skin care or baby care
-* 6 x 10ml bamboo and glass roll-on bottles 
+* J﻿ojoba oil - 30mls
+* Balance essential oil blend 30mls
+* Calm essential oil blend roll-on 10mls 
+* B﻿anksia essential oil diffuser - small
+* Magnesium-rich bath soak - 300gms
+*  2 x cotton wash cloth - for the kitchen, the bathroom, skin care or baby care
 
 *Remember.... free shipping for orders over $120.*
