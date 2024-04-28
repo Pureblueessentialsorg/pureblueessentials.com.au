@@ -28,8 +28,9 @@ Bundled up into a large natural drawstring bag, our large hamper makes a wonderf
 
 * Balance essential oil blend - 30ml 
 * C﻿alm essential oil blend roll-on - 10ml
+* J﻿ojoba oil - 30ml
 * Medium b﻿anksia pod essential oil diffuser
-* 3 x o﻿rganic cotton wash cloths - for the kitchen, the bathroom, skin care or baby care
+* 3 x o﻿rganic cotton wash cloths - for skin care, baby care, bath and shower, kitchen or laundry
 * 3﻿ x beeswax re-usable food wraps
 * 6﻿ x 10ml bamboo roll-on bottles
 * M﻿agnesium-rich bath soak - 300gms
