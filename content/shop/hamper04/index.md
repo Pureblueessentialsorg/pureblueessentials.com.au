@@ -10,10 +10,10 @@ images:
   - hamper-him-600x600.png
 categories:
   - gift-packs
-price: 115
+price: 112
 size: 40 x 30cm x 20cm
 brand: Pure Blue Essentials
-weight: 750
+weight: 650
 length: 40
 height: 30
 width: 19
@@ -33,6 +33,6 @@ Bundled up into a natural drawstring bag.
 * Calm essential oil blend roll-on 10mls 
 * B﻿anksia essential oil diffuser - small
 * Magnesium-rich bath soak - 300gms
-*  2 x cotton wash cloth - for the kitchen, the bathroom, skin care or baby care
+* 2 x cotton wash cloth - for skin care, baby care, bath and shower, kitchen or laundry
 
 *Remember.... free shipping for orders over $120.*
