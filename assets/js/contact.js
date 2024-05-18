@@ -5,13 +5,13 @@ import * as params from '@params';
 let formAction = 'https://api.rapidforms.com.au/index.php';
 let account = 'pbe';
 let grecaptchaKey = '6LfyBEoeAAAAAGgMEs1aU_V-NRaJsKozabroPWoN';
-let debug = false;
+let debug = true;
 
 //dev config
 if (params.env === 'development') {
   formAction = 'https://api.rapidforms.com.au/index.php'; // online
   // formAction = 'http://localhost/index.php'; // local test
-  account = 'local';
+  account = 'pbe';
   grecaptchaKey = '6LdUwwweAAAAAA9iDDa0A5RosBBoagSnU1yBvUQ3'; // local test
   debug = true
 }
