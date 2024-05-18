@@ -20,7 +20,7 @@
   {{- end -}}
 {{- end -}}
 {{- with $img -}}
-{{- partial "image" (dict "src" $img "page" $ctx "title" $ctx.Title "class" "img-fluid card-img-top" 
+{{- partial "picture" (dict "src" $img "page" $ctx "title" $ctx.Title "class" "img-fluid card-img-top" 
 "widths" (slice 260 540) "fillRatio" (slice 4 3) ) -}}
 {{- end -}}
 {{- end -}}
