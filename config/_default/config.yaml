@@ -82,4 +82,4 @@ related:
   #   weight: 10
 
 ignoreErrors: ["alt-error"]
-suppress_width_warning: true
+

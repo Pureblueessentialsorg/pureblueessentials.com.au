@@ -23,6 +23,8 @@ snipcart:
   side: false # or false for full screen cart
   bootstrap: true # enables snipcart z-index css for bootstrap compatibility
 
+image: 
+  suppress_width_warning: true
 
 
 

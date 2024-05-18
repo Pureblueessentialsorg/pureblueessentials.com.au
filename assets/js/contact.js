@@ -5,7 +5,7 @@ import * as params from '@params';
 let formAction = 'https://api.rapidforms.com.au/index.php';
 let account = 'pbe';
 let grecaptchaKey = '6LfyBEoeAAAAAGgMEs1aU_V-NRaJsKozabroPWoN';
-let debug = true;
+let debug = false;
 
 //dev config
 if (params.env === 'development') {
