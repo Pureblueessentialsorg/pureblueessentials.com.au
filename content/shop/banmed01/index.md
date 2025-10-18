@@ -10,7 +10,7 @@ images:
   - banskia-medium-blue-background.png
 categories:
   - bottles
-price: 32
+price: 33
 size: medium 15cm
 brand: Pure Blue Essentials
 weight: 190
