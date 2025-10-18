@@ -5,11 +5,10 @@ id: eofrank30
 summary: pure frankincense essential oil
 draft: false
 popular: false
-images:
-  # - hold-tight-image-coming-soon.png
+images: null
 categories:
   - single-oils
-price: 28
+price: 40
 size: 30ml
 brand: pure blue essentials
 weight: 60
