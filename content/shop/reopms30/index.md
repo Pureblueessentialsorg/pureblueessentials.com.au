@@ -1,8 +1,9 @@
 ---
 visible: true
-title: PMS Lift remedial essential oil blend 30ml
+title: Femme Harmony remedial essential oil blend 30ml
 id: reopms30
-summary: Assists in reducing the symptoms of PMS
+summary: A potent blend for women of all ages, helping to balance female
+  hormones and to restore feminine strength.
 draft: false
 popular: true
 images:
@@ -17,9 +18,7 @@ length: 3
 height: 11
 width: 3
 ---
-The **PMS lift** is a blessing for many, to help relieve the symptoms of premenstrual syndrome (PMS) and alleviate the discomfort of menstrual pain and cramps. It can assist in many areas such as mood swings, breast tenderness, pelvic cramps and fluid retention. 
-
-With a combination of lavender, clary sage, geranium, marjoram and rose, this is a potent blend for PMS and menstrual pain but also has a comforting, pleasant, earthy, sweet aroma.
+Our **Femme Harmony** blend is a blessing for many, helping to balance female hormones and to restore feminine strength.
 
 This 30ml bottle containing 100% pure essential oils that can be used for a variety of uses including:
 
@@ -33,13 +32,13 @@ This 30ml bottle containing 100% pure essential oils that can be used for a vari
 
 Also available in a 10ml bottle containing 30% high quality carrier oil (pure Australia jojoba oil) so the remedial essential oil blend is ready to be safely applied to the skin.
 
-After more value for money? The **PMS Lift value bundle** contains:
+After more value for money? The **Femme Harmony value bundle**  contains:
 
 \- a 30ml bottle of this remedial essential oil blend;
 
 \- 30ml bottle of jojoba oil (carrier oil);
 
-\- 10ml bottle (glass with bamboo casing) to refill with your **PMS Lift** blend and carrier oil many times over.
+\- 10ml bottle (glass with bamboo casing) to refill with your **Femme Harmony** blend and carrier oil many times over.
 
 **Cautions:**
 
