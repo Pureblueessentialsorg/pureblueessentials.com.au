@@ -3,8 +3,8 @@ visible: true
 title: Stainless steel pegs - silver - pack of 25
 id: ssps25
 summary: Pack of 25 regular size stainless steel pegs
-draft: false
-popular: true
+draft: true
+popular: false
 images:
   - img_8616.jpg
   - img_8614.jpg
