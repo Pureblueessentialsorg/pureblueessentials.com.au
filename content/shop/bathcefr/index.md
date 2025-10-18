@@ -1,9 +1,9 @@
 ---
 visible: true
-title: Bath soak Cedar and Frankincense 500g
+title: Bath soak Cedar and Frankincense 700g
 id: bathcefr
 summary: Magnesium-rich bath salts fortified with cedar and frankincense
-  essential oils - 500g
+  essential oils - 700g
 draft: false
 popular: false
 images:
@@ -11,10 +11,10 @@ images:
   - dsc_0549-2-.jpg
 categories:
   - heat-packs
-price: 15
-size: 500g
+price: 18
+size: 700g
 brand: Pure Blue Essentials
-weight: 500
+weight: 700
 length: 10
 height: 15
 width: 5
