@@ -23,7 +23,7 @@ Perfect for when you've overdone it at work, exercise, or home. Or do you suffer
 
 Add a handful of **pure blue essential Bath Soak** to a normal bath, or a smaller amount to a footbath.  Relax and soak up the goodness of epsom salts and lavender and lemongrass essential oils.  
 
-Let the aroma of the essential oils take you to your happy place.... an exotic beach, a music festival, Grandma's wonderous garden, a village in Tuscany..... 
+Let the aroma of the essential oils take you to your happy place.... an exotic beach, a music festival, a wonderous tropical garden, a village in Tuscany..... 
 
 But don't wait until your body is screaming out for relief, buy a pack now and keep it in the bathroom cupboard.
 
