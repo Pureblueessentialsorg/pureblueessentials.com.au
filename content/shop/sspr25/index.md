@@ -3,7 +3,7 @@ visible: true
 title: Stainless steel pegs - rainbow - pack of 25
 id: sspr25
 summary: Pack of 25 regular size stainless steel pegs - rainbow coloured
-draft: false
+draft: true
 popular: false
 images:
   - img_8590.jpg
