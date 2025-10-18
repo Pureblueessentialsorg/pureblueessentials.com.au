@@ -12,7 +12,7 @@ images:
   - img_8459.jpg
 categories:
   - gift-packs
-price: 58
+price: 60
 brand: Pure Blue Essentials
 weight: 350
 length: 8
@@ -21,8 +21,8 @@ width: 8
 ---
 A﻿ wonderful gift for yourself or someone special.
 
-A﻿ gift box ﻿containing a **small banksia seed pod essential oil diffuser** and a **30ml bottle of remedial essential oil blend of your choice**.
+A﻿ gift pack ﻿containing a **small banksia seed pod essential oil diffuser** and a **30ml bottle of remedial essential oil blend of your choice**.
 
 Please make your essential oil selection above. 
 
-T﻿hese beautiful banksia pods are Australian made, totally free of plastic and require no batteries, no flame and no electricity for operation.
+T﻿hese beautiful banksia pods are Australian made, totally free of plastic and require no batteries, no flame and no electricity for operation.  Our essential oil blends are 100 percent essential oil.
