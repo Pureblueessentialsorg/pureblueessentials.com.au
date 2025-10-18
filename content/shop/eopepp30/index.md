@@ -3,10 +3,9 @@ visible: true
 title: Peppermint essential oil 30ml
 id: eopepp30
 summary: pure peppermint essential oil
-draft: false
+draft: true
 popular: false
-images:
-  # - hold-tight-image-coming-soon.png
+images: null
 categories:
   - single-oils
 price: 26
