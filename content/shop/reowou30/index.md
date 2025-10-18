@@ -4,8 +4,8 @@ title: Wound Care remedial essential oil blend 30ml
 id: reowou30
 summary: An effective salve for helping to heal cuts, grazes and burns.  Also
   helps to reduce scarring from recent wounds.
-draft: false
-popular: true
+draft: true
+popular: false
 images:
   - dsc_0285-2-.jpg
   - dsc_0444.jpg
