@@ -18,7 +18,7 @@ import {
   // Carousel, // required for carousel
   Collapse, // required for mobile collapse menu 
   // Dropdown, // not required for navbar only for custom dropdowns
-  // Modal, // modal popups
+  //Modal, // modal popups
   // Popover, // popovers
   // ScrollSpy, // auto update active link for 1 page sites
   Tab, // Tabs
