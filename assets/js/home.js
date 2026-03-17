@@ -1,13 +1,13 @@
 import { topNav } from './top-nav.js';
 topNav();
 
-import { Modal } from 'bootstrap';
+// import { Modal } from 'bootstrap';
 
-document.addEventListener('DOMContentLoaded', () => {
-    const modalEl = document.getElementById('homeModal');
+// document.addEventListener('DOMContentLoaded', () => {
+//     const modalEl = document.getElementById('homeModal');
 
-    if (!modalEl) return;
+//     if (!modalEl) return;
 
-    const myModal = new Modal(modalEl);
-    setTimeout(() => myModal.show(), 800);
-});
+//     const myModal = new Modal(modalEl);
+//     setTimeout(() => myModal.show(), 800);
+// });
